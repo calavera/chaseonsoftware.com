@@ -2,7 +2,7 @@
 title: Frontend Engineering Tools of The Trade
 date: 2015-07-06T03:00:10Z
 slug: 2015/07/tools-of-the-trade
-img: https://c4.staticflickr.com/4/3754/18796322163_527b668821_z.jpg
+postThumb: http://chaseadams.io/img/frontend-engineering-tools-of-the-trade.jpg
 descripton: "Every craftsman or tradesman has a collection of tools that help to make them better at executing their work. This is a list of my toolset."
 draft: true
 ---
