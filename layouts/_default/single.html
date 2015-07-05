@@ -12,11 +12,13 @@
                     <div class="post-content cf">
                       {{ .Content }}
                     </div>
+                    <div id="disqus_thread"></div>
                   </div>
                 </div>
                 {{ template "partials/sidebar.html" . }}
             </div>
         </div>
+        {{ template "partials/footer.html" . }}
     </body>
 </html>
 
