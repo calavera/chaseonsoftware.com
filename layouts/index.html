@@ -2,18 +2,24 @@
 <html>
     {{ template "partials/head.html" . }}
     <body>
-        {{ template "partials/nav.html" . }}
-        <ul>
-         {{ range $index, $page := where .Data.Pages "Section" "post" }}
-            <li><a href="{{ .Slug }}">{{ .Title }}</a></li>
-        {{ end }}
-        </ul>
-        <ul>
-         {{ range $index, $page := where .Data.Pages "Section" "archive" }}
-            <li><a href="{{ .Slug }}">{{ .Title }}</a></li>
-        {{ end }}
-        </ul>
-        {{ template "partials/sidebar.html" . }}
+        <div id="app">
+            {{ template "partials/nav.html" . }}
+            <div id="content">
+                <div id="main">
+                <ul class="blogroll">
+                 {{ range $index, $page := where .Data.Pages "Section" "post" }}
+                    <li class="post">{{ .Date.Format "2006/01/02" }} <a href="{{ .Slug }}">{{ .Title }}</a></li>
+                {{ end }}
+                </ul>
+                <ul class="blogroll">
+                 {{ range $index, $page := where .Data.Pages "Section" "archive" }}
+                    <li class="post"><a href="{{ .Slug }}">{{ .Title }}</a></li>
+                {{ end }}
+                </ul>
+                </div>
+                {{ template "partials/sidebar.html" . }}
+            </div>
+        </div>
         <script src="js/main.js"></script>
     </body>
 </html>
