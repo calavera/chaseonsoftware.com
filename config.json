@@ -1,0 +1,10 @@
+{
+    "baseurl": "http://chaseadams.io",
+    "languageCode": "en-us",
+    "title": "chaseadams.io | intentional input for effective output",
+    "permalinks": {
+        "post": "/:year/:month/:filename/",
+        "archive": "/:year/:month/:filename/",
+        "page": "/:filename/"
+    }
+}
