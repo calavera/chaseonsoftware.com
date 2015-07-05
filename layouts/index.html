@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    {{ template "partials/head.html" . }}
+    <body>
+        {{ template "partials/nav.html" . }}
+        <ul>
+         {{ range $index, $page := where .Data.Pages "Section" "post" }}
+            <li><a href="{{ .Slug }}">{{ .Title }}</a></li>
+        {{ end }}
+        </ul>
+        <ul>
+         {{ range $index, $page := where .Data.Pages "Section" "archive" }}
+            <li><a href="{{ .Slug }}">{{ .Title }}</a></li>
+        {{ end }}
+        </ul>
+        {{ template "partials/sidebar.html" . }}
+        <script src="js/main.js"></script>
+    </body>
+</html>

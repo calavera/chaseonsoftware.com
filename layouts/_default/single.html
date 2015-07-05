@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+    {{ template "partials/head.html" . }}
+    <body>
+        {{ template "partials/nav.html" . }}
+        <div id="post">
+          <h1 class="post-title">{{ .Title }}</h1>
+
+          <div class="post-content cf">
+            {{ .Content }}
+          </div>
+        </div>
+        {{ template "partials/sidebar.html" . }}
+    </body>
+</html>

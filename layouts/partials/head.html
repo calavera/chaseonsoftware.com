@@ -1,0 +1,19 @@
+<head>
+  <meta name="dns" content="digital ocean">
+  <meta name="version" content="1.0.26">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}I'm Chase Adams. Engineer at Zappos. Life Learner. Programming Polyglot. {{ end }}">
+  <meta name="og:image" content="{{ if .Params.postthumb }}{{ .Params.postthumb }}{{ else }}https://en.gravatar.com/userimage/7669606/43804dd24788fa65fc5ef0bc46a6a94b.jpg{{ end }}">
+  <meta name="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}I'm Chase Adams. Engineer at Zappos. Life Learner. Programming Polyglot. {{ end }}">
+
+  <title> {{ if eq .Title .Site.Title }}{{ else }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }} </title>
+
+  <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="/favicon.ico?v=1">
+</head>
