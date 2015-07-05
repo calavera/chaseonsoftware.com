@@ -4,11 +4,10 @@
   "description": "A bespoke blog platform",
   "main": "index.js",
   "scripts": {
-    "content": "node index.js",
-    "prestart": "npm run content && webpack --optimize-minimize",
     "start": "node lib/server.js",
-    "devServer": "webpack-dev-server --content-base=dist --hot",
-    "publish": "git push origin master && git push dokku master"
+    "devServer": "npm run hugoWatch & npm run webpackWatch",
+    "hugoWatch": "hugo server --watch",
+    "webpackWatch": "webpack --watch"
   },
   "author": "Chase Adams (http://chaseadams.io)",
   "license": "MIT",
