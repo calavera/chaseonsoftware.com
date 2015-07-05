@@ -2,6 +2,7 @@
 title: Getting Started With The Terminal (Command Line Interface)
 date: 2015-07-06T03:00:10Z
 slug: 2015/07/why-use-a-command-line-interface
+draft: true
 ---
 
 If you're new to Computer Programming, or you've been building basic webpages for a long time, you may be in a position where you've been asked to use an application called `Terminal.app` (for Mac).
