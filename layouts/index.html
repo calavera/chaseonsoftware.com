@@ -8,7 +8,7 @@
                 <div id="main">
                     <ul class="blogroll">
                      {{ range $index, $page := where .Data.Pages "Section" "post" }}
-                        <li class="post">{{ .Date.Format "2006/01/02" }} <a href="{{ .Slug }}">{{ .Title }}</a></li>
+                        <li class="post">{{ .Date.Format "2006/01/02" }} <a href="/{{ .Slug }}">{{ .Title }}</a></li>
                     {{ end }}
                     </ul>
                 </div>
