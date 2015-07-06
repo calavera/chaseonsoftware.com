@@ -2,7 +2,9 @@
 title: "3 Resources For Code Sharing & Collaboration"
 date: 2013-10-07T06:06:00Z
 slug: 2013/10/3-resources-for-sharing-code-snippets
-blogroll: false
+aliases: [
+    2013/10/3-resources-for-code-sharing-collaboration/
+]
 ---
 
 If you're tired of sharing code snippets for other people to look at or collaborate on via [github.com](http://www.github.com), [gist.com](http://www.gist.github.com) or worse, dropbox or email, check out these three great code collaboration tools.

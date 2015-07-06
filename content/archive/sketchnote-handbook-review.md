@@ -4,6 +4,9 @@ date:   2014-10-21T05:30:00Z
 description: "The Sketchnote Handbook is one of the few books I believe everyone should own and revisit often. It's the definitive guide on how to take notes visually, think laterally and pick the right takeaways from a message, talk or meeting."
 slug: 2014/10/book-review-sketchnote-handbook
 blogroll: false
+aliases: [
+    2014/10/book-review/
+]
 ---
 
 <img alt="The Sketchnote Handbook" src="http://www.realchaseadams.com/imgs/2014/10/sketchnotehandbook-thumb.jpg" class="align-left" width="200"> [_The Sketchnote Handbook_](http://www.amazon.com/gp/product/0321857895) by [Mike Rohde](http://rohdesign.com/) was one of the most important (and impactful) books I read this year. It's a book about learning to consume spoken word (visual language and caching ideas) and how to convert the information into memorable, impressive, visual "sketchnotes".
