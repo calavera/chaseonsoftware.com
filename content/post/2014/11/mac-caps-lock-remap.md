@@ -3,7 +3,6 @@ title: Remap Caps Lock to A Useful Modifier Key
 date: 2014-11-20T06:30:00Z
 slug: 2014/11/map-caps-lock-to-a-useful-key-binding
 tags: [Mac]
-postThumb: "imgs/2014/11/remap-capslock.png"
 ---
 
 I've always found the caps lock key to be utterly useless.

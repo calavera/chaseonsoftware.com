@@ -2,6 +2,9 @@
 date: 2013-11-08T16:04:40Z
 title: Using Grunt For A Better Workflow
 slug: 2013/11/using-grunt-for-a-better-workflow
+aliases: [
+    2013/11/08/using-grunt-for-a-better-workflow/
+]
 ---
 
 <img alt="Grunt: The NodeJS Task Runner" src="http://www.realchaseadams.com/imgs/2013/11/grunt-logo.png" class="align-left small-size" /> Grunt is a NodeJS task runner that allows you to automate all the things! I use it to speed up my development workflow and enhancing the performance of my projects.
