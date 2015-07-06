@@ -41,5 +41,9 @@
   "engines": {
     "iojs": "1.0.x",
     "node": "0.10.x"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-awspublish": "^2.0.2"
   }
 }
