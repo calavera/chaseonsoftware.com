@@ -2,8 +2,8 @@
 title: Frontend Engineering Tools of The Trade
 date: 2015-07-06T03:00:10Z
 slug: 2015/07/tools-of-the-trade
+description: "Every craftsman or tradesman has a collection of tools that help to make them better at executing their work. This is a list of my toolset."
 postThumb: /img/frontend-engineering-tools-of-the-trade.jpg
-descripton: "Every craftsman or tradesman has a collection of tools that help to make them better at executing their work. This is a list of my toolset."
 ---
 
 As a Frontend Engineer, I feel tied to my work as my trade, as an artisan creating something both finely tuned in its functionality and beautiful in its aesthetics.
