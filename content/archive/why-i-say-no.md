@@ -2,7 +2,9 @@
 date: 2014-01-28T02:49:23Z
 title: "Sometimes I have to just say No"
 slug: 2014/01/why-i-say-no
-blogroll: false
+aliases: [
+    2014/01/sometimes-i-have-to-just-say-no/
+]
 ---
 
 <p>I am incredibly honored, humbled and thankful when people ask me to help them with something they're working on. It's a great joy knowing my insights are valued.</p>

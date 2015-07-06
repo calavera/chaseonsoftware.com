@@ -2,6 +2,9 @@
 date: 2013-11-11T16:13:58Z
 title: How I Use Grunt And Bower for Frontend Packages
 slug: 2013/11/grunt-build-and-bower-package-management
+aliases: [
+    2013/11/11/grunt-build-and-bower-package-management/
+]
 ---
 
 ![Bower Logo](http://www.realchaseadams.com/imgs/2014/01/bower-logo.png) Frontend package management has quickly become a lot more, well...manageable since the release of [Bower](http://www.bower.io) & [Grunt](http://www.gruntjs.com). Here's how I manage frontend dependencies in my projects.
