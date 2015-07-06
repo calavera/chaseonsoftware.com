@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "hugo server --watch --buildDrafts=true & webpack --watch",
-    "build": "hugo & webpack --optimize-minimze"
+    "build": "hugo && webpack --optimize-minimze",
+    "publish": "npm run build && gulp publish"
   },
   "author": "Chase Adams (http://chaseadams.io)",
   "license": "MIT",
