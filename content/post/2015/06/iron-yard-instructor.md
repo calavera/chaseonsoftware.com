@@ -1,7 +1,10 @@
 ---
 title: "Joining The Iron Yard as Part-Time Frontend Instructor"
 date: 2015-06-29T13:30:00Z
-slug: 2015/06/frontend-engineering-instructor-at-the-iron-yard
+slug: 2015/06/iron-yard-instructor
+aliases: [
+    2015/06/frontend-engineering-instructor-at-the-iron-yard
+]
 description: "As of tomorrow (June 30, 2015), I officially join The Iron Yard as a part-time frontend engineering instructor."
 img: "https://www.flickr.com/photos/realchaseadams/19077584548"
 ---
