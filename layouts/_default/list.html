@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    {{ template "partials/head.html" . }}
+    <body>
+        <div id="app">
+            {{ template "partials/nav.html" . }}
+            <div id="content">
+                <div id="main">
+                    <ul class="blogroll">
+                     {{ range .Data.Pages }}
+                        <li class="post">{{ .Date.Format "2006/01/02" }} <a href="/{{ .Slug }}">{{ .Title }}</a></li>
+                    {{ end }}
+                    </ul>
+                </div>
+                {{ template "partials/sidebar.html" . }}
+            </div>
+        </div>
+        {{ template "partials/footer.html" . }}
+    </body>
+</html>
