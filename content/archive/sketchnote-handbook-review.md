@@ -5,7 +5,7 @@ description: "The Sketchnote Handbook is one of the few books I believe everyone
 slug: 2014/10/book-review-sketchnote-handbook
 blogroll: false
 aliases: [
-    2014/10/book-review/
+    2014/10/book-review/,
     posts/book-review
 ]
 ---
