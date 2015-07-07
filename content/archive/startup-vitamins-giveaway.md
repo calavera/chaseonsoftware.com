@@ -2,7 +2,9 @@
 date: 2014-02-02T02:50:07Z
 title: "Startup Vitamins Review & Giveaway"
 slug: 2014/02/startupvitamins-giveaway
-blogroll: false
+aliases: [
+    posts/startup-vitamins-review-giveaway
+]
 ---
 
 <p class="intro">

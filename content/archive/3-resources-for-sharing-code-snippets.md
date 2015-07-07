@@ -3,7 +3,8 @@ title: "3 Resources For Code Sharing & Collaboration"
 date: 2013-10-07T06:06:00Z
 slug: 2013/10/3-resources-for-sharing-code-snippets
 aliases: [
-    2013/10/3-resources-for-code-sharing-collaboration/
+    2013/10/3-resources-for-code-sharing-collaboration/,
+    posts/3-resources-for-code-sharing-collaboration
 ]
 ---
 

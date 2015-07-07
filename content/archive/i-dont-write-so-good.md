@@ -2,7 +2,9 @@
 date: 2014-02-27T23:11:07Z
 title: "I Don't Write So Good: A Call To Write Better"
 slug: 2014/02/i-dont-write-so-good-a-call-to-write-better
-blogroll: false
+aliases: [
+    posts/i-dont-write-so-good-a-call-to-write-better
+]
 ---
 
 I am not a writer by nature.

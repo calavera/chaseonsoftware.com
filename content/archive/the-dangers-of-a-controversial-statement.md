@@ -2,7 +2,9 @@
 date: 2014-01-14T02:34:48Z
 title: "The Dangers of a Controversial Statement Without Context"
 slug: 2014/01/the-dangers-and-power-of-a-statement-without-context
-blogroll: false
+aliases: [
+    posts/the-dangers-of-a-controversial-statement-without-context
+]
 ---
 
 "I’m Dating Someone Even Though I’m Married."*

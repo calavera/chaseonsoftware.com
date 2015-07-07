@@ -2,6 +2,9 @@
 title: "My Eulogy"
 date: 2013-10-15T01:30:00Z
 slug: 2013/10/my-eulogy
+aliases: [
+    posts/my-eulogy
+]
 blogroll: false
 ---
 

@@ -2,7 +2,9 @@
 date: 2014-01-16T02:36:44Z
 title: "Giveaway: A Chance to Win A 3 Month Membership to Treehouse — A Technology Learning Site"
 slug: 2014/01/giveaway-a-chance-to-win-a-3-month-membership-to-treehouse-a-technology-learning-site
-blogroll: false
+aliases: [
+    posts/giveaway-a-chance-to-win-a-3-month-membership-to-treehouse-a-technology-learning-site
+]
 ---
 
 <p class="intro callout">
