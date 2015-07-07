@@ -4,6 +4,7 @@ title: "Sometimes I have to just say No"
 slug: 2014/01/why-i-say-no
 aliases: [
     2014/01/sometimes-i-have-to-just-say-no/
+    posts/sometimes-i-have-to-just-say-no/
 ]
 ---
 

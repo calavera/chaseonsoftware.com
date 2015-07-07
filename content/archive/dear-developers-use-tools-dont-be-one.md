@@ -2,7 +2,9 @@
 title: "Dear Developer: Use tools, don't be one"
 date: 2013-11-07T05:15:00Z
 slug: 2013/11/dear-developer-use-tools-dont-be-one-or-proper-etiquite-for-answering-stackoverflow-questions
-blogroll: false
+aliases: [
+    posts/dear-developer-use-tools-dont-be-one
+]
 ---
 
 Otherwise known as, better etiquette for answering questions on stackoverflow.com and conversation in general.

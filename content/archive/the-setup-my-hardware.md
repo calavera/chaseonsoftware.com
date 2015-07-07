@@ -2,7 +2,9 @@
 date: 2014-01-26T02:48:40Z
 title: "The Setup: My Hardware & Software for Work & Play"
 slug: 2014/01/the-setup-my-hardware-software-for-work-play
-blogroll: false
+aliases: [
+    posts/the-setup-my-hardware-software-for-work-play
+]
 ---
 
 <p class="intro">

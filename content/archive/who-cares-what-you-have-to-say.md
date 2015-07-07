@@ -2,7 +2,9 @@
 date: 2014-02-12T02:51:54Z
 title: "Who Cares What You Have To Say?"
 slug: 2014/02/who-cares-what-you-have-to-say
-blogroll: false
+aliases: [
+    posts/who-cares-what-you-have-to-say/
+]
 ---
 
 <p>This question was once a driving force in my life: <em>"Who cares what I have to say?"</em></p>
