@@ -1,5 +1,5 @@
 /* TEAM */
-Your title: Chase Adams
+Engineer, Content Curator, UI Designer: Chase Adams
 Site: http://chaseadams.io
 Twitter: chaseadamsio
 Location: Las Vegas, NV, USA
