@@ -2,7 +2,7 @@
 Title:  "Debugging a collection of objects with console.table"
 Date:   2014-11-19T06:30:00Z
 Tags: [Javascript]
-PostThumb: "/imgs/2014/11/consoletablerolemodels.png"
+PostThumb: "http://www.realchaseadams.com/imgs/2014/11/consoletablerolemodels.png"
 aliases: [
   posts/debugging-a-collection-of-objects-with-consoletable
 ]
@@ -18,7 +18,7 @@ I've created a javascript array called `roleModels` in the page that is a collec
 
 Open your Javascript console (`cmd + option + j`), type `roleModels` and press enter. You should see something output like this:
 
-<img src="/imgs/2014/11/simplerolemodels.png" class="framed" />
+<img src="http://www.realchaseadams.com/imgs/2014/11/simplerolemodels.png" class="framed" />
 
 In most cases when there is an array of objects, every object will have a similar structure. In this case, every object has the follow keys:
 
@@ -33,7 +33,7 @@ Rather than just typing `roleModels`, type `console.table(roleModels)`.
 
 Now you should get a table with the keys as the column headers, the first row as the index of that object in the array, and the rest of the data associated with that object.
 
-<img src="/imgs/2014/11/consoletablerolemodels.png" class="framed" />
+<img src="http://www.realchaseadams.com/imgs/2014/11/consoletablerolemodels.png" class="framed" />
 
 This is an awesome feature that gives you the ability to see data at a glance.
 
@@ -47,12 +47,12 @@ console.table(roleModels, ['firstName', 'lastName', 'stateOfOrigin'])
 
 Now you should get the same table, without the roles column.
 
-<img src="/imgs/2014/11/consoletablerolemodelskeys.png" class="framed" />
+<img src="http://www.realchaseadams.com/imgs/2014/11/consoletablerolemodelskeys.png" class="framed" />
 
 
 `console.table` also works for an object of objects (because an array is a type of object) and the index will be the key for the child objects. You can see an example of this by running `console.table(roleModelsObj)`.
 
-<img src="/imgs/2014/11/consoletablerolemodelsobject.png" class="framed" />
+<img src="http://www.realchaseadams.com/imgs/2014/11/consoletablerolemodelsobject.png" class="framed" />
 
 Hopefully you find this to be a useful gem tucked away in the Chrome developer tools!
 
