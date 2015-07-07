@@ -3,7 +3,8 @@ title: "Hitched To The Universe: A Eulogy For My Father's Father"
 date: 2014-09-08T03:36:52Z
 slug: 2014/09/hitched-to-my-papa-and-better-for-it
 aliases: [
-    posts/hitched-to-the-universe
+    posts/hitched-to-the-universe,
+    2014/09/hitched-to-the-universe/
 ]
 ---
 

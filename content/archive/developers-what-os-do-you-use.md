@@ -3,7 +3,8 @@ date: 2014-02-24T02:54:31Z
 title: "Developers: What OS Do You Use? [Wedgie/Survey]"
 slug: 2014/02/developers-what-os-do-you-use-wedgiesurvey
 aliases: [
-    posts/developers-what-os-do-you-use-wedgiesurvey
+    posts/developers-what-os-do-you-use-wedgiesurvey,
+    2014/02/24/developers-what-os-do-you-use-wedgiesurvey/
 ]
 ---
 

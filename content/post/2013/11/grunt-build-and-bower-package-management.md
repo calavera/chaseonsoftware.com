@@ -3,7 +3,8 @@ date: 2013-11-11T16:13:58Z
 title: How I Use Grunt And Bower for Frontend Packages
 slug: 2013/11/grunt-build-and-bower-package-management
 aliases: [
-    2013/11/11/grunt-build-and-bower-package-management/
+    2013/11/11/grunt-build-and-bower-package-management/,
+    posts/how-i-use-grunt-and-bower-for-frontend-packages
 ]
 ---
 

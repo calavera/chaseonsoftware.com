@@ -3,7 +3,8 @@ date: 2014-02-02T02:50:07Z
 title: "Startup Vitamins Review & Giveaway"
 slug: 2014/02/startupvitamins-giveaway
 aliases: [
-    posts/startup-vitamins-review-giveaway
+    posts/startup-vitamins-review-giveaway,
+    2014/02/03/startupvitamins-giveaway/
 ]
 ---
 
