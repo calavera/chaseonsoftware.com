@@ -2,7 +2,9 @@
 date: 2014-01-17T02:43:26Z
 title: "AlfredApp Theme: Flatland"
 slug: 2014/01/alfredapp-theme-flatland
-blogroll: false
+aliases: [
+    posts/alfredapp-theme-flatland
+]
 ---
 
 <p class="intro group">

@@ -2,6 +2,9 @@
 title: Deploy Code with Git Push and a Post Receive Hook
 date: 2014-01-22T02:47:00Z
 slug: 2014/01/deploy-code-with-git-push-and-a-post-receive-hook
+aliases: [
+    posts/deploy-code-with-git-push-and-a-post-receive-hook
+]
 ---
 
 <p>This is a handy trick for pushing your code and deploying it with the same command.</p>

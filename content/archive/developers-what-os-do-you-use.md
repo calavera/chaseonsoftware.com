@@ -2,7 +2,9 @@
 date: 2014-02-24T02:54:31Z
 title: "Developers: What OS Do You Use? [Wedgie/Survey]"
 slug: 2014/02/developers-what-os-do-you-use-wedgiesurvey
-blogroll: false
+aliases: [
+    posts/developers-what-os-do-you-use-wedgiesurvey
+]
 ---
 
 <p>Recently I had a discussion on LinkedIn where a developer said that almost everyone in the world uses Windows.</p>

@@ -2,7 +2,9 @@
 date: 2013-10-24T06:06:00Z
 title: "Highlight Navigation Element Using Javascript"
 slug: 2013/10/javascript-navigation-highlighter
-blogroll: false
+aliases: [
+    posts/highlight-navigation-element-using-javascript
+]
 ---
 
 On Stack Overflow I found a question: How can I make my CSS menu's hover states move horizontally for UX purposes?

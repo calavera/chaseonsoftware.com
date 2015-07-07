@@ -2,7 +2,9 @@
 date: 2014-01-08T02:31:48Z
 title: "What I Learned From Coffee With A Pulitzer Prize Winning Reporter"
 slug: 2014/01/what-i-learned-from-coffee-with-a-pulitzer-prize-winning-reporter
-blogroll: false
+aliases: [
+    posts/what-i-learned-from-coffee-with-a-pulitzer-prize-winning-reporter
+]
 ---
 
 <p class="intro">

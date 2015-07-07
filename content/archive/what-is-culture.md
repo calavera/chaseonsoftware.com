@@ -2,7 +2,9 @@
 date: 2014-05-31T01:37:27Z
 title: "What is Culture? [Part 1]"
 slug: 2014/05/what-is-culture-part-1
-blogroll: false
+aliases: [
+    posts/what-is-culture-part-1
+]
 ---
 
 Culture is a word shrouded in mystery. Lately I've asked a lot of people, "How would you define culture?"

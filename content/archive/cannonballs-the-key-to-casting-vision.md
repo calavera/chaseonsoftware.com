@@ -2,7 +2,9 @@
 date: 2014-01-21T02:45:08Z
 title: "Cannonballs: The Key to Casting Vision, Determining What's Important & Getting Things Done"
 slug: 2014/01/cannonballs-the-key-to-casting-vision
-blogroll: false
+aliases: [
+    posts/cannonballs-the-key-to-casting-vision-determining-whats-important-getting-things-done
+]
 ---
 
 <p class="intro">
