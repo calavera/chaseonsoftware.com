@@ -1,7 +1,7 @@
 ---
 title: Resume
 slug: resume
-date: 2013-06-21T02:47:00Z
+date: 2014-06-21T02:47:00Z
 aliases: [
     resume/hugo.spf13.com
 ]
@@ -20,9 +20,15 @@ aliases: [
 
 ## Experience
 
+### Frontend Instructor @ [The Iron Yard](http://www.theironyard.com)
+
+*July 2015 - Present*
+
+- Taught 5 new frontend developers to build the web using the following technologies: HTML, CSS, Javascript & Git
+
 ### Mobile Web Lead @ [Zappos.com](http://www.zappos.com)
 
-*February 2012 - Present*
+*February 2012 - July 2015*
 
 - Built multiple micro-applications for internal teams using HapiJS and hand-rolled GoLang server framework.
 - Contributed to architecture of mdot Zappos Family of Sites build tool.
