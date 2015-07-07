@@ -2,6 +2,9 @@
 date: 2014-01-02T02:21:37Z
 title: "Show your Mac’s Hard Drive in Finder Sidebar and on your Desktop"
 slug: 2014/01/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop
+aliases: [
+    posts/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop
+]
 ---
 
 Quick access to your Hard Drive is incredibly useful, especially when you need to browse above your home directory. In this quick MacTip, I’ll guide you through showing the shortcut to your Hard Drive (and other shortcuts) in your Finder sidebar and on your desktop.

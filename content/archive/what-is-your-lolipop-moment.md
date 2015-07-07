@@ -2,7 +2,9 @@
 date: 2014-02-13T02:52:44Z
 title: "What's Your Lollipop Moment?"
 slug: 2014/02/whats-your-lollipop-moment
-blogroll: false
+aliases: [
+    posts/whats-your-lollipop-moment
+]
 ---
 
 <p>Yesterday I listened to this TED talk on the way home and it hit me pretty hard.</p>
