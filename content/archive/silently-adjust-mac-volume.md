@@ -2,7 +2,9 @@
 title:  "Silently Adjust The Volume On Your Mac"
 date:   2014-10-21T06:30:00Z
 tags: [Mac]
+slug: 2014/10/silently-adjust-the-volume-on-your-mac
 aliases: [
+    silently-adjust-the-volume-on-your-mac,
     posts/silently-adjust-the-volume-on-your-mac
 ]
 ---

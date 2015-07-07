@@ -3,7 +3,9 @@ Title:  "Debugging a collection of objects with console.table"
 Date:   2014-11-19T06:30:00Z
 Tags: [Javascript]
 PostThumb: "http://www.realchaseadams.com/imgs/2014/11/consoletablerolemodels.png"
+slug: 2014/11/debugging-a-collection-of-objects-with-consoletable
 aliases: [
+  debugging-a-collection-of-objects-with-consoletable,
   posts/debugging-a-collection-of-objects-with-consoletable
 ]
 ---
