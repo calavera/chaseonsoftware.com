@@ -1,0 +1,9 @@
+/* TEAM */
+Your title: Chase Adams
+Site: http://chaseadams.io
+Twitter: chaseadamsio
+Location: Las Vegas, NV, USA
+
+/* SITE */
+Standards: HTML5, CSS3
+Software: SublimeText, Hugo (golang), Webpack
