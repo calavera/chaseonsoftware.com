@@ -6,7 +6,7 @@ slug: 2014/10/book-review-sketchnote-handbook
 blogroll: false
 aliases: [
     2014/10/book-review/
-    posts/book-review/
+    posts/book-review
 ]
 ---
 
