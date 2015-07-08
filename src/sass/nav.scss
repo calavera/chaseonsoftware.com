@@ -6,6 +6,12 @@
   width: 100%;
   border-right: 1px solid #1B1E23;
   background: #242628;
+  position: fixed;
+  top: 0;
+
+  @media (max-width: 500px) {
+    position: relative;
+  }
 
   #globalNav {
     max-width: 1200px;
@@ -29,6 +35,11 @@
     font-size: 24px;
     text-transform: lowercase;
 
+    @media (max-width: 500px) {
+      float: none;
+      text-align: center;
+    }
+
     a {
       color: #5CCAAB;
       &:hover {
@@ -41,11 +52,23 @@
     float: right;
     margin: 0;
     padding: 0;
+
+    @media (max-width: 500px) {
+      float: none;
+    }
+
     li {
       float: left;
       padding: 0 0 0 2rem;
       line-height: 24px;
       vertical-align: middle;
+
+      @media (max-width: 500px) {
+        float: none;
+        padding: .25em 0;
+        margin: 0 auto;
+        text-align: center;
+      }
     }
   }
 }
