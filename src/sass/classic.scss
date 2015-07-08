@@ -1,5 +1,5 @@
 body {
-    font-family: Merriweather, Palatino, serif;
+    font-family: Georgia, Palatino, serif;
 }
 
 $blue: #2A5DB0;
@@ -61,6 +61,7 @@ code {
 }
 
 #globalNav {
+    font-family: "Ubuntu", serif;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -135,6 +136,10 @@ code {
             display: inline;
             width: 100px;
         }
+
+        .post-content {
+          font-family: "Ubuntu", serif;
+        }
     }
 
     #sidebar {
@@ -143,6 +148,10 @@ code {
         .component {
             padding: 1.5rem 0 1.5rem 1.5rem;
             line-height: 1.75rem;
+            p, li {
+              font-family: "Ubuntu", serif;
+            }
+
         }
 
         h1 {
