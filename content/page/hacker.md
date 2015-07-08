@@ -2,7 +2,9 @@
 title: "Hi, I'm a Hacker."
 description: "A hacker is someone who enjoys expanding their abilities by creating solutions for interesting problems."
 date: 2015-06-23T02:47:00Z
-slug: hacker
+aliases: [
+    what-is-a-hacker
+]
 ---
 
 __And I want to challenge your paradigm of what it means for someone [to be a hacker](#toc_0).__
