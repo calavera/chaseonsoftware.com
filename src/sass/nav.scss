@@ -1,0 +1,51 @@
+#globalNav {
+  padding: 1em;
+}
+
+#globalNavContainer {
+  width: 100%;
+  border-right: 1px solid #1B1E23;
+  background: #242628;
+
+  #globalNav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  &, ul {
+    list-style: none;
+  }
+
+  a {
+    color: #888888;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  h1 {
+    float: left;
+    margin: 0;
+    font-size: 24px;
+    text-transform: lowercase;
+
+    a {
+      color: #5CCAAB;
+      &:hover {
+        color: #3AA586;
+      }
+    }
+  }
+
+  .site-nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      padding: 0 0 0 2rem;
+      line-height: 24px;
+      vertical-align: middle;
+    }
+  }
+}
