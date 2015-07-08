@@ -152,6 +152,7 @@ code {
   }
 
   #content #main .post {
+    padding: 0 1em;
     h1 {
       font-size: 24px;
       line-height: 2rem;
@@ -172,9 +173,15 @@ code {
     padding: 1rem;
   }
 
-  #content #main .blogroll .post time {
-    display: none;
+  .blogroll .post {
+    line-height: 1.5em;
+    padding: 0 1em;
+    time {
+      display: none !important;
+    }
   }
+
+
 }
 
 

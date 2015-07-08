@@ -6,7 +6,7 @@
             {{ template "partials/nav.html" . }}
             <div id="content">
                 <div id="main">
-                  <div id="post">
+                  <div class="post">
                   {{ if .Params.postthumb }}<img src="{{ .Params.postthumb }}" />{{ end }}
                     <h1 class="post-title">{{ .Title }}</h1>
 

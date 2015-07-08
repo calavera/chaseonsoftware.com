@@ -41,9 +41,9 @@
     }
 
     a {
-      color: #5CCAAB;
+      color: lighten(#2A5DB0, 20%);
       &:hover {
-        color: #3AA586;
+        color: #2A5DB0;
       }
     }
   }
