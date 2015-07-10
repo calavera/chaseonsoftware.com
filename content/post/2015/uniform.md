@@ -29,6 +29,8 @@ An interesting anecdote after practicing "wearing a uniform" for a few weeks: I 
 
 ## Create A Work Routine
 
+<img class="full align-none" title="working from the patio" alt="working from the patio" src="/img/patio.jpg" />
+
 When I get into the office, I have a routine that involves taking the stairs to the second floor to grab a cup of coffee and two bottles of perrier, heading out to the Zappos Cafe patio and writing documentation or working on an internal project and finally making my way up to the 5th floor. I used to do this before team standup (which was at 10 AM), but now that we have a virtual standup (which is going _really_ well), I just try to get to my desk around 10AM instead of just before.
 
 I try really hard not to check my email before 10 AM, so that I can be proactive about the first hour of my day. I find that email is almost always a great way to derail you from the tasks _you've_ decided are important to satisfy someone else's tensions...which keeps you from getting the important stuff done.
