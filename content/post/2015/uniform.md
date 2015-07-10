@@ -1,7 +1,7 @@
 ---
 title: Separation of Work & Life
 slug: uniform
-date: 2015-06-15T02:21:37Z
+date: 2015-07-10T02:21:37Z
 description: If you haven't burnt out already but you're working non-stop, I imagine burn out is close. These are the steps I took to get my life back.
 ---
 
