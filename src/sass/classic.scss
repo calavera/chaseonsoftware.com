@@ -96,7 +96,40 @@ code {
         }
 
         .post-content {
-          font-family: "Ubuntu", serif;
+          line-height: 2em;
+
+          p {
+            font-family: merriweather, georgia, serif;
+          }
+
+
+          p:first-of-type {
+            line-height: 2em;
+            font-size: 18px;
+            font-weight: bold;
+          }
+
+          img {
+            max-height: 175px;
+            margin: 0 1em .5em 0;
+            padding: .5em;
+            background: #f4f4f4;
+            border: 1px solid #ccc;
+
+            &.full {
+              max-height: 100%;
+              max-width: 100%;
+            }
+
+            &.align-none {
+              float: none;
+            }
+
+            &:nth-child(odd) {
+              float: left;
+            }
+          }
+
         }
     }
 
