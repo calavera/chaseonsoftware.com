@@ -37,7 +37,7 @@ Their mission statement resonates with me very deeply:
 
 When I guest lectured at the Atlanta campus, I _saw_ this mission statement being lived out through the staff.
 
-<a href="https://www.flickr.com/photos/realchaseadams/19269022401" title="ironyard by Chase Adams, on Flickr"><img src="https://c1.staticflickr.com/1/309/19269022401_d6940757ca_z.jpg" width="640" height="480" alt="ironyard"></a>
+<a href="https://www.flickr.com/photos/realchaseadams/19269022401" title="ironyard by Chase Adams, on Flickr"><img src="https://c1.staticflickr.com/1/309/19269022401_d6940757ca_z.jpg" width="640" height="480" class="full" alt="ironyard"></a>
 
 It felt like the missions statement resonated with everyone I met there  as well and that was when I realized that The Iron Yard was the organization they said they wanted to be.
 
