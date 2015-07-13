@@ -8,7 +8,7 @@ postThumb: /img/minimal-task-desk/postThumb.jpeg
 
 As much as I enjoyed working on and using my standing desk, it wasn't built for full-day usage (it wasn't as stable as I need for programming 6+ hours a day). I told Jackie I wanted to look at desks since I'll be working from home for Walmart Labs full time, so we started the quest for the right desk.
 
-We both have high standards for how a desk should look and we both really like the rustic industrial style, so we set out to find something inexpensive (less than $500) and stylish. Just like with the quets for the right standing desk...nothing.
+We both have high standards for how a desk should look and we both really like the rustic industrial style, so we set out to find something inexpensive (less than $500) and stylish. Just like with the quest for the right standing desk...nothing.
 
 So, in our typical semi-bespoke style, we put together a plan to build a desk on our own!
 
