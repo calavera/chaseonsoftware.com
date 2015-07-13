@@ -3,7 +3,7 @@ title: Minimalist Task Desk
 date: 2015-07-12T03:00:10Z
 slug: 2015/07/minimalist-task-desk
 description: "A minimalist task desk for under $300 and built in under 30 minutes."
-postThumb: /img/minimal-task-desk/full-front-desk.jpg
+postThumb: /img/minimal-task-desk/postThumb.jpeg
 ---
 
 As much as I enjoyed working on and using my standing desk, it wasn't built for full-day usage (it wasn't as stable as I need for programming 6+ hours a day). I told Jackie I wanted to look at desks since I'll be working from home for Walmart Labs full time, so we started the quest for the right desk.
