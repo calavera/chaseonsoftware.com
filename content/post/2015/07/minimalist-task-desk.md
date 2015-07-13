@@ -1,6 +1,6 @@
 ---
 title: Minimalist Task Desk
-date: 2015-07-13T03:00:10Z
+date: 2015-07-12T03:00:10Z
 slug: 2015/07/minimalist-task-desk
 description: "A minimalist task desk for under $300 and built in under 30 minutes."
 postThumb: /img/minimal-task-desk/full-front-desk.jpg
