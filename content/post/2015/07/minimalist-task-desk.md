@@ -15,6 +15,7 @@ So, in our typical semi-bespoke style, we put together a plan to build a desk on
 Here's how we built this beautiful sitting desk and the best part about it? It only took us about **20 minutes to assemble**.
 
 <img alt="Full Front View of Desk" src="/img/minimal-task-desk/full-front-desk.jpg" class="full" />
+
 ## Parts
 
 - [28" Raw Steel .375 Diameter 3 Rod Hairpin Leg ($20/leg)](http://www.hairpinlegs.com/products/3-rod-hairpin-leg?variant=1125171392)
