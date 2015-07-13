@@ -11,7 +11,7 @@
   <meta name="og:image" content="{{ if .Params.postthumb }}{{ .Params.postthumb }}{{ else }}https://en.gravatar.com/userimage/7669606/43804dd24788fa65fc5ef0bc46a6a94b.jpg{{ end }}">
   <meta name="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}I'm Chase Adams. Engineer at Zappos. Life Learner. Programming Polyglot. {{ end }}">
 
-  <title> {{ if eq .Title .Site.Title }}{{ else }}{{ .Title }} &middot; {{ end }}{{ .Site.Title }} </title>
+  <title> {{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ .Title }} &mdash; Chase Adams {{ end }}</title>
 
   <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/app.css">
   <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
