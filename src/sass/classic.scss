@@ -1,6 +1,8 @@
 @import 'nav';
 @import 'clearfix';
 
+$serif: merriweather, georgia, serif;
+$sans: "Ubuntu", Tahoma, sans-serif !important;
 $blue: #2A5DB0;
 
 %links {
@@ -14,7 +16,7 @@ $blue: #2A5DB0;
 body {
   margin: 0;
   padding: 0;
-  font-family: "Ubuntu", Tahoma, sans-serif !important;
+  font-family: $sans;
 
 }
 
@@ -38,7 +40,6 @@ code {
 }
 
 %masterContainer {
-    width: 1060px;
     margin: 0 auto;
 }
 
@@ -64,16 +65,42 @@ code {
 
     #main {
         width: 70%;
+        margin-top: 0.75em;
         padding: 0 2rem 0 0;
         line-height: 2rem;
         position: relative;
 
         h1 {
-            line-height: 3rem;
+          line-height: 1.35em;
+        }
+
+        .post-meta {
+          position: fixed;
+          float: left;
+          width: 15%;
+          padding: 1rem 2rem;
+
+          time {
+            font-family: $serif;
+          }
+
+          .social-share {
+            padding-top: 1rem;
+
+            .fb-like {
+              margin-bottom: 1rem;
+            }
+
+            #twitter-widget-0 {
+              height: 76px !important;
+            }
+          }
         }
 
         .post {
-            margin-top: 0.75em;
+            float: left;
+            margin-left: 30%;
+            width: 70%;
             padding-bottom: 0.75em;
             border-bottom: 1px solid #dbdbdb;
 
@@ -98,7 +125,7 @@ code {
           line-height: 2em;
 
           p {
-            font-family: merriweather, georgia, serif;
+            font-family: $serif;
           }
 
 
@@ -169,8 +196,16 @@ code {
     }
 }
 
+@media (max-width: 794px) {
+  #content #main .post, #content #main .post-meta {
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: 0 1em;
+  }
+}
 
-@media (max-width: 690px) {
+@media (max-width: 1000px) {
   #content, #globalNavContainer, #content #main, #content #sidebar, #footer {
     width: 100% !important;
     margin: 0;
@@ -181,6 +216,8 @@ code {
     margin-top: 1rem;
   }
 
+
+
   #content #main .post {
     margin-top: 0;
     padding: 1em;
@@ -188,6 +225,7 @@ code {
       font-size: 24px;
       line-height: 2rem;
     }
+
     .post-title {
       padding: 0;
     }
