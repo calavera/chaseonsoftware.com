@@ -1,5 +1,5 @@
 ---
-title: 5 Ways To Celebrate Your Employees The Zappos Way
+title: 6 Ways To Celebrate Your Employees The Zappos Way
 date: 2015-07-15T03:00:10Z
 slug: 2015/07/celebrate-your-employees
 description: "Celebrating your employees can easily one of the best morale boosters for your organization. Here are 5 of the ways Zappos has done that for me."
@@ -8,7 +8,7 @@ postThumb: /img/celebrate-your-employees.jpg
 
 [As I'm leaving Zappos to go to Walmart Labs](2015/07/walmart-labs), I'm doing so reflecting on some of the great qualities I appreciated over the years. One of the qualities that comes to mind over and over is the value people put on celebrating employees for their time, effort and work.
 
-In this post, I'm going to highlight 5 ways that have resonated with me most. The crazy thing is, they have nothing to do with compensation and everything to do with **letting people know they're valued**.
+In this post, I'm going to highlight 6 ways that have resonated with me most. The crazy thing is, they have nothing to do with compensation and everything to do with **letting people know they're valued**.
 
 <img alt="Celebrate Your Employees" src="/img/celebrate-your-employees.jpg" class="full" />
 
@@ -43,6 +43,14 @@ This one is probably my favorite: At Zappos everyone has a $50 co-worker bonus t
 I'm getting on a high horse with this one: I've had some really amazing conversations with leadership for my teams and Tech and seen some great changes.
 
 If a leader says, "what's holding you back?" or "what problems are you facing with xyz?" and an employee says, "abc is a problem." **do something about abc.**
+
+## Sprint Awards
+
+My team does two week sprints (which is a "regular, repeatable work cycle") and at the end of every sprint, someone's given the sprint award based on team nominations followed by a vote. We usually get a plush character (in the past we've had Luigi and Bowser, currently we have Stuart the Minion) and the winner gets to keep it on their desk for the sprint.
+
+It might sound kind of silly (and it is because my team is awesome like that) but it's a great reminder that the team appreciates that individual. If you're on a team but you don't have a regular "cycle" for work, you could still have a 2 week celebration where a team member is awarded with a "we love you, you're awesome." award.
+
+<img src="/img/stuart-award.jpg" alt="The Stuart Sprint Award" class="full" />
 
 ## A Final Thought on The Weight of Leadership
 
