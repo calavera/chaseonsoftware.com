@@ -6,7 +6,7 @@ description: "Celebrating your employees can easily one of the best morale boost
 postThumb: /img/celebrate-your-employees.jpg
 ---
 
-[As I'm leaving Zappos to go to Walmart Labs](2015/07/walmart-labs), I'm doing so reflecting on some of the great qualities I appreciated over the years. One of the qualities that comes to mind over and over is the value people put on celebrating employees for their time, effort and work.
+[As I'm leaving Zappos to go to Walmart Labs](/2015/07/walmart-labs), I'm doing so reflecting on some of the great qualities I appreciated over the years. One of the qualities that comes to mind over and over is the value people put on celebrating employees for their time, effort and work.
 
 In this post, I'm going to highlight 6 ways that have resonated with me most. The crazy thing is, they have nothing to do with compensation and everything to do with **letting people know they're valued**.
 
