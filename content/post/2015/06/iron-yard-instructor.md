@@ -17,7 +17,7 @@ As of tomorrow (June 30, 2015), I start one of two new journeys: I officially jo
 
 <a href="https://www.flickr.com/photos/realchaseadams/19077584548" title="FullSizeRender by Chase Adams, on Flickr"><img src="https://c1.staticflickr.com/1/264/19077584548_f4ea27fd2a_z.jpg" width="640" height="541" alt="FullSizeRender"></a>
 
-# Why Teaching?
+## Why Teaching?
 
 I've spent so much time investing in personal growth, I felt it was time to invest in other people more _pragmatically_.
 
@@ -27,7 +27,7 @@ I've always wanted to teach in some capacity, but I've never felt like the publi
 
 I never thought I'd find the opportunity to teach where the students are there because they want to be and they truly have a stake in their learning. I never thought I'd find a group of people dedicated to uprsuing a craft.
 
-# Why The Iron Yard?
+## Why The Iron Yard?
 
 It's simple: they walk the walk. I first met a few of their founders last year and I've kept up with them and their work and it's undeniable that they are focused on creating growth through technology education.
 
@@ -41,7 +41,7 @@ When I guest lectured at the Atlanta campus, I _saw_ this mission statement bein
 
 It felt like the missions statement resonated with everyone I met there  as well and that was when I realized that The Iron Yard was the organization they said they wanted to be.
 
-# The Details
+## The Details
 
 I'll be teaching a class twice a week in the evening, three hours per session, for ten weeks, giving new frontend engineers the tools and skillsets they'll need to dive into a full-time course.
 
