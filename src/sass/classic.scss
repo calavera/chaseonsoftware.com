@@ -3,6 +3,7 @@ $space-grey-light: lighten($space-grey, 40%);
 $space-grey-lighter: lighten($space-grey, 70%);
 $space-rust: #B24E51;
 $space-rust-b: #E74141;
+$space-blue-dark: #466F8B;
 $space-blue: #4991C2;
 $space-blue-light: #0098FF;
 
@@ -103,6 +104,11 @@ body {
 
 img {
   max-width: 100%;
+
+  &.align-left {
+    float: left;
+    margin: 0 1rem 1rem 0;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -114,13 +120,17 @@ ul, ol {
     margin-top: 0;
 }
 
+li {
+  line-height: 2em;
+}
+
 a {
   text-decoration: none;
   color: $space-blue;
   transition: color .2s;
 
   &:hover {
-    color: $space-blue-light;
+    color: $space-blue-dark;
     transition: color .2s;
   }
 }
@@ -130,8 +140,16 @@ p {
 }
 
 %cf {
-  overflow: auto;
-  zoom: 1;
+  display: inline-block;
+
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
 }
 
 #globalNav {
@@ -158,6 +176,10 @@ p {
     font-weight: 700;
     line-height: 50px;
     vertical-align: middle;
+
+    &:hover {
+      color: $space-blue-light;
+    }
   }
 
   li {
@@ -202,6 +224,7 @@ p {
   .blogroll {
     @extend %reset-list;
     margin-bottom: 1em;
+    font-family: $font-stack-sans;
 
     time {
       display: none;
@@ -215,6 +238,8 @@ p {
   }
 
   article {
+    padding: 2em;
+
     h1 {
       margin-bottom: 0;
       padding-bottom: 24px;
@@ -284,7 +309,7 @@ p {
   }
 }
 
-@media (min-width: 700px) {
+@media (min-width: 850px) {
 
   #main {
     @include col(8);
@@ -304,12 +329,16 @@ p {
     }
   }
 
+  article {
+    padding: 0;
+  }
+
   #sidebar {
     @include col(4);
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   html {
     font-size: 62.5%;
   }
