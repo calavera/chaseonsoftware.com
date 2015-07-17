@@ -14,6 +14,7 @@ gulp.task('publish', ['minify-html'], function() {
   };
 
   return gulp.src('./public/**/*')
+    // .pipe(publisher.publish(headers, { force: true }))
     .pipe(publisher.publish(headers))
     .pipe(publisher.cache())
     .pipe(awspublish.reporter());
