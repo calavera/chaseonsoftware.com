@@ -280,16 +280,6 @@ p {
   }
 }
 
-@media (min-width: 1000px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
-@media (max-width: 700px) {
-
-}
-
 @media (min-width: 700px) {
 
   #main {
@@ -312,5 +302,15 @@ p {
 
   #sidebar {
     @include col(4);
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  #main .blogroll li a {
+    margin-left: 110px;
   }
 }
