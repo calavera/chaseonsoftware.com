@@ -3,7 +3,8 @@ $space-grey-light: lighten($space-grey, 40%);
 $space-grey-lighter: lighten($space-grey, 70%);
 $space-rust: #B24E51;
 $space-rust-b: #E74141;
-$space-blue: #2A5DB0;
+$space-blue: #4991C2;
+$space-blue-light: #0098FF;
 
 $font-stack-sans: "Mangerica", helvetica, tahoma sans-serif;
 $font-stack-sans-alt: "Realtime", helvetica, tahoma sans-serif;
@@ -116,6 +117,12 @@ ul, ol {
 a {
   text-decoration: none;
   color: $space-blue;
+  transition: color .2s;
+
+  &:hover {
+    color: $space-blue-light;
+    transition: color .2s;
+  }
 }
 
 p {
@@ -138,13 +145,8 @@ p {
 
   h1 {
     @extend %reset;
-
     a {
-      color: $space-rust;
-
-      &:hover {
-        color: $space-rust-b;
-      }
+      color: $space-blue;
     }
   }
 
@@ -156,11 +158,6 @@ p {
     font-weight: 700;
     line-height: 50px;
     vertical-align: middle;
-
-    &:hover {
-      color: $space-rust;
-    }
-
   }
 
   li {
