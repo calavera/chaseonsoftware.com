@@ -14,15 +14,17 @@
                     <div class="post-content cf">
                       {{ .Content }}
                     </div>
-                    <div id="disqus_thread"></div>
+
                      <footer class="post-meta">
 
-                        <div><time pubdate>{{ .Date.Format "2006/01/02" }}</time></div>
+                        <div class="published">Published <time pubdate>{{ .Date.Format "2006/01/02" }}</time></div>
                         <div class="social-share">
                             <div class="fb-like" data-href="{{ .Site.BaseUrl }}/{{ .Slug }}/" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
                             <a href="https://twitter.com/share" class="twitter-share-button" data-via="chaseadamsio">Tweet</a>
                         </div>
                       </footer>
+
+                      <div id="disqus_thread"></div>
                   </article>
 
                 </div>
