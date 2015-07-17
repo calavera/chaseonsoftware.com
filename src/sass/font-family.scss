@@ -15,6 +15,14 @@
 }
 
 @font-face {
+    font-family: 'Mangerica';
+    src: url('http://chaseadams.io/fonts/mangerica/mangerica-regular-webfont.woff2') format('woff2'),
+        url('http://chaseadams.io/fonts/mangerica/mangerica-regular-webfont.woff') format('woff'),
+        url('http://chaseadams.io/fonts/mangerica/mangerica-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
     font-family: 'Argent';
     src: url('http://chaseadams.io/fonts/argent/argentcf-regular-webfont.woff2') format('woff2'),
         url('http://chaseadams.io/fonts/argent/argentcf-regular-webfont.woff') format('woff'),
