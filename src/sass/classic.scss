@@ -18,12 +18,6 @@ html {
   font-size: 50%;
 }
 
-@media (min-width: 600px) {
-  html {
-    font-size: 62.5%;
-  }
-}
-
 %type-normal {
   font-size: 18px;
   font-size: 1.8rem;
@@ -47,6 +41,7 @@ html {
 @mixin col($col-size) {
   float: left;
   width: $col-size / 12 * 100%;
+  padding-right: 1em;
 }
 
 %col-1 {
@@ -137,6 +132,9 @@ p {
 
 #globalNav {
   @extend %widget;
+  width: 100%;
+  height: 50px;
+  position: fixed;
   font-family: $font-stack-sans;
   text-transform: uppercase;
 
@@ -155,9 +153,11 @@ p {
   a {
     @extend %type-normal;
     display: block;
-    padding: 1em;
+    padding: 0 1em;
     color: $space-grey-light;
     font-weight: 700;
+    line-height: 50px;
+    vertical-align: middle;
 
     &:hover {
       color: $space-rust;
@@ -191,6 +191,8 @@ p {
 
 #content {
   @extend %cf;
+  position: relative;
+  top: 50px;
   padding: 1em;
 }
 
@@ -275,5 +277,40 @@ p {
     &:hover {
       color: $space-rust-b;
     }
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 700px) {
+
+}
+
+@media (min-width: 700px) {
+
+  #main {
+    @include col(8);
+  }
+
+  #main .blogroll li {
+    text-align: left;
+
+    time {
+      float: left;
+      display: inline;
+    }
+
+    a {
+      display: block;
+      margin-left: 85px;
+    }
+  }
+
+  #sidebar {
+    @include col(4);
   }
 }
