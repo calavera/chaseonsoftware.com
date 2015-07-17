@@ -252,7 +252,7 @@ p {
     }
 
     p {
-      &:first-child {
+      > &:first-child {
         @extend %type-large;
       }
     }
