@@ -1,3 +1,4 @@
+require('normalize.css/normalize.css');
 require('../sass/app.scss');
 require("static?!../favicon.ico?output=favicon.ico");
 var React = require('react');
