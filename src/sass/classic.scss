@@ -299,6 +299,7 @@ p {
 #footer {
   background: $space-grey;
   color: #fff;
+  margin-bottom: 50px;
   padding: 1em;
   text-align: center;
   font-family: $font-stack-sans-alt;
@@ -338,6 +339,67 @@ p {
 
   #sidebar {
     @include col(4);
+  }
+}
+
+ul.social_share {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  @extend %cf;
+  @extend %reset-list;
+  font-family: $font-stack-sans;
+
+  display: block;
+  > li {
+    @include col(4);
+    display: block;
+    padding: 0;
+    color: #fff;
+
+    a {
+      @extend %cf;
+      display: block;
+
+    }
+
+    i, span {
+      float: left;
+      display: block;
+    }
+
+    i {
+      padding: 1em;
+    }
+
+    span {
+      padding: .5em;
+    }
+
+    &.fb {
+      i {
+        background: #2E4581;
+      }
+
+      background: #435C9B;
+    }
+
+    &.tw {
+      i {
+        background: #5694C7;
+      }
+
+      background: #6BB2ED;
+    }
+
+    &.li {
+      i {
+        background: #2564A3;
+      }
+
+      background: lighten(#2564A3, 20%);
+    }
   }
 }
 
