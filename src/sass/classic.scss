@@ -209,10 +209,6 @@ p {
   @extend %reset-list;
 }
 
-#app {
-
-}
-
 #content {
   @extend %cf;
   position: relative;
@@ -277,71 +273,6 @@ p {
   }
 }
 
-#sidebar {
-  font-family: $font-stack;
-
-  h1 {
-    text-align: center;
-  }
-
-  p {
-    line-height: 1.5em;
-  }
-
-  .component {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-    border-bottom: $space-grey-lighter 1px solid;
-  }
-}
-
-
-#footer {
-  background: $space-grey;
-  color: #fff;
-  margin-bottom: 50px;
-  padding: 1em;
-  text-align: center;
-  font-family: $font-stack-sans-alt;
-
-  a {
-    color: $space-rust;
-
-    &:hover {
-      color: $space-rust-b;
-    }
-  }
-}
-
-@media (min-width: 850px) {
-
-  #main {
-    @include col(8);
-  }
-
-  #main .blogroll li {
-    text-align: left;
-
-    time {
-      float: left;
-      display: inline;
-    }
-
-    a {
-      display: block;
-      margin-left: 85px;
-    }
-  }
-
-  article {
-    padding: 0;
-  }
-
-  #sidebar {
-    @include col(4);
-  }
-}
-
 ul.social_share {
   position: fixed;
   bottom: 0;
@@ -398,6 +329,73 @@ ul.social_share {
 
       background: lighten(#2564A3, 20%);
     }
+  }
+}
+
+#sidebar {
+  font-family: $font-stack;
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    line-height: 1.5em;
+  }
+
+  .component {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: $space-grey-lighter 1px solid;
+  }
+}
+
+#footer {
+  background: $space-grey;
+  color: #fff;
+  margin-bottom: 50px;
+  padding: 1em;
+  text-align: center;
+  font-family: $font-stack-sans-alt;
+
+  a {
+    color: $space-rust;
+
+    &:hover {
+      color: $space-rust-b;
+    }
+  }
+}
+
+@media (min-width: 850px) {
+  html {
+    font-size: 55%;
+  }
+
+  #main {
+    @include col(8);
+  }
+
+  #main .blogroll li {
+    text-align: left;
+
+    time {
+      float: left;
+      display: inline;
+    }
+
+    a {
+      display: block;
+      margin-left: 85px;
+    }
+  }
+
+  article {
+    padding: 0;
+  }
+
+  #sidebar {
+    @include col(4);
   }
 }
 
