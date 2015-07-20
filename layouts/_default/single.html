@@ -2,6 +2,13 @@
 <html>
     {{ template "partials/head.html" . }}
     <body>
+        <script type="text/javascript">
+          var post = {
+            title: '{{ .Title }}',
+            slug: '{{ .Slug }}',
+            description: '{{ .Description }}'
+          };
+        </script>
         <div id="app">
             {{ template "partials/nav.html" . }}
             <div id="content">

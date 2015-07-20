@@ -38,13 +38,37 @@ var Share = React.createClass({
           });
     },
 
+    twShare() {
+        var w = 845;
+        var h = 650;
+        var left = (screen.width/2)-(w/2);
+        var top = (screen.height/2)-(h/2);
+        window.open(
+            'http://twitter.com/share?text=' + post.title + '&url=' + 'http://chaseadams.io/' + post.slug,
+            '',
+            'scrollbars=yes, width='+w+', height='+h+', screenY='+top+', screenX='+left
+        );
+    },
+
+    liShare() {
+        var w = 845;
+        var h = 508;
+        var left = (screen.width/2)-(w/2);
+        var top = (screen.height/2)-(h/2);
+        window.open(
+            'https://www.linkedin.com/shareArticle?mini=true&url=' + post.slug + '&title=' + post.title + '&summary=' + post.description,
+            '',
+            'scrollbars=yes, width='+w+', height='+h+', screenY='+top+', screenX='+left
+        );
+    },
+
     render () {
-        console.log(this.state);
+
         return (
             <ul className="social_share">
                 <li className="fb" onClick={this.fbShare}><i className="fa fa-facebook" /><span>{this.state.fb_likes}</span></li>
-                <li className="tw"><i className="fa fa-twitter" /><span>{this.state.tw_shares}</span></li>
-                <li className="li"><i className="fa fa-linkedin" /><span>{this.state.li_shares}</span></li>
+                <li className="tw" onClick={this.twShare}><i className="fa fa-twitter" /><span>{this.state.tw_shares}</span></li>
+                <li className="li" onClick={this.liShare}><i className="fa fa-linkedin" /><span>{this.state.li_shares}</span></li>
             </ul>
         );
     }

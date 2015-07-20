@@ -358,10 +358,8 @@ ul.social_share {
     padding: 0;
     color: #fff;
 
-    a {
-      @extend %cf;
-      display: block;
-
+    &:hover {
+      cursor: pointer;
     }
 
     i, span {
