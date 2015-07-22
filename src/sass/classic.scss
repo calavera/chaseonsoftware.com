@@ -248,9 +248,17 @@ p {
     }
 
     p {
-      > &:first-child {
+      &:first-child {
         @extend %type-large;
       }
+    }
+
+    blockquote {
+      margin: 0;
+      padding: 1em;
+      background: #f4f4f4;
+      text-align: center;
+      font-style: italic;
     }
 
     footer {
