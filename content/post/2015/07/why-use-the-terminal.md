@@ -13,6 +13,21 @@ You really only need one good reason why you should use the Terminal: **Power.**
 
 Even though, as your just starting, you will only be using it for navigating your file system, creating files and directories, opening editors and at most, probably using it for your `git` workflow, when you start to learn how to build servers, write scripts and need to run commands that are unique to your situation, you'll find a `command line interface` to be your best friend.
 
+## Deliverables
+
+After completing this tutorial, you will have made one new directory:
+
+- A `workspace` directory, which is where you will always create your new web projects
+
+## Learning Objectives
+
+You'll should learn the following:
+
+- How to open the Terminal
+- What the `~` means
+- How to find the path you're currently in
+- How to list files in that directory
+
 ## Getting Started
 
 If you are _brand_ new a `command line interface`, the first thing you need to do is to open `Terminal.app`. You can do this by opening `Finder` and navigating to `Applications` then to `Utilities` and you'll see `Terminal`. An alternative would be to use Apple's Spotlight and type `Terminal`.
