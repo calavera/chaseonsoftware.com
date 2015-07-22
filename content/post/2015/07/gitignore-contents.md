@@ -1,5 +1,6 @@
 ---
 title: Things Every Node Developer Should Add to Their .gitignore
+description: "A .gitignore file is an important part of any project that is being version controlled. In this post, I'll explain what I add to my .gitignore and why I add it."
 date: 2015-07-22T03:00:10Z
 slug: 2015/07/my-gitignore-conventions
 ---
