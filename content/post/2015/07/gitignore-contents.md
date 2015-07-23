@@ -9,6 +9,8 @@ A .gitignore file is an important part of any project that is being version cont
 
 This post is intended to give you a general idea of the things that I add to my .gitignore. Want to just see [my standard node + mac .gitignore to copy](https://gist.github.com/chaseadamsio/88d5deae496317fb4546)? Check it out along with all my other [github gists for chaseadamsio](https://gist.github.com/chaseadamsio).
 
+**Update:** While talking with Thai Wood about this problem today, we looked around and found a [generator that will create your .gitignore based on IDEs, Operating Systems and Programming Languages](https://gitignore.io/), which is awesome!
+
 ## .DS_Store
 
 If you've ever worked on a project with someone who uses their finder to navigate their filesystem, odds are you've seen this ugly file rear it's head.
