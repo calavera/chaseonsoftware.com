@@ -13,7 +13,6 @@ var CLICKY = require('./3party/clickyAnalytics.js');
 if (!(/^dev/).test(window.location.hostname)) {
     GA();
     KISS();
-    // CLICKY();
 
     try{ clicky.init(100842593); }catch(e){}
 }
