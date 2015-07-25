@@ -29,4 +29,4 @@ To Mark Walker: I'll never forget the first time we played ultimate frisbee, bui
 
 I think Andy said it best..."I wish there was a way to know you're in the good ole days, before you've actually left them."
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C7qcFCTa1vw" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/C7qcFCTa1vw" frameborder="0" allowfullscreen></iframe>
