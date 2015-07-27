@@ -20,6 +20,12 @@ aliases: [
 
 ## Experience
 
+### Senior Software Engineer @ [Walmart Labs](http://www.walmartlabs.com/)
+
+*July 2015 - Present*
+
+- Using HapiJS & ReactJS to help build [walmart.com](http://wwww.walmart.com)
+
 ### Frontend Instructor @ [The Iron Yard](http://www.theironyard.com)
 
 *July 2015 - Present*
