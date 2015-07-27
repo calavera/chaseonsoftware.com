@@ -4,7 +4,7 @@ slug: about
 date: 2013-06-21T02:47:00Z
 ---
 
-Hi there! My name is Chase Adams and I'm a web developer at Zappos.com, a life hacker and advocate for alternative methods for learning.
+Hi there! My name is Chase Adams and I'm a Software Engineer at [Walmart Labs](http://www.walmartlabs.com) and part-time Frontend Instructor at <a href="http://www.theironyard.com">The Iron Yard</a>, a life hacker and advocate for alternative methods for learning.
 
 My goal for chaseadams.io is to help other people discover the *tools*, *resources* and *inner-strengths* necessary to help them **find their dream job, their passion and the hidden free time** they always wanted. In order to satisfy this goal, I write about personal growth, [life hacking](/hacker/) & web technologies. I also write reviews on books, software, hardware and other cool products.
 
@@ -18,7 +18,7 @@ I typically post twice a week, but it's rare that I won't read something I want 
 
 Tag came to us from [Happy Homes Animal Sanctuary][8] when he was 3 months old and he has given us quite the adventure. He loves to run in circles at full speed at the dog park, solve puppy puzzles and cuddle and nap with his pet Alligator.
 
-I'm a mobile web/front end developer at [Zappos.com][9]. One of my favorite aspects of being a developer is partaking in discovering and building features that will wow our customers. My favorite quality about Zappos is that you're empowered to get involved in other things that you get excited about, so I also pursue other roles: educator, collision curator and mentor.
+Until July 2015, I was a mobile web/front end developer at [Zappos.com][9]. One of my favorite aspects of being a developer is partaking in discovering and building features that will wow our customers. My favorite quality about Zappos is that you're empowered to get involved in other things that you get excited about, so I also pursue other roles: educator, collision curator and mentor.
 
 Some of the languages I love to write are HTML, CSS, Javascript (front end and back end), Ruby and Markdown. If you want to get started in web development, I recommend trying the [Hour of Code Angry Birds tutorial][10]. This is a great starting point for understanding what it actually means to be a programmer. It may feel basic at first, but the whole point is to get you excited about programming as a concept.
 
