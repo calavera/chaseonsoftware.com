@@ -247,11 +247,10 @@ p {
       text-align: center;
     }
 
-    p {
-      &:first-child {
-        @extend %type-large;
-      }
+    .post-content > p:first-child {
+      @extend %type-large;
     }
+
 
     blockquote {
       margin: 0;
@@ -411,6 +410,10 @@ ul.social_share {
 @media (min-width: 1200px) {
   html {
     font-size: 62.5%;
+  }
+
+  #main, #sidebar {
+    padding: 3em;
   }
 
   #main .blogroll li a {
