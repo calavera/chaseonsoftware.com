@@ -361,10 +361,13 @@ ul.social_share {
 #footer {
   background: $space-grey;
   color: #fff;
-  margin-bottom: 50px;
   padding: 1em;
   text-align: center;
   font-family: $font-stack-sans-alt;
+
+  #single & {
+    margin-bottom: 43px;
+  }
 
   a {
     color: $space-rust;
@@ -418,5 +421,9 @@ ul.social_share {
 
   #main .blogroll li a {
     margin-left: 110px;
+  }
+
+  #single #footer {
+    margin-bottom: 50px;
   }
 }
