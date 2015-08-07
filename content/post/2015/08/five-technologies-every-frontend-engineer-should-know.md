@@ -3,7 +3,6 @@ title: Five Technologies Every Frontend Engineer Should Know
 date: 2015-08-07T03:00:10Z
 slug: 2015/08/five-technologies-every-frontend-engineer-should-know
 description: "Frontend Engineers should have five technologies under their belt"
-postThumb: /img/frontend-engineering-tools-of-the-trade.jpg
 ---
 
 When I started learning how to code in 2008, the landscape for a frontend developer was very different than it is today. In 2008, it was good to know HTML & CSS (that hasn't changed) and with a little bit of jQuery knowledge and the ability to use the WordPress API and an FTP uploader, you could get by building basic brochures sites for clients, but you couldn't _bend the web to your will_.
