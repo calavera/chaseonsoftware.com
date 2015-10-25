@@ -12,7 +12,7 @@ I typically post twice a week, but it's rare that I won't read something I want 
 
 ## My Biography
 
-[<img src="http://www.realchaseadams.com/imgs/2014/01/me_and_tag-300x300.jpg" alt="me_and_tag-300x300" width="250" height="250" class="align-left size-full wp-image-171" />][7] **My faith is the foundation to the rest of my life and the lens that I view the world through.** I believe in God the Father & Jesus the Son, in Grace & Love and in always striving to be the best version of me that I can be, not because it's required but because I'm free to pursue it.
+**My faith is the foundation to the rest of my life and the lens that I view the world through.** I believe in God the Father & Jesus the Son, in Grace & Love and in always striving to be the best version of me that I can be, not because it's required but because I'm free to pursue it.
 
 **My family is my greatest earthly joy: my beautiful wife Jackie and our ragamuffin puppy**. I met Jackie over a fetal pig in a biology lab that I wasn't even in, and we've been geeking out about science and life ever since.
 

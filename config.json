@@ -1,10 +1,16 @@
 {
-    "baseurl": "http://chaseadams.io",
-    "languageCode": "en-us",
-    "title": "chaseadams.io | intentional input for effective output",
-    "permalinks": {
-        "post": "/:slug/",
-        "archive": "/:slug/",
-        "page": "/:filename/"
+  "baseurl": "http://chaseadams.io",
+  "languageCode": "en-us",
+  "title": "chaseadams.io | intentional input for effective output",
+  "permalinks": {
+    "post": "/:slug/",
+    "archive": "/:slug/",
+    "page": "/:filename/"
+  },
+  "params": {
+    "manifest": {
+      "appjs": "js/bundle.848dc92c83a69a546b93.js",
+      "appcss": "css/app.848dc92c83a69a546b93.css"
     }
+  }
 }

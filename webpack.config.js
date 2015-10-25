@@ -1,5 +1,6 @@
 var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var ManifestPlugin = require('webpack-manifest-plugin');
 var webpack = require('webpack');
 
 module.exports = {
@@ -11,15 +12,18 @@ module.exports = {
         app: ['./src/js/entry.js']
     },
     output: {
-        path: __dirname + '/public',
-        filename: '/js/bundle.js'
+        path: __dirname + '/public/assets',
+        filename: 'js/bundle.[hash].js'
     },
     plugins: [
+        new ManifestPlugin({
+          stripSrc: true
+        }),
         new webpack.ProvidePlugin({
             React: 'react',
             Router: 'react-router'
         }),
-        new ExtractTextPlugin("css/[name].css"),
+        new ExtractTextPlugin("css/[name].[hash].css"),
         new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /de|fr|hu/)
     ],
     module: {

@@ -5,15 +5,12 @@
         <div id="app">
             {{ template "partials/nav.html" . }}
             <div id="content">
-                <div id="main">
-                    <h1>Blog</h1>
-                    <ul class="blogroll">
-                     {{ range $index, $page := where .Data.Pages "Section" "post" }}
-                        <li class="post"><time>{{ .Date.Format "2006/01/02" }}</time> <a href="/{{ .Slug }}">{{ .Title }}</a></li>
-                    {{ end }}
-                    </ul>
-                </div>
-                {{ template "partials/sidebar.html" . }}
+              <h1>Blog</h1>
+              <ul class="blogroll">
+                {{ range $index, $page := where .Data.Pages "Section" "post" }}
+                <li class="post"><time>{{ .Date.Format "2006/01/02" }}</time> <a href="/{{ .Slug }}">{{ .Title }}</a></li>
+                {{ end }}
+              </ul>
             </div>
         </div>
         {{ template "partials/footer.html" . }}

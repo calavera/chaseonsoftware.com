@@ -114,10 +114,6 @@ img {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: $font-stack-sans;
-}
-
 h1, h2, h3, h4, h5, h6,
 ul, ol {
     margin-top: 0;
@@ -143,7 +139,7 @@ p {
 }
 
 %cf {
-  display: inline-block;
+  display: block;
 
   &:after {
     visibility: hidden;
@@ -157,9 +153,9 @@ p {
 
 #globalNav {
   @extend %widget;
-  width: 100%;
+  width: 850px;
+  margin: 0 auto;
   height: 50px;
-  position: fixed;
   z-index: 1000;
   font-family: $font-stack-sans;
   text-transform: uppercase;
@@ -211,13 +207,10 @@ p {
 
 #content {
   @extend %cf;
-  position: relative;
-  top: 50px;
-  margin-bottom: 50px;
+  width: 850px;
+  margin: 0 auto 50px;
   padding: 1em;
-}
 
-#main {
   font-family: $font-stack;
 
   .blogroll {
@@ -232,7 +225,6 @@ p {
     li {
       padding: .5em 0;
       border-bottom: $space-grey-lighter 1px solid;
-      text-align: center;
     }
   }
 

@@ -18,6 +18,9 @@
     "json-loader": "^0.5.2",
     "jsx-loader": "^0.13.2",
     "marked": "^0.3.3",
+    "metalsmith-drafts": "0.0.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-react-templates": "^2.1.0",
     "moment": "^2.10.3",
     "moment-timezone": "^0.4.0",
     "node-dir": "^0.1.8",
@@ -40,8 +43,15 @@
     "node": "0.10.x"
   },
   "devDependencies": {
+    "babel": "^5.8.29",
+    "fs-readdir-recursive": "^1.0.0",
     "gulp": "^3.9.0",
     "gulp-awspublish": "^2.0.2",
-    "gulp-minify-html": "^1.0.3"
+    "gulp-minify-html": "^1.0.3",
+    "jsonfile": "^2.2.3",
+    "metalsmith": "^2.1.0",
+    "metalsmith-static": "0.0.5",
+    "metalsmith-webpack": "^1.0.1",
+    "webpack-manifest-plugin": "^0.4.0"
   }
 }
