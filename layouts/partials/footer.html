@@ -6,5 +6,10 @@
 
 <script src="//static.getclicky.com/js" type="text/javascript"></script>
 <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100842593ns.gif" /></p></noscript>
-<script src="{{ .Site.BaseURL }}/assets/{{ .Site.Params.manifest.appjs }}"></script>
+
+  {{ if .Site.BuildDrafts }}
+    <script src="/assets/js/bundle.js"></script>
+  {{ else  }}
+    <script src="{{ .Site.BaseURL }}/assets/{{ .Site.Params.manifest.appjs }}"></script>
+  {{ end }}
 

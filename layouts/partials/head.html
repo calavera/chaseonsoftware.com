@@ -15,7 +15,11 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" />
 
-  <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/{{ .Site.Params.manifest.appcss }}">
+  {{ if .Site.BuildDrafts }}
+    <link rel="stylesheet" href="/assets/css/app.css">
+  {{ else  }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/{{ .Site.Params.manifest.appcss }}">
+  {{ end }}
 
   <link rel="shortcut icon" href="/favicon.ico?v=1">
 </head>
