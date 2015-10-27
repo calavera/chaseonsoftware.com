@@ -1,6 +1,6 @@
 @import "font-family";
 
-$space-grey: #2f3238;
+$space-grey: rgba(46,48,58,1);
 $space-grey-light: lighten($space-grey, 40%);
 $space-grey-lighter: lighten($space-grey, 70%);
 $space-rust: #B24E51;
@@ -153,8 +153,6 @@ p {
 
 #globalNav {
   @extend %widget;
-  width: 850px;
-  margin: 0 auto;
   height: 50px;
   z-index: 1000;
   font-family: $font-stack-sans;
@@ -207,7 +205,6 @@ p {
 
 #content {
   @extend %cf;
-  width: 850px;
   margin: 0 auto 50px;
   padding: 1em;
 
@@ -272,7 +269,7 @@ p {
   }
 }
 
-ul.social_share {
+#share_component {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -281,53 +278,58 @@ ul.social_share {
   @extend %cf;
   @extend %reset-list;
   font-family: $font-stack-sans;
-
   display: block;
-  > li {
-    @include col(4);
-    display: block;
+
+  .social_share {
     padding: 0;
-    color: #fff;
+    list-style: none;
 
-    &:hover {
-      cursor: pointer;
-    }
-
-    i, span {
-      float: left;
+    > li {
+      @include col(4);
       display: block;
-    }
+      padding: 0;
+      color: #fff;
 
-    i {
-      padding: 1em;
-    }
-
-    span {
-      padding: .5em;
-    }
-
-    &.fb {
-      i {
-        background: #2E4581;
+      &:hover {
+        cursor: pointer;
       }
 
-      background: #435C9B;
-    }
-
-    &.tw {
-      i {
-        background: #5694C7;
+      i, span {
+        float: left;
+        display: block;
       }
 
-      background: #6BB2ED;
-    }
-
-    &.li {
       i {
-        background: #2564A3;
+        padding: 1em;
       }
 
-      background: lighten(#2564A3, 20%);
+      span {
+        padding: .5em;
+      }
+
+      &.fb {
+        i {
+          background: #2E4581;
+        }
+
+        background: #435C9B;
+      }
+
+      &.tw {
+        i {
+          background: #5694C7;
+        }
+
+        background: #6BB2ED;
+      }
+
+      &.li {
+        i {
+          background: #2564A3;
+        }
+
+        background: lighten(#2564A3, 20%);
+      }
     }
   }
 }
@@ -375,6 +377,15 @@ ul.social_share {
     font-size: 55%;
   }
 
+  #globalNav {
+    width: 850px;
+    margin: 0 auto;
+  }
+
+  #content {
+    width: 850px;
+  }
+
   #main {
     @include col(8);
   }
@@ -399,6 +410,11 @@ ul.social_share {
 
   #sidebar {
     @include col(4);
+  }
+
+  ul.social_share {
+    width: 850px;
+    margin: 0 auto;
   }
 }
 
