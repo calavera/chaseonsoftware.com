@@ -14,17 +14,14 @@ module.exports = {
     },
     output: {
         path: __dirname + '/public/assets',
-        filename: 'js/bundle.[hash].js'
+        filename: 'js/bundle.js'
     },
     plugins: [
-        new ManifestPlugin({
-          stripSrc: true
-        }),
         new webpack.ProvidePlugin({
             React: 'react',
             Router: 'react-router'
         }),
-        new ExtractTextPlugin("css/[name].[hash].css"),
+        new ExtractTextPlugin("css/[name].css"),
         new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /de|fr|hu/)
     ],
     module: {
