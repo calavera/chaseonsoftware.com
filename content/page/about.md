@@ -36,7 +36,7 @@ I love life.
 
 Need to contact me? You can find me on [Twitter][12], [Facebook][13] or [shoot me an email][14].
 
-I am pretty happy as an engineer at Zappos.com, but if a great opportunity comes along, I do have a [resume][15].
+I am pretty happy as an engineer at Walmart Labs, but if a great opportunity comes along, I do have a [resume][15].
 
 [1]: /2013/12/08/my-story-why-i-believe-in-the-hour-of-code-initiative/
  [2]: /2014/01/14/the-dangers-of-a-controversial-statement-without-context/
