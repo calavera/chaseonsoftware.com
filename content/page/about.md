@@ -2,6 +2,7 @@
 title: About Me
 slug: about
 date: 2013-06-21T02:47:00Z
+updated: 2015-11-11T19:00:00Z
 ---
 
 ![chase adams](/img/chaseadamsio.png)

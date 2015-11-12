@@ -9,9 +9,9 @@ $space-blue-dark: #466F8B;
 $space-blue: #4991C2;
 $space-blue-light: #0098FF;
 
-$font-stack-sans: "Mangerica", helvetica, tahoma sans-serif;
+$font-stack-sans: "Montserrat", helvetica, tahoma sans-serif;
 $font-stack-sans-alt: "Realtime", helvetica, tahoma sans-serif;
-$font-stack: Georgia, "Times New Roman", serif;
+$font-stack: "Lora", Georgia, "Times New Roman", serif;
 
 %widget {
   background: $space-grey;
@@ -152,15 +152,17 @@ p {
 }
 
 #globalNav {
-  @extend %widget;
-  height: 50px;
+  @extend %cf;
+  padding-top: 2em;
   z-index: 1000;
-  font-family: $font-stack-sans;
-  text-transform: uppercase;
+  font-family: $font-stack;
+  font-weight: normal;
 
   h1 {
     @extend %reset;
+
     a {
+      font-size: 3rem;
       color: $space-blue;
     }
   }
@@ -171,7 +173,6 @@ p {
     padding: 0 1em;
     color: $space-grey-light;
     font-weight: 700;
-    line-height: 50px;
     vertical-align: middle;
 
     &:hover {
@@ -180,13 +181,17 @@ p {
   }
 
   li {
-
+    @extend %cf;
     &:first-child {
-      float: left;
+      text-align: center;
+      p {
+        margin: 0;
+        text-transform: lowercase;
+      }
     }
 
     &:last-child {
-      float: right;
+      text-align: center;
 
       li {
         float: left;
@@ -195,6 +200,13 @@ p {
           padding-left: 0;
         }
       }
+    }
+
+    > .nav {
+      @extend %cf;
+      margin-top: 1em;
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
     }
   }
 }
@@ -206,7 +218,6 @@ p {
 #content {
   @extend %cf;
   margin: 0 auto 50px;
-  padding: 1em;
 
   font-family: $font-stack;
 
@@ -226,14 +237,14 @@ p {
   }
 
   article {
-    padding: 1em;
+    padding: 1em 0;
 
     h1 {
       margin-bottom: 0;
       padding-bottom: 24px;
       border-bottom: $space-grey-lighter 1px solid;
       line-height: 1.5em;
-      text-align: center;
+      font-family: $font-stack-sans;
     }
 
     .post-content > p:first-child {
@@ -250,8 +261,10 @@ p {
     }
 
     footer {
-      font-family: $font-stack-sans;
+      position: relative;
+      z-index: 1000;
       margin: 1em 0;
+      font-family: $font-stack-sans;
 
       div {
         display: block;
@@ -334,34 +347,12 @@ p {
   }
 }
 
-#sidebar {
-  font-family: $font-stack;
-
-  h1 {
-    text-align: center;
-  }
-
-  p {
-    line-height: 1.5em;
-  }
-
-  .component {
-    margin-bottom: 1em;
-    padding-bottom: 1em;
-    border-bottom: $space-grey-lighter 1px solid;
-  }
-}
-
 #footer {
   background: $space-grey;
   color: #fff;
   padding: 1em;
   text-align: center;
   font-family: $font-stack-sans-alt;
-
-  #single & {
-    margin-bottom: 43px;
-  }
 
   a {
     color: $space-rust;
@@ -429,9 +420,5 @@ p {
 
   #main .blogroll li a {
     margin-left: 110px;
-  }
-
-  #single #footer {
-    margin-bottom: 50px;
   }
 }
