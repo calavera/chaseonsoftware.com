@@ -218,8 +218,12 @@ p {
 #content {
   @extend %cf;
   margin: 0 auto 50px;
-
+  padding: 1em 0;
   font-family: $font-stack;
+
+  h1 {
+    font-family: $font-stack-sans;
+  }
 
   .blogroll {
     @extend %reset-list;
@@ -237,8 +241,6 @@ p {
   }
 
   article {
-    padding: 1em 0;
-
     h1 {
       margin-bottom: 0;
       padding-bottom: 24px;
@@ -261,8 +263,6 @@ p {
     }
 
     footer {
-      position: relative;
-      z-index: 1000;
       margin: 1em 0;
       font-family: $font-stack-sans;
 
@@ -348,6 +348,8 @@ p {
 }
 
 #footer {
+  position: relative;
+  z-index: 1000;
   background: $space-grey;
   color: #fff;
   padding: 1em;
