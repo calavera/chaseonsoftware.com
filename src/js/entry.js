@@ -2,7 +2,7 @@ require('normalize.css/normalize.css');
 require('../sass/app.scss');
 require("static?!../favicon.ico?output=favicon.ico");
 require('./3party/socialSDK');
-require('./lib/share');
+// require('./lib/share');
 // var Router = require('react-router');
 // global.isInitial = true;
 

@@ -5,6 +5,9 @@
         <div id="app">
             {{ template "partials/nav.html" . }}
             <div id="content">
+
+              <h1>{{ .Title }}</h1>
+
               <ul class="blogroll">
                 {{ range .Data.Pages }}
                 <li class="post"><time>{{ .Date.Format "2006/01/02" }}</time> <a href="/{{ .Slug }}">{{ .Title }}</a></li>

@@ -9,9 +9,8 @@ $space-blue-dark: #466F8B;
 $space-blue: #4991C2;
 $space-blue-light: #0098FF;
 
-$font-stack-sans: "Montserrat", helvetica, tahoma sans-serif;
+$font-stack-sans: "Open Sans", helvetica, tahoma sans-serif;
 $font-stack-sans-alt: "Realtime", helvetica, tahoma sans-serif;
-$font-stack: "Lora", Georgia, "Times New Roman", serif;
 
 %widget {
   background: $space-grey;
@@ -125,7 +124,7 @@ li {
 
 a {
   text-decoration: none;
-  color: $space-blue;
+  color: #1690CC;
   transition: color .2s;
 
   &:hover {
@@ -151,23 +150,36 @@ p {
   }
 }
 
+#app {
+  padding: 5rem;
+}
+
 #globalNav {
   @extend %cf;
   padding-top: 2em;
   z-index: 1000;
-  font-family: $font-stack;
+  font-family: $font-stack-sans;
   font-weight: normal;
 
   h1 {
     @extend %reset;
 
     a {
-      font-size: 3rem;
-      color: $space-blue;
+      color: #000;
+
+      &:hover {
+        color: #1690CC;
+      }
+    }
+
+    span {
+      display: block;
+      font-weight: normal;
+      font-size: 2rem;
     }
   }
 
-  a {
+  .nav li a {
     @extend %type-normal;
     display: block;
     padding: 0 1em;
@@ -182,13 +194,6 @@ p {
 
   li {
     @extend %cf;
-    &:first-child {
-      text-align: center;
-      p {
-        margin: 0;
-        text-transform: lowercase;
-      }
-    }
 
     &:last-child {
       text-align: center;
@@ -205,8 +210,6 @@ p {
     > .nav {
       @extend %cf;
       margin-top: 1em;
-      border-top: 1px solid #ccc;
-      border-bottom: 1px solid #ccc;
     }
   }
 }
@@ -219,7 +222,7 @@ p {
   @extend %cf;
   margin: 0 auto 50px;
   padding: 1em 0;
-  font-family: $font-stack;
+  font-family: $font-stack-sans;
 
   h1 {
     font-family: $font-stack-sans;
@@ -357,10 +360,10 @@ p {
   font-family: $font-stack-sans-alt;
 
   a {
-    color: $space-rust;
+    color: #C2FFD5;
 
     &:hover {
-      color: $space-rust-b;
+      color: darken(#C2FFD5, 20%);
     }
   }
 }
@@ -373,6 +376,13 @@ p {
   #globalNav {
     width: 850px;
     margin: 0 auto;
+
+    h1 {
+      span {
+        font-size: 1em;
+        display: inline;
+      }
+    }
   }
 
   #content {
