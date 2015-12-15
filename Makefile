@@ -4,8 +4,10 @@ watch-hugo:
 	hugo server --watch --buildDrafts=true
 watch-webpack:
 	./node_modules/.bin/webpack --watch --config webpack.config.dev.js
+install-hugo:
+	./scripts/ci-install-hugo.sh
 publish:
-	make webpack && hugo && ./node_modules/.bin/surge --project public --domain chaseadams.io
+	make install-hugo && make webpack && hugo && ./node_modules/.bin/surge --project public --domain chaseadams.io
 webpack:
 	./node_modules/.bin/webpack --optimize-minimize && make manifest
 manifest:
