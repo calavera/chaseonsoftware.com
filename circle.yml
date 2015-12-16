@@ -1,7 +1,7 @@
 
 dependencies:
   pre:
-    - bash ./ci-install-hugo.sh
+    - bash ./scripts/ci-install-hugo.sh
   cache_directories:
     - bin
 
