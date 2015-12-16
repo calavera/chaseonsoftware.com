@@ -1,3 +1,10 @@
+
+dependencies:
+  pre:
+    - bash ./ci-install-hugo.sh
+  cache_directories:
+    - bin
+
 deployment:
   production:
     branch: master

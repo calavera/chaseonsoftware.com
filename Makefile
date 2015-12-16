@@ -7,7 +7,7 @@ watch-webpack:
 install-hugo:
 	bash ./scripts/ci-install-hugo.sh
 publish:
-	make install-hugo && make webpack && hugo && ./node_modules/.bin/surge --project public --domain chaseadams.io
+	make webpack && hugo && ./node_modules/.bin/surge --project public --domain chaseadams.io
 webpack:
 	./node_modules/.bin/webpack --optimize-minimize && make manifest
 manifest:
