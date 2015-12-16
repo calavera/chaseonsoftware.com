@@ -7,7 +7,7 @@ updated: 2015-11-11T19:00:00Z
 
 ![chase adams](/img/chaseadamsio.png)
 
-Hi there! My name is Chase Adams and I'm a Software Engineer at [Walmart Labs](http://www.walmartlabs.com) and part-time Frontend Instructor at <a href="http://www.theironyard.com">The Iron Yard</a>, a life hacker and advocate for alternative methods for learning.
+Hi there! My name is Chase Adams and I'm a Software Engineer at [Walmart Labs](http://www.walmartlabs.com), previously a part-time Frontend Instructor at <a href="http://www.theironyard.com">The Iron Yard</a> and before that a Frontend Developer at Zappos.com. I'm a life hacker and advocate for alternative methods for learning.
 
 My goal for chaseadams.io is to help other people discover the *tools*, *resources* and *inner-strengths* necessary to help them **find their dream job, their passion and the hidden free time** they always wanted. In order to satisfy this goal, I write about personal growth, [life hacking](/hacker/) & web technologies. I also write reviews on books, software, hardware and other cool products.
 
