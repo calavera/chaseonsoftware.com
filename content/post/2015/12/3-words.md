@@ -32,7 +32,7 @@ What I appreciate most about the practice of picking 3 Words is that it makes th
 
 So, 2016, here are my 3 words:
 
-- Dicovery
+- Discovery
 - Systematic
 - Rigour
 
