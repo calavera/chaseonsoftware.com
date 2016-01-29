@@ -7,5 +7,7 @@ cibuild-pre:
 	./script/cibuild-pre
 deploy:
 	make build && ./script/deploy
+test:
+	echo "Nothing to see here." && exit 0
 server:
 	./script/server
