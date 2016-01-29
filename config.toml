@@ -1,0 +1,22 @@
+theme = "minimalist"
+baseurl = "http://chaseadams.io"
+languageCode = "en-us"
+title = "chaseadams.io | intentional input for effective output"
+
+[params]
+  description = "I'm Chase Adams. Engineer at Walmart Labs. Life Learner. Programming Polyglot."
+  author = "Chase Adams"
+  dns = "digital ocean"
+
+[[menu.main]]
+  name = "About"
+  weight = -110
+  url = "/about"
+[[menu.main]]
+  name = "Blog"
+  weight = 110
+  url = "/"
+[[menu.main]]
+  name = "Archive"
+  weight = 210
+  url = "/archive"
