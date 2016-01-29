@@ -1,0 +1,9 @@
+name = "Minimalist"
+license = "MIT"
+licenselink = "https://github.com/chaseadamsio/chaseadams.io/blob/master/LICENSE.md"
+min_version = 0.14
+
+[author]
+  name = "Chase Adams"
+  homepage = "http://chaseadams.io"
+

@@ -1,0 +1,7 @@
+extends master
+  block content
+    ul
+      each $post in $.Data.Pages
+        if $.Section == "post"
+          li 
+            a[href=$.Permalink] #{$.Title}

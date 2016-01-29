@@ -1,0 +1,25 @@
+!!! 5
+html
+  head
+    title
+      block title
+        | #{$.Site.Title} 
+
+
+    link[rel="author"][href="humans.txt"]
+    meta[name="dns"][content=$.Site.Params.dns]
+    meta[name="viewport"][content="width=device-width, initial-scale=1.0, maximum-scale=1"]
+
+    block meta
+      meta[name="description"][content=$.Site.Params.description]
+    
+  body
+      h1
+        a[href=$.Site.BaseURL] #{$.Site.Title}
+
+      ul
+        each $menuItem in $.Site.Menus.main
+          li 
+            a[href=$.URL] #{$.Name}
+      
+      block content
