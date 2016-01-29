@@ -7,12 +7,16 @@ machine:
 
 dependencies:
   pre:
-    - bash ./scripts/ci-install-hugo.sh
+    - make cibuild-pre
   cache_directories:
     - bin
 
 deployment:
   production:
+    branch: production
+    commands:
+      - ENV=PRODUCTION make deploy 
+  staging:
     branch: master
     commands:
-      - make publish
+      - ENV=STAGING make deploy 

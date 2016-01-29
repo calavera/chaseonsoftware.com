@@ -1,0 +1,10 @@
+#!/bin/bash
+
+function writeCHECK {
+  touch ./public/CHECK.json \
+    && echo "{ \"timestamp\": \"$(date)\" }" >> ./public/CHECK.json;
+}
+
+hugo --baseURL=${ENV} \
+  && writeCHECK
+
