@@ -1,54 +1,7 @@
 {
   "name": "chaseadams.io",
-  "version": "2.2.1",
-  "description": "A bespoke blog platform",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"no test specified\""
-  },
-  "author": "Chase Adams (http://chaseadams.io)",
-  "license": "MIT",
-  "repository": "git@github.com:chaseadamsio/chaseadams.io.git",
-  "dependencies": {
-    "babel": "^5.5.8",
-    "css-loader": "^0.14.5",
-    "extract-text-webpack-plugin": "^0.8.2",
-    "front-matter": "^1.0.0",
-    "good": "^6.1.4",
-    "good-console": "^5.0.2",
-    "hapi": "^8.6.1",
-    "json-loader": "^0.5.2",
-    "jsx-loader": "^0.13.2",
-    "marked": "^0.3.3",
-    "moment": "^2.10.3",
-    "moment-timezone": "^0.4.0",
-    "node-dir": "^0.1.8",
-    "node-jsx": "^0.13.3",
-    "node-libs-browser": "^0.5.2",
-    "node-sass": "^3.2.0",
-    "normalize.css": "^3.0.3",
-    "react": "^0.13.3",
-    "react-router": "^0.13.3",
-    "rimraf": "^2.4.0",
-    "sass-loader": "^1.0.2",
-    "static-loader": "^0.1.8",
-    "style-loader": "^0.12.3",
-    "superagent": "^1.2.0",
-    "superagent-jsonp": "0.0.3",
-    "webpack": "^1.9.11"
-  },
-  "engines": {
-    "iojs": "1.0.x",
-    "node": "0.10.x"
-  },
+  "private": true,
   "devDependencies": {
-    "babel": "^5.8.29",
-    "fs-readdir-recursive": "^1.0.0",
-    "gulp": "^3.9.0",
-    "gulp-awspublish": "^2.0.2",
-    "gulp-minify-html": "^1.0.3",
-    "jsonfile": "^2.2.3",
-    "surge": "^0.17.3",
-    "webpack-manifest-plugin": "^0.4.0"
+    "surge": "^0.17.7"
   }
 }
