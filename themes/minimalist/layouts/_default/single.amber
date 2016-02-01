@@ -7,5 +7,6 @@ extends ../master
     | #{$.Title}
 
   block content
-    h1 #{$.Title}
-    div #{$.Content}
+    div.post
+      h1 #{$.Title}
+      div #{$.Content}

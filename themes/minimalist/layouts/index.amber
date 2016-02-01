@@ -1,6 +1,7 @@
 extends master
+
   block content
-    ul
+    ul.collection
       each $post in $.Data.Pages
         if $.Section == "post"
           li 
