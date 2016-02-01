@@ -8,9 +8,9 @@ function writeCHECK {
 ### SET DEPLOY URL ###
 DEPLOY_URL="";
 if [ "$STAGE" == "STAGING" ]; then
-  DEPLOY_URL="staging.chaseadams.io";
+  DEPLOY_URL="http://staging.chaseadams.io";
 elif [ "$STAGE" == "PRODUCTION" ]; then
-  DEPLOY_URL="chaseadams.io";
+  DEPLOY_URL="http://chaseadams.io";
 fi
 
 
