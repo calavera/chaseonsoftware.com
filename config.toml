@@ -1,9 +1,10 @@
 theme = "minimalist"
 baseurl = "http://chaseadams.io"
 languageCode = "en-us"
-title = "chaseadams.io | intentional input for effective output"
+title = "Chase Adams"
 
 [params]
+  tagline = "intentional input » effective output"
   description = "I'm Chase Adams. Engineer at Walmart Labs. Life Learner. Programming Polyglot."
   author = "Chase Adams"
   dns = "digital ocean"
