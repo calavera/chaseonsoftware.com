@@ -9,6 +9,11 @@ title = "Chase Adams"
   author = "Chase Adams"
   dns = "digital ocean"
 
+[permalinks]
+  post = "/:slug/"
+  archive = "/:slug/"
+  page = "/:filename/"
+
 [[menu.main]]
   name = "About"
   weight = -110
