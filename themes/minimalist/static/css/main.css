@@ -1,10 +1,18 @@
+@font-face {
+    font-family: 'Realtime';
+    src: url('/fonts/realtime/realtimerounded-black-webfont.woff2') format('woff2'),
+        url('/fonts/realtime/realtimerounded-black-webfont.woff') format('woff'),
+        url('/fonts/realtime/realtimerounded-black-webfont.ttf') format('truetype');
+    font-weight: bold;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  background: #2e303a;
   color: #000;
-  font-family: Georgia;
   font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -13,20 +21,69 @@ a {
   text-decoration: underline;
 }
 
+#app {
+  margin: 0 auto;
+  width: 95%;
+}
+
+img {
+  max-width: 100%;
+}
+
 #header {
   margin: 0;
-  margin-bottom: 1em;
-  background: #fff;
-  border-bottom: 1px solid #ccc;
+  margin-bottom: .5em;
+  color: #fff;
 }
 
 #header h1 {
-  font-size: 1.5em;
+  margin-top: 2em;
+  font-size: 1.5rem;
+}
+
+#header a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+#header span {
+  font-weight: normal;
+}
+
+#header ul.menu-main {
+  margin: 0;
+  padding: 0 .5em;
+  background: #F96E5B;
+  list-style: none;
+}
+
+#header .menu-main li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#header .menu-main li a {
+  display: block;
+  padding: .75em;
+  text-decoration: none;
+}
+
+#header .menu-main li a:hover {
+  background: #FF4B33;
+}
+
+#main {
+  margin: 0 auto;
+  width: 100%;
+  background: #f4f4f4;
 }
 
 #content {
-  margin: 0 auto;
-  width: 750px;
+  padding: 2em;
+  background: #fff;
 }
 
 #content ul.collection {
@@ -37,7 +94,9 @@ a {
 
 #content ul a {
   display: block;
-  margin-bottom: 1em;
+  padding: 1em 0;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
 }
 
 #content .post {
@@ -50,4 +109,15 @@ a {
   border-bottom: 1px solid #ccc;
   text-align: center;
   font-size: 1.5em;
+}
+
+#footer {
+  padding: 1em;
+  color: #f4f4f4;
+  font-family: "Realtime";
+  text-align: center;
+}
+
+#footer a {
+  color: #F96E5B; 
 }
