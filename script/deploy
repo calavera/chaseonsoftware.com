@@ -1,18 +1,18 @@
 #!/bin/bash
 
-if [ -z "$ENV" ]; then
+if [ -z "$STAGE" ]; then
   echo "Environment variable is not set.";
   exit 1;
 fi
 
 ### SET DEPLOY URL ###
 DEPLOY_URL="";
-if [ "$ENV" == "STAGING" ]; then
+if [ "$STAGE" == "STAGING" ]; then
   DEPLOY_URL="staging.chaseadams.io";
-elif [ "$ENV" == "PRODUCTION" ]; then
+elif [ "$STAGE" == "PRODUCTION" ]; then
   DEPLOY_URL="chaseadams.io";
 fi
 
-echo "Deploying to ${ENV}: ${DEPLOY_URL}";
+echo "Deploying to ${STAGE}: ${DEPLOY_URL}";
 
 ./node_modules/.bin/surge --project public --domain $DEPLOY_URL

@@ -15,8 +15,8 @@ deployment:
   production:
     tag: /v.*/
     commands:
-      - ENV=PRODUCTION make deploy 
+      - STAGE=PRODUCTION make deploy 
   staging:
     branch: master
     commands:
-      - ENV=STAGING make deploy 
+      - STAGE=STAGING make deploy 
