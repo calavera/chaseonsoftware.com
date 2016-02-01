@@ -1,4 +1,53 @@
 body {
-  background: #000;
-  color: #fff;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #000;
+  font-family: Georgia;
+  font-size: 1rem;
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#header {
+  margin: 0;
+  margin-bottom: 1em;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+#header h1 {
+  font-size: 1.5em;
+}
+
+#content {
+  margin: 0 auto;
+  width: 750px;
+}
+
+#content ul.collection {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#content ul a {
+  display: block;
+  margin-bottom: 1em;
+}
+
+#content .post {
+  font-size: 1.25em; 
+  line-height: 2em;
+}
+
+#content .post h1 {
+  padding-bottom: .5em;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  font-size: 1.5em;
 }
