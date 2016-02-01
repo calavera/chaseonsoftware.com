@@ -5,6 +5,15 @@ function writeCHECK {
     && echo "{ \"timestamp\": \"$(date)\" }" >> ./public/CHECK.json;
 }
 
-hugo --baseURL=${ENV} \
+### SET DEPLOY URL ###
+DEPLOY_URL="";
+if [ "$STAGE" == "STAGING" ]; then
+  DEPLOY_URL="staging.chaseadams.io";
+elif [ "$STAGE" == "PRODUCTION" ]; then
+  DEPLOY_URL="chaseadams.io";
+fi
+
+
+hugo --baseURL=${DEPLOY_URL} \
   && writeCHECK
 
