@@ -7,6 +7,7 @@ html
 
     link[rel="author"][href="/humans.txt"]
     link[rel="stylesheet"][href="/css/main.css"]
+    link[rel="stylesheet"][href="https://fonts.googleapis.com/css?family=Montserrat:400,700"][type="text/css"]
 
     meta[name="dns"][content=$.Site.Params.dns]
     meta[name="viewport"][content="width=device-width, initial-scale=1.0, maximum-scale=1"]
@@ -15,18 +16,28 @@ html
       meta[name="description"][content=$.Site.Params.description]
     
   body
-    div#header
-      h1
-        a[href=$.Site.BaseURL] #{$.Site.Title}
-        span #{$.Site.Params.tagline}
+    div#app
+      div#header
+        h1
+          a[href=$.Site.BaseURL] #{$.Site.Title}
+          span #{$.Site.Params.tagline}
 
-      ul
-        each $menuItem in $.Site.Menus.main
-          li 
-            a[href=$.URL] #{$.Name}
-      
-    div#content
-      block content
+        ul.menu-main
+          each $menuItem in $.Site.Menus.main
+            li 
+              a[href=$.URL] #{$.Name}
+        
+      div#main
+        div#content
+          block content
 
-    div#footer
-      #{$.Site.Params.footer}
+      div#footer
+        span Static site generated with Hugo, Webpack & Sass. 
+          br
+        span Find the source for 
+          a[href="https://github.com/chaseadamsio/chaseadams.io"] chaseadams.io on Github
+        br
+        span Built and deployed with 
+          a[href="https://circleci.com/gh/chaseadamsio/chaseadams.io"] CircleCI
+          span and hosted by
+          a[href="http://surge.sh"] Surge.sh

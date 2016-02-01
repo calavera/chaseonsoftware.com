@@ -1,0 +1,7 @@
+extends ../master
+
+  block content
+    ul.collection
+      each $post in $.Data.Pages
+        li 
+          a[href=$.Permalink] #{$.Title}
