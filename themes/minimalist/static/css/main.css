@@ -86,14 +86,13 @@ img {
 }
 
 #content {
-  padding: 2em;
-  background: #fff;
+  background: #f4f4f4;
   color: #2e303a;
 }
 
 #content ul.collection {
   margin: 0;
-  padding: 0;
+  padding: 2em;
   list-style: none;
 }
 
@@ -107,6 +106,7 @@ img {
 #content .post {
   font-size: 1.25em; 
   line-height: 2em;
+  padding: 2em;
 }
 
 #content .post h1 {
@@ -114,6 +114,34 @@ img {
   border-bottom: 1px solid #ccc;
   text-align: center;
   font-size: 1.5em;
+}
+
+#content .backdrop {
+  max-height: 500px; 
+  overflow: hidden;
+}
+
+#content .backdrop img {
+  margin-top: -45px;
+}
+
+#content .page {
+  width: 80%;
+  background: rgba(255,255,255,.8);
+  position: relative;
+  margin: 1em auto;
+  padding: 2em;
+}
+
+#content .page.is_squeeze h1,
+#content .page.is_squeeze h2, 
+#content .page.is_squeeze h3 {
+  text-align: center;
+}
+
+#content .page.has_backdrop {
+  margin: -180px auto 0;
+  z-index: 1000;
 }
 
 #footer {
@@ -125,4 +153,20 @@ img {
 
 #footer a {
   color: #F96E5B; 
+}
+
+a.btn {
+  display: inline-block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+a.btn.cta {
+  background: #F96E5B; 
+  color: #fff;
+}
+
+a.btn.cta:hover {
+  background: #FF4B33;
+  color: #fff;
 }
