@@ -16,7 +16,7 @@ title = "Chase Adams"
   page = "/:filename/"
 
 [[menu.main]]
-  name = "About"
+  name = "Start Here"
   weight = -110
   url = "/about"
 [[menu.main]]
