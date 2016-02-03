@@ -96,7 +96,7 @@ img {
   list-style: none;
 }
 
-#content ul a {
+#content ul.collection a {
   display: block;
   padding: 1em 0;
   border-bottom: 1px solid #ccc;
