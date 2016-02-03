@@ -1,1 +1,1 @@
-hugo server --verbose
+hugo server # --verbose
