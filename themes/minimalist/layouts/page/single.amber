@@ -1,0 +1,19 @@
+extends ../master
+
+  block meta
+    meta[name="description"][content=$.Description]
+    
+  block title
+    | #{$.Title}
+
+  block content
+    div.backdrop
+      img[src=$.Params.backdrop]
+    div.post.page
+      .has_backdrop ? $.Params.backdrop
+      .is_squeeze ? $.Params.backdrop
+      h1 #{$.Title}
+      div #{$.Content}
+      
+      if $.Params.updated
+        div Last Updated: #{$.Params.updated}
