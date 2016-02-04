@@ -1,0 +1,189 @@
+/** COLORS **/
+$red-primary: #F96E5B;
+$red-active: darken($red-primary, 20%);
+
+$gunmetal: #2e303a;
+
+$white: #fff;
+$cream: #f4f4f4;
+
+/* Defaults */
+* {
+  box-sizing: border-box;  
+}
+
+@font-face {
+    font-family: 'Realtime';
+    src: url('/fonts/realtime/realtimerounded-black-webfont.woff2') format('woff2'),
+        url('/fonts/realtime/realtimerounded-black-webfont.woff') format('woff'),
+        url('/fonts/realtime/realtimerounded-black-webfont.ttf') format('truetype');
+    font-weight: bold;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $gunmetal;
+  color: #000;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+
+  &.btn {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+
+    &.cta {
+      background: $red-primary; 
+      color: $white;
+
+      &:hover {
+        background: $red-active;
+      }
+    }
+  }
+}
+
+#app {
+  margin: 0 auto;
+  width: 95%;
+}
+
+img {
+  max-width: 100%;
+}
+
+#header {
+  margin: 0;
+  margin-bottom: .5em;
+  color: $white;
+
+  h1 {
+    margin-top: 2em;
+    font-size: 1.5rem;
+  }
+
+  a {
+    color: $white; 
+    text-decoration: none;
+  }
+
+  span {
+    font-weight: normal;
+  }
+
+  ul.menu-main {
+    margin: 0;
+    padding: 0 .5em;
+    background: $red-primary;
+    list-style: none;
+
+    li {
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+      font-size: 1rem;
+      text-transform: uppercase;
+
+      a {
+        display: block;
+        padding: .75em;
+        text-decoration: none;
+
+        &:hover {
+          background: $red-active;
+        }
+      }
+    }  
+  }
+}
+
+#main {
+  margin: 0 auto;
+  width: 100%;
+  background: #f4f4f4;
+}
+
+#content {
+  background: #f4f4f4;
+  color: #2e303a;
+
+  ul.collection {
+    margin: 0;
+    padding: 2em;
+    list-style: none;
+
+    a {
+      display: block;
+      padding: 1em 0;
+      border-bottom: 1px solid #ccc;
+      text-decoration: none;
+    }
+  }
+
+  .post {
+    font-size: 1.25em; 
+    line-height: 2em;
+    padding: 2em;
+
+    h1 {
+      padding-bottom: .5em;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      font-size: 1.5em;
+    }
+  }
+  .page.is_squeeze {
+    h1, h2, h3 {
+      text-align: center;
+    }
+  }
+}
+
+#footer {
+  padding: 1em;
+  color: $cream;
+  font-family: "Realtime";
+  text-align: center;
+
+  a {
+    color: $red-primary; 
+  }
+}
+
+
+
+
+@media (min-width: 800px) {
+
+  #content {
+
+    .page {
+      width: 80%;
+      background: rgba(255,255,255,.8);
+      position: relative;
+      margin: 1em auto;
+      padding: 2em;
+
+      &.has_backdrop {
+        margin: -8em auto 0;
+        z-index: 1000;
+      }
+    }
+    
+    .backdrop {
+      max-height: 500px; 
+      overflow: hidden;
+
+      img {
+        margin-top: -45px;
+      }
+    }
+  }
+}

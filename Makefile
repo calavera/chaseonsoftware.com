@@ -1,4 +1,6 @@
 .PHONY: clean
+bootstrap:
+	./script/bootstrap
 build:
 	make clean && ./script/build
 clean:

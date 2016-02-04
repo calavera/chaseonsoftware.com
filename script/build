@@ -13,6 +13,9 @@ elif [ "$STAGE" == "PRODUCTION" ]; then
   DEPLOY_URL="http://chaseadams.io";
 fi
 
+# build the theme on the fly
+cd themes/minimalist && npm run build
+cd ../../
 
 hugo --baseURL=${DEPLOY_URL} \
   && writeCHECK

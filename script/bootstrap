@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# install root npm dependencies
+npm install
+
+# install theme dependencies
+cd themes/minimalist && npm install
