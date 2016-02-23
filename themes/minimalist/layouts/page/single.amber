@@ -7,11 +7,14 @@ extends ../master
     | #{$.Title}
 
   block content
-    div.backdrop
-      img[src=$.Params.backdrop]
+    if $.Params.backdrop
+      div.backdrop
+        img[src=$.Params.backdrop] 
+
     div.post.page
       .has_backdrop ? $.Params.backdrop
-      .is_squeeze ? $.Params.backdrop
+      .is_squeeze ? $.Params.backdrop 
+      .thin ? $.Params.is_thin
       h1 #{$.Title}
       div #{$.Content}
       

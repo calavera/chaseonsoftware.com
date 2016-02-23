@@ -1,3 +1,3 @@
 cd themes/minimalist && npm run build && cd ../../
 
-hugo server # --verbose
+hugo server --verbose --buildDrafts

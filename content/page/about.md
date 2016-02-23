@@ -12,7 +12,11 @@ squeeze: true
 
 I share what I consider my "intentional input" that has allowed me to create room for effective/exceptional output.
 
-The main maxim I follow in life is that "intentional input yields exceptional output". The great thing about this maxim is that it's simply two components: _input_ and _output_. IO.
+The main maxim I follow in life is this:
+
+> "intentional input yields exceptional output". 
+
+The great thing about this maxim is that it's simply two components: _input_ and _output_. IO.
 
 I started my journey by creating a [eulogy][], a story of how I want to be remembered (part of "Beginning with the End In Mind" from The Seven Habits of Highly Effective People). 
 

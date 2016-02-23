@@ -3,6 +3,8 @@ baseurl = "http://chaseadams.io"
 languageCode = "en-us"
 title = "Chase Adams"
 
+topic = "topics"
+
 [params]
   tagline = "intentional input » effective output"
   description = "I'm Chase Adams. Engineer at Walmart Labs. Life Learner. Programming Polyglot."
@@ -11,7 +13,7 @@ title = "Chase Adams"
   gaid = "UA-62564031-1"
 
 [permalinks]
-  post = "/:slug/"
+  articles = "/:slug/"
   archive = "/:slug/"
   page = "/:filename/"
 
@@ -22,7 +24,7 @@ title = "Chase Adams"
 [[menu.main]]
   name = "Blog"
   weight = 110
-  url = "/"
+  url = "/articles"
 [[menu.main]]
   name = "Archive"
   weight = 210

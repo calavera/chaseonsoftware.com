@@ -1,8 +1,41 @@
-extends master
-
-  block content
-    ul.collection
-      each $post in $.Data.Pages
-        if $.Section == "post"
+!!! 5
+html
+  import partials/head
+    
+  body
+    div#app
+      import partials/header
+        
+      div#chase
+        ul.content
           li 
-            a[href=$.Permalink] #{$.Title}
+            span.heading writes about
+            a[href="/articles"] technology, productivity, remote work & other things
+          li 
+            span.heading is
+            span.contents
+              span follower of Christ
+              span /
+              span essentialist
+              span /
+              span technologist
+          li
+            span.heading from
+            span.contents Las Vegas, Nevada
+          li 
+            span.heading around the web
+            span.contents
+              a[href="https://twitter.com/chaseadamsio"] twitter
+              span /
+              a[href="https://github.com/chaseadamsio"] github
+          li 
+            span.heading latest
+            span.contents
+              a[href="/now"] what I'm doing now
+
+        ul#main-menu
+          li
+            a[href="/articles"] blog
+          li
+            a[href="/about"] about chaseadams.io
+

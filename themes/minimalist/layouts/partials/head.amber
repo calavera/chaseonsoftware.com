@@ -1,0 +1,14 @@
+head
+  title
+    block title
+      | #{$.Site.Title} 
+
+  link[rel="author"][href="/humans.txt"]
+  link[rel="stylesheet"][href="/css/main.css"]
+  link[rel="stylesheet"][href="https://fonts.googleapis.com/css?family=Montserrat:400,700"][type="text/css"]
+
+  meta[name="dns"][content=$.Site.Params.dns]
+  meta[name="viewport"][content="width=device-width, initial-scale=1.0, maximum-scale=1"]
+
+  block meta
+    meta[name="description"][content=$.Site.Params.description]
