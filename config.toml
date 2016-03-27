@@ -16,6 +16,7 @@ topic = "topics"
   articles = "/:slug/"
   archive = "/:slug/"
   page = "/:filename/"
+  essays = "/essays/:slug/"
 
 [[menu.main]]
   name = "Start Here"
