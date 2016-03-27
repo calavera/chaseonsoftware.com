@@ -1,3 +1,4 @@
 cd themes/minimalist && npm run build && cd ../../
 
-hugo server --verbose --buildDrafts --renderToDisk
+# renderToDisk is a "workaround" for issues#1716
+hugo server --verbose --renderToDisk=true --buildDrafts=true
