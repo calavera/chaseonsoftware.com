@@ -160,6 +160,16 @@ ul.collection {
   }
 }
 
+.page {
+  font-family: georgia, serif;
+
+  .purpose {
+    line-height: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+  }
+}
+
 @media (min-width: 801px) {
   #app {
     width: 650px;
