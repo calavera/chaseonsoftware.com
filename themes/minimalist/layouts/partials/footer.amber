@@ -4,7 +4,6 @@ div#footer
     br
   span Find the source for 
     a[href="https://github.com/chaseadamsio/chaseadams.io"] chaseadams.io on Github
-  br
   span Built and deployed with 
     a[href="https://circleci.com/gh/chaseadamsio/chaseadams.io"] CircleCI
     span and hosted by

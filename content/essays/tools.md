@@ -6,7 +6,7 @@ description: All work requires tools.
 purpose: Explain my view on the purpose of tools, how they should be selected and how tools should be leveraged.
 ---
 
-The best tools get out of the way so you can do your best work.
+**_The best tools get out of the way so you can do your best work._**
 
 It's pretty common in the software field for newcomers to ask: "What's the best tool for _X_?"
 
