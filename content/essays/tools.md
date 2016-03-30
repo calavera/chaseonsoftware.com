@@ -2,23 +2,26 @@
 title: Tools
 slug: tools
 draft: true
-description: All work requires tools.
-purpose: Explain my view on the purpose of tools, how they should be selected and how tools should be leveraged.
+purpose: In which I define the qualities of effective tools and the gravity of choosing the right tools for yourself and for others.
 ---
 
-**_The best tools get out of the way so you can do your best work._**
+It's pretty common in the software field, for both newcomers and seasoned engineers to ask: "What tool do you use for **&lt;insert task&gt;**?"
 
-It's pretty common in the software field for newcomers to ask: "What's the best tool for _X_?"
+Although many software developers could easily rattle off the list of tools they use for each "X" in their day-to-day, but such an answer would miss _the nature of the true question_, which is: 
 
-I could easily rattle off the list of tools I use for each "X" in my day-to-day, but that doesn't help someone understand _why_ it's the best tool for me, nor does it answer the _real_ question, which is: "What's the best tool for _X_ for *me*?".
+> "What's the best tool for _X_ so I can be effective?"
 
-The best tools:
+**The best tools get out of the way so you can do your best work.**
+
+The _right_ tools:
 
 - get the job done.
 - are easy _for the user_ to learn. (I have one exception to this principle: vim)
 - can be customized to your workflow.
 - can be automated.
 - integrate with other tools. 
+
+While that may seem like a simple, _vague_ answer, it surfaces a general truth: **You are unique, and your uniquity requires a unique toolbox.**
 
 ## Picking Tools For Yourself
 
