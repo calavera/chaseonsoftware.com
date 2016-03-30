@@ -1,0 +1,17 @@
+extends ../master
+
+  block meta
+    meta[name="description"][content=$.Description]
+    
+  block title
+    | #{$.Title}
+
+  block content
+    div.post.page
+      h1 #{$.Title}
+      if $.Params.purpose
+        div.purpose #{$.Params.purpose}
+      div #{$.Content}
+      
+      if $.Params.updated
+        div Last Updated: #{$.Params.updated}
