@@ -13,13 +13,17 @@ Although many software developers could easily rattle off the list of tools they
 
 **The best tools get out of the way so you can do your best work.**
 
-The _right_ tools:
+## Qualities of Effective Tools
 
-- get the job done.
-- are easy _for the user_ to learn. (I have one exception to this principle: vim)
+In my career, I've developed the following list of qualities that must be met for me to choose a tool for my toolbox.
+
+An effective tool:
+
+- gets the job done with no hoops.
+- is easy _for the user_ to learn. (I have one exception to this principle: vim)
 - can be customized to your workflow.
 - can be automated.
-- integrate with other tools. 
+- integrates easily with other tools. 
 
 While that may seem like a simple, _vague_ answer, it surfaces a general truth: **You are unique, and your uniquity requires a unique toolbox.**
 
