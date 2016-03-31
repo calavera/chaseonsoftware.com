@@ -61,7 +61,7 @@ img {
   }
 }
 
-#content { 
+#main { 
   h1 {
     text-align: center;
     line-height: 2.75rem;
@@ -69,10 +69,6 @@ img {
 
   h2, h3, h4 {
     line-height: 2rem;
-  }
-
-  p, li {
-    line-height: 1.5rem;
   }
 
   blockquote {
@@ -163,10 +159,6 @@ ul.collection {
 .post {
   h1 {
     text-align: center;
-  }
-
-  h2, h3, h4 {
-    line-height: 2rem;
   }
 
   .content {
