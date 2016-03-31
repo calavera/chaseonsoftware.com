@@ -9,4 +9,4 @@ extends ../master
   block content
     div.post
       h1 #{$.Title}
-      div #{$.Content}
+      div.content #{$.Content}

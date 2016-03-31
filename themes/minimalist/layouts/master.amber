@@ -8,7 +8,6 @@ html
       import partials/navigation
         
       div#main
-        div#content
-          block content
+        block content
 
       import partials/footer

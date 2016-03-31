@@ -10,7 +10,7 @@ html
         ul.content
           li 
             span.heading writes about
-            a[href="/articles"] technology, productivity, remote work & other things
+            a[href="/article"] technology, productivity, remote work & other things
           li 
             span.heading is
             span.contents
