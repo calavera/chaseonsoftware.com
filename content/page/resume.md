@@ -20,15 +20,28 @@ aliases: [
 
 ## Experience
 
-### Senior Software Engineer @ [Walmart Labs](http://www.walmartlabs.com/)
+### Lead Software Engineer, CI/CD for Customer Experience Engineering @ [Walmart Labs](http://www.walmartlabs.com/)
 
-*July 2015 - Present*
+*January 2016 - Present*
 
-- Using HapiJS & ReactJS to help build [walmart.com](http://wwww.walmart.com)
+- Led CI/CD initiative for all react component libraries and 12 track teams 
+- Created pipelines that facilitated 2 week release cycles becoming daily deployments
+- Trained CI/CD team members on debugging build logs for track teams 
+- Created and streamlined Pull Request Verification process for better and faster feedback
+- Created processes and documentation to alleviate CI/CD team from needing to answer common build issues
+
+### Senior Software Engineer, App Platform @ [Walmart Labs](http://www.walmartlabs.com/)
+
+*July 2015 - December 2015*
+
+- Created tooling to maintain dependencies 60+ react component library repositories 
+- Integrated checks for lint and unit tests for 60+ (and growing) react component libraries
+- Collaborated on creating best practices and core components for track teams for walmart.com
+- Educated individuals and teams on debugging practices and internal best practices
 
 ### Frontend Instructor @ [The Iron Yard](http://www.theironyard.com)
 
-*July 2015 - Present*
+*July 2015 - October 2015*
 
 - Taught 5 new frontend developers to build the web using the following technologies: HTML, CSS, Javascript & Git
 
