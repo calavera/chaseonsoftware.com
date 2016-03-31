@@ -13,10 +13,10 @@ topic = "topics"
   gaid = "UA-62564031-1"
 
 [permalinks]
-  articles = "/:slug/"
+  article = "/:slug/"
   archive = "/:slug/"
   page = "/:filename/"
-  essays = "/essays/:slug/"
+  essay = "/:slug/"
 
 [[menu.main]]
   name = "Start Here"
