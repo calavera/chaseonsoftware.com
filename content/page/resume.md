@@ -14,10 +14,6 @@ aliases: [
 - Email: [realchaseadams@gmail.com](mailto:realchaseadams@gmail.com)
 - Site: [realchaseadams.com](http://www.realchaseadams.com)
 
-## Objective
-
-*Building forward thinking, performance-centric websites by pushing on the edges of new technologies, iterating based on well analyzed data and educating others of the beauty & power of the open web.*
-
 ## Experience
 
 ### Lead Software Engineer, CI/CD for Customer Experience Engineering @ [Walmart Labs](http://www.walmartlabs.com/)
