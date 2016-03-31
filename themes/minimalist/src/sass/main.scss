@@ -6,7 +6,7 @@ $base02: #4f5b66;
 $base07: #eff1f5;
 $base08: #bf616a;
 
-// Railscast
+// Railscast Modd
 $base00: #272822;
 $base01: #272935;
 $base02: #3a4055;
@@ -14,7 +14,7 @@ $base03: #5a647e;
 $base04: #d4cfc9;
 $base05: #e6e1dc;
 $base06: #f4f1ed;
-$base07: #f9f7f3;
+$base07: #f7f7f7;
 $base08: #da4939;
 $base09: #cc7833;
 $base0A: #ffc66d;
@@ -31,7 +31,7 @@ $base0F: #bc9458;
 
 html {
   font-size: 90%/1;
-  font-family: Helvetica, arial, sans-serif;
+  font-family: "Droid Sans", Helvetica, arial, sans-serif;
   background: $base07;
   color: $base00;
 }
@@ -160,9 +160,18 @@ ul.collection {
   }
 }
 
-.page {
-  font-family: georgia, serif;
+.post {
+  h1 {
+    text-align: center;
+  }
 
+  .content {
+    font-family: "Droid Serif", georgia, serif;
+    line-height: 1.5rem;
+  }
+}
+
+.page {
   .purpose {
     line-height: 1.5em;
     font-style: italic;
@@ -180,10 +189,14 @@ ul.collection {
 @media (max-width: 800px) {
   #app {
     width: 100%;
+    padding: 2rem;
   }
 
-  #header, ul.menu-main, #content {
-    padding: 0 2rem;
+  .post {
+    ul {
+      margin: 0;
+      padding: 0 1rem;
+    }
   }
 
   #footer {

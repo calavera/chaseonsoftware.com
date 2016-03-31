@@ -25,7 +25,7 @@ topic = "topics"
 [[menu.main]]
   name = "Blog"
   weight = 110
-  url = "/articles"
+  url = "/article"
 [[menu.main]]
   name = "Archive"
   weight = 210
