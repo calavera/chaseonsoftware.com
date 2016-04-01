@@ -15,7 +15,7 @@ It seems a trivial task to share how I make pour over coffee and what I use, but
 - [KRUPS F203 Electric Spice and Coffee Grinder with Stainless Steel Blades, 3-Ounce, Black](http://www.amazon.com/KRUPS-Electric-Grinder-Stainless-3-Ounce/dp/B00004SPEU/ref=sr_1_1?ie=UTF8&qid=1459476677&sr=8-1&keywords=grinder+krups) (I'm cheap and know my [coffee would be better with a burr grinder](
 http://drinks.seriouseats.com/2014/01/replace-blade-grinder-with-burr-grinder-best-coffee-equipment-advice.html))
 
-## Making A Single Pour Over [The "Make Do with What You Have" Man's Coffee]
+## The "Make Do with What You Have" Man's Pour-Over Coffee
 
 - Measure ~1.5 Tablespoons of beans into the blade Grinder (1.5 is just right for 10 ounces of water for me).
 - Pulse the grinder on-and-off again for a 7 Mississippi count.
