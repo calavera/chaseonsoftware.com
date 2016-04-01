@@ -9,8 +9,8 @@ extends ../master
   block content
     div.post.page
       h1 #{$.Title}
-      if $.Params.purpose
-        div.purpose #{$.Params.purpose}
+      if $.Params.description
+        div.purpose #{$.Params.description}
       div #{$.Content}
       
       if $.Params.updated

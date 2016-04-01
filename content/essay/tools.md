@@ -2,7 +2,7 @@
 title: Tools
 slug: tools
 draft: true
-purpose: In which I define the qualities of effective tools and the gravity of choosing the right tools for yourself and for others.
+description: In which I define the qualities of effective tools and the gravity of choosing the right tools for yourself and for others.
 ---
 
 It's pretty common in the software field, for both newcomers and seasoned engineers to ask: "What tool do you use for **&lt;insert task&gt;**?"
