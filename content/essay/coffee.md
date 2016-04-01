@@ -9,10 +9,10 @@ It seems a trivial task to share how I make pour over coffee and what I use, but
 
 ## My Coffee Loadout
 
-- [Tanors Ceramic Coffee Dripper]()
-- [Hario 02 100 Count Coffee Paper Filter, Natural]()
-- [2 Yeti Low Ball Mugs (w/ Lids)]()
-- [KRUPS F203 Electric Spice and Coffee Grinder with Stainless Steel Blades, 3-Ounce, Black]() (I'm cheap and know my [coffee would be better with a burr grinder](
+- [Tanors Ceramic Coffee Dripper](https://www.amazon.com/gp/product/B00JNZ7VNW/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1)
+- [Hario 02 100 Count Coffee Paper Filter, Natural](https://www.amazon.com/gp/product/B001O0R46I/ref=oh_aui_detailpage_o08_s00?ie=UTF8&psc=1)
+- [2 Yeti Low Ball Mugs (w/ Lids)](http://www.amazon.com/Yeti-Coolers-Stainless-Rambler-Lowball/dp/B015AI227K?ie=UTF8&keywords=yeti%20lowball&qid=1459476656&ref_=sr_1_1&sr=8-1)
+- [KRUPS F203 Electric Spice and Coffee Grinder with Stainless Steel Blades, 3-Ounce, Black](http://www.amazon.com/KRUPS-Electric-Grinder-Stainless-3-Ounce/dp/B00004SPEU/ref=sr_1_1?ie=UTF8&qid=1459476677&sr=8-1&keywords=grinder+krups) (I'm cheap and know my [coffee would be better with a burr grinder](
 http://drinks.seriouseats.com/2014/01/replace-blade-grinder-with-burr-grinder-best-coffee-equipment-advice.html))
 
 ## Making A Single Pour Over [The "Make Do with What You Have" Man's Coffee]
@@ -35,6 +35,6 @@ This process usually takes me anywhere between 5-8 minutes. It's a lot of waitin
 
 I'll always choose light or blonde roast, I like the smooth but obvious flavors that come out without being bitter.
 
-- **Starbucks Veranda.** I've most likely lost any street cred I had with anyone who respects coffee at "Blade grinder" and if I didn't, this will be the breaking point, but I really enjoy their blonde roast. It has a smooth taste and I've never made a cup that tasted bitter.
-- **Kicking Horse Three Sisters Blend.** For a medium roast, it's also still pretty smooth, but is a little more bold.
-- **Lion Coffee Kona Gold.** My friend Kevin Sakamoto brought me a bag of this back from Hawaii years ago and it has been, and will continue to be, my favorite coffee.
+- **[Starbucks Veranda](http://www.amazon.com/Starbucks-Veranda-Blend-x2122-Coffee/dp/B006WA2H9Y/ref=sr_1_1_a_it?ie=UTF8&qid=1459476713&sr=8-1&keywords=starbucks+veranda+bean).** I've most likely lost any street cred I had with anyone who respects coffee at "Blade grinder" and if I didn't, this will be the breaking point, but I really enjoy their blonde roast. It has a smooth taste and I've never made a cup that tasted bitter.
+- **[Kicking Horse Three Sisters Blend](http://www.amazon.com/Kicking-Horse-Coffee-Sisters-Medium/dp/B0027Z5J6G/ref=sr_1_3_a_it?ie=UTF8&qid=1459476752&sr=8-3&keywords=kicking+horse).** For a medium roast, it's also still pretty smooth, but is a little more bold.
+- **[Lion Kona Gold Premium 10% Kona Coffee Blend](http://www.amazon.com/Kona-Gold-Premium-Coffee-Blend/dp/B00EZG6URC/ref=sr_1_3_a_it?ie=UTF8&qid=1459476787&sr=8-3&keywords=lion+kona).** My friend Kevin Sakamoto brought me a bag of this back from Hawaii years ago and it has been, and will continue to be, my favorite coffee.
