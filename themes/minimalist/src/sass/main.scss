@@ -54,7 +54,7 @@ a {
   text-decoration: none;
   color: $base03;
   &:hover {
-    color: $base09;
+    color: $base08;
   }
 }
 
@@ -62,17 +62,23 @@ img {
   max-width: 100%;
 }
 
-#app #header {
-  background: $base02;
-  color: $base07;
+#header {
   padding: 1rem;
+
+  #app & {
+    background: $base02;
+    color: $base07;
+  }
 
   h1 {
     font-weight: normal;
     font-size: 1.4rem;
 
-    a {
+    #app & a {
       color: $baselt;
+      &:hover {
+        color: $base08;
+      }
     }
   }
 }
@@ -106,6 +112,7 @@ ul.menu-main {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-transform: lowercase;
 
   li {
     display: inline-block;
@@ -203,7 +210,7 @@ ul.collection {
 }
 
 @media (min-width: 801px) {
-  #home, #main {
+  #home, #app {
     width: 650px;
     margin: 0 auto;
   }
