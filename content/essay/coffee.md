@@ -1,7 +1,7 @@
 +++
-title: Coffee
-slug: coffee
-purpose: "In which I share how I make the sweet, life driving nectar: coffee."
+title = "Coffee"
+slug = "coffee"
+purpose = "In which I share how I make the sweet, life driving nectar: coffee."
 +++
 
 It seems a trivial task to share how I make pour over coffee and what I use, but when I started my adventure of learning about coffee, I spent a lot of time digging through the internet to figure out how to do it _right_. 
