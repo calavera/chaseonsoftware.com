@@ -5,5 +5,5 @@ extends ../master
       each $post in $.Data.Pages
         li 
           a[href=$.Permalink] #{$.Title} 
-          if $.Params.description
-            div #{$.Params.description}
+          if $.Description
+            div #{$.Description}

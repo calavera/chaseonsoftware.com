@@ -3,7 +3,7 @@ html
   import partials/head
     
   body
-    div#app
+    div#home
       import partials/header
         
       div#chase
