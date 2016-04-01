@@ -24,6 +24,14 @@ $base0D: #6d9cbe;
 $base0E: #b6b3eb;
 $base0F: #bc9458;
 
+// Custom Ocean
+$baselt: #f7f7f7;
+$base00: #24272d;
+$base01: #2b333d;
+$base02: #333c47;
+$base07: #c5d0de;
+$base09: #f99157;
+
 /* Defaults */
 * {
   box-sizing: border-box;  
@@ -32,7 +40,7 @@ $base0F: #bc9458;
 html {
   font-size: 90%/1;
   font-family: "Roboto", Helvetica, arial, sans-serif;
-  background: $base07;
+  background: $baselt;
   color: $base00;
 }
 
@@ -42,11 +50,11 @@ body {
 }
 
 a {
+  font-weight: bold;
   text-decoration: none;
   color: $base03;
   &:hover {
-    text-decoration: underline;
-    color: $base08;
+    color: $base09;
   }
 }
 
@@ -54,14 +62,28 @@ img {
   max-width: 100%;
 }
 
-#header {
+#app #header {
+  background: $base02;
+  color: $base07;
+  padding: 1rem;
+
   h1 {
-    margin: 2rem 0;
+    font-weight: normal;
     font-size: 1.4rem;
+
+    a {
+      color: $baselt;
+    }
   }
 }
 
+#app {
+  background: $baselt;
+}
+
 #main { 
+  padding: 1rem;
+
   h1 {
     text-align: center;
     line-height: 2.75rem;
@@ -80,23 +102,28 @@ img {
 }
 
 ul.menu-main {
-  margin: 0 0 1rem 0;
-  padding: 1rem 0;
+  background: $base01;
+  margin: 0;
+  padding: 0;
   list-style: none;
-  border-top: 1px solid $base03;
-  border-bottom: 2px solid $base03;
 
   li {
     display: inline-block;
     margin: 0;
-    padding: 0 .5rem;
 
     &:first-child {
       padding-left: 0;
     }
 
     a {
-      color: $base01;
+      display: block;
+      padding: .75rem;
+      color: $base07;
+      &:hover {
+        text-decoration: none;
+        background: $base00;
+        color: $baselt;
+      }
     }
   }
 }
@@ -147,7 +174,7 @@ ul.collection {
   margin: 1rem 0 0;
   padding: 1rem 0;
   text-align: center;
-  background: $base00;
+  background: $base01;
   color: $base04;
 
   > span {
@@ -176,14 +203,14 @@ ul.collection {
 }
 
 @media (min-width: 801px) {
-  #app {
+  #home, #main {
     width: 650px;
     margin: 0 auto;
   }
 }
 
 @media (max-width: 800px) {
-  #app {
+  #home, #main {
     width: 100%;
     padding: 2rem;
   }

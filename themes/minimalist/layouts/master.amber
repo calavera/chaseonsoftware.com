@@ -10,4 +10,4 @@ html
       div#main
         block content
 
-    import partials/footer
+      import partials/footer
