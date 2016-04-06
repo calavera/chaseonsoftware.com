@@ -38,8 +38,8 @@ $base09: #f99157;
 }
 
 html {
-  font-size: 90%/1;
-  font-family: "Roboto", Helvetica, arial, sans-serif;
+  font-size: 100%/1;
+  font-family: "Source Sans Pro", Helvetica, arial, sans-serif;
   background: $baselt;
   color: $base00;
 }
@@ -126,6 +126,8 @@ ul.menu-main {
       display: block;
       padding: .75rem;
       color: $base07;
+      font-weight: normal;
+
       &:hover {
         text-decoration: none;
         background: $base00;
@@ -146,6 +148,10 @@ ul.collection {
 
       &:last-child {
         border-bottom: none;
+      }
+
+      a {
+        font-weight: normal;
       }
     }
 }
@@ -196,7 +202,6 @@ ul.collection {
   }
 
   .content {
-    //font-family: "Droid Serif", georgia, serif;
     line-height: 1.5rem;
   }
 }
@@ -211,7 +216,7 @@ ul.collection {
 
 @media (min-width: 801px) {
   #home, #app {
-    width: 650px;
+    width: 750px;
     margin: 0 auto;
   }
 }
@@ -234,7 +239,7 @@ ul.collection {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   #header h1 span {
     display: block;
   }
