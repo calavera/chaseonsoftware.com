@@ -8,13 +8,9 @@ stages:
   - staging
 
 staging:
-  stage: deploy
+  stage: staging
   script:
     - make cibuild-pre
     - STAGE="STAGING" make deploy
   only:
     - master
-
-lint:
-  script:
-    - echo "hello world!"
