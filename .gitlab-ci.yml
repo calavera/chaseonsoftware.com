@@ -1,0 +1,16 @@
+image: node:4.2.2
+
+before_script:
+  - npm install
+  - echo "Successfully run the runner!"
+
+stages:
+  - staging
+
+staging:
+  stage: staging
+  script:
+    - make cibuild-pre
+    - STAGE="STAGING" make deploy
+  only:
+    - master
