@@ -7,3 +7,10 @@ before_script:
 lint:
   script:
     - echo "hello world!"
+
+staging:
+  type: deploy
+    - make cibuild-pre
+    - STAGE="STAGING" make deploy
+  only:
+    - master
