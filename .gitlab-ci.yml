@@ -4,13 +4,17 @@ before_script:
   - npm install
   - echo "Successfully run the runner!"
 
-lint:
-  script:
-    - echo "hello world!"
+stages:
+  - staging
 
 staging:
-  type: deploy
+  stage: deploy
+  script:
     - make cibuild-pre
     - STAGE="STAGING" make deploy
   only:
     - master
+
+lint:
+  script:
+    - echo "hello world!"
