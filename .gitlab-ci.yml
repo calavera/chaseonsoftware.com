@@ -5,4 +5,8 @@ pages:
     - make cibuild-pre
     - cd themes/minimalist && npm run build
     - hugo
-  only: master
+  artifacts:
+    paths:
+      -public
+  only: 
+    - master
