@@ -1,12 +1,15 @@
 image: node:4.2.2
 
+stages:
+  - deploy
 pages:
+  stage: deploy
   script:
     - make cibuild-pre
     - cd themes/minimalist && npm run build
     - hugo
   artifacts:
     paths:
-      -public
+      - public
   only: 
     - master
