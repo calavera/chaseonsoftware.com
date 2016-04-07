@@ -1,25 +1,15 @@
 image: node:4.2.2
 
-before_script:
-  - npm install
-  - echo "Successfully run the runner!"
-
 stages:
-  - staging
-  - production
-
-staging:
-  stage: staging
+  - deploy
+pages:
+  stage: deploy
   script:
     - make cibuild-pre
-    - STAGE="STAGING" make deploy
-  only:
+    - cd themes/minimalist && npm run build
+    - hugo
+  artifacts:
+    paths:
+      - public
+  only: 
     - master
-
-production:
-  stage: production
-  script:
-    - make cibuild-pre
-    - STAGE="PRODUCTION" make deploy
-  only:
-    - tags
