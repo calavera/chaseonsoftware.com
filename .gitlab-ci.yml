@@ -22,4 +22,4 @@ production:
     - make cibuild-pre
     - STAGE="PRODUCTION" make deploy
   only:
-    - master
+    - tags
