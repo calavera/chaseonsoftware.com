@@ -6,11 +6,20 @@ before_script:
 
 stages:
   - staging
+  - production
 
 staging:
   stage: staging
   script:
     - make cibuild-pre
     - STAGE="STAGING" make deploy
+  only:
+    - master
+
+production:
+  stage: production
+  script:
+    - make cibuild-pre
+    - STAGE="PRODUCTION" make deploy
   only:
     - master
