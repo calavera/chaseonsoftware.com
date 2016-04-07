@@ -6,7 +6,7 @@ pages:
   stage: deploy
   script:
     - make cibuild-pre
-    - cd themes/minimalist && npm run build
+    - cd themes/minimalist && npm run build && cd ../../
     - hugo
   artifacts:
     paths:
