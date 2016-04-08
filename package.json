@@ -1,7 +1,0 @@
-{
-  "name": "chaseadams.io",
-  "private": true,
-  "devDependencies": {
-    "surge": "^0.17.7"
-  }
-}

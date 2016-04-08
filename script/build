@@ -1,22 +1,14 @@
 #!/bin/bash
 
-function writeCHECK {
-  touch ./public/CHECK.json \
-    && echo "{ \"timestamp\": \"$(date)\" }" >> ./public/CHECK.json;
+function writeStatus {
+  touch ./public/status.json \
+    && echo "{ \"status\": \"good\", \"timestamp\": \"$(date)\" }" >> ./public/status.json;
 }
-
-### SET DEPLOY URL ###
-DEPLOY_URL="";
-if [ "$STAGE" == "STAGING" ]; then
-  DEPLOY_URL="http://staging.chaseadams.io";
-elif [ "$STAGE" == "PRODUCTION" ]; then
-  DEPLOY_URL="http://chaseadams.io";
-fi
 
 # build the theme on the fly
 cd themes/minimalist && npm run build
 cd ../../
 
-hugo --baseURL=${DEPLOY_URL} \
-  && writeCHECK
+hugo \
+  && writeStatus
 
