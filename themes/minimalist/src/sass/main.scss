@@ -190,6 +190,13 @@ ul.collection {
   background: $base01;
   color: $base04;
 
+  a {
+    color: #FF4E00;
+    &:hover {
+      color: #CD6723;
+    }
+  }
+
   > span {
     display: block;
     line-height: 1.5rem;
