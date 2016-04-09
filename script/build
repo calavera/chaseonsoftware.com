@@ -2,7 +2,7 @@
 
 function writeStatus {
   touch ./public/status.json \
-    && echo "{ \"status\": \"good\", \"last_build\": \"$(date)\" }" >> ./public/status.json;
+    && echo "{ \"status\": \"good\", \"last_build\": \"$(($(date +%s)*1000))\" }" >> ./public/status.json;
 }
 
 # build the theme on the fly
