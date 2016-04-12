@@ -3,7 +3,7 @@ div#footer
   span Static site generated with Hugo, Webpack & Sass. 
     br
   span Find the source for 
-    a[href="https://gitlab.com/chaseadamsio/chaseadams.io"] chaseadams.io on GitLab
+    a[href="https://gitlab.com/chaseadamsio/chaseadamsio.gitlab.io"] chaseadams.io on GitLab
   span Built, deployed and hosted by 
     a[href="https://gitlab.com"] GitLab
 
