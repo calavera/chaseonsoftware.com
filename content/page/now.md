@@ -3,7 +3,6 @@ title = "What I'm Doing Now"
 slug = "now"
 date = "2016-02-02"
 updated = "Feb. 12, 2016"
-is_thin = "true"
 +++
 
 I'm currently in Las Vegas, Nevada, focusing on these things:
