@@ -1,12 +1,12 @@
 ---
-title: About chaseadams.io
+title: About ChaseAdams.IO
 slug: about
 date: 2013-06-21
 backdrop: /img/chaseadamsio.png
 squeeze: true
 ---
 
-## Intentional input is the foundation to creating effective output in your life.
+## Intentional input is the foundation to creating effective output.
 
 [chaseadams.io][] is my outlet for sharing my growth journey, where I write about pursuing intentional growth personally, professionally and technically.
 
