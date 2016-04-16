@@ -4,6 +4,8 @@ extends ../master
     ul.collection
       each $post in $.Data.Pages
         li 
-          a[href=$.Permalink] #{$.Title} 
+          h3
+            a[href=$.Permalink] #{$.Title} 
           if $.Description
             div #{$.Description}
+            

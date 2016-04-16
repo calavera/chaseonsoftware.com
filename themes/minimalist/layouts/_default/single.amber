@@ -10,3 +10,5 @@ extends ../master
     div.post
       h1 #{$.Title}
       div.content #{$.Content}
+      import ../partials/ongitlab
+

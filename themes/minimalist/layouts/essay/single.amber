@@ -11,7 +11,6 @@ extends ../master
       h1 #{$.Title}
       if $.Description
         div.purpose #{$.Description}
-      div #{$.Content}
+      div.content #{$.Content}
+      import ../partials/ongitlab
       
-      if $.Params.updated
-        div Last Updated: #{$.Params.updated}
