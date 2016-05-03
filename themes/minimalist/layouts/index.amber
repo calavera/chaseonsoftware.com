@@ -35,7 +35,7 @@ html
 
         ul#main-menu
           li
-            a[href="/articles"] blog
+            a[href="/article"] blog
           li
             a[href="/about"] about chaseadams.io
 
