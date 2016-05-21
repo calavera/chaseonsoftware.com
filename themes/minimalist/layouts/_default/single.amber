@@ -2,7 +2,7 @@ extends ../master
 
   block meta
     meta[name="description"][content=$.Description]
-    
+
   block title
     | #{$.Title}
 
@@ -11,4 +11,4 @@ extends ../master
       h1 #{$.Title}
       div.content #{$.Content}
       import ../partials/ongitlab
-
+      import ../partials/disqus

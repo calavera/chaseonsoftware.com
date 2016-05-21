@@ -1,7 +1,7 @@
 ---
 date: 2014-01-08T02:31:48Z
 title: "What I Learned From Coffee With A Pulitzer Prize Winning Reporter"
-slug: 2014/01/what-i-learned-from-coffee-with-a-pulitzer-prize-winning-reporter
+slug: 2014/01/09/what-i-learned-from-coffee-with-a-pulitzer-prize-winning-reporter
 aliases: [
     posts/what-i-learned-from-coffee-with-a-pulitzer-prize-winning-reporter
 ]
@@ -20,5 +20,3 @@ This is too good to be true, right? __This is the power of a book.__ With one bo
 If you're looking for a good place to start, I recommend the [reading list I made for 2014](/2014/01/05/reading-list/). You'll find The Power of Habit and 14 other books that can help catalyze your professional growth.
 
 __If you had an unlimited copies of one book to give everyone you met, what would it be?__
-
-
