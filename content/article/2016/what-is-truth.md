@@ -8,7 +8,7 @@ draft: true
 
 When I transitioned from writing Javascript into writing Golang, I quickly realized that there was a big difference in what it means for something to be truthy.
 
-If you're unfamiliar with the term truthy, it simply means that a value of a type that's not a boolean value, for instance, a string or a number or null, can be evaluated to having a boolean context. A fairly common example of that in javascript is to evaluate a string's truthiness before doing something with it:
+If you're unfamiliar with the term truthy, it simply means that a value of a type that's not a boolean value (for instance, a string or a number or null) can be evaluated to having a boolean context. A fairly common example of that in javascript is to evaluate a string's truthiness before doing something with it:
 
 ```
 var foo = "";
