@@ -1,5 +1,5 @@
 ---
-title: What Is Truth: An Into to Truthiness in Golang
+title: "What Is Truth: An Into to Truthiness in Golang"
 description: Coming to Golang from a language like Javascript comes with a lot of baggage. In this article, I'll demystify truth in Golang.
 date: 2016-08-13T06:29:25Z
 slug: what-is-truth-in-go
