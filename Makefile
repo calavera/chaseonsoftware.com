@@ -1,6 +1,7 @@
 PUBLIC=public/*
 THEME=themes/minimalist
 
+deploy: install all
 all: build-assets build-contents
 build-assets:
 	cd $(THEME) && npm run build
