@@ -1,5 +1,5 @@
 theme = "minimalist"
-baseurl = "http://chaseadams.io"
+baseurl = "/"
 languageCode = "en-us"
 title = "Chase Adams"
 
