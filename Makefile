@@ -15,7 +15,7 @@ clean:
 test:
 	echo "Nothing to see here." && exit 0
 server:
-	cd themes/minimalist && npm run build && cd ../../
+	cd $(THEME) && npm run build && cd ../../
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
 
 .PHONY: clean
