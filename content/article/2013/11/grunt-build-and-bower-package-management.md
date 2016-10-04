@@ -8,7 +8,7 @@ aliases: [
 ]
 ---
 
-![Bower Logo](http://www.realchaseadams.com/imgs/2014/01/bower-logo.png) Frontend package management has quickly become a lot more, well...manageable since the release of [Bower](http://www.bower.io) & [Grunt](http://www.gruntjs.com). Here's how I manage frontend dependencies in my projects.
+Frontend package management has quickly become a lot more, well...manageable since the release of [Bower](http://www.bower.io) & [Grunt](http://www.gruntjs.com). Here's how I manage frontend dependencies in my projects.
 
 Bower has made it incredibly easy to install frontend packages (such as jQuery, Underscore, Backbone, Angular, the list goes on) and manage updates without the hassle of manually copying and pasting files into your projects or adding git submodules.
 

@@ -231,6 +231,10 @@ ul.collection {
   margin-right: 1rem;
 }
 
+.group {
+  clear: both;
+}
+
 @media (min-width: 801px) {
   #home, #app {
     width: 750px;

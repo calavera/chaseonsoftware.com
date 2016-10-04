@@ -10,7 +10,7 @@ aliases: [
 
 __I lost my papa Roy, my father’s father, Thursday.__
 
-<img src="https://scontent.flas1-1.fna.fbcdn.net/hphotos-xpa1/v/t1.0-9/26285_1420245154489_2119107_n.jpg?oh=753cd5d500c262183efecc8a95826d8d&oe=55F55217">
+<img src="/img/hitched-to-the-universe.jpg">
 
 When my dad asked me to give the eulogy at my papa's funeral, I sat for a long time to reflect on what memories my papa and I had made together and the qualities of his life I should highlight.
 
