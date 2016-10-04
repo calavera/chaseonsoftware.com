@@ -4,6 +4,8 @@ slug: essential-books
 description: The canonical writings that I revisit multiple times a year because they have (and continue to) impacted my life deeply.
 ---
 
+![Essential books that changed how I live and work](/img/essential-books.jpg)
+
 Every so often you come across a piece of writing that was such a critical component to changing the way you live your life or pursue work, that it's worth revisiting. 
 
 Not only are they worth revisiting, **they're worth evangelizing so that they help other people.** 
