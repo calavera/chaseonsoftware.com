@@ -32,6 +32,7 @@ Some posts I recommend starting with:
 
 - [My Eulogy: Begin With The End In Mind](/2013/10/my-eulogy)
 - [My 3 Words](/my-3-words-2016/)
+- [Essential Books That Changed How I Live](/essential-books)
 
 <p style="text-align:center">
   Are you starting your growth journey? If you want to connect or have questions...

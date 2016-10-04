@@ -1,5 +1,5 @@
 ---
-title: "Essential Books: The Books I Recommend Everyone Read"
+title: "Essential Books That Changed How I Live & Work"
 slug: essential-books
 description: The canonical writings that I revisit multiple times a year because they have (and continue to) impacted my life deeply.
 ---
