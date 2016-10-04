@@ -12,7 +12,7 @@ This weekend I decided to build a standing desk. It was a lot of work, but with 
 
 Hopefully this detailed summary and retrospective will be enough inspiration and documentation for you to go and build your own.
 
-<img src="http://www.realchaseadams.com/imgs/2014/10/final.jpg" class="framed" />
+<img src="/img/rustic-standing-desk/final-desk.jpg" class="framed" />
 
 ## A Good Desk Is Hard To Find
 
@@ -79,7 +79,7 @@ Sanding is an important part of the process for a few reasons. It will create a 
 
 ### Staining the Lumber
 
-<img src="http://www.realchaseadams.com/imgs/2014/10/stained-wood.jpg" width="200" class="align-right framed" />
+<img src="/img/rustic-standing-desk/planks-1.jpg" width="200" class="align-left framed" />
 
 After sanding, I wiped the boards with a cloth just to make sure all the sawdust particles were removed and laid my first coat of stain. I started with my 30" pieces, since they were going to be under the desk and less visible, just to make sure I liked the color.
 
@@ -90,8 +90,6 @@ I was really impressed with the color, so I followed the same process for the 2 
 **Note:** I only stained the exposed parts of the wood, so the center piece didn't get stain on the sides and the bottom runners didn't get stain on the side that was drilled down to the 2 x 6 pieces.
 
 ### Assembling the Legs
-
-<img src="http://www.realchaseadams.com/imgs/2014/10/pipes.jpg" width="200" class="align-left framed" />
 
 While I let the stain soak and dry, I started on the pipe assembly. On my first trip (there were _so many_ trips to Home Depot over the weekend), I picked up Galvanized pipes, primer and black Rustoleum paint for metal.
 
@@ -105,13 +103,15 @@ While I let the stain soak and dry, I started on the pipe assembly. On my first 
 
 #### Cleaning
 
-<img src="http://www.realchaseadams.com/imgs/2014/10/the-good-pipes.jpg" width="300" class="align-right framed" />Once I'd gotten my black pipes, it was time to clean them. Getting stickers off of metal is kind of tricky. We had a hard time getting the tape that was wrapped around the pipe off, so I put my pipes in the back of the car (in Vegas it was kind of hot, so in the car it was really hot) for about an hour. When I pulled them out and peeled the tape, it came right off. Lesson learned: **Just heat tape and stickers for easier removal.**
+<img src="/img/rustic-standing-desk/legs-1.jpg" width="200" class="align-left framed" />
+
+Once I'd gotten my black pipes, it was time to clean them. Getting stickers off of metal is kind of tricky. We had a hard time getting the tape that was wrapped around the pipe off, so I put my pipes in the back of the car (in Vegas it was kind of hot, so in the car it was really hot) for about an hour. When I pulled them out and peeled the tape, it came right off. Lesson learned: **Just heat tape and stickers for easier removal.**
 
 I used [Goo Gone](http://www.homedepot.com/p/Goo-Gone-24-oz-Pro-Power-Spray-Gel-5011484/202329108) to remove any of the residual sticker, which made short work of cleaning the 12 pipes that had something on them.
 
 #### Assembly
 
-<img src="http://www.realchaseadams.com/imgs/2014/10/leg-assembly-1.jpg" width="200" class="align-left framed" />
+<img src="/img/rustic-standing-desk/legs-2.jpg" width="300" class="align-left framed" />
 After drying my pipes, it was time for assembly of the legs. I couldn't find any 3 / 4" floor flanges in black at my local Home Depot, so I modified my configuration a little bit and bought 1 / 2" (I would've gone with 1" if they'd had those) floor flanges, a 1 / 2" close to connect to the flange and a reducing coupling to connect the 3 / 4" pipe to the 1 / 2" close.
 
 That seemed like it would've cost more than a 3 / 4" floor flange itself, but the price pretty much evened out, and it gave it a unique look instead of just going straight from the pipe to the floor flange.
@@ -128,7 +128,7 @@ So I tightened it down as best as I could by hand to one Tee, placed the pipe's 
 
 ### Re-Staining
 
-<img src="http://www.realchaseadams.com/imgs/2014/10/stained-wood-coat-2.jpg" width="200" class="align-right framed" />
+<img src="/img/rustic-standing-desk/planks-3.jpg" width="200" class="align-left framed" />
 
 Once my legs were complete, it was time for another coat of stain. I followed the same process of staining I followed for the first run. I didn't stain the sides of the middle board that sat on the top of the desk because I knew I was going to use wood filler.
 
@@ -137,8 +137,6 @@ After two coats of stain, it was time to add the varnish. I varnished all sides 
 Once my second coat of varnish had dried, it was time to assemble the desk.
 
 ### Assembling the Entire Desk
-
-<img src="http://www.realchaseadams.com/imgs/2014/10/final-assembly-pre-finish.jpg" width="200" class="align-left framed" />
 
 I started by pre-drilling holes into the 2 x 4 runners on top of the 2 x 6 pieces. Pre-drilling holes helps to minimize the possibility of the wood splitting when screwing the pieces together.
 
@@ -161,8 +159,6 @@ Personally, I feel like I messed up my desk adding the wood filler, mostly becau
 I added a coat of varnish after the wood filler (that's 3 coats total for the desk), which helped a little to make the wood filler look better, but didn't help totally.
 
 **Note:** I went back and sanded down the final coat of varnish and wood filler, and revarnished it, which looked much better. Here's the final wood filled result:
-
-<img src="http://www.realchaseadams.com/imgs/2014/10/post-wood-filler.jpg" class="framed" />
 
 ## Final Thoughts on the Build and the Buy
 
@@ -197,7 +193,8 @@ I'll continue to add my retrospective thoughts if anymore come to me, so be sure
 I hope this helps inspire you to build your own standing desk and gives you the beginning resoures you need to go your own way!
 
 One final photo:
-<img src="http://www.realchaseadams.com/imgs/2014/10/final-2.jpg" class="framed" />
+
+<img src="/img/rustic-standing-desk/final-desk.jpg" class="framed" />
 
 If you feel like I missed anything in the build process or have questions unanswered, feel free to add a comment below!
 
