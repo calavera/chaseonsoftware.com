@@ -14,7 +14,6 @@ topic = "topics"
 
 [permalinks]
   article = "/:slug/"
-  archive = "/:slug/"
   page = "/:filename/"
   essay = "/:slug/"
 
@@ -26,7 +25,3 @@ topic = "topics"
   name = "Blog"
   weight = 110
   url = "/article"
-[[menu.main]]
-  name = "Archive"
-  weight = 210
-  url = "/archive"
