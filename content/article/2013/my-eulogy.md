@@ -10,7 +10,7 @@ blogroll: false
 
 While reading The Seven Habits of Highly Effective People, I was inspired to write my eulogy based on the first habit of "beginning with the end in mind". This is the outcome.
 
-One of John Maxwell's action items in [Seven Habits](http://www.amazon.com/Habits-Highly-Effective-People-ebook/dp/B00CMC2QAQ/ref=sr_1_1_bnp_1_kin?ie=UTF8&amp;qid=1383221396&amp;sr=8-1&amp;keywords=seven+habits+of+highly+effective+people) is to write your eulogy. Seems morbid, right? But what I actually found was that when I started this exercise, I had a clarity of what I wanted the end to look like. It allowed me to sweep away the cruft of the every day to see what was important: the legacy I wanted to leave behind.
+One of John Maxwell's action items in [Seven Habits](https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/ref=sr_1_1?ie=UTF8&qid=1473713533&sr=8-1&keywords=seven+habits) is to write your eulogy. Seems morbid, right? But what I actually found was that when I started this exercise, I had a clarity of what I wanted the end to look like. It allowed me to sweep away the cruft of the every day to see what was important: the legacy I wanted to leave behind.
 
 __Read this understanding that it is not a picture of who I am, but a template of who I want to be.__ It's not me being boastful (because I'm not this man yet), it's me searching the depths of what I believe to be true and how I want it to shape who I become.
 

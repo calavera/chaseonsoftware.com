@@ -6,9 +6,9 @@ stages:
 pages:
   stage: deploy
   script:
-    - make cibuild-pre
+    - ./script/cibuild-pre
     - cd themes/minimalist && npm run build && cd ../../
-    - make build
+    - ./script/build
   artifacts:
     paths:
       - public

@@ -2,9 +2,12 @@
 title: Every Day Carry
 date: 2015-06-23T02:47:00Z
 draft: true
-slug: every-day-carry
+slug: everyday-carry
 ---
 
+*Be Prepared.*
+
+This slogan has been with me since I was a small 
 
 ## Loadout
 

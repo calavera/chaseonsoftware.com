@@ -11,8 +11,6 @@ Quick access to your Hard Drive is incredibly useful, especially when you need t
 
 ## Show Macintosh HD in Finder Sidebar
 
-<img src="http://www.realchaseadams.com/imgs/2014/01/mac-hard-drive-finder.gif" alt="Show Macintosh HD in Finder Sidebar Animated GIF" width="300" height="279" class="align-left size-full wp-image-46" />
-
 Start by clicking on the Finder icon in your dock, and a new Finder window should come into focus.
 
 In your Finder you should see a sidebar with Favorites and a list of devices. If you don’t see the sidebar, click on “View” in the application menu at the top and then click “Show Sidebar”.
@@ -24,8 +22,6 @@ Under Devices, click the checkbox next to Hard disks and you should now see “M
 As you can see, you also have the ability to show shared items and other external devices. I hide almost all the Favorites (with exception of Applications, Documents &amp; Downloads), show all the devices and turn on all shared but Back to My Mac.
 
 ## Show Macintosh HD on Desktop
-
-<img src="http://www.realchaseadams.com/imgs/2014/01/mac-hard-drive-desktop.gif" alt="Show Macintosh HD on Desktop Animated GIF" width="300" height="279" class="align-left size-full wp-image-45" />
 
 Open Finder and click on “Finder” in the application menu at the top of the screen, then “Preferences” in the drop down menu. This will open the Finder Preferences pane.
 

@@ -221,6 +221,20 @@ ul.collection {
   }
 }
 
+.small {
+  width: 50%;
+  height: 50%;
+}
+
+.align-left {
+  float: left; 
+  margin-right: 1rem;
+}
+
+.group {
+  clear: both;
+}
+
 @media (min-width: 801px) {
   #home, #app {
     width: 750px;
