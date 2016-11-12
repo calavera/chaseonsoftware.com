@@ -1,8 +1,8 @@
 ---
 title: What Are My Strengths?
-slug: systematic/strengths
+slug: strengths
 date: 2016-11-11T17:27:29Z
---
+---
 
 I took the StrengthsFinder 2.0 assessment, and the results were:
 

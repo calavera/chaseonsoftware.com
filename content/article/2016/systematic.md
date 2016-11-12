@@ -11,9 +11,9 @@ This is a systematic approach at documenting who I am. Many of the high-level co
 
 - [Introduction](#introduction)
 - [Desired Outcomes](#desired-outcomes)
-- [What Are My Strengths?](/systematic/strengths)
-- [How Do I Perform?](/systematic/perform)
-- [What Are My Values?](/systematic/values)
+- [What Are My Strengths?](/strengths)
+- [How Do I Perform?](/perform)
+- [What Are My Values?](/values)
 - [WIP] Where Do I Belong? 
 - [WIP] What Should I Contribute? 
 

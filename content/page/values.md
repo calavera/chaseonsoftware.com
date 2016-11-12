@@ -1,8 +1,8 @@
 ---
-title: What Are My Values?
-slug: systematic/values
+title: "What Are My Values?"
+slug: values
 date: 2016-11-11T17:29:07Z
---
+---
 
 - Glow in the Dark
 - God foremost, Family first

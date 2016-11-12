@@ -1,8 +1,8 @@
 ---
-title: How Do I Perform?
-slug: systematic/perform
+title: "How Do I Perform?"
 date: 2016-11-11T17:29:07Z
---
+slug: perform
+---
 
 ## How Do I Learn?
 
