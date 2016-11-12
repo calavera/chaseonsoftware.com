@@ -1,8 +1,8 @@
-# How Do I Perform?
-
-## Am I A Reader or A Listener?
-
-When it comes to
+---
+title: How Do I Perform?
+slug: systematic/perform
+date: 2016-11-11T17:29:07Z
+--
 
 ## How Do I Learn?
 

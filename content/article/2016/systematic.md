@@ -1,4 +1,9 @@
-# Systematic
+---
+title: A Systematic Approach To "Who Am I?"
+description: This is a systematic approach at documenting who I am. Many of the high-level concepts in this document are heavily borrowed from Peter F. Drucker's Managing Oneself.
+date: 2016-11-11T17:26:37Z
+slug: systematic-self-assessment
+---
 
 This is a systematic approach at documenting who I am. Many of the high-level concepts in this document are heavily borrowed from Peter F. Drucker's _Managing Oneself_.
 
@@ -6,11 +11,11 @@ This is a systematic approach at documenting who I am. Many of the high-level co
 
 - [Introduction](#introduction)
 - [Desired Outcomes](#desired-outcomes)
-- [What Are My Strengths?](strengths.md)
-- [How Do I Perform?](perform.md)
-- What Are My Values?
-- Where Do I Belong?
-- What Should I Contribute?
+- [What Are My Strengths?](/systematic/strengths)
+- [How Do I Perform?](/systematic/perform)
+- [What Are My Values?](/systematic/values)
+- [WIP] Where Do I Belong? 
+- [WIP] What Should I Contribute? 
 
 ## Introduction
 
