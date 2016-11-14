@@ -1,11 +1,14 @@
 ---
-title: A Systematic Approach To "Who Am I?"
-description: This is a systematic approach at documenting who I am. Many of the high-level concepts in this document are heavily borrowed from Peter F. Drucker's Managing Oneself.
+title: "A Systematic Approach to Managing Oneself"
+description: This is a systematic approach at applying "Managing Oneself" to my life. Many of the high-level concepts in this document are heavily borrowed from Peter F. Drucker's Managing Oneself.
 date: 2016-11-11T17:26:37Z
+draft: true
 slug: systematic-self-assessment
 ---
 
-This is a systematic approach at documenting who I am. Many of the high-level concepts in this document are heavily borrowed from Peter F. Drucker's _Managing Oneself_.
+**I want to be the best person I ever manage.**
+
+This is a systematic approach at discovering and documenting who I am. Many of the high-level concepts in this document are heavily borrowed from Peter F. Drucker's _Managing Oneself_.
 
 ## Table of Contents
 
@@ -23,12 +26,12 @@ I believe I can be systematically discoverable.
 
 When I left Zappos.com 4 months ago to work with Walmart Labs, there were many aspects of my professional life that changed and these changes catalyzed a movement in me to systematically discover who I was.
 
-- I transitioned from being "required" to be in an office to being fully remote
+- I transitioned from being "required" to be in an office to being fully distributed & outside of an office
 - I transitioned from being on a team with a project manager and sprints to a team that was fully autonomous and self-driven, and for a lack of a better term, was continuously delivering
 - I transitioned from a reactive sense of responsibility to a proactive thoughtfulness
 - I transitioned from the customer being my customer to engineers who served the customer's needs as being my customer
 
-As is true of any new venture, I felt ill-equipped to successfully make these transitions with the toolset I had. By some strange twist of Amazon recommendations, I stumbled onto _Managing Oneself_ by Peter F. Drucker. **This is the one book that I recommend to anyone wanting to chart a path for being an impactful and effective person.**
+As is true of any new venture, I felt ill-equipped to successfully make these transitions with the toolset I had. By some strange twist of Amazon recommendations, I stumbled onto _Managing Oneself_ by Peter F. Drucker. **This is [one of three books that I recommend to anyone wanting to chart a path for being an impactful and effective person](/essential-books).**
 
 One of the excerpts that stood out most to me was:
 
@@ -46,11 +49,11 @@ There are a few desired outcomes I have for doing this, in descending order of i
 
 - **Sharing Myself with Peers & Future Peers.** I know that if I work with (or for) someone directly, I want them to be the kind of person who wants to know these topics about me. I want to provide as much information as I can about myself so that I'm (1) a respected and impactful peer, (2) effective in the work where I collaborate and (3) available to be used for the clearly defined strengths, in the method that I do it best, while fully aligned with my values.
 
-- **Sharing The Framework with Others Like Myself.** When I realize this project was a priority, I had no idea where to start...even before I realized it was a priority, I put off making it a priority for that very reason. I want to provide not only what I find about _myself_ by using this framework, but the framework itself. It would be exciting for me to have peers who say, "I took a systematic approach at documenting myself too!" If this document can help one other person, that is a huge win for me.
+- **Sharing The Framework with Others Like Myself.** When I realized this project was a priority, I had no idea where to start...even before I realized it was a priority, I put off making it a priority for that very reason. I want to provide not only what I find about _myself_ by using this framework, but the framework itself. It would be exciting for me to have peers who say, "I took a systematic approach at documenting myself too!" If this document can help one other person, that is a huge win for me.
 
 ## Framework
 
-The framework is actually really simple, and as I said before, is heavily borrowed from _Managing Oneself_. As the book itself is really more of a long-form essay (you can find a free [pdf copy here](http://www.usb.ac.za/Common/Pdfs/usb-career-center/articles/HBR%20Managing%20Oneself.pdf)), this is an abstraction of what he suggests any thought-worker should know about themselves and what process I went through to actually figure these things out.
+The framework is actually really simple, and as I said before, is heavily borrowed from _Managing Oneself_. As the book itself is really more of a long-form essay (you can find a free [pdf copy here](http://www.usb.ac.za/Common/Pdfs/usb-career-center/articles/HBR%20Managing%20Oneself.pdf)), this is an abstraction of what Drucker suggests any thought-worker should know about themselves and what process I went through to actually figure these things out.
 
 ### Strengths, Method of Performing & Values
 
@@ -65,6 +68,8 @@ The first task Drucker recommends is to answer the following questions:
 This one can be _really_ hard to figure out on your own, fortunately, there's a framework that exists to help you do that already!
 
 I used [StrengthsFinder 2.0](http://strengths.gallup.com/110440/About-StrengthsFinder-20.aspx). If you buy the book, there's a code to take the StrengthsFinder assessment in the back and IMO, the introduction is worth the price of the book and the rest of the book makes a great reference after you've taken the assessment.
+
+You can see the answer to ["What are My Strengths?" here.](/strengths)
 
 #### How Do I Perform?
 
