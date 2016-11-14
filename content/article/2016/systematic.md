@@ -2,8 +2,7 @@
 title: "A Systematic Approach to Managing Oneself"
 description: This is a systematic approach at applying "Managing Oneself" to my life. Many of the high-level concepts in this document are heavily borrowed from Peter F. Drucker's Managing Oneself.
 date: 2016-11-11T17:26:37Z
-draft: true
-slug: systematic-self-assessment
+slug: systematic-approach-to-managing-oneself
 ---
 
 **I want to be the best person I ever manage.**
@@ -17,8 +16,7 @@ This is a systematic approach at discovering and documenting who I am. Many of t
 - [What Are My Strengths?](/strengths)
 - [How Do I Perform?](/perform)
 - [What Are My Values?](/values)
-- [WIP] Where Do I Belong? 
-- [WIP] What Should I Contribute? 
+- [Final Thoughts](#final-thoughts)
 
 ## Introduction
 
@@ -96,3 +94,19 @@ Once you've taken the questionnaire and get your feedback, there's lots of great
 I think 3 could also be general output, as I don't / haven't done any of those 3 tasks in a long time, but I believe how to best output would be great for preparing for meetings, deep-dives & presentations.
 
 Taking this assessment was really helpful in giving me the information I need to know how I consume information to best perform at work and explained a lot about why I do my best work when I interact with people.
+
+### What Are My Values?
+
+This was probably the _trickiest_ one of all because there's no "discovery" framework that I could find that made it really easy to answer questions and get a response with answers about who you are, so I decided to do a self-inventory over time of what really mattered to me in the moment. 
+
+For 3 weeks every time I felt excited about something or really frustrated about something, I'd write it down. Whether that was at work or at home, I'd think about the "event" and write down some abstraction about what it exemplified. 
+
+As an example let's take "Do. Document. Distribute. Automate": Whenever I was able to automate a process that I used to do by hand, it'd put me on top of the world, so I wrote down "automate". Automation, however, was not the whole picture, it was the ability to start with something and work through the process of documenting it, having others help with it and eventually automating it so we could do _other things_ that were _more important_.
+
+I did this for around 30 different phrases and then sat with those, removed many and prioritized the others as "inside out", meaning the values that impacted other values were at the top. "God foremost, Family first" is the lens through which everything els is filtered. After that "Glow In The Dark" because if I wasn't pursuing a life where I was glowing in the dark, the rest didn't matter.
+
+## Final Thoughts
+
+Using this framework to discover who I am has empowered me with one of the most important tools I could ever have: **To know myself.**
+
+Knowing myself and having it documented allows me to revisit it so that I can grow in my strengths, challenge my values and use how I perform to be better in all areas of life. It allows me to give my current and future peers a look into who I am so they can decide if I'm a good fit for their team or organization and **give others a recipe for discovering who they are so they can _glow in the dark_.** 

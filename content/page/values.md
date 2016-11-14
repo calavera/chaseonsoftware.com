@@ -4,8 +4,8 @@ slug: values
 date: 2016-11-11T17:29:07Z
 ---
 
-- Glow in the Dark
 - God foremost, Family first
+- Glow in the Dark
 - Spend career capital on others
 - The process is the User Experience
 - Be clear, not clever
@@ -17,9 +17,6 @@ date: 2016-11-11T17:29:07Z
 - It’s a good day for a good day
 - Til, tis: Today I learned, Today I shared
 
-## Glow in the Dark
-“What do I need to do to make the best version of myself glow in the dark?” Glowing in the dark means choosing every day to pursue being extraordinary. Pursue a life so filled with the Grace that God’s shown me that it makes me magnetic. Choose to be better than the person you were yesterday
-
 ## God foremost, Family first
 Every decision I make should be filtered through the two lenses first:
 
@@ -27,6 +24,9 @@ Every decision I make should be filtered through the two lenses first:
 - Does it move my family forward? Does it make us more connected with each other, with other people and with God?
 
 If the answer to either of those isn't "yes", the answer to a decision is “no”.
+
+## Glow in the Dark
+“What do I need to do to make the best version of myself glow in the dark?” Glowing in the dark means choosing every day to pursue being extraordinary. Pursue a life so filled with the Grace that God’s shown me that it makes me magnetic. Choose to be better than the person you were yesterday
 
 ## Spend career capital on others
 As I build career capital and influence within the organizations I belong to, I want to use that capital and influence by spending it on those who have been denied it unjustly so that they can excel. The only way the work I do and the actions I take matter is if it’s done knowing to help raise others up.
