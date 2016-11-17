@@ -1,8 +1,9 @@
 ---
 title: Setting up a Chromebook on OpenSUSE Leap w/ GNOME and i3
-description: 
+description: Documentation on how I setup my Chromebook with OpenSUSE Leap, GNOME and i3 window manager.
 date: 2016-11-17T06:29:25Z
 slug: setting-up-a-chromebook-with-opensuse
+draft: true
 ---
 
 I bought a Chromebook almost a year ago and I use it as my primary personal computer for writing software, blogging and anything else that I do that involves the internet. I didn't want to use ChromeOS, so I was intentional about buying a chromebook that I knew I could hack to run a standard flavor of Linux. After some research, I landed on the Acer C720. I upgraded the SSD to a 100GB hard drive, followed some instructions to flash the BiOS so that it's running GRUB 2 and now I have installed multiple Operating Systems over the course of the year and started from scratch every time.
