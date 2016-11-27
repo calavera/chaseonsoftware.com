@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/chaseadamsio
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://chaseadams.io
+  * I am chaseadamsio (https://keybase.io/chaseadamsio) on keybase.
+  * I have a public key ASBErgIAqNdt9en7YSOmVMQqdXP4uZQdCSXLrdZAh9uH0go
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ad38f5ae12d3487f40bd9469780275ee765391b9ad8199e2a954183188dbe2a00a",
+            "host": "keybase.io",
+            "kid": "012044ae0200a8d76df5e9fb6123a654c42a7573f8b9941d0925cbadd64087db87d20a",
+            "uid": "baa2b41d889a1d1de5ad0be1f41a1019",
+            "username": "chaseadamsio"
+        },
+        "service": {
+            "hostname": "chaseadams.io",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1476917762,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1476917715,
+        "hash": "efd22d77a292331c5ee2c649f4787db1c878a8e1e9864e7a3b173d7ffeb9979f4f3a4a61ca8f908191c344ef18b6ed3c15f2a9740518334c367f8e1669d4bb24",
+        "seqno": 682116
+    },
+    "prev": "fd5c06c4fcf570c812593be6e5daeda8fea94629122eff1350d1b187c8c36063",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgRK4CAKjXbfXp+2EjplTEKnVz+LmUHQkly63WQIfbh9IKp3BheWxvYWTFAvh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYWQzOGY1YWUxMmQzNDg3ZjQwYmQ5NDY5NzgwMjc1ZWU3NjUzOTFiOWFkODE5OWUyYTk1NDE4MzE4OGRiZTJhMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNDRhZTAyMDBhOGQ3NmRmNWU5ZmI2MTIzYTY1NGM0MmE3NTczZjhiOTk0MWQwOTI1Y2JhZGQ2NDA4N2RiODdkMjBhIiwidWlkIjoiYmFhMmI0MWQ4ODlhMWQxZGU1YWQwYmUxZjQxYTEwMTkiLCJ1c2VybmFtZSI6ImNoYXNlYWRhbXNpbyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiY2hhc2VhZGFtcy5pbyIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTcifSwiY3RpbWUiOjE0NzY5MTc3NjIsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3NjkxNzcxNSwiaGFzaCI6ImVmZDIyZDc3YTI5MjMzMWM1ZWUyYzY0OWY0Nzg3ZGIxYzg3OGE4ZTFlOTg2NGU3YTNiMTczZDdmZmViOTk3OWY0ZjNhNGE2MWNhOGY5MDgxOTFjMzQ0ZWYxOGI2ZWQzYzE1ZjJhOTc0MDUxODMzNGMzNjdmOGUxNjY5ZDRiYjI0Iiwic2Vxbm8iOjY4MjExNn0sInByZXYiOiJmZDVjMDZjNGZjZjU3MGM4MTI1OTNiZTZlNWRhZWRhOGZlYTk0NjI5MTIyZWZmMTM1MGQxYjE4N2M4YzM2MDYzIiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAtQ98TabB/pv1nfOc1alb4y2SneTzZcskudhp4/DD1YnQLZ4J0X9N2a6Nb1OELoP5PiX016f/wrYxF3GF3Ni5D6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIA+mUJfxBffgTEJYxJYiSmvUROzcEpzQkAcR3e5drkbso3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chaseadamsio
+
+==================================================================
