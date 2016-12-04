@@ -1,15 +1,23 @@
 ---
 date: 2014-01-02T02:21:37Z
-title: "Show your Mac’s Hard Drive in Finder Sidebar and on your Desktop"
-slug: 2014/01/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop
+title: "OSX Protip: Show your Mac’s Hard Drive in Finder Sidebar"
+slug: 2014/01/show-your-macs-hard-drive-in-finder-sidebar
 aliases: [
-    posts/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop
+    posts/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop,
+    2014/01/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop
+]
+tags: [
+"osx protips"
 ]
 ---
 
-Quick access to your Hard Drive is incredibly useful, especially when you need to browse above your home directory. In this quick MacTip, I’ll guide you through showing the shortcut to your Hard Drive (and other shortcuts) in your Finder sidebar and on your desktop.
+If you want to show your Mac's Hard Drive on your desktop instead, check out ["Show your Mac's Hard Drive on Your Desktop"](/2016/12/show-your-macs-hard-drive-on-your-desktop).
+
+Quick access to your Hard Drive is incredibly useful, especially when you need to browse above your home directory. In this quick OSX protip, I’ll guide you through showing the shortcut to your Hard Drive (and other shortcuts) in your Finder sidebar.
 
 ## Show Macintosh HD in Finder Sidebar
+
+![Show Macintosh HD in Finder Sidebar](/img/finder-show-mac-hd.gif)
 
 Start by clicking on the Finder icon in your dock, and a new Finder window should come into focus.
 
@@ -21,10 +29,3 @@ Under Devices, click the checkbox next to Hard disks and you should now see “M
 
 As you can see, you also have the ability to show shared items and other external devices. I hide almost all the Favorites (with exception of Applications, Documents &amp; Downloads), show all the devices and turn on all shared but Back to My Mac.
 
-## Show Macintosh HD on Desktop
-
-Open Finder and click on “Finder” in the application menu at the top of the screen, then “Preferences” in the drop down menu. This will open the Finder Preferences pane.
-
-If “General” isn’t the selected navigation icon (for instance, if you just finished the Finder Sidebar tutorial), select it.
-
-Under “Show these items on desktop” click on “Hard disks”. Now if you look at your desktop, you’ll see the icon for your Macintosh HD.
