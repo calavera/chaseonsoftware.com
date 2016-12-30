@@ -1,0 +1,11 @@
+#+TITLE: chaseadams.io blog
+
+[[[[https://gitlab.com/chaseadamsio/chaseadams.io/badges/master/build.svg]]][https://gitlab.com/chaseadamsio/chaseadams.io/commits/master]]
+
+/The personal website of Chase Adams./
+
+* Technologies
+** Hugo (for Static Site Generation)
+** Gulp (for CSS)
+* Tasks
+
