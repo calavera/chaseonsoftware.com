@@ -238,6 +238,9 @@ ul.collection {
   #home, #main {
     width: 100%;
     padding: 2rem;
+    h1 {
+	margin: 0;
+    }
   }
 
   .post {
