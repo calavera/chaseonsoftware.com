@@ -65,19 +65,12 @@ img {
 #header {
   padding: 1rem .5rem;
 
-  #app & {
-    color: $base07;
-  }
-
   h1 {
     font-weight: normal;
     font-size: 1.4rem;
 
-    #app & a {
-      color: $baselt;
-      &:hover {
-        color: $base08;
-      }
+    #app & a:hover {
+      color: $base08;
     }
   }
 }
