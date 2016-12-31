@@ -15,7 +15,7 @@ $base04: #d4cfc9;
 $base05: #e6e1dc;
 $base06: #f4f1ed;
 $base07: #f7f7f7;
-$base08: #da4939;
+$base08: #439EEA;
 $base09: #cc7833;
 $base0A: #ffc66d;
 $base0B: #a5c261;
@@ -63,10 +63,9 @@ img {
 }
 
 #header {
-  padding: 1rem;
+  padding: 1rem .5rem;
 
   #app & {
-    background: $base02;
     color: $base07;
   }
 
@@ -88,10 +87,9 @@ img {
 }
 
 #main { 
-  padding: 1rem;
 
   h1 {
-    text-align: center;
+    text-align: left;
     line-height: 2.75rem;
   }
 
