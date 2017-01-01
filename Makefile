@@ -10,13 +10,13 @@ deploy: install build
 build: build-assets build-contents
 
 build-assets:
-	cd $(THEME) && npm run build
+	cd $(THEME) && yarn run build
 
 build-contents:
 	hugo 
 
 install:
-	cd $(THEME) && npm install
+	cd $(THEME) && yarn install
 
 clean:
 	rm -rf $(PUBLIC)
@@ -37,6 +37,6 @@ docker-serve: build
 		$(DOCKER_IMAGE) hugo server -w --port=$(PORT) --bind=0.0.0.0
 
 server:
-	cd $(THEME) && npm run build && cd ../../
+	cd $(THEME) && yarn run build && cd ../../
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
 

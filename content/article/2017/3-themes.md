@@ -40,7 +40,7 @@ My 3 Themes for 2017 are:
 
 _As in **my** pack; my nuclear family unit: Jackie, Elle, Tag & Belle._
 
-<img src="/img/elle-and-dad.jpg" class="align-left" width=250 />
+<img src="/img/chase-and-elle.jpg" />
 
 In 2016, Elizabeth (I call her Elle) joined our family and stole our hearts. 2017 will be the first full year of having her in our lives and I want my presence in her life to be special and impactful.
 
