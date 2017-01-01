@@ -1,7 +1,7 @@
 head
   title
     block title
-      | #{$.Site.Title} 
+      | #{$.Title} | #{$.Site.Title} 
 
   link[rel="author"][href="/humans.txt"]
   link[rel="stylesheet"][href="/css/main.css"]
