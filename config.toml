@@ -1,5 +1,5 @@
 theme = "minimalist"
-baseurl = "/"
+baseurl = "https://chaseadams.io"
 canonifyURLs = true
 languageCode = "en-us"
 title = "Chase Adams"
