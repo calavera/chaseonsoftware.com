@@ -9,6 +9,6 @@ function writeStatus {
 cd themes/minimalist && npm run build
 cd ../../
 
-hugo \
+HUGO_BASEURL="https://chaseadams.io" hugo \
   && writeStatus
 

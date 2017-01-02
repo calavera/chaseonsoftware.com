@@ -13,7 +13,7 @@ build-assets:
 	cd $(THEME) && npm run build
 
 build-contents:
-	HUGO_BASEURL="https://chaseadams.io" hugo 
+	./script/build
 
 install:
 	cd $(THEME) && npm install
