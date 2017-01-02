@@ -2,7 +2,7 @@ div#disqus_thread[style="margin-top:1rem;"]
 
 script
   var disqus_config = function () {
-  this.page.url = "#{$.Site.BaseURL}#{$.RelPermalink}"; // Replace PAGE_URL with your page's canonical URL variable
+  this.page.url = "#{$.Permalink}"; // Replace PAGE_URL with your page's canonical URL variable
   this.page.identifier = "#{$.RelPermalink}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
   };
   (function() { // DON'T EDIT BELOW THIS LINE
