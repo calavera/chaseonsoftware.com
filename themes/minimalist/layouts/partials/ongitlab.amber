@@ -1,4 +1,4 @@
-$gitlabURL = "https://gitlab.com/chaseadamsio/chaseadams.io/"
+$gitlabURL = "https://gitlab.com/chaseadamsio/chaseadamsio.gitlab.io/"
 $gitlabFilePathURL = $gitlabURL + "tree/master/content/" + $.File.Path
 
 div.gitlab-link[style="text-align:center;"]
