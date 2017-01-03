@@ -1,0 +1,52 @@
+#+TITLE: scratch: a place to store stuff for later
+
+"At no point in your rambling, incoherent response were you even close to anything that could be considered a rational thought. Everyone in this room is now dumber for having listened to it. I award you no points, and may God have mercy on your soul." - Billy Madison
+
+Sometimes I feel like this quote is about me. Until this year, chaseadams.io has always been a place to just collect my rambling, incoherent thoughts. There's some good content here, but it's not the path I want it to take.
+
+I want every new visitor to come to chaseadams.io and find /something/ that will take them down some new path of exploration. I want them to come back to discover more, to grow deeper, to learn more about themselves by using the things I provide, to find what makes me feel effective and productive and full and to use those things to grow that way themselves.
+
+That's what I mean when I say chaseadams.io is about discovering intentional input that drives you towards your desired effective output. 
+
+* About chaseadams.io
+
+What do I want to write about? What's are the things that:
+
+- are important to me
+- are important that I share with others
+- make me a better version of myself
+
+important questions I want to address:
+
+- how do I figure out who I want to be?
+- what will make me the most effective in life?
+
+** essentialism
+*** doing the stuff that matters
+*** doing that stuff deeply
+** books
+*** productivity
+*** self discovery
+*** self management
+** tools
+*** every day carry
+*** productivity tools
+*** bullet journal
+*** apps
+** software and technology
+*** workflows
+*** automation 
+*** general tips and tricks
+*** golang
+*** emacs
+**** org mode
+**** diving in
+
+
+* Posts Backlog
+
+** TODO Tools 
+
+** TODO Favorite Focus Music
+
+** TODO Free Software Friday
