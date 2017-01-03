@@ -13,7 +13,7 @@ build-assets:
 	cd $(THEME) && npm run build
 
 build-contents:
-	hugo 
+	./script/build
 
 install:
 	cd $(THEME) && npm install

@@ -1,6 +1,6 @@
 #+TITLE: chaseadams.io blog
 
-[[https://gitlab.com/chaseadamsio/chaseadams.io/commits/master][https://gitlab.com/chaseadamsio/chaseadams.io/badges/master/build.svg]]
+[[https://gitlab.com/chaseadamsio/chaseadamsio.gitlab.io/commits/master][https://gitlab.com/chaseadamsio/chaseadamsio.gitlab.io/badges/master/build.svg]]
 
 /The personal website of Chase Adams./
 

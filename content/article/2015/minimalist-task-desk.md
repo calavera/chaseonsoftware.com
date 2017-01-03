@@ -19,7 +19,7 @@ Here's how we built this beautiful sitting desk and the best part about it? It o
 ## Parts
 
 - [28" Raw Steel .375 Diameter 3 Rod Hairpin Leg ($20/leg)](http://www.hairpinlegs.com/products/3-rod-hairpin-leg?variant=1125171392)
-- [74" x 1-1/2" KARLBY Countertop, Walnut ($129.00)](http://www.ikea.com/us/en/catalog/products/10301149/#/30301148)
+- [74" x 1-1/2" KARLBY Countertop, Walnut ($189.00)](http://www.ikea.com/us/en/catalog/products/10301149/#/30301148)
 - [Everbilt #10 x 1" Flat Head Phillips Wood Screws](http://www.homedepot.com/p/Everbilt-10-x-1-in-Zinc-Plated-Flat-Head-Phillips-Drive-Wood-Screw-100-Piece-801882/204275500)
 - [3M Knob Adjust Keyboard Tray, Standard Platform, Gel Wrist Rest, Precise Mouse Pad, 17 in Track, Black](http://www.amazon.com/gp/product/B001B0DCOO/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001B0DCOO&linkCode=as2&tag=thechasceperb-20&linkId=XYJLDXHUAVDOJ24F)
 

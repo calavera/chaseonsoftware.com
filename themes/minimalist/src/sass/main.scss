@@ -197,11 +197,17 @@ ul.collection {
 
 .post {
   h1 {
-    text-align: center;
+      text-align: center;
+      font-size: 3rem;
   }
 
   .content {
-    line-height: 1.5rem;
+      line-height: 2.25rem;
+      font-size: 1.5rem;
+
+      p, li {
+	  color: #555;	  
+      }
   }
 }
 
