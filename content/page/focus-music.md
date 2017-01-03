@@ -13,7 +13,7 @@ Music for Focus is a single point of entry where I'm curating a mega-list of the
 
 I'll be posting new playlists every Tuesday and they'll all aggregate into a [larger playlist on Spotify if you're interested in subscribing to it](https://open.spotify.com/user/realchaseadams/playlist/78D3okwJ3NjK7dUIndIS8Q). 
 
-## Oblivion - Soundtrack (01-07-2017)
+## Oblivion - Soundtrack (01-03-2017)
 
 <img src="/img/focus-music/oblivion-soundtrack.jpg" width=200 class="align-left" /> It likely comes as no surprise to those who I share musical interests with that the inception of such a list would start with M83, one of my favorite artists.
 
