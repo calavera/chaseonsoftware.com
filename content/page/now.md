@@ -19,7 +19,7 @@ In my day-to-day, I'm focusing on...
 - Basking in this glorious season of being a new dad
 - Maintaining/contributing to the software that makes the Walmart request/response lifecycle faster and more perfomant using the Go language
 - Learning to use Emacs to be a more effective software engineer
-- Reading [books](/reading-list) 
+- Reading books 
 - Writing about distributed teams, productivity and general software practices 
 - Investing time and energy in helping those around me attain an essential life
  
