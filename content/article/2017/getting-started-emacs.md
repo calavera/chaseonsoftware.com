@@ -22,6 +22,7 @@ That night I googled "Emacs" and started my journey down the rabbit hole and hav
 I've tried a number of editors (Coda, Sublime, Atom, VSCode and clearly Vim) but have never been able to leave vim because I always felt so darn productive using it.
 
 Even though I knew I'd be sacrificing my initial productivity, there were a few major reasons I was willing to try out Emacs:
+
 - Emacs has been around since the mid-1970s and **still** has a group of people who are contributing to it heavily...and it does stuff none of the other editors I've used can do.
 - Learning lisp is different, but Emacs lisp makes the editor itself incredibly powerful and flexible.
 - It's self-documenting. If you want to know what a particular keybinding does, you can type a help command that'll prompt you to type the keybinding and then it'll show you the docs for whatever method it's bound to. How neat is that?
