@@ -13,6 +13,24 @@ Music for Focus is a single point of entry where I'm curating a mega-list of the
 
 I'll be posting new playlists every Tuesday and they'll all aggregate into a [larger playlist on Spotify if you're interested in subscribing to it](https://open.spotify.com/user/realchaseadams/playlist/78D3okwJ3NjK7dUIndIS8Q). 
 
+## Into The Trees - Zoë Keating (01-10-2017)
+
+<img src="/img/focus-music/zoe-keating-into-the-trees.jpg" width=200 class="align-left" /> If you've watched the show "Elementary" you're familiar with Zoë Keating: **she scored the soundtrack.** I first discovered Zoë Keating on a [commercial for an app called "Planetary"](https://vimeo.com/23168163) for the iPad and was immediately drawn to her track "Optimist".
+
+<div class="group"></div>
+
+Into the Trees is one of my favorite focus albums for a few reasons:
+
+- Her skill at composing and playing the Cello are unmatched. Listening to her music, I can _feel_ her commitment to her craft and it drives me to pursue my work more deeply. 
+- On first listen you'll wonder how she's able to create such complex music by herself (or just assume she laid a bunch of studio tracks on one another). **She uses a [footpetal to act as a one-woman orchestra in real-time](https://www.youtube.com/watch?v=EWi4zm1krTo).** When someone has been creative with how they make music, it drives me to try to think outside of the box.
+- This album in particular sounds like it was made to be a soundtrack to a yet defined quest...which makes it the perfect album for putting on your headphones, dialing in what you need to focus on and getting it done.
+
+If you give only one song of hers a listen, make it Optimist. I promise you won't be disappointed. I could listen to that one song all day long and conquer the world.
+
+<iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Arealchaseadams%3Aplaylist%3A3G6fT5WL4exORdsl8t2Pzq" style="width:100%;" height="380" frameborder="0" allowtransparency="true"></iframe>
+
+<div class="group"></div>
+
 ## Oblivion - Soundtrack (01-03-2017)
 
 <img src="/img/focus-music/oblivion-soundtrack.jpg" width=200 class="align-left" /> It likely comes as no surprise to those who I share musical interests with that the inception of such a list would start with M83, one of my favorite artists.
