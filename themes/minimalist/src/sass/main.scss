@@ -237,14 +237,14 @@ ul.collection {
 }
 
 @media (min-width: 801px) {
-  #home, #app, #content  {
+  #home, #app, #content, #preamble, #postamble  {
     width: 750px;
     margin: 0 auto;
   }
 }
 
 @media (max-width: 800px) {
-  #home, #main {
+  #home, #main, #content, #preamble, #postamble {
     width: 100%;
     padding: 2rem;
     h1 {
