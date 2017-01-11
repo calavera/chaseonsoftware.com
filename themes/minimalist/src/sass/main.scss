@@ -81,7 +81,7 @@ img {
     background: $basewt;
 }
 
-#main, #content { 
+#main { 
 
   h1 {
     text-align: left;
@@ -237,7 +237,7 @@ ul.collection {
 }
 
 @media (min-width: 801px) {
-  #home, #app {
+  #home, #app, #content  {
     width: 750px;
     margin: 0 auto;
   }
