@@ -1,7 +1,7 @@
 head
   title
     block title
-      | #{$.Title} | #{$.Site.Title} 
+    #{$.Title} | chaseadams.io: intentional input. effective output.
 
   link[rel="author"][href="/humans.txt"]
   link[rel="stylesheet"][href="/css/main.css"]
