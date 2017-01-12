@@ -31,3 +31,5 @@ public
 .DS_Store
 .aws-credentials.json
 .awspublish*
+
+static/css

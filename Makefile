@@ -1,7 +1,6 @@
 .PHONY: clean
 
 PUBLIC=public/*
-THEME=themes/minimalist
 PORT=1337
 DOCKER_IMAGE=chaseadamsio/chaseadamsio
 
@@ -10,17 +9,17 @@ deploy: install build
 build: build-assets build-contents
 
 build-assets:
-	cd $(THEME) && npm run build
+	npm run build
 
 build-contents:
 	./script/build
 
 install:
-	cd $(THEME) && npm install
+	npm install
 
 clean:
 	rm -rf $(PUBLIC)
-	cd $(THEME) && rm -rf static/* 
+	rm -rf static/* 
 
 test:
 	echo "Nothing to see here." && exit 0
@@ -37,6 +36,6 @@ docker-serve: build
 		$(DOCKER_IMAGE) hugo server -w --port=$(PORT) --bind=0.0.0.0
 
 server:
-	cd $(THEME) && npm run build && cd ../../
+	npm run build 
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
 
