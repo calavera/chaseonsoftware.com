@@ -1,4 +1,0 @@
-ul.menu-main
-  each $menuItem in $.Site.Menus.main
-    li 
-      a[href=$.URL] #{$.Name}

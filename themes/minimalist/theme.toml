@@ -1,9 +1,0 @@
-name = "Minimalist"
-license = "MIT"
-licenselink = "https://gitlab.com/chaseadamsio/chaseadamsio.gitlab.io/blob/master/LICENSE.md"
-min_version = 0.14
-
-[author]
-  name = "Chase Adams"
-  homepage = "http://chaseadams.io"
-

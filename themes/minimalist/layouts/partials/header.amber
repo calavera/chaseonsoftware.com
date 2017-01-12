@@ -1,5 +1,0 @@
-div#header
-  h1
-    a[href=$.Site.BaseURL] #{$.Site.Title}
-    span #{$.Site.Params.tagline}
-  
