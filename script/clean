@@ -2,4 +2,4 @@
 
 rm -rf public/*
 
-cd themes/minimalist && rm -rf static/*
+rm -rf static/css

@@ -6,8 +6,7 @@ function writeStatus {
 }
 
 # build the theme on the fly
-cd themes/minimalist && npm run build
-cd ../../
+npm run build
 
 HUGO_BASEURL="https://chaseadams.io" hugo \
   && writeStatus
