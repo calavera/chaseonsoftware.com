@@ -20,8 +20,14 @@ topic = "topics"
 [[menu.main]]
   name = "Start Here"
   weight = -110
-  url = "/about"
+  url = "/start-here"
+
 [[menu.main]]
   name = "Blog"
   weight = 110
-  url = "/article"
+  url = "/"
+
+[[menu.main]]
+  name = "Essential Books"
+  weight = 210
+  url = "/essential-books"

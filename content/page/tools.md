@@ -1,54 +1,60 @@
-+++
-title = "Tools"
-draft = true
-+++
+---
+title: Tools
+slug: tools
+draft: true
+description: In which I define the qualities of effective tools and the gravity of choosing the right tools for yourself and for others.
+---
 
-"What do you use for _____?" Fill in the blank with pretty much everything I do in my daily life and that's a question that I get asked a lot. I decided that rather than ramble about why I like _x_ for _y_, it'd be more pragmatic and useful to create a collection of all of the tools I use to be more effective, to be more prepare or to enhance the already rich parts of my life.
+It's pretty common in the software field, for both newcomers and seasoned engineers to ask: "What tool do you use for **&lt;insert task&gt;**?"
 
-This page will continue to grow and shrink as I add, remove and rotate tools out of my workflows and daily life.
+Although many software developers could easily rattle off the list of tools they use for each "X" in their day-to-day, but such an answer would miss _the nature of the true question_, which is: 
 
-## Every Day Carry
+> "What's the best tool for _X_ so I can be effective?"
 
-If you're not familiar with every day carry, buckle your seatbelt...your world's about to get a lot bigger! The basic gist of "every day carry" is whatever you keep with you every day, but there are a lot of folks out there (myself included) who are very particular about what they consider their every day carry.
+**The best tools get out of the way so you can do your best work.**
 
-### Android LG G5
+## Qualities of Effective Tools
 
-### Basic Wallet from Nomadic
+In my career, I've developed the following list of qualities that must be met for me to choose a tool for my toolbox.
 
-<img src="/img/basic-wallet.jpg" class="align-left" /> **[Basic Wallet from Nomadic in Black](https://www.nomatic.com/collections/basics-wallets/products/black-basics-wallet)**
+An effective tool:
 
-#### Why I like it
+- gets the job done with no hoops.
+- is easy _for the user_ to learn. (I have one exception to this principle: vim)
+- can be customized to your workflow.
+- can be automated.
+- integrates easily with other tools. 
 
-- the slimmest profile wallet I've ever owned
-- a separate slot for cash
-- a pull that makes it easy to access the cards that you use frequently (like your Grouchy John's stamp card, credit card and ID)
+While that may seem like a simple, _vague_ answer, it surfaces a general truth: **You are unique, and your uniquity requires a unique toolbox.**
 
-### Griffin Pocket Tool
-### Handkerchief
-### Fenix E12 130-Lumen Flashlight
-### GoRuck GR-1
-#### Petzl Tikkina Headlamp
-#### Bose QuietComfort 35 Headphones
-#### LG Tone In-Ear Bluetooth Headphones
-### GoRuck Bullet 10L
+## Picking Tools For Yourself
 
-## Context Agnostic
+### Getting the Job Done
 
-This is the stuff that I use in both my personal and work life.
+#### Red Flags 
 
-#### Emacs Editor
-#### Orgzly App (Android)
+A tool doesn't meet this criteria if:
 
-## Personal 
+- you have to use another tool to capture the work.
+- 
 
-### Acer C720 Chromebook
+## Picking Tools For Others
 
-I bought this laptop because it was cheap (less than $300), had plenty of processing power for the text editing and "light" software I work on and the BiOS could be flashed so that I could install my operating system of choice on it, rather than being tied to ChromeOS.
+There may come a time when you'll receive the special gift of picking a tool to help other people do their work. This is a heavy responsibility: your decisions now impacts others.
 
-#### i3 Window Manager
+A few examples of this would be:
 
-### Raspberry Pi3
+- Issue Tracking Systems
+- Documentation and Collaboration Software
+- Project Management Software
+- Continuous Integration / Delivery Tools (this is the dream)
 
-## Work
+When you've found yourself in this role, there are some really important guiding principles to making a decision that helps your customers (consumers, most likely co-workers, of the tools you pick) be happy and successful. 
 
-### Apple MacBook 15"
+### Guiding Principles for Picking Tools for Teams
+
+#### It Should Help The Team First
+
+This may seem like a no-brainer, but I've seen executives and internal tool maintainers pick tools because it made _their_ jobs easier, even if it added process to the downstream consumers. Sadly, when decisions are made this way, the reasons for picking tools (better high level visibility) are sacrificed by those who are supposed to use the tool so they can move faster.
+
+#### it Should Help 

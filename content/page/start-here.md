@@ -1,6 +1,6 @@
 ---
-title: About ChaseAdams.IO
-slug: about
+title: Just Start!
+slug: start-here
 date: 2013-06-21
 backdrop: /img/chaseadamsio.png
 squeeze: true

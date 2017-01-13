@@ -211,7 +211,6 @@ ul.collection {
     padding: 1rem 2rem;
     
   h1 {
-      text-align: center;
       font-size: 2rem;
   }
 
@@ -242,12 +241,6 @@ ul.collection {
 .group {
   clear: both;
 }
-
-@media (min-width: 1251px) {
-  #home, #app, #content, #preamble, #postamble  {
-    width: 1250px;
-    margin: 0 auto;
-  }
 
   .collection, .post {
       float: left;
@@ -294,11 +287,17 @@ ul.collection {
 	  
       }
   }
+
+@media (min-width: 1251px) {
+  #home, #app, #content, #preamble, #postamble  {
+    width: 1250px;
+    margin: 0 auto;
+  }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
   #home, #app, #content, #preamble, #postamble {
-    width: 750px;
+    width: 1000px;
     margin: 0 auto;
     h1 {
 	margin: 0;
@@ -317,7 +316,7 @@ ul.collection {
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   #home, #app, #content, #preamble, #postamble {
     width: 100%;
     margin: 0 auto;
@@ -325,6 +324,17 @@ ul.collection {
 	margin: 0;
     }
   }
+
+  .post {
+      .content {
+	  font-size: 16px;
+      }
+  }
+
+  .sidebar {
+      padding: 1rem;
+  }
+
 
   #header h1 span {
     display: block;
@@ -335,11 +345,24 @@ ul.collection {
     padding: 0;
     font-weight: bold;
   }
+}
 
-  #content {
-    h1 {
-      font-size: 1.5rem;
-      line-height: 2rem;
-    }
+@media (max-width: 830px) {
+  #home, #app, #main, #content, #preamble, #postamble {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #main {
+      padding: 2rem 0;
+  }
+
+  .collection, .post, .sidebar {
+      width: 100%;
+  }
+
+  .post h1 {
+      margin: 0;
+      font-size: 24px;
   }
 }
