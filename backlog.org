@@ -1,0 +1,9 @@
+#+TITLE: Backlog
+
+* Blog Posts
+
+* Videos
+** 3 time saving protips for being more efficient with Mac OSX Finder
+- Display home folder or hard drive in the sidebar
+- Add a commonly used folder from a finder window to the sidebar
+- Change what the Finder window shows on startup
