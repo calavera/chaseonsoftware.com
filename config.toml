@@ -2,11 +2,11 @@ baseurl = "https://chaseadams.io"
 canonifyURLs = true
 languageCode = "en-us"
 title = "Chase Adams"
+PygmentsCodeFences = true
 
 topic = "topics"
 
 [params]
-  tagline = "intentional input » effective output"
   description = "I'm Chase Adams. Engineer at Walmart Labs. Life Learner. Programming Polyglot."
   author = "Chase Adams"
   dns = "digital ocean"
@@ -15,7 +15,6 @@ topic = "topics"
 [permalinks]
   article = "/:slug/"
   page = "/:filename/"
-  essay = "/:slug/"
 
 [[menu.main]]
   name = "Start Here"
