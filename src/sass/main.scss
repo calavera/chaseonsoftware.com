@@ -63,8 +63,28 @@ img {
   max-width: 100%;
 }
 
+pre {
+    padding: .5rem;
+}
+
+code, pre span {
+    font-family: "Fira Mono", monospace !important;
+}
+
 code {
-    font-family: "Fira Mono", monospace;
+    background: #EFEFEF; 
+    color: #222;
+    padding: 0.2em 0;
+    font-size: 14px;
+    &::before, &::after{
+	letter-spacing: -0.2em;
+	content: "\00a0";
+    }
+}
+
+pre span {
+    font-size: 12px;
+    line-height: 100%;
 }
 
 #header {
@@ -102,8 +122,11 @@ code {
     line-height: 2.75rem;
   }
 
-  h2, h3, h4 {
-    line-height: 2rem;
+  .content {
+      h1 {
+	  font-size: 1.5rem;
+	  line-height: 1.5rem;
+      }
   }
 
   blockquote {
