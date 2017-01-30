@@ -1,0 +1,74 @@
+#+TITLE: My Reading List
+#+DRAFT: true
+#+SLUG: reading-list
+
+Follow me on GoodReads at [[https://www.goodreads.com/chaseadamsio]].
+
+* Currently Reading
+- *The Essential Executive* by Peter Drucker
+- *Deep Work* by Cal Newport
+
+* Essential Reads
+
+These 3 books have been the most influential guides through my professional and personal life.
+
+- *[[https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/][Seven Habits of Highly Effective People]]* by Steven Covey
+- *[[https://www.amazon.com/Managing-Oneself-Harvard-Business-Classics/dp/142212312X/][Managing Oneself]]* by Peter Drucker
+- *[[https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/ref=sr_1_1?s=books&ie=UTF8&qid=1485752361&sr=1-1&keywords=essentialism][Essentialism: The Disciplined Pursuit of Less]]* by Greg Mckeown
+
+* 2017
+- *[[https://www.amazon.com/Managing-Oneself-Harvard-Business-Classics/dp/142212312X/][Managing Oneself]]* by Peter Drucker
+- *[[https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/][Seven Habits of Highly Effective People]]* by Steven Covey
+- *[[https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/ref=sr_1_1?s=books&ie=UTF8&qid=1485752361&sr=1-1&keywords=essentialism][Essentialism: The Disciplined Pursuit of Less]]* by Greg Mckeown
+- *The Phoenix Project* by Gene Kim & Kevin Behr (Audible)
+- *The Life Changing Magic of Tidying Up* by Marie Kondo (Audible)
+- *Ready Player One* by Ernest Cline (Audible)
+
+* 2016
+- *[[https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/][Seven Habits of Highly Effective People]]* by Steven Covey
+- *[[https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/ref=sr_1_1?s=books&ie=UTF8&qid=1485752361&sr=1-1&keywords=essentialism][Essentialism: The Disciplined Pursuit of Less]]* by Greg Mckeown
+- *[[https://www.amazon.com/Managing-Oneself-Harvard-Business-Classics/dp/142212312X/][Managing Oneself]]* by Peter Drucker
+- *Go In Action* by Bill Kennedy, Brian Ketelsen & Erik St. Martin
+- *One Small Step Can Change Your Life: The Kaizen Way* by Robert Maurer
+- *The Power of When: Discover Your Chronotype* by Michael Breus
+- *The Gray Man (A Gray Man Novel Book 1)* by Mark Greaney
+- *Work The System: The Simple Mechanics of Making More and Working Less* by Sam Carpenter
+- *So Good They Can't Ignore You: Why Skills Trump Passion in the Quest for Work You Love* by Cal Newport
+- *The Rhythm of Life: Living Everyday With Passion and Purpose* by Matthew Kelly
+- *The Principle of the Path: How to Get from Where You Are to Where You Want to Be* by Andy Stanley
+- *The Responsible Company* by Yvon Chouinard
+
+* 2015
+- *[[https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/][Seven Habits of Highly Effective People]]* by Steven Covey
+- *[[https://www.amazon.com/Measure-Man-Gene-Getz/dp/0800726499][The Measure of a Man: Twenty Attributes of A Godly Man]]* by Gene Getz
+- *[[https://www.amazon.com/Great-Omission-Reclaiming-Essential-Discipleship/dp/0062311751/][The Great Omission: Reclaiming Jesus’s Essential Teachings on Discipleship]]* by Dallas Willard
+- *[[https://www.amazon.com/Choose-Yourself-James-Altucher/dp/1490313370/][Choose Yourself]]* by James Altucher
+- *[[https://www.amazon.com/Better-Than-Before-Habits-Procrastinate/dp/0385348630/][Better Than Before: Mastering the Habits of Our Everyday Lives]] by Gretchen Rubin
+- *Strengths Finder 2.0* by Tom Rath
+- *Getting Real: The smarter, faster, easier way to build a successful Web application* by Jason Fried
+- *Eat Move Sleep: How Small Choices Lead to Big Changes* by Tom Rath
+- *Remote: Office Not Required* by David Heinemeier Hansen
+- *Start: Punch Fear in the Face, Escape Average and Do Work that Matters* by Jon Acuff (Audible)
+- *The Miracle Morning: The Not-So-Obvious Secret Guaranteed to Transform Your Life (Before 8AM)* by Hal Elrod
+- *Made to Stick: Why Some Ideas Survive and Others Die* by Chip Heath
+- *Ender's Game (Ender's Saga, #1)* by Orson Scott Card
+- *Platform: Get Noticed in a Noisy World* by Michael Hyatt
+- *Future Perfect: The Case for Progress in a Networked Age* by Steven Johnson
+- *Secrets of the JavaScript Ninja* by John Resig
+- *Ender's Shadow (Shadow, #1)* by Orson Scott Card
+- *The Power Of Habit: Why We Do What We Do In Life And Business* by Charles Duhigg
+- *Habit Stacking: 97 Small Life Changes That Take Five Minutes or Less* by S.J Scott
+- *Beyond Trying* by Mike Vardy
+- *Rich Dad Poor Dad: What The Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!* by Robert Kiyosaki
+- *All You Need Is Kill* by Hiroshi Sakurazaka
+- *Smartcuts: How Hackers, Innovators, and Icons Accelerate Success* by Shane Snow
+- *The Responsible Company: What We've Learned from Patagonia's First 40 Years* by Yvon Chouinard
+- *Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen* by Christopher McDougall
+- *1984* by George Orwell
+- *Eat and Run: My Unlikely Journey to Ultramarathon Greatness* by Scott Jurek
+
+* Backlog
+
+- *Designing Your Life: How to Build a Well-Lived, Joyful Life* by Bill Burnett & Dave Evans
+
+*Inspired by [[https://www.susanjfowler.com/reading-list/][Susan J Fowler's Epic Reading List]]*
