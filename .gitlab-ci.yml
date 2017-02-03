@@ -7,7 +7,7 @@ pages:
   stage: deploy
   script:
     - ./script/cibuild-pre
-    - cd npm run build 
+    - npm run build 
     - ./script/build
   artifacts:
     paths:
