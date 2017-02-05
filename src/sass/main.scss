@@ -74,7 +74,6 @@ code, pre span {
 code {
     background: #EFEFEF; 
     color: #222;
-    padding: 0.2em 0;
     font-size: 14px;
     &::before, &::after{
 	letter-spacing: -0.2em;
@@ -130,10 +129,19 @@ pre span {
   }
 
   blockquote {
-    margin: 0;
-    padding: .25rem 1rem;
-    background: $base05;
-    font-style: italic;
+      background: #f9f9f9;
+      border-left: 10px solid #ccc;
+      margin: 1.5em 10px;
+      padding: 0.5em 10px;
+      quotes: "\201C""\201D""\2018""\2019";
+  }
+
+  blockquote p {
+      margin-top: 0;
+      display: block;
+      &:last-child {
+	  margin-bottom: 0
+      }
   }
 
   .post, .collection {
