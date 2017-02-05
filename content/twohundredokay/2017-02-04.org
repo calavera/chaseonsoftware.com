@@ -1,0 +1,14 @@
+#+TITLE: February 5th, 2017 - February 11th, 2017
+#+DATE: 2017-02-11T06:06:00Z
+#+SLUG: week-five
+#+DRAFT: true
+
+* [[https://tools.ietf.org/html/rfc2324][RFC 2324: The Hyper Text Coffee Pot Control Protocol]] 
+
+On April 1st 1998 the Network Working Group released a protocol as a joke for controlling coffee pots. It included a =BREW= method, a status code for teapots to respond with "I'm a teapot" and an =Accept-Additions= header field such as =milk-type=, =syrup-type=, =alcohol-type= and =spice-type=. 
+
+Don't forget the Security Considerations: *Anyone who gets in between me and my morning coffee should be insecure.*
+
+*** Related Links 
+
+- [[https://www.google.com/teapot][Google's "I'm a Teapot" Response Page.]]
