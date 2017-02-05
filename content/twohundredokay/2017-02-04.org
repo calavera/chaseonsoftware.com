@@ -12,3 +12,10 @@ Don't forget the Security Considerations: *Anyone who gets in between me and my 
 *** Related Links 
 
 - [[https://www.google.com/teapot][Google's "I'm a Teapot" Response Page.]]
+
+* [[https://golang.org/doc/install/source#environment][Optional Environment Variables for Go Compilation]]
+
+I use =$GOOS= and =$GOARCH= currently to build a custom hugo binary to deploy my site so I can publish with Org content rather than Markdown. I only need two: 
+
+- OSX (local dev on multiple machines): =$GOOS=darwin= and =$GOARCH=386=
+- Linux (CI/CD in gitlab and netlify): =$GOOS=linux= and =$GOARCH=386=
