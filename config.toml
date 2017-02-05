@@ -5,6 +5,7 @@ title = "Chase Adams"
 PygmentsCodeFences = true
 
 topic = "topics"
+twohundredokay = "twohundredokay"
 
 [params]
   description = "I'm Chase Adams. Engineer at Walmart Labs. Life Learner. Programming Polyglot."
@@ -15,6 +16,7 @@ topic = "topics"
 [permalinks]
   article = "/:slug/"
   page = "/:filename/"
+  twohundredokay = "/twohundredokay/:year/:slug"
 
 [[menu.main]]
   name = "Start Here"
