@@ -8,6 +8,6 @@ function writeStatus {
 # build the theme on the fly
 npm run build
 
-HUGO_BASEURL="https://chaseadams.io" ./hugo \
+HUGO_BASEURL="https://chaseadams.io" ./bin/hugo_linux_386 \
   && writeStatus
 

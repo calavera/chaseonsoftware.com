@@ -21,21 +21,10 @@ clean:
 	rm -rf $(PUBLIC)
 	rm -rf static/* 
 
-test:
-	echo "Nothing to see here." && exit 0
-
-docker-build:
-		docker build --rm --force-rm -t $(DOCKER_IMAGE) .
-
-docker-serve: build
-	docker run --rm -it \
-		-v $(CURDIR)/:/usr/src/chaseadamsio \
-		--workdir /usr/src/chaseadamsio \
-		-p $(PORT):$(PORT)\
-		--name chaseadamsio \
-		$(DOCKER_IMAGE) hugo server -w --port=$(PORT) --bind=0.0.0.0
-
 server:
 	npm run build 
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
 
+
+generate-hugo-linux-386:
+	env GOOS=linux GOARCH=386 go build -o bin/hugo_linux_386 github.com/spf13/hugo
