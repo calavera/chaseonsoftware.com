@@ -67,7 +67,7 @@ pre {
     padding: .5rem;
 }
 
-code, pre span {
+code, pre, pre span {
     font-family: "Fira Mono", monospace !important;
 }
 
@@ -81,9 +81,10 @@ code {
     }
 }
 
-pre span {
+pre, pre span {
     font-size: 12px;
     line-height: 100%;
+    color: #f8f8f2;
 }
 
 #header {
