@@ -3,7 +3,7 @@ extends ../master
     ul.collection
       each $post in $.Data.Pages
         li
-          h3
+          h1
             a[href=$.Permalink] #{$.Title}
           div #{$.Content}
     import ../partials/sidebar
