@@ -33,3 +33,5 @@ public
 .awspublish*
 
 static/css
+static/screenshots
+content/dotfiles
