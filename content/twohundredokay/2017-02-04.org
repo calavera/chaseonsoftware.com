@@ -19,3 +19,6 @@ I use =$GOOS= and =$GOARCH= currently to build a custom hugo binary to deploy my
 
 - OSX (local dev on multiple machines): =$GOOS=darwin= and =$GOARCH=386=
 - Linux (CI/CD in gitlab and netlify): =$GOOS=linux= and =$GOARCH=386=
+* [[https://lists.gnu.org/archive/html/emacs-orgmode/2016-04/msg00298.html][Org Mode 9.x doesn't support sh]]
+
+Just a reminder as I'm writing =org= files with source blocks, it has replaced support for =sh= with =shell=.
