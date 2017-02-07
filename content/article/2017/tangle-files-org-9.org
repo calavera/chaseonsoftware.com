@@ -1,0 +1,45 @@
+#+TITLE: Tangling Files From Source Blocks with Org version 9 in Emacs
+#+DRAFT: true
+
+
+* Introduction
+* Determine your org version
+* Tangle single file from single org file
+* Tangle multiple files from single org file
+* Differences between Org version 8 and Org version 9
+
+Org version 8:
+
+#+BEGIN_SRC  
+* .bash_profile
+:PROPERTIES:
+:tangle: ~/.bash_profile
+:END:
+#+END_SRC
+
+#+BEGIN_SRC 
+#+BEGIN_SRC sh
+echo "hello world"
+#+END_SRC
+#+END_SRC
+
+One of my favorite features of Emacs is =org-mode= and my favorite feature of =org-mode= is the ability to use literate programming, especially for my dotfiles.
+
+In this article, you'll learn how to tangle multiple files from a single =org= file with version 9 of =org=. My dotfiles live in =~/src/gitlab.com/chaseadamsio/dotfiles= and I'm going to be working out of a file called =shell.org=.
+
+
+
+
+
+I've been using Emacs' =org-mode= to tangle my dotfiles and found that between version 8 & 9 there were some significant updates that caused my files not to tangle. 
+
+In Emacs, to determine your =org= version, run =execute-extended-command= by typing =M-x= and typing =org-version=. If you're on version 9, you should get a response like the following:
+
+#+BEGIN_EXAMPLE
+Org mode version 9.0.4 ...
+#+END_EXAMPLE
+
+
+
+
+Hopefully this helps someone else out there who was confused by this update! 
