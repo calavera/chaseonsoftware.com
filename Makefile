@@ -9,6 +9,7 @@ deploy: install build
 build: get-dotfiles build-assets build-contents
 
 get-dotfiles:
+	rm -rf content/dotfiles
 	git clone https://gitlab.com/chaseadamsio/dotfiles.git content/dotfiles && \
 	    mv content/dotfiles/screenshots static/
 
