@@ -7,3 +7,4 @@
 - Display home folder or hard drive in the sidebar
 - Add a commonly used folder from a finder window to the sidebar
 - Change what the Finder window shows on startup
+** Using org-mode in Emacs to tangle files
