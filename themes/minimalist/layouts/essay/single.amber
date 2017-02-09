@@ -1,0 +1,16 @@
+extends ../master
+
+  block meta
+    meta[name="description"][content=$.Description]
+    
+  block title
+    | #{$.Title}
+
+  block content
+    div.post.page
+      h1 #{$.Title}
+      if $.Description
+        div.purpose #{$.Description}
+      div.content #{$.Content}
+      import ../partials/ongitlab
+      

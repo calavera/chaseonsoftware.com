@@ -1,6 +1,7 @@
 .PHONY: clean
 
 PUBLIC=public/*
+THEME=themes/minimalist
 PORT=1337
 DOCKER_IMAGE=chaseadamsio/chaseadamsio
 
@@ -9,16 +10,17 @@ deploy: install build
 build: build-assets build-contents
 
 build-assets:
-	npm run build
+	cd $(THEME) && npm run build
 
 build-contents:
 	./script/build
 
 install:	
-	npm install
+	cd $(THEME) && npm install
 
 clean:
 	rm -rf $(PUBLIC)
+	rm -rf $(THEME)/node_modules
 
 server: clean build-assets
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
