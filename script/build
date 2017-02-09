@@ -1,5 +1,8 @@
 #!/bin/bash
 
+git submodule init
+git submodule update
+
 function writeStatus {
   touch ./public/status.json \
     && echo "{ \"status\": \"good\", \"last_build\": \"$(($(date +%s)*1000))\" }" >> ./public/status.json;
