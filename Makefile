@@ -16,7 +16,7 @@ build-contents:
 
 install:
 	git submodule init && git submodule update
-	cd themes/bugablu && npm install
+	cd themes/bugablu && npm install -g gulp && npm install
 
 clean:
 	rm -rf $(PUBLIC)
