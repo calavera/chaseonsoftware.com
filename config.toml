@@ -1,3 +1,4 @@
+theme = "bugablu"
 baseurl = "https://chaseadams.io"
 canonifyURLs = true
 languageCode = "en-us"

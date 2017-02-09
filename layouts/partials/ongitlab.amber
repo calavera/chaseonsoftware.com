@@ -1,9 +1,0 @@
-$gitlabURL = "https://gitlab.com/chaseadamsio/chaseadamsio.gitlab.io/"
-$gitlabFilePathURL = $gitlabURL + "tree/master/content/" + $.File.Path
-
-div.gitlab-link[style="text-align:center;"]
-  span View
-  a[href=$gitlabFilePathURL][target="_blank"][style="font-style:italic;"] #{$.File.Path}
-  span source on 
-  a[href=$gitlabURL] GitLab.com
-

@@ -6,12 +6,7 @@ DOCKER_IMAGE=chaseadamsio/chaseadamsio
 
 deploy: install build
 
-build: get-dotfiles build-assets build-contents
-
-get-dotfiles:
-	rm -rf content/dotfiles
-	git clone https://gitlab.com/chaseadamsio/dotfiles.git content/dotfiles && \
-	    mv content/dotfiles/screenshots static/
+build: build-assets build-contents
 
 build-assets:
 	npm run build

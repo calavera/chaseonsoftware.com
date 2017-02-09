@@ -1,8 +1,0 @@
-ul.menu-main
-  li 
-    h1
-      a[href=$.Site.BaseURL] chaseadams.io
-
-  each $menuItem in $.Site.Menus.main
-    li 
-      a[href=$.URL] #{$.Name}
