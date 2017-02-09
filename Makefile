@@ -20,11 +20,9 @@ install:
 
 clean:
 	rm -rf $(PUBLIC)
-	rm -rf static/screenshots
-	rm -rf content/dotfiles
 
 server: clean 
-	cd thems/bugablu && npm run build 
+	cd themes/bugablu && npm run build 
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
 
 generate-hugo-linux-386:
