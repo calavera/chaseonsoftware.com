@@ -15,6 +15,7 @@ build-contents:
 	./script/build
 
 install:
+	git submodule init && git submodule update
 	cd themes/bugablu && npm install
 
 clean:
