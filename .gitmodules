@@ -1,0 +1,3 @@
+[submodule "themes/minimalist"]
+	path = themes/minimalist
+	url = git@gitlab.com:chaseadamsio/minimalist.git
