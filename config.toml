@@ -17,7 +17,6 @@ twohundredokay = "twohundredokay"
 [permalinks]
   article = "/:slug/"
   page = "/:filename/"
-  dotfiles = "/dotfiles/:filename/"
   twohundredokay = "/twohundredokay/:year/:slug"
 
 [[menu.main]]

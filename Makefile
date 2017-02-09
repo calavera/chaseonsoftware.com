@@ -9,21 +9,21 @@ deploy: install build
 build: build-assets build-contents
 
 build-assets:
-	npm run build
+	cd themes/bugablu && npm run build
 
 build-contents:
 	./script/build
 
 install:
-	npm install
+	cd themes/bugablu && npm install
 
 clean:
 	rm -rf $(PUBLIC)
 	rm -rf static/screenshots
 	rm -rf content/dotfiles
 
-server: clean get-dotfiles
-	npm run build 
+server: clean 
+	cd thems/bugablu && npm run build 
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
 
 generate-hugo-linux-386:
