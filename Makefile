@@ -9,14 +9,13 @@ deploy: install build
 build: build-assets build-contents
 
 build-assets:
-	cd themes/bugablu && npm run build
+	npm run build
 
 build-contents:
 	./script/build
 
-install:
-	git submodule init && git submodule update
-	cd themes/bugablu && npm install -g gulp && npm install
+install:	
+	npm install
 
 clean:
 	rm -rf $(PUBLIC)
