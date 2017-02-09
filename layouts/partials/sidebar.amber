@@ -1,0 +1,30 @@
+div.sidebar
+  div.section
+    div.about-me
+      h2 about me
+      img[src="/img/chaseadamsioavatar.jpg"]
+    p
+      | I'm Chase, a software engineer at Walmart Labs contributing to Dynamic Content Optimization in the go language. <a href="/about">I believe intentional input is the foundation to creating effective output.</a> I write about technology, essential pursuits, productivity & distributed teams.
+    a[href="/now"] I live in the present.
+
+  div.section
+    h2 popular posts
+    ul
+     li
+       a[href="/2014/01/show-your-macs-hard-drive-in-finder-sidebar/"] OSX Protip: Show your Mac’s Hard Drive in Finder Sidebar
+     li
+       a[href="/2015/07/minimalist-task-desk/"] Rustic Industrial Minimalist Task Desk
+     li
+       a[href="/getting-started-with-emacs"] Getting Started With Emacs
+     li
+       a[href="/2017/3-themes/"] My 3 Themes for 2017
+
+  div.section
+    h2 around the web
+    ul
+     li
+      a[href="https://gitlab.com/chaseadamsio"] chaseadamsio on gitlab
+     li
+      a[href="https://github.com/chaseadamsio"] chaseadamsio on github
+     li
+      a[href="https://twitter.com/chaseadamsio"] chaseadamsio on twitter

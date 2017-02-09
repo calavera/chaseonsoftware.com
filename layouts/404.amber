@@ -1,0 +1,10 @@
+extends master
+  block content
+    h1 It looks like you've found page that doesn't exist! 
+    h2 Check out some other posts!
+
+    ul.collection
+      each $post in $.Data.Pages
+        if $.Section == "post"
+          li 
+            a[href=$.Permalink] #{$.Title}

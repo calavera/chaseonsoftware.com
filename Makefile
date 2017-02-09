@@ -21,8 +21,7 @@ install:
 clean:
 	rm -rf $(PUBLIC)
 
-server: clean 
-	cd themes/bugablu && npm run build 
+server: clean build-assets
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
 
 generate-hugo-linux-386:

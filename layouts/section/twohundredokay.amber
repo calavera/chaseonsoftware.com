@@ -1,0 +1,9 @@
+extends ../master
+  block content
+    ul.collection
+      each $post in $.Data.Pages
+        li
+          h1
+            a[href=$.Permalink] #{$.Title}
+          div #{$.Content}
+    import ../partials/sidebar

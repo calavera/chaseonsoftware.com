@@ -1,0 +1,11 @@
+extends ../master
+
+  block content
+    ul.collection
+      each $post in $.Data.Pages
+        li 
+          h3
+            a[href=$.Permalink] #{$.Title} 
+          if $.Description
+            div #{$.Description}
+            

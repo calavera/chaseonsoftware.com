@@ -1,0 +1,13 @@
+!!! 5
+html
+  import partials/head
+    
+  body
+    div#app
+      import partials/header
+      import partials/navigation
+        
+      div#main
+        block content
+
+      import partials/footer
