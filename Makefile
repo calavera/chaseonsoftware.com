@@ -20,7 +20,6 @@ install:
 
 clean:
 	rm -rf $(PUBLIC)
-	rm -rf $(THEME)/node_modules
 
 server: clean build-assets
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
