@@ -3,6 +3,8 @@ title: Just Start!
 slug: start-here
 date: 2013-06-21
 backdrop: /img/chaseadamsio.png
+aliases: 
+- /about/
 squeeze: true
 ---
 

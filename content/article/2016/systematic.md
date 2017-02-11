@@ -2,6 +2,8 @@
 title: "A Systematic Approach to Managing Oneself"
 description: This is a systematic approach at applying "Managing Oneself" to my life. Many of the high-level concepts in this document are heavily borrowed from Peter F. Drucker's Managing Oneself.
 date: 2016-11-11T17:26:37Z
+aliases:
+- /systematic/intro
 slug: systematic-approach-to-managing-oneself
 ---
 
