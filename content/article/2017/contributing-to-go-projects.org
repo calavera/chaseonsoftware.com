@@ -1,0 +1,50 @@
+#+TITLE: Contributing to Go Projects
+#+draft: true
+
+Contributing to Go projects can be confusing for new comers to go, so this should help you be able to understand how to do it.
+
+Before starting with the tutorial, make sure you've followed the [[https://golang.org/doc/install][Golang Getting Started Guide.]] You should complete the following before starthing this guide:
+
+- install the Go binary 
+- add the Go bin path to your =$PATH=
+- export =$GOPATH=
+
+In this tutorial, we're going to contribute to spf13/hugo, a static site generator. 
+
+* go get spf13/hugo
+
+Use the =go get= command in your terminal of choice to pull the code for =spf13/hugo= into your workspace (this will be =$GOPATH/src=):
+
+#+BEGIN_SRC sh
+go get github.com/spf13/hugo
+#+END_SRC
+
+When the command has completed and you see a new prompt in your terminal, you should be able to see =github.com/spf13/hugo= in your =$GOPATH/src=.
+
+Change into the directory for =hugo= and run the =go install= command. Assuming the =master= branch is in good shape, you shouldn't receive any output in the terminal and you should find a =hugo= binary in your =$GOBIN= with =ls -la= and see the date and time that you generated the binary.  
+
+* fork spf13/hugo to your github.com user
+
+Since you're unlikely to be a contributor to =spf13/hugo=, you'll need to create a fork to work on it. From the github.com UI for hugo, click the "fork" button and it will create a new fork of that repo under your github user. In my case, after clicking "fork" I should be able to visit github.com/chaseadamsio/hugo and see that the code has been forked.
+
+* add fork as a remote
+
+Contributing to =go= is different from many other languages, because the import path uses the exact path from within your project as =$GOPATH/src/<path>=. In our example, that means any =import= statements in the =hugo= source for =github.com/spf13/hugo= will always look in =$GOPATH/src/github.com/spf13/hugo= for the code to compile. If you were to =git clone= your fork into =$GOPATH/src/github.com/<user>/hugo=, it would be unlikely your changes would show up unless you modified a file that was a part of the main hugo code (rather than a package inside of it).
+
+To work with this constraint, you need to add your /fork/ as a remote. Using my fork as an example, I would change into =spf13/hugo=:
+
+#+BEGIN_SRC sh
+cd src/github.com/spf13/hugo
+#+END_SRC
+
+Then add a remote for my fork:
+
+#+BEGIN_SRC 
+git remote add chaseadamsio git@github.com:chaseadamsio/hugo.git
+#+END_SRC
+
+and now I'm ready to contribute to hugo!
+
+* write some code
+
+* test a go install
