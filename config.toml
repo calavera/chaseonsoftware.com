@@ -30,6 +30,6 @@ twohundredokay = "twohundredokay"
   url = "/"
 
 [[menu.main]]
-  name = "Essential Books"
+  name = "Reading List"
   weight = 210
-  url = "/essential-books"
+  url = "/reading-list"

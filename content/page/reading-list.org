@@ -1,16 +1,17 @@
-#+TITLE: My Reading List
-#+DRAFT: true
-#+SLUG: reading-list
+#+title: My Reading List
+#+slug: reading-list
 
 Follow me on GoodReads at [[https://www.goodreads.com/chaseadamsio]].
 
 * Currently Reading
 - *The Essential Executive* by Peter Drucker
 - *Deep Work* by Cal Newport
+- *The Checklist Manifesto* by Atul Gawande
+- *A Short History of Nearly Everything* by Bill Bryson
 
 * Essential Reads
 
-These 3 books have been the most influential guides through my professional and personal life.
+These [[/essential-books][3 books have been the most influential guides in both my professional and personal life]].
 
 - *[[https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/][Seven Habits of Highly Effective People]]* by Steven Covey
 - *[[https://www.amazon.com/Managing-Oneself-Harvard-Business-Classics/dp/142212312X/][Managing Oneself]]* by Peter Drucker
@@ -43,7 +44,7 @@ These 3 books have been the most influential guides through my professional and 
 - *[[https://www.amazon.com/Measure-Man-Gene-Getz/dp/0800726499][The Measure of a Man: Twenty Attributes of A Godly Man]]* by Gene Getz
 - *[[https://www.amazon.com/Great-Omission-Reclaiming-Essential-Discipleship/dp/0062311751/][The Great Omission: Reclaiming Jesus’s Essential Teachings on Discipleship]]* by Dallas Willard
 - *[[https://www.amazon.com/Choose-Yourself-James-Altucher/dp/1490313370/][Choose Yourself]]* by James Altucher
-- *[[https://www.amazon.com/Better-Than-Before-Habits-Procrastinate/dp/0385348630/][Better Than Before: Mastering the Habits of Our Everyday Lives]] by Gretchen Rubin
+- *[[https://www.amazon.com/Better-Than-Before-Habits-Procrastinate/dp/0385348630/][Better Than Before: Mastering the Habits of Our Everyday Lives]]* by Gretchen Rubin
 - *Strengths Finder 2.0* by Tom Rath
 - *Getting Real: The smarter, faster, easier way to build a successful Web application* by Jason Fried
 - *Eat Move Sleep: How Small Choices Lead to Big Changes* by Tom Rath
@@ -71,4 +72,6 @@ These 3 books have been the most influential guides through my professional and 
 
 - *Designing Your Life: How to Build a Well-Lived, Joyful Life* by Bill Burnett & Dave Evans
 
-*Inspired by [[https://www.susanjfowler.com/reading-list/][Susan J Fowler's Epic Reading List]]*
+* Footnotes
+- Updated February, 21, 2017
+- *Inspired by [[https://www.susanjfowler.com/reading-list/][Susan J Fowler's Epic Reading List]]*
