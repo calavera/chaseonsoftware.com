@@ -6,7 +6,6 @@ Follow me on GoodReads at [[https://www.goodreads.com/chaseadamsio]].
 * Currently Reading
 - *The Essential Executive* by Peter Drucker
 - *Deep Work* by Cal Newport
-- *The Checklist Manifesto* by Atul Gawande
 - *A Short History of Nearly Everything* by Bill Bryson
 
 * Essential Reads
@@ -24,6 +23,7 @@ These [[/essential-books][3 books have been the most influential guides in both 
 - *The Phoenix Project* by Gene Kim & Kevin Behr (Audible)
 - *The Life Changing Magic of Tidying Up* by Marie Kondo (Audible)
 - *Ready Player One* by Ernest Cline (Audible)
+- *The Checklist Manifesto* by Atul Gawande
 
 * 2016
 - *[[https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/][Seven Habits of Highly Effective People]]* by Steven Covey
