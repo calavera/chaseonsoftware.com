@@ -21,12 +21,12 @@ These [[/essential-books][3 books have been the most influential guides in both 
 - *[[https://www.amazon.com/Managing-Oneself-Harvard-Business-Classics/dp/142212312X/][Managing Oneself]]* by Peter Drucker
 - *[[https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/][Seven Habits of Highly Effective People]]* by Steven Covey
 - *[[https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/ref=sr_1_1?s=books&ie=UTF8&qid=1485752361&sr=1-1&keywords=essentialism][Essentialism: The Disciplined Pursuit of Less]]* by Greg Mckeown
-- *The Checklist Manifesto* by Atul Gawande
-- *The Essential Executive* by Peter Drucker
-- *Deep Work* by Cal Newport
-- *Call of the Wild* by Jack London
+- *[[https://www.amazon.com/Checklist-Manifesto-How-Things-Right/dp/0312430000][The Checklist Manifesto]]* by Atul Gawande
+- *[[https://www.amazon.com/Effective-Executive-Definitive-Harperbusiness-Essentials/dp/0060833459/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1491574342&sr=1-1][The Essential Executive]]* by Peter Drucker
+- *[[https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/0349411905/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1491574363&sr=1-1-spell][Deep Work]]* by Cal Newport
+- *[[https://www.amazon.com/Call-Wild-Jack-London/dp/0486264726/ref=sr_1_1_twi_pap_2?s=books&ie=UTF8&qid=1491574386&sr=1-1&keywords=call+of+the+wild][Call of the Wild]]* by Jack London
 
-** Audible
+** Audiobooks
 - *The Phoenix Project* by Gene Kim & Kevin Behr 
 - *The Life Changing Magic of Tidying Up* by Marie Kondo 
 - *Ready Player One* by Ernest Cline 
