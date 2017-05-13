@@ -27,6 +27,7 @@ These [[/essential-books][3 books have been the most influential guides in both 
 - *[[https://www.amazon.com/Deep-Work-Focused-Success-Distracted/dp/0349411905/][Deep Work]]* by Cal Newport
 - *[[https://www.amazon.com/Call-Wild-Jack-London/dp/0486264726/][Call of the Wild]]* by Jack London
 - *Personal Kanban* by Jim Benson & Tonianne DeMaria Barry
+- *Doing Good Better* by Tim Challies
 
 ** Audiobooks
 - *The Phoenix Project* by Gene Kim & Kevin Behr (twice)
