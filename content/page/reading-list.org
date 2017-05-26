@@ -5,10 +5,10 @@ Follow me on GoodReads at [[https://www.goodreads.com/chaseadamsio]].
 
 * Currently Reading
 - *TCP/IP Network Administration* by Craig Hunt
-- *The Productivity Project* by Chris Bailey
 - *Caliban's War* by James S. A. Corey (book 2 of The Expanse Series)
-- *On Writing Well* by William Zinsser
-- *Mastery* by Robert Greene (Audible)
+- *The Obstacle is the Way* by Ryan Holiday (Audible)
+- *Snow Crash* by Neal Stephenson (Audible)
+- *Spark: The Revolutionary New Science of Exercise and the Brain* by John Ratey (Audible)
 
 * Essential Reads
 
@@ -28,6 +28,8 @@ These [[/essential-books][3 books have been the most influential guides in both 
 - *[[https://www.amazon.com/Call-Wild-Jack-London/dp/0486264726/][Call of the Wild]]* by Jack London
 - *Personal Kanban* by Jim Benson & Tonianne DeMaria Barry
 - *Doing Good Better* by Tim Challies
+- *On Writing Well* by William Zinsser
+- *The Productivity Project* by Chris Bailey
 
 ** Audiobooks
 - *The Phoenix Project* by Gene Kim & Kevin Behr (twice)
@@ -84,5 +86,5 @@ These [[/essential-books][3 books have been the most influential guides in both 
 - *Designing Your Life: How to Build a Well-Lived, Joyful Life* by Bill Burnett & Dave Evans
 
 * Footnotes
-- Updated April 1, 2017
+- Updated May 25, 2017
 - *Inspired by [[https://www.susanjfowler.com/reading-list/][Susan J Fowler's Epic Reading List]]*
