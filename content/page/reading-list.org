@@ -30,6 +30,14 @@ These [[/essential-books][3 books have been the most influential guides in both 
 - *Caliban's War* by James S. A. Corey (book 2 of The Expanse Series)
 - *Snow Crash* by Neal Stephenson (Audible)
 - *Spark: The Revolutionary New Science of Exercise and the Brain* by John Ratey (Audible)
+- *[[https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/][Seven Habits of Highly Effective People]]* by Steven Covey
+- *[[https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382/ref=sr_1_1?s=books&ie=UTF8&qid=1485752361&sr=1-1&keywords=essentialism][Essentialism: The Disciplined Pursuit of Less]]* by Greg Mckeown
+- *The Phoenix Project* by Gene Kim & Kevin Behr (Audible)
+- *The Life Changing Magic of Tidying Up* by Marie Kondo (Audible)
+- *Ready Player One* by Ernest Cline (Audible)
+- *The Essential Executive* by Peter Drucker
+- *Deep Work* by Cal Newport
+- *Leviathan Wakes* by James S. A. Corey (book 1 of The Expanse Series)
 
 ** Audiobooks
 - *The Phoenix Project* by Gene Kim & Kevin Behr (twice)
