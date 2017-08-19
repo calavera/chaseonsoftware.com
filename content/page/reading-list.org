@@ -5,10 +5,6 @@ Follow me on GoodReads at [[https://www.goodreads.com/chaseadamsio]].
 
 * Currently Reading
 - *TCP/IP Network Administration* by Craig Hunt
-- *Caliban's War* by James S. A. Corey (book 2 of The Expanse Series)
-- *The Obstacle is the Way* by Ryan Holiday (Audible)
-- *Snow Crash* by Neal Stephenson (Audible)
-- *Spark: The Revolutionary New Science of Exercise and the Brain* by John Ratey (Audible)
 
 * Essential Reads
 
@@ -31,6 +27,9 @@ These [[/essential-books][3 books have been the most influential guides in both 
 - *On Writing Well* by William Zinsser
 - *The Productivity Project* by Chris Bailey
 - *The Gunslinger* by Stephen King
+- *Caliban's War* by James S. A. Corey (book 2 of The Expanse Series)
+- *Snow Crash* by Neal Stephenson (Audible)
+- *Spark: The Revolutionary New Science of Exercise and the Brain* by John Ratey (Audible)
 
 ** Audiobooks
 - *The Phoenix Project* by Gene Kim & Kevin Behr (twice)
