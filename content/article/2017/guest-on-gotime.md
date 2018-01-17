@@ -1,5 +1,6 @@
 +++
 title = "Guest on GoTime: Go at Walmart (and Scale)"
+slug = "guest-on-gotime-go-at-walmart-and-scale"
 date = 2017-08-18T21:00:00Z
 +++
 

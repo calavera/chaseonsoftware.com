@@ -26,5 +26,3 @@ In my day-to-day, I'm focusing on...
 I'm incredibly happy where I am in life: watching my little girl experience the newness of life, loving on my wife, learning a ton and building high throughput distributed software for fun (and getting paid to do it!). 
 
 I try to keep this page updated regularly, so be sure to keep checking back if you're curious what I'm up to!
-
-**Created:** February 02, 2016 | **Updated:** January 06, 2017

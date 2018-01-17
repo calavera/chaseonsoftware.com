@@ -1,0 +1,8 @@
+{{ define "main" }}
+<div class="center measure lh-copy">
+    <h1 class="f2">{{ .Title }}</h1>
+    <div class="content f4">{{ .Content }}</div>
+    Created: {{ dateFormat "January 02, 2006" .Date }}
+    {{ if .Params.Updated }}Updated: {{ dateFormat "January 02, 2006" .Params.Updated }}{{end}}
+</div>
+{{ end }}

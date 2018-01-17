@@ -1,12 +1,9 @@
-theme = "minimalist"
 baseurl = "https://chaseadams.io"
 canonifyURLs = true
 languageCode = "en-us"
 title = "Chase Adams"
 PygmentsCodeFences = true
-
-topic = "topics"
-twohundredokay = "twohundredokay"
+enableEmoji = true
 
 [params]
   description = "I'm Chase Adams. Engineer at Walmart Labs. Life Learner. Programming Polyglot."
@@ -17,19 +14,24 @@ twohundredokay = "twohundredokay"
 [permalinks]
   article = "/:slug/"
   page = "/:filename/"
-  twohundredokay = "/twohundredokay/:year/:slug"
 
 [[menu.main]]
-  name = "Start Here"
+  name = "chaseadams.io"
+  weight = -120
+  url = "/"
+
+[[menu.main]]
+  name = "start here"
   weight = -110
   url = "/start-here"
 
 [[menu.main]]
-  name = "Blog"
+  name = "on Medium"
   weight = 110
-  url = "/"
+  url = "https://medium.com/@chaseadamsio"
 
 [[menu.main]]
-  name = "Reading List"
-  weight = 210
-  url = "/reading-list"
+  name = "on Twitter"
+  weight = 110
+  url = "https://twitter.com/chaseadamsio"
+

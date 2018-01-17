@@ -1,0 +1,16 @@
+{{ define "main" }}
+    {{ range .Data.Pages.GroupByDate "2006" }}
+    <h2 class="f1 ma0 mt3">{{ .Key }}</h2>
+    <ul class="center measure list pl0">
+        {{ range .Pages }}
+        <li class="list f3 mv1">
+            {{ if eq .Type "article" }}
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+            {{ else if eq .Type "external" }}
+            <a href="{{ .Params.Link }}">{{ .Title }} (external)</a>
+            {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+{{ end }}

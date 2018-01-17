@@ -2,9 +2,6 @@
 title: Resume
 slug: resume
 date: 2014-06-21T02:47:00Z
-aliases: [
-    resume/hugo.spf13.com
-]
 ---
 
 # Chase Adams

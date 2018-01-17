@@ -1,16 +1,12 @@
 .PHONY: clean
 
 PUBLIC=public/*
-THEME=themes/minimalist
 PORT=1337
 DOCKER_IMAGE=chaseadamsio/chaseadamsio
 
 deploy: install build
 
-build: build-assets build-contents
-
-build-assets:
-	cd $(THEME) && npm run build
+build: build-contents
 
 build-contents:
 	./script/build
@@ -21,8 +17,11 @@ install:
 clean:
 	rm -rf $(PUBLIC)
 
-server: clean build-assets
+server: clean 
 	hugo server --verbose --renderToDisk=true --buildDrafts=true
+
+preview: clean 
+	hugo server --verbose --renderToDisk=true
 
 generate-hugo-linux-386:
 	env GOOS=linux GOARCH=386 go build -o bin/hugo_linux_386 github.com/spf13/hugo

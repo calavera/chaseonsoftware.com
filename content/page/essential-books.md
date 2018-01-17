@@ -1,5 +1,6 @@
 ---
 title: "Essential Books That Changed How I Live & Work"
+date: 2016-06-21T02:47:00Z
 slug: essential-books
 description: The canonical writings that I revisit multiple times a year because they have (and continue to) impacted my life deeply.
 ---

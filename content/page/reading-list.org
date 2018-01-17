@@ -1,5 +1,6 @@
 #+title: My Reading List
 #+slug: reading-list
+#+date: 2016-06-21T02:47:00Z
 
 Follow me on GoodReads at [[https://www.goodreads.com/chaseadamsio]].
 
