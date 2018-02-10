@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ .Site.Title }} | {{ .Params.Title }}</title>
+    <title>{{ if isset .Params "title" }}{{ .Params.Title }} | {{ end }}{{ .Site.Title }} | Building A Better Web</title>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Source+Sans+Pro:200,400,700">
     <link rel="author" href="/humans.txt">
