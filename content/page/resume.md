@@ -2,6 +2,9 @@
 title: Resume
 slug: resume
 date: 2014-06-21T02:47:00Z
+aliases: [
+    resume/hugo.spf13.com
+]
 ---
 
 # Chase Adams
@@ -9,13 +12,38 @@ date: 2014-06-21T02:47:00Z
 
 - Las Vegas, NV 89183
 - Email: [realchaseadams@gmail.com](mailto:realchaseadams@gmail.com)
-- Site: [realchaseadams.com](http://www.realchaseadams.com)
+- Site: [chaseadams.io](https://chaseadams.io)
 
 ## Experience
 
+### Engineering Manager, Edge Consulting @ [Walmart Labs](http://www.walmartlabs.com/)
+
+*November 2017 - Present*
+
+- Coordinated multiple projects between business needs and market operations 
+- Helped onboard new acquisitions and sites to Edge Proxy/Multi-CDN product
+- Led training on leveraging cache and ESI for performance
+- Worked with major tenants on Lua plugins for edge proxy
+- Led team in capturing work and bucketing common work
+- Coached team members on debugging and troubleshooting HTTP traffic flows
+
+### Senior Software Engineer, Edge Platform @ [Walmart Labs](http://www.walmartlabs.com/)
+
+*January 2017 - November 2017*
+
+- Setup Elastic Search/Kibana cluster that a NSQ daemon in place of logstash to collect 25x more longs than with our original ELK stack
+- Helped provide better visibility into odnd/customer issues (ENK stack) with better throughput of logs and longer storage 
+- Worked with internal customers to better understand how to use tools (curl, admind) and applied fixes to customer reported bugs (HTML encoded match URLs, last known good response) as well as making tools more robust (verified assets reporting for tenant debugging)
+- Migrated core products to deployment infrastructure (OneOps)
+- Reduced burden of operations with salt
+- Led Lua scripting 101 training for tenants and partners 
+- Worked with tenants to audit Lua plugins for edge proxy for performance 
+- Fixed a bug causing issues with EXIF orientation 
+- Increaased visibility into software operations 
+
 ### Lead Software Engineer, CI/CD for Customer Experience Engineering @ [Walmart Labs](http://www.walmartlabs.com/)
 
-*January 2016 - Present*
+*January 2016 - January 2017*
 
 - Led CI/CD initiative for all react component libraries and 12 track teams 
 - Created pipelines that facilitated 2 week release cycles becoming daily deployments
@@ -54,17 +82,6 @@ date: 2014-06-21T02:47:00Z
 - Mentored interns & junior developers in problem solving, sass, freemarker and javascript.
 - Taught courses for our internal TechUniversity.
 - Contributed to Frontend Team culture & technical growth.
-
-### Full Stack Developer @ [realchaseadams.com](http://www.realchaseadams.com)
-
-*February 2011 - Present*
-
-- Worked with Amazon Web Services.
-- Setup multiple sites on a digital ocean droplet.
-- Learned nginx & ruby on rails and how to setup production environments.
-- Learned grunt & jekyll
-- Implemented Capistrano and git hooks for deployment.
-- Implemented Web Analytics and modified sites based on interpreting data.
 
 ### Web Developer @ [Rock, Paper, Scissors](http://www.123shoot.com)
 
