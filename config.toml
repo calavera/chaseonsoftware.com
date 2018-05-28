@@ -5,6 +5,7 @@ title = "Chase Adams"
 PygmentsCodeFences = true
 enableEmoji = true
 
+
 [params]
   description = "I'm Chase Adams. Engineer at Walmart Labs. Life Learner. Programming Polyglot."
   author = "Chase Adams"
@@ -14,11 +15,6 @@ enableEmoji = true
 [permalinks]
   article = "/:slug/"
   page = "/:filename/"
-
-[[menu.main]]
-  name = "chaseadams.io"
-  weight = -120
-  url = "/"
 
 [[menu.main]]
   name = "start here"
