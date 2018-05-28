@@ -12,13 +12,17 @@
 </head>
 <body class="dark-gray">
     <div id="app" class="bg-white-30">
-    <div class="mw9 center ph3-ns">
-    <div class="cf ph2-ns">
-    <div class="tc mv5">
-        {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" class="dib link ph2 pv2">{{ .Name }}</a>
-        {{ end }}
+    <div class="mw9 center">
+    <nav class="tc group">
+    <div class="inner">
+                    <a href="/" style="margin-right:auto;" class="dib link ph2 pv2">Chase Adams</a>
+                    {{ range .Site.Menus.main }}
+                    <a href="{{ .URL }}" class="dib link ph2 pv2">{{ .Name }}</a>
+                    {{ end }}
     </div>
+
+    </nav>
+    <div class="cf ph2-ns">
     <div>
         <div class="f3 center mw7">
             {{ block "main" . }}
