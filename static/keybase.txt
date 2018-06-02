@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/chaseadamsio
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://chaseadams.io
+  * I am chaseadamsio (https://keybase.io/chaseadamsio) on keybase.
+  * I have a public key ASDP6jrIoToMFcJvsEvUXU6BUwBgD3KNRONMCQhJD_mjMwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101ad38f5ae12d3487f40bd9469780275ee765391b9ad8199e2a954183188dbe2a00a",
+      "host": "keybase.io",
+      "kid": "0120cfea3ac8a13a0c15c26fb04bd45d4e815300600f728d44e34c0908490ff9a3330a",
+      "uid": "baa2b41d889a1d1de5ad0be1f41a1019",
+      "username": "chaseadamsio"
+    },
+    "merkle_root": {
+      "ctime": 1527909831,
+      "hash": "9c21478dc18688b392f5072bf41faa68952fc3595491023b26e52b9d6f4ded80d0a96f30b0516702386c8f2ceb871b8fc256a2a3d2e4d3933690ca806064f376",
+      "hash_meta": "abc7190090582398d72f5a3a288cee8d0206058ef4bb1ab612a183a85a66966f",
+      "seqno": 2979949
+    },
+    "service": {
+      "entropy": "YcSeFNPHwXhJ/X099F0wcLj2",
+      "hostname": "chaseadams.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.48"
+  },
+  "ctime": 1527909844,
+  "expire_in": 504576000,
+  "prev": "fe1898f5435e790d962b39b1cbf8ff28284d8303f48e7eda84cbbaf5e129bd1a",
+  "seqno": 22,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgz+o6yKE6DBXCb7BL1F1OgVMAYA9yjUTjTAkISQ/5ozMKp3BheWxvYWTESpcCFsQg/hiY9UNeeQ2WKzmxy/j/KChNgwP0jn7ahMu69eEpvRrEIM9bSInw5Dp2U8W12xDZfEXgEoY1eISknLc/bbPYL6JbAgHCo3NpZ8RAJLFVgd3s7pGzOfRwMiJM0SBzotVt3JKVrnLVzm50+dJmWVE6dIeQSsFXjWUdAk8xBq38LnQ9c982maVFfRQQDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMxSqSflb8DhCmHdMXW4yi5tbDB95iMc7b9y3/ikpNT9o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chaseadamsio
+
+==================================================================
