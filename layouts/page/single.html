@@ -1,8 +1,0 @@
-{{ define "main" }}
-<div class="content">
-    <h1 class="heading">{{ .Title }}</h1>
-    <div class="">{{ .Content }}</div>
-    Created: {{ dateFormat "January 02, 2006" .Date }}
-    {{ if .Params.Updated }}Updated: {{ dateFormat "January 02, 2006" .Params.Updated }}{{end}}
-</div>
-{{ end }}

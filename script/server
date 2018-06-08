@@ -1,4 +1,0 @@
-npm run build 
-
-# renderToDisk is a "workaround" for issues#1716
-hugo server --verbose --renderToDisk=true --buildDrafts=true
