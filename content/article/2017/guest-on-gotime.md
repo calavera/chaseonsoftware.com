@@ -1,8 +1,8 @@
-+++
-title = "Guest on GoTime: Go at Walmart (and Scale)"
-slug = "guest-on-gotime-go-at-walmart-and-scale"
-date = 2017-08-18T21:00:00Z
-+++
+---
+title: "Guest on GoTime: Go at Walmart (and Scale)"
+slug: "guest-on-gotime-go-at-walmart-and-scale"
+date: 2017-08-18T21:00:00Z
+---
 
 I joined the show to talk about working on distributed systems with distributed teams, giving people opportunities to learn and grow, and interesting Go projects and news.
 

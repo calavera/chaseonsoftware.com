@@ -1,7 +1,7 @@
 {{ define "main" }}
     {{ range .Data.Pages.GroupByDate "2006" }}
     <h2 class="f1 ma0 mt3">{{ .Key }}</h2>
-    <ul class="measure list pl0">
+    <ul class="content">
         {{ range .Pages }}
         <li class="list f4 mv3">
             {{ if eq .Type "article" }}

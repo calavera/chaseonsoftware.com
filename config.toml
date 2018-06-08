@@ -17,9 +17,9 @@ enableEmoji = true
   page = "/:filename/"
 
 [[menu.main]]
-  name = "start here"
+  name = "About"
   weight = -110
-  url = "/start-here"
+  url = "/me"
 
 [[menu.main]]
   name = "on Medium"

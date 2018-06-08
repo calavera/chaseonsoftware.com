@@ -1,8 +1,8 @@
-+++
-date = "2017-01-01T04:00:00Z"
-title = "My 3 Themes for 2017"
-slug = "2017/3-themes"
-+++
+---
+date: "2017-01-01T04:00:00Z"
+title: "My 3 Themes for 2017"
+slug: "2017/3-themes"
+---
 
 Last year I started an exercise that changed how I approached my year, quarter, month, week and day: Theming. 
 
