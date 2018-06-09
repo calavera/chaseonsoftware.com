@@ -15,5 +15,8 @@ export default () => (
       Built, deployed and hosted on{" "}
       <a href="https://netlify.com">Netlify Static CDN</a>
     </p>
+    <ul>
+      <li>Twitter</li>
+    </ul>
   </footer>
 );
