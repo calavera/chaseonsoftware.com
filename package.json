@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "chaseadams.io",
+  "description": "chaseadams.io",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -10,11 +10,16 @@
   "dependencies": {
     "gatsby": "^1.9.250",
     "gatsby-link": "^1.6.40",
+    "gatsby-plugin-catch-links": "^1.0.22",
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-sass": "^1.0.26",
     "gatsby-plugin-typography": "^1.7.18",
     "gatsby-source-filesystem": "^1.5.38",
     "gatsby-transformer-remark": "^1.7.41",
     "react-helmet": "^5.2.0"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@gitlab.com:chaseadamsio/chaseadamsio.gitlab.io.git",
+  "author": "Chase Adams <hey@chaseadams.io>"
 }

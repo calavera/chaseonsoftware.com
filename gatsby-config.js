@@ -36,6 +36,7 @@ module.exports = {
         trackingId: "UA-62564031-1"
       }
     },
+    `gatsby-plugin-catch-links`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sass`
   ]
