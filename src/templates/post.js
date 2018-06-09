@@ -14,7 +14,7 @@ export default ({ data }) => {
           </div>
         </div>
       </header>
-      <section>
+      <section className="pad-container">
         <div className="small-container">
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
