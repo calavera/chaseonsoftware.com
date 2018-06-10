@@ -53,7 +53,7 @@ header.single-header {
 }
 
 header.nav {
-    background: #162329;
+    background: $black;
     width: "100%";
     padding: 1rem;
     h1 {
@@ -62,6 +62,9 @@ header.nav {
     a {
         color: #f4f4f4;
         &:hover {
+            color: $blue;
+        }
+        &.active {
             color: $blue;
         }
     }
