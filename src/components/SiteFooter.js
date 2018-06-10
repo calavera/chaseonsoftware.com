@@ -18,5 +18,12 @@ export default () => (
     <ul>
       <li>Twitter</li>
     </ul>
+
+    <div style={{ textAlign: "center", color: "#f4f4f4" }}>
+      <a href="https://twitter.com/chaseadamsio">On Twitter</a>{" "} | {" "}
+      <a href="https://medium.com/chaseadamsio">On Medium</a>{" "} | {" "}
+      <a href="https://www.linkedin.com/in/chaseadams/">On LinkedIn</a>
+
+    </div>
   </footer>
 );
