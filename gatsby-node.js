@@ -2,7 +2,7 @@ const path = require(`path`);
 const { createFilePath } = require(`gatsby-source-filesystem`);
 
 exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators;
+  const { createNodeField, createRedirect } = boundActionCreators;
 
   if (node.internal.type !== `MarkdownRemark`) {
     return;
@@ -11,21 +11,9 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
   const fileNode = getNode(node.parent);
 
   setPageType(node, fileNode.sourceInstanceName, createNodeField);
-  setSlug(node, node.frontmatter.slug, createNodeField);
-};
-
-const setPageType = (node, pageType, createNodeField) => {
-  createNodeField({
-    node,
-    name: `pageType`,
-    value: pageType || "none"
-  });
-};
-
-const setSlug = (node, fmSlug, createNodeField) => {
   let slug = "";
 
-  if (fmSlug !== undefined) {
+  if (node.frontmatter.slug !== undefined) {
     slug = node.frontmatter.slug;
   } else {
     slug = createFilePath({ node, getNode, basePath: `pages` });
@@ -34,6 +22,26 @@ const setSlug = (node, fmSlug, createNodeField) => {
     node,
     name: `slug`,
     value: slug
+  });
+
+  if (node.frontmatter.aliases !== undefined) {
+    node.frontmatter.aliases.forEach((alias) => {
+      console.log(alias, "->", slug)
+      createRedirect({
+        fromPath: alias,
+        isPermanent: true,
+        redirectInBrowser: true,
+        toPath: slug,
+      });
+    })
+  }
+};
+
+const setPageType = (node, pageType, createNodeField) => {
+  createNodeField({
+    node,
+    name: `pageType`,
+    value: pageType || "none"
   });
 };
 
@@ -54,17 +62,17 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
       }
     `).then(result => {
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        createPage({
-          path: node.fields.slug,
-          component: path.resolve(`./src/templates/post.js`),
-          context: {
-            // Data passed to context is available in page queries as GraphQL variables.
-            slug: node.fields.slug
-          }
+        result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+          createPage({
+            path: node.fields.slug,
+            component: path.resolve(`./src/templates/post.js`),
+            context: {
+              // Data passed to context is available in page queries as GraphQL variables.
+              slug: node.fields.slug
+            }
+          });
         });
+        resolve();
       });
-      resolve();
-    });
   });
 };
