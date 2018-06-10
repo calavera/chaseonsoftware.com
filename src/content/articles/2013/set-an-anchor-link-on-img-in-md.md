@@ -1,9 +1,10 @@
 ---
 date: 2013-12-27T02:15:28Z
 title: "Set An Anchor Link On An Image In Markdown"
-slug: 2013/12/set-an-anchor-link-on-an-image-in-markdown
+slug: "2013/12/set-an-anchor-link-on-an-image-in-markdown/"
 aliases: [
-    posts/set-an-anchor-link-on-an-image-in-markdown
+    "/posts/set-an-anchor-link-on-an-image-in-markdown",
+    "2013/12/set-an-anchor-link-on-an-image-in-markdown"
 ]
 ---
 
