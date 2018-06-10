@@ -5,7 +5,7 @@ import styles from "../styles/main.scss";
 
 const ListLink = props => (
   <li style={{ display: `inline` }}>
-    <Link to={props.to}>{props.children}</Link>
+    <Link activeClassName="active" exact={true} to={props.to}>{props.children}</Link>
   </li>
 );
 
