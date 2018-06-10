@@ -26,7 +26,6 @@ exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
 
   if (node.frontmatter.aliases !== undefined) {
     node.frontmatter.aliases.forEach((alias) => {
-      console.log(alias, "->", slug)
       createRedirect({
         fromPath: alias,
         isPermanent: true,
