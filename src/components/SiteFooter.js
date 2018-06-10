@@ -11,7 +11,7 @@ export default () => (
       </a>{" "}
       on <a href="https://gitlab.com">Gitlab</a>
     </p>
-    <p class="f6 db tc mt1">
+    <p>
       Built, deployed and hosted on{" "}
       <a href="https://netlify.com">Netlify Static CDN</a>
     </p>
