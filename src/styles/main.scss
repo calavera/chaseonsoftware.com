@@ -25,7 +25,10 @@ clear: both;
 
 .all-posts {
     h2 {
-        font-size: 1.25rem;
+        margin: 0;
+        padding: 1rem;
+        border-bottom: 1px solid #f4f4f4;
+        font-size: 1rem;
     }
 }
 
