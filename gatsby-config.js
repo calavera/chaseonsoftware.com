@@ -37,6 +37,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-netlify`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sass`
   ]
