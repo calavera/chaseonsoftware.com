@@ -27,9 +27,9 @@ So what I proposed was to use CSS for the transition, and javascript to get the 
 
 Here's a JSFiddle of what the asker was trying to achieve: [http://jsfiddle.net/realchaseadams/Dm9Eu/4/](http://jsfiddle.net/realchaseadams/Dm9Eu/4/)
 
-And the gist ([https://gist.github.com/realchaseadams/7281682](https://gist.github.com/realchaseadams/7281682)) for the code:
+And the gist ([https://gist.github.com/chaseadamsio/7281682](https://gist.github.com/chaseadamsio/7281682)) for the code:
 
-<script src="https://gist.github.com/realchaseadams/7281682.js"></script>
+<script src="https://gist.github.com/chaseadamsio/7281682.js"></script>
 
 ### Ideal Scenario
 

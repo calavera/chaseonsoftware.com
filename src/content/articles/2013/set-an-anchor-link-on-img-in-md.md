@@ -13,11 +13,11 @@ This week, I was drafting a post where I wanted to use book covers and have them
 
 I knew how to create anchors using both inline and reference styles:
 
-<script src="https://gist.github.com/realchaseadams/8147693.js?file=linking-syntax.html"></script> As well as how to create Images using both inline and reference styles:
+<script src="https://gist.github.com/chaseadamsio/8147693.js?file=linking-syntax.html"></script> As well as how to create Images using both inline and reference styles:
 
-<script src="https://gist.github.com/realchaseadams/8147693.js?file=image-syntax.html"></script> So I decided to wrap a referenced image within an referenced anchor, making the image the link content:
+<script src="https://gist.github.com/chaseadamsio/8147693.js?file=image-syntax.html"></script> So I decided to wrap a referenced image within an referenced anchor, making the image the link content:
 
-<script src="https://gist.github.com/realchaseadams/8147693.js?file=anchor-image-code.html"></script> and voila, here's the output:
+<script src="https://gist.github.com/chaseadamsio/8147693.js?file=anchor-image-code.html"></script> and voila, here's the output:
 
 [<img src="http://bower.io/img/bower-logo.png" alt="Bower.io: A Frontend Package Manager. logo" width="200" />](http://www.bower.io)
 
