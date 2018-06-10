@@ -30,12 +30,6 @@ module.exports = {
         path: `${__dirname}/src/content/articles`
       }
     },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-62564031-1"
-      }
-    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-netlify`,
     `gatsby-transformer-remark`,
