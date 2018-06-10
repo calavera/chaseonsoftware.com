@@ -7,7 +7,7 @@ export default ({ data }) => {
   return (
     <div className="small-container pad-container all-posts">
       {data.allMarkdownRemark.edges
-        .filter(({ node }) => node.fields.pageType !== "pages")
+        .filter(({ node }) => node.fields.pageType === "articles")
         .map(({ node }) => (
           <div key={node.id}>
             <h2>
