@@ -5,7 +5,7 @@ import { notStrictEqual } from "assert";
 export default ({ data }) => {
   let curYear = 0;
   return (
-    <div className="small-container pad-container">
+    <div className="small-container pad-container all-posts">
       {data.allMarkdownRemark.edges
         .filter(({ node }) => node.fields.pageType !== "pages")
         .map(({ node }) => (
