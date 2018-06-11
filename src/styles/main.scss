@@ -1,6 +1,7 @@
 @import 'colors.module';
 
 body {
+    background: #fff;
     color: $black;
     font-size: 1rem;
     margin: 0;
@@ -53,14 +54,14 @@ header.single-header {
 }
 
 header.nav {
-    background: $black;
+    background: #fff;
     width: "100%";
     padding: 1rem;
     h1 {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     a {
-        color: #f4f4f4;
+        color: #283c46;
         &:hover {
             color: $blue;
         }
