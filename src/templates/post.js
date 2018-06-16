@@ -5,7 +5,17 @@ export default ({ data }) => {
   const post = data.markdownRemark;
   return (
     <article>
-      <Helmet title={post.frontmatter.title} />
+      <Helmet>
+        <title>{post.frontmatter.title}</title>
+        <meta
+          name="description"
+          content={
+            post.frontmatter.description
+              ? post.frontmatter.description
+              : data.site.siteMetadata.description
+          }
+        />
+      </Helmet>
       <header className="single-header">
         <div className="small-container">
           <h1>{post.frontmatter.title}</h1>
@@ -25,11 +35,17 @@ export default ({ data }) => {
 
 export const query = graphql`
   query BlogPostQuery($slug: String!) {
+    site {
+      siteMetadata {
+        description
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        description
       }
     }
   }
