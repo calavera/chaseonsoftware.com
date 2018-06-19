@@ -7,17 +7,12 @@ export default ({ data }) => {
     <article>
       <Helmet>
         <title>{post.frontmatter.title}</title>
-        <meta
-          name="description"
-          content={
-            post.frontmatter.description
-              ? post.frontmatter.description
-              : data.site.siteMetadata.description
-          }
-        />
+        {post.frontmatter.description && (
+          <meta name="description" content={post.frontmatter.description} />
+        )}
       </Helmet>
       <header className="single-header">
-        <div className="small-container">
+        <div className="container">
           <h1>{post.frontmatter.title}</h1>
           <div className="meta">
             <time>{post.frontmatter.date}</time>
@@ -25,7 +20,7 @@ export default ({ data }) => {
         </div>
       </header>
       <section className="pad-container">
-        <div className="small-container">
+        <div className="container">
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
       </section>
