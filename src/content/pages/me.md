@@ -2,7 +2,7 @@
 title: About Me
 slug: "/me/"
 date: 2013-06-21
-aliases: [ "/start-here/", "/now/"]
+aliases: [ "/start-here/", "/now/", "/about-me", "/about-me/", "/about", "/about/"]
 ---
 
 I'm Chase Adams, a Software Engineering Manager in Las Vegas, NV.

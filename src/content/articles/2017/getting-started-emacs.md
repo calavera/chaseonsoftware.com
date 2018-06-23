@@ -2,6 +2,9 @@
 title: Getting Started With Emacs
 date: 2017-01-05T21:00:00Z
 slug: getting-started-with-emacs
+alias: [
+    "getting-started-with-emacs/"
+]
 ---
 
 **I have been using Emacs for a month (as of this post) and it would be a Hurculean task for any other editor to pull me away from it!**
