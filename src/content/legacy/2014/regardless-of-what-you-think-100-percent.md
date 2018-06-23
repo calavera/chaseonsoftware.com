@@ -1,9 +1,9 @@
 ---
 date: 2014-02-05T02:51:07Z
 title: "Regardless of what you think, I only have 100% to give"
-slug: 2014/02/regardless-of-what-you-think-i-only-have-100-to-give
+slug: "/2014/02/regardless-of-what-you-think-i-only-have-100-to-give"
 aliases: [
-    posts/regardless-of-what-you-think-i-only-have-100-to-give
+    "/posts/regardless-of-what-you-think-i-only-have-100-to-give"
 ]
 ---
 
