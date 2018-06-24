@@ -19,8 +19,11 @@ export default ({ data }) => {
           </div>
         </div>
       </header>
-      <section className="pad-container">
+      <section className="pad-container-w">
         <div className="container">
+          {post.frontmatter.description && (
+            <h2 className="h2--subtitle">{post.frontmatter.description}</h2>
+          )}
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
         </div>
       </section>
