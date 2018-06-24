@@ -1,10 +1,9 @@
-# gatsby-starter-hello-world
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site
+# chaseadams.io
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-```
-gatsby new gatsby-site https://github.com/gatsbyjs/gatsby-starter-hello-world
-```
+www.chaseadams.io is a statically generated site using GatsbyJS.
 
-## Running in development
-`gatsby develop`
+## TODO
+
+- Why Gatsby?
+- Architecture
+- What Plugins Does It Use?
