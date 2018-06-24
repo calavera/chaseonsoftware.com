@@ -4,6 +4,7 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
 import "../styles/main.scss";
+import "prismjs/themes/prism-okaidia.css";
 
 export default ({ children, data }) => {
   const siteTitle = data.site.siteMetadata.title;
