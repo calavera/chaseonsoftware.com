@@ -5,6 +5,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-prismjs`]
+      }
+    },
+    {
       resolve: "gatsby-plugin-typography",
       options: {
         pathToConfigModule: "src/utils/typography"
@@ -31,9 +37,15 @@ module.exports = {
         path: `${__dirname}/src/content/articles`
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `nuggets`,
+        path: `${__dirname}/src/content/nuggets`
+      }
+    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-netlify`,
-    `gatsby-transformer-remark`,
     `gatsby-plugin-sass`
   ]
 };
