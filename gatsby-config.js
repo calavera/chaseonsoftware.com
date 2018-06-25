@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Chase Adams`,
-    description: `Helping others build better web apps and web sites.`
+    description: `Helping others build better web apps and web sites.`,
+    siteUrl: `https://www.chaseadams.io`
   },
   plugins: [
     {
@@ -46,6 +47,7 @@ module.exports = {
     },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-netlify`,
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-feed`
   ]
 };
