@@ -40,8 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `nuggets`,
-        path: `${__dirname}/src/content/nuggets`
+        name: `quick-tip`,
+        path: `${__dirname}/src/content/quicktip`
       }
     },
     `gatsby-plugin-catch-links`,
