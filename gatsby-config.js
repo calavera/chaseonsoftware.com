@@ -6,6 +6,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-62564031-1"
+      }
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [`gatsby-remark-prismjs`]
