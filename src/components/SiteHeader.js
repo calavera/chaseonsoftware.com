@@ -1,12 +1,13 @@
 import React from "react";
 import Link from "gatsby-link";
-import { OutboundLink } from "gatsby-plugin-google-analytics";
 
 import styles from "../styles/main.scss";
 
 const ListLink = props => (
   <li style={{ display: `inline` }}>
-    <OutboundLink to={props.to}>{props.children}</OutboundLink>
+    <Link activeClassName="active" exact={true} to={props.to}>
+      {props.children}
+    </Link>
   </li>
 );
 
