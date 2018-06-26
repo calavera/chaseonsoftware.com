@@ -14,8 +14,8 @@ const ListLink = props => (
 export default props => (
   <header className="nav group">
     <nav>
-      <Link to="/" style={{ float: `left` }}>
-        <h1 style={{ display: "inline" }}>{props.siteTitle}</h1>
+      <Link to="/">
+        <h1>{props.siteTitle}</h1>
       </Link>
       <ul className="header-nav">
         <ListLink to="/">Home</ListLink>
