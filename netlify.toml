@@ -1,6 +1,3 @@
 [build]
   publish = "public"
-  command = "yarn run build"
-
-[context.production]
-YARN_FLAGS = "--no-ignore-optional"
+  command = "npm run build"
