@@ -2,3 +2,5 @@
   publish = "public"
   command = "npm run build"
 
+[context.production]
+YARN_FLAGS = "--no-ignore-optional"
