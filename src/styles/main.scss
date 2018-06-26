@@ -48,6 +48,9 @@ a:visited {
     color: $blue;
     text-decoration: none;
     font-weight: bold;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .group:after {
