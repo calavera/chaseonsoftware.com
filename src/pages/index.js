@@ -9,10 +9,26 @@ export default ({ data }) => {
       {data.allMarkdownRemark.edges
         .filter(({ node }) => node.fields.pageType !== "pages")
         .map(({ node }) => (
-          <div key={node.id}>
+          <div className="post group" key={node.id}>
             <h2>
               <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
             </h2>
+            {node.frontmatter.tags && (
+              <div>
+                <span>in </span>
+                <ul className="list-as-sentence">
+                  {node.frontmatter.tags.map((tag, idx) => (
+                    <li key={idx}>{tag}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {node.frontmatter.description && (
+              <div className="description">{node.frontmatter.description}</div>
+            )}
+            <div className="post-meta">
+              <div style={{ float: "left" }}>{node.frontmatter.date}</div>
+            </div>
           </div>
         ))}
     </div>
@@ -21,13 +37,18 @@ export default ({ data }) => {
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { draft: { ne: true } } }
+    ) {
       edges {
         node {
           id
           frontmatter {
             title
+            description
             date(formatString: "DD MMMM, YYYY")
+            tags
           }
           fields {
             slug

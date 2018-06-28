@@ -16,6 +16,16 @@ export default ({ data }) => {
           <h1>{post.frontmatter.title}</h1>
           <div className="meta">
             <time>{post.frontmatter.date}</time>
+            {post.frontmatter.tags && (
+              <div>
+                <span>in </span>
+                <ul className="list-as-sentence">
+                  {post.frontmatter.tags.map((tag, idx) => (
+                    <li key={idx}>{tag}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       </header>
@@ -44,6 +54,7 @@ export const query = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
   }
