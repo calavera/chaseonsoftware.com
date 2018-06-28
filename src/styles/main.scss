@@ -83,6 +83,10 @@ img {
 }
 
 .all-posts {
+    margin-top: 1.75rem;
+    @media (max-width: 980px) {
+        margin-top: 0rem;
+    }
     .post {
         margin: 0 0 1.75rem 0;
         padding: 0 0 1.75rem 0;
