@@ -59,6 +59,7 @@ module.exports = {
     },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-feed`
   ]
