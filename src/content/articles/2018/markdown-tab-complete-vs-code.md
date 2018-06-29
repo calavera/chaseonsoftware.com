@@ -2,6 +2,7 @@
 title: "Enable tab completion for Markdown Snippets in VS Code"
 description: "A quick guide to enabling tab completion for Markdown Snippets in VS Code."
 date: "2018-06-24"
+tags: ["markdown", "vscode"]
 ---
 
 While working on a frontmatter markdown snippet in VS Code I couldn't understand why tab completion wasn't working. It turns out that [some extensions (including Markdown) don't have snippet tab completion enabled by default](https://github.com/Microsoft/vscode/issues/1617) (you can however type `ctrl+Space` to show available snippets with what you've typed).
