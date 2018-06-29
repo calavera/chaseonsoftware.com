@@ -1,10 +1,8 @@
 import React from "react";
 import Layout from "../components/Layout";
 import Link from "gatsby-link";
-import { notStrictEqual } from "assert";
 
 export default ({ data }) => {
-  let curYear = 0;
   return (
     <Layout>
       <div className="container pad-container all-posts">
