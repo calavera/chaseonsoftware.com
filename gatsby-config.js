@@ -39,22 +39,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `legacy`,
-        path: `${__dirname}/src/content/legacy`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         name: `articles`,
         path: `${__dirname}/src/content/articles`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `quick-tip`,
-        path: `${__dirname}/src/content/quicktip`
       }
     },
     `gatsby-plugin-catch-links`,
