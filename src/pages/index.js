@@ -8,6 +8,7 @@ export default ({ data }) => {
       <div className="container pad-container all-posts">
         {data.allMarkdownRemark.edges
           .filter(({ node }) => node.fields.pageType !== "pages")
+          .filter(({ node }) => node.frontmatter.category !== "archive")
           .map(({ node }) => (
             <div className="post group" key={node.id}>
               <h2>
@@ -49,6 +50,7 @@ export const query = graphql`
             description
             date(formatString: "DD MMMM, YYYY")
             tags
+            category
           }
           fields {
             slug
