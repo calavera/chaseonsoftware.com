@@ -8,9 +8,7 @@ export default ({ data, location }) => {
   return (
     <Layout location={location}>
       <Helmet>
-        <title>
-          {post.frontmatter.title} | {data.site.siteMetadata.title}
-        </title>
+        <title>{post.frontmatter.title}</title>
         {post.frontmatter.description && (
           <meta name="description" content={post.frontmatter.description} />
         )}

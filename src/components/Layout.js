@@ -15,6 +15,7 @@ export default ({ children }) => {
           site {
             siteMetadata {
               title
+              description
             }
           }
         }
@@ -27,6 +28,10 @@ export default ({ children }) => {
             <link
               rel="stylesheet"
               href="https://fonts.googleapis.com/css?family=Nunito:200,400,700"
+            />
+            <meta
+              name="description"
+              content={data.site.siteMetadata.description}
             />
           </Helmet>
           <SiteHeader siteTitle={data.site.siteMetadata.title} />
