@@ -1,11 +1,12 @@
 ---
-date: 2013-11-08T16:04:40Z
-title: Using Grunt For A Better Workflow
-slug: 2013/11/using-grunt-for-a-better-workflow
+date: "2013-11-08"
+title: "Using Grunt For A Better Workflow"
+slug: "2013/11/using-grunt-for-a-better-workflow"
 aliases: [
-    2013/11/08/using-grunt-for-a-better-workflow/,
-    posts/using-grunt-for-a-better-workflow,
+    "2013/11/08/using-grunt-for-a-better-workflow/",
+    "posts/using-grunt-for-a-better-workflow",
 ]
+description: "Learn how to use Grunt for a better workflow."
 ---
 
 Grunt is a NodeJS task runner that allows you to automate all the things! I use it to speed up my development workflow and enhancing the performance of my projects.

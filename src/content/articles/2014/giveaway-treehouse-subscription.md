@@ -1,11 +1,12 @@
 ---
-date: 2014-01-16T02:36:44Z
+date: "2014-01-16"
 title: "Giveaway: A Chance to Win A 3 Month Membership to Treehouse — A Technology Learning Site"
-slug: 2014/01/giveaway-a-chance-to-win-a-3-month-membership-to-treehouse-a-technology-learning-site
+slug: "2014/01/giveaway-a-chance-to-win-a-3-month-membership-to-treehouse-a-technology-learning-site"
 aliases: [
-    posts/giveaway-a-chance-to-win-a-3-month-membership-to-treehouse-a-technology-learning-site,
-    2014/01/16/giveaway-a-chance-to-win-a-3-month-membership-to-treehouse-a-technology-learning-site/
+    "posts/giveaway-a-chance-to-win-a-3-month-membership-to-treehouse-a-technology-learning-site",
+    "2014/01/16/giveaway-a-chance-to-win-a-3-month-membership-to-treehouse-a-technology-learning-site/"
 ]
+category: "archive"
 ---
 
 <p class="intro callout">

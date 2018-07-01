@@ -1,10 +1,11 @@
 ---
-date: 2013-10-01T00:00:00Z
+date: "2013-10-01"
 title: "Emulate What You Want To Replicate"
-slug: 2013/10/emulate-what-you-want-to-replicate
+slug: "2013/10/emulate-what-you-want-to-replicate"
 aliases: [
-    posts/emulate-what-you-want-to-replicate
+    "posts/emulate-what-you-want-to-replicate"
 ]
+category: "archive"
 ---
 
 __Knowing what you want your life to look like is 90% of the battle...the 90% most of us never stop to figure out.__

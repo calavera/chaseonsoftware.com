@@ -1,7 +1,7 @@
 ---
-title: Five Technologies Every Frontend Engineer Should Know
-date: 2015-08-07T03:00:10Z
-slug: 2015/08/five-technologies-every-frontend-engineer-should-know
+title: "Five Technologies Every Frontend Engineer Should Know"
+date: "2015-08-07"
+slug: "2015/08/five-technologies-every-frontend-engineer-should-know"
 description: "Frontend Engineers should have five technologies under their belt"
 ---
 

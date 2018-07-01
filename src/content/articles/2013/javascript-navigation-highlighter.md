@@ -1,10 +1,11 @@
 ---
-date: 2013-10-24T06:06:00Z
+date: "2013-10-24"
 title: "Highlight Navigation Element Using Javascript"
-slug: 2013/10/javascript-navigation-highlighter
+slug: "2013/10/javascript-navigation-highlighter"
 aliases: [
-    posts/highlight-navigation-element-using-javascript
+    "posts/highlight-navigation-element-using-javascript"
 ]
+category: "archive"
 ---
 
 On Stack Overflow I found a question: How can I make my CSS menu's hover states move horizontally for UX purposes?

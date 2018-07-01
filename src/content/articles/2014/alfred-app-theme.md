@@ -1,9 +1,9 @@
 ---
-date: 2014-01-17T02:43:26Z
+date: "2014-01-17"
 title: "AlfredApp Theme: Flatland"
-slug: 2014/01/alfredapp-theme-flatland
+slug: "2014/01/alfredapp-theme-flatland"
 aliases: [
-    posts/alfredapp-theme-flatland
+    "posts/alfredapp-theme-flatland"
 ]
 ---
 

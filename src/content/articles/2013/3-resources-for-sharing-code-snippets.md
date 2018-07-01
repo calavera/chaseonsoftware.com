@@ -1,7 +1,7 @@
 ---
 title: "3 Resources For Code Sharing & Collaboration"
-date: 2013-10-07
-slug: 2013/10/3-resources-for-sharing-code-snippets
+date: "2013-10-07"
+slug: "2013/10/3-resources-for-sharing-code-snippets"
 tags: [
     "web development",
 ]

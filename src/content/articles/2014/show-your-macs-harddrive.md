@@ -1,12 +1,13 @@
 ---
-date: 2014-01-02T02:21:37Z
+date: "2014-01-02"
 title: "OSX Protip: Show your Mac’s Hard Drive in Finder Sidebar"
-slug: 2014/01/show-your-macs-hard-drive-in-finder-sidebar
+slug: "2014/01/show-your-macs-hard-drive-in-finder-sidebar"
 aliases: [
-    posts/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop,
-    2014/01/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop
+    "posts/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop",
+    "2014/01/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop"
 ]
 tags: [ "MacOS" ]
+description: "Learn how to show your Mac's Hard Drive in the Finder Sidebar."
 ---
 
 _Want to show your Mac's Hard Drive on your desktop instead? Check out my tutorial on how to [show your Mac's Hard Drive on your Desktop.](/2016/12/show-your-macs-hard-drive-on-your-desktop)_

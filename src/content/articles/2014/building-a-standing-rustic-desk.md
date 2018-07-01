@@ -1,7 +1,8 @@
 ---
-title: Building A Rustic Industrial Standing Desk
-date: 2014-10-08T03:36:52Z
-slug: 2014/10/building-a-rustic-industrial-standing-desk
+title: "Building A Rustic Industrial Standing Desk"
+date: "2014-10-08"
+slug: "2014/10/building-a-rustic-industrial-standing-desk"
+category: "archive"
 ---
 
 **Update:** I've decided to switch to a [minimalist rustic industrial sitting task desk](/2015/07/minimalist-task-desk), be sure to check it out (it's less expensive, more sturdy and took only 30 minutes to put together).

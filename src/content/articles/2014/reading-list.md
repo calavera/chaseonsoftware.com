@@ -1,10 +1,11 @@
 ---
-date: 2014-01-05T02:24:24Z
-title: My 15 Essential Reads For Professional Growth in 2014
-slug: 2014/01/reading-list
+date: "2014-01-05"
+title: "My 15 Essential Reads For Professional Growth in 2014"
+slug: "2014/01/reading-list"
 aliases: [
-  posts/my-15-essential-reads-for-professional-growth-in-2014
+  "posts/my-15-essential-reads-for-professional-growth-in-2014"
 ]
+category: "archive"
 ---
 
 I'm reading 15 books in 2014 to ramp up my personal and professional growth. The list has been curated with one question in mind: Will this book support one of my personal cannonballs?

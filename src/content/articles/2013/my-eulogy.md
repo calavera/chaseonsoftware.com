@@ -1,11 +1,11 @@
 ---
 title: "My Eulogy"
-date: 2013-10-15T01:30:00Z
-slug: 2013/10/my-eulogy
+date: "2013-10-15"
+slug: "2013/10/my-eulogy"
 aliases: [
-    posts/my-eulogy
+    "posts/my-eulogy"
 ]
-blogroll: false
+category: "archive"
 ---
 
 While reading The Seven Habits of Highly Effective People, I was inspired to write my eulogy based on the first habit of "beginning with the end in mind". This is the outcome.

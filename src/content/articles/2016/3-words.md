@@ -1,11 +1,12 @@
 ---
-title: My 3 Words for 2016
-description: This year, I am picking 3 Words to act as targets for 2016.
-date: 2015-12-23T06:29:25Z
-slug: 2016/3-words
+title: "My 3 Words for 2016"
+description: "My 3 Words for 2016: Discovery, Rigour, Systematic"
+date: "2015-12-23"
+slug: "2016/3-words"
 aliases: [
-	my-3-words-2016
+	"my-3-words-2016"
 ]
+category: "archive"
 ---
 
 This year, I'm picking 3 Words to act as targets for 2016.

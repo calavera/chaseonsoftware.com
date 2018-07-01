@@ -1,8 +1,9 @@
 ---
 title: "Making Work Visible [Book Review]"
-excerpt: "Making Work Visible is a canonical book for anyone who wants to be effective at getting the right things done in the right amount of time."
-date: 2018-01-28
+description: "Making Work Visible is a canonical book for anyone who wants to be effective at getting the right things done in the right amount of time."
+date: "2018-01-28"
 slug: "book-review-making-work-visible/"
+tags: ["kanban"]
 ---
 
 I discovered *[Making Work Visible](https://www.walmart.com/ip/Making-Work-Visible/56040750)* when I needed it most and was most ready for it. It is a canonical book for anyone who wants to be effective at getting the right things done in the right amount of time.

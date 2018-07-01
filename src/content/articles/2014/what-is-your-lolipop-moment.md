@@ -1,10 +1,11 @@
 ---
-date: 2014-02-13T02:52:44Z
+date: "2014-02-13"
 title: "What's Your Lollipop Moment?"
-slug: 2014/02/whats-your-lollipop-moment
+slug: "2014/02/whats-your-lollipop-moment"
 aliases: [
-    posts/whats-your-lollipop-moment
+    "posts/whats-your-lollipop-moment"
 ]
+category: "archive"
 ---
 
 <p>Yesterday I listened to this TED talk on the way home and it hit me pretty hard.</p>

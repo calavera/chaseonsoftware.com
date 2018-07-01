@@ -1,12 +1,13 @@
 ---
-title: Remap Caps Lock to A Useful Modifier Key
-date: 2014-11-20T06:30:00Z
-slug: 2014/11/map-caps-lock-to-a-useful-key-binding
+title: "Remap Caps Lock to A Useful Modifier Key"
+date: "2014-11-20"
+slug: "2014/11/map-caps-lock-to-a-useful-key-binding"
 tags: [Mac]
 aliases: [
-    2014/11/remap-caps-lock-to-a-useful-modifier-key/,
-    posts/remap-caps-lock-to-a-useful-modifier-key
+    "2014/11/remap-caps-lock-to-a-useful-modifier-key/",
+    "posts/remap-caps-lock-to-a-useful-modifier-key"
 ]
+description: "Learn why and how to remap the Caps Lock key to a more useful modifier key."
 ---
 
 I've always found the caps lock key to be utterly useless.

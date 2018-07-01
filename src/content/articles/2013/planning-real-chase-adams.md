@@ -1,11 +1,12 @@
 ---
 title: "Planning & Researching For My Blog"
-date: 2013-11-01T06:04:00Z
-slug: 2013/11/planning-researching-for-realchaseadams-dot-com
+date: "2013-11-01"
+slug: "2013/11/planning-researching-for-realchaseadams-dot-com"
 aliases: [
-    2013/11/planning-researching-for-my-blog/,
-    posts/planning-researching-for-my-blog
+    "2013/11/planning-researching-for-my-blog/",
+    "posts/planning-researching-for-my-blog"
 ]
+category: "archive"
 ---
 
 I wanted to go cold turkey with WordPress and restart my blogging journey with a new platform. This was my process.

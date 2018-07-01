@@ -1,11 +1,12 @@
 ---
-date: 2014-02-24T02:54:31Z
+date: "2014-02-24"
 title: "Developers: What OS Do You Use? [Wedgie/Survey]"
-slug: 2014/02/developers-what-os-do-you-use-wedgiesurvey
+slug: "2014/02/developers-what-os-do-you-use-wedgiesurvey"
 aliases: [
-    posts/developers-what-os-do-you-use-wedgiesurvey,
-    2014/02/24/developers-what-os-do-you-use-wedgiesurvey/
+    "posts/developers-what-os-do-you-use-wedgiesurvey",
+    "2014/02/24/developers-what-os-do-you-use-wedgiesurvey/"
 ]
+category: "archive"
 ---
 
 <p>Recently I had a discussion on LinkedIn where a developer said that almost everyone in the world uses Windows.</p>

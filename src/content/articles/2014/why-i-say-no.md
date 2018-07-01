@@ -1,12 +1,13 @@
 ---
-date: 2014-01-28T02:49:23Z
+date: "2014-01-28"
 title: "Sometimes I have to just say No"
-slug: 2014/01/why-i-say-no
+slug: "2014/01/why-i-say-no"
 aliases: [
-    2014/01/sometimes-i-have-to-just-say-no/,
-    posts/sometimes-i-have-to-just-say-no/,
-    2014/01/29/why-i-say-no/
+    "posts/sometimes-i-have-to-just-say-no/",
+    "2014/01/sometimes-i-have-to-just-say-no/",
+    "2014/01/29/why-i-say-no/"
 ]
+category: "archive"
 ---
 
 I am incredibly honored, humbled and thankful when people ask me to help them with something they're working on. It's a great joy knowing my insights are valued.

@@ -1,7 +1,7 @@
 ---
 title: "Part 2: Joining Walmart Labs as Senior Software Engineer"
-date: 2015-07-01T13:30:00Z
-slug: 2015/07/walmart-labs
+date: "2015-07-01"
+slug: "2015/07/walmart-labs"
 description: "As of July 29, I'll be a Senior Software Engineer at Walmart Labs"
 ---
 

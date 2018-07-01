@@ -2,6 +2,8 @@
 date: "2017-01-01T04:00:00Z"
 title: "My 3 Themes for 2017"
 slug: "2017/3-themes"
+description: "The 3 themes I chose for 2017: My Pack, Kaizen, Miracle Grow."
+category: "archive"
 ---
 
 Last year I started an exercise that changed how I approached my year, quarter, month, week and day: Theming. 

@@ -1,7 +1,8 @@
 ---
 title: "Which Blog Layout Do You Prefer: Single Column or Two Column with Sidebar?"
 slug: "2015/07/single-column-vs-sidebar/"
-date: 2015-07-28
+date: "2015-07-28"
+category: "archive"
 ---
 
 When it comes to blog layouts, which do you prefer single column or two columns with a sidebar?

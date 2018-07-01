@@ -1,12 +1,13 @@
 ---
 title:  "Silently Adjust The Volume On Your Mac"
-date:   2014-10-21T06:30:00Z
+date:   "2014-10-21"
 tags: [Mac]
-slug: 2014/10/silently-adjust-the-volume-on-your-mac
+slug: "2014/10/silently-adjust-the-volume-on-your-mac"
 aliases: [
-    silently-adjust-the-volume-on-your-mac,
-    posts/silently-adjust-the-volume-on-your-mac
+    "silently-adjust-the-volume-on-your-mac",
+    "posts/silently-adjust-the-volume-on-your-mac"
 ]
+category: "archive"
 ---
 
 You know that annoying pop, pop, pop noise your sound adjustment makes when you adjust the sound on your Mac? There's a really easy way to adjust your audio without the computer making it.

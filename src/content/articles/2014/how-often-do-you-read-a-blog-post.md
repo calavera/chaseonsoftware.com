@@ -1,8 +1,8 @@
 ---
-date: 2014-02-17T02:53:39Z
+date: "2014-02-17"
 title: "How Often Do You Read A Blog Post? [Wedgie/Survey]"
-slug: 2014/02/how-often-do-you-read-a-blog-post-wedgies-survey
-blogroll: false
+slug: "2014/02/how-often-do-you-read-a-blog-post-wedgies-survey"
+category: "archive"
 ---
 
 <p>Sometimes I don't like to read blog posts or articles all the way through, which is why I like bullet points and posts that are broken up by large-font, short headings. <strong>What about you?</strong></p>

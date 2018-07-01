@@ -1,11 +1,12 @@
 ---
-date: 2013-12-27T02:15:28Z
+date: "2013-12-27"
 title: "Set An Anchor Link On An Image In Markdown"
 slug: "2013/12/set-an-anchor-link-on-an-image-in-markdown/"
 aliases: [
     "/posts/set-an-anchor-link-on-an-image-in-markdown",
     "2013/12/set-an-anchor-link-on-an-image-in-markdown"
 ]
+description: "Learn how to create an anchor link on an image in Markdown."
 ---
 
 Markdown. I use it daily in writing blog posts, README's or answering questions on [stackoverflow.com](http://www.stackoverflow.com). One undocumented capability of markdown is how to create an image inside an anchor.

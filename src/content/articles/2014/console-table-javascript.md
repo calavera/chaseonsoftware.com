@@ -1,13 +1,13 @@
 ---
-title:  "Debugging a collection of objects with console.table"
-date:   2014-11-19T06:30:00Z
-tags: [Javascript]
-postThumb: "http://www.realchaseadams.com/imgs/2014/11/consoletablerolemodels.png"
+title: "Debugging a collection of objects with console.table"
+date: "2014-11-19"
+tags: ["Javascript"]
 slug: "2014/11/debugging-a-collection-of-objects-with-consoletable"
 aliases: [
-  debugging-a-collection-of-objects-with-consoletable,
-  posts/debugging-a-collection-of-objects-with-consoletable
+  "debugging-a-collection-of-objects-with-consoletable",
+  "posts/debugging-a-collection-of-objects-with-consoletable"
 ]
+description: "Learn to use console.table to debug collections of objects in Chrome."
 ---
 
 Debugging is one of the most important skills a developer can have, and the most valuable tool I use on a day to day basis is the Google Chrome Javascript Console.

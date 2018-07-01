@@ -1,11 +1,12 @@
 ---
 title: "My Story: Why I Believe In the Hour of Code Initiative"
-date: 2013-12-08T01:30:00Z
+date: "2013-12-08"
 slug: "/2013/12/my-story-and-hour-of-code"
 aliases: [
     "/posts/my-story-why-i-believe-in-the-hour-of-code-initiative",
     "/2013/12/08/my-story-and-hour-of-code/",
 ]
+category: "archive"
 ---
 
 

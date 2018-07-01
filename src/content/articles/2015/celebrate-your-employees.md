@@ -1,9 +1,8 @@
 ---
-title: 6 Ways To Celebrate Your Employees The Zappos Way
-date: 2015-07-15T03:00:10Z
-slug: 2015/07/celebrate-your-employees
+title: "6 Ways To Celebrate Your Employees The Zappos Way"
+date: "2015-07-15"
+slug: "2015/07/celebrate-your-employees"
 description: "Celebrating your employees can easily one of the best morale boosters for your organization. Here are 5 of the ways Zappos has done that for me."
-postThumb: /img/celebrate-your-employees.jpg
 ---
 
 [As I'm leaving Zappos to go to Walmart Labs](/2015/07/walmart-labs), I've been reflecting on some of the great qualities I appreciated over the years. One of the qualities that comes to mind over and over is the value people put on celebrating employees for their time, effort and work.

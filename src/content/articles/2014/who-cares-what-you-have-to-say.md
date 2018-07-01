@@ -1,10 +1,11 @@
 ---
-date: 2014-02-12T02:51:54Z
+date: "2014-02-12"
 title: "Who Cares What You Have To Say?"
-slug: 2014/02/who-cares-what-you-have-to-say
+slug: "2014/02/who-cares-what-you-have-to-say"
 aliases: [
-    posts/who-cares-what-you-have-to-say/
+    "posts/who-cares-what-you-have-to-say/"
 ]
+category: "archive"
 ---
 
 <p>This question was once a driving force in my life: <em>"Who cares what I have to say?"</em></p>

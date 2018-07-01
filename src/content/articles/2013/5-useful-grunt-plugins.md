@@ -1,14 +1,15 @@
 ---
-date: 2013-11-18T23:04:16Z
-title: 5 Grunt Plugins for a Better Workflow
-slug: 2013/11/5-useful-grunt-plugins
+date: "2013-11-18"
+title: "5 Grunt Plugins for a Better Workflow"
+slug: "2013/11/5-useful-grunt-plugins"
 tags: [
     "web development", "build tools", "automation"
 ]
 aliases: [
-    posts/5-useful-grunt-plugins,
-    posts/5-grunt-plugins-for-a-better-workflow
+    "posts/5-useful-grunt-plugins",
+    "posts/5-grunt-plugins-for-a-better-workflow"
 ]
+description: "Learn about 5 Grunt build tool plugins to optimize your workflow."
 ---
 
 Grunt has become the build tool/task manager standard for javascript developers and empowered us to take control of our workflows. Better workflows mean better productivity, and Grunt has some great plugins for maximizing that productivity.

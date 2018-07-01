@@ -1,7 +1,7 @@
 ---
-title: The Final Paragraph in My Zappos Chapter
-slug: the-good-times
-date: 2015-07-24T02:21:37Z
+title: "The Final Paragraph in My Zappos Chapter"
+slug: "the-good-times"
+date: "2015-07-24"
 description: "The good times are the ones you're in."
 ---
 

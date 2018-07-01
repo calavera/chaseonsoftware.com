@@ -1,10 +1,11 @@
 ---
-date: 2016-12-04T06:21:37Z
+date: "2016-12-04"
 title: "OSX Protip: Show your Mac’s Hard Drive On Your Desktop"
-slug: 2016/12/show-your-macs-hard-drive-on-your-desktop
+slug: "2016/12/show-your-macs-hard-drive-on-your-desktop"
 tags: [
 "osx protips"
 ]
+description: "Learn how to show your Mac's Hard Drive on it's Desktop."
 ---
 
 If you want to show your Mac's Hard Drive in your Finder sidebar instead, check out ["Show your Mac's Hard Drive In Finder Sidebar"](/2014/01/show-your-macs-hard-drive-in-finder-sidebar).
