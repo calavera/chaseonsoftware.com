@@ -2,7 +2,12 @@ import React from "react";
 
 export default () => (
   <footer>
-    <p>Static site generated with Gatsby.</p>
+    <p>
+      <a href="/">chaseadams.io</a> is powered by GatsbyJS, GitLab & Netlify.<br />
+    </p>
+    <p>
+      Read more about the topology in the <a href="/site-guide">Site Guide</a>.
+    </p>
     <p>
       Find the source for
       <a href="https://gitlab.com/chaseadamsio/chaseadamsio.gitlab.io">
@@ -10,10 +15,6 @@ export default () => (
         chaseadams.io
       </a>{" "}
       on <a href="https://gitlab.com">Gitlab</a>
-    </p>
-    <p>
-      Built, deployed and hosted on{" "}
-      <a href="https://netlify.com">Netlify Static CDN</a>
     </p>
 
     <div style={{ textAlign: "center", color: "#f4f4f4" }}>
