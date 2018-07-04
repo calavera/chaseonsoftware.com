@@ -1,4 +1,4 @@
-module.exports = {
+const cfg = {
   siteMetadata: {
     title: `chaseadams.io`,
     description: `Thoughts on Software Engineering, DevOps and Self-Management.`,
@@ -50,3 +50,16 @@ module.exports = {
     `gatsby-plugin-feed`
   ]
 };
+
+if (process.env.NODE_ENV == "development") {
+  cfg.plugins.push({
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      name: `drafts`,
+      path: `${__dirname}/src/content/drafts`
+    }
+  });
+  console.log(cfg.plugins);
+}
+
+module.exports = cfg;
