@@ -7,12 +7,10 @@ export default ({ data, location }) => {
   const post = data.markdownRemark;
   return (
     <Layout location={location}>
-      <Helmet>
-        <title>{post.frontmatter.title}</title>
-        {post.frontmatter.description && (
-          <meta name="description" content={post.frontmatter.description} />
-        )}
-      </Helmet>
+      <Helmet
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+      />
       <article>
         <header className="single-header">
           <div className="container">

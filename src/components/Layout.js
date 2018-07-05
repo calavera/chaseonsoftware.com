@@ -22,18 +22,26 @@ export default ({ children }) => {
       `}
       render={data => (
         <div>
-          <Helmet>
-            <title>{data.site.siteMetadata.title}</title>
-            <link rel="author" href="/humans.txt" />
-            <link
-              rel="stylesheet"
-              href="https://fonts.googleapis.com/css?family=Nunito:200,400,700"
-            />
-            <meta
-              name="description"
-              content={data.site.siteMetadata.description}
-            />
-          </Helmet>
+          <Helmet
+            title={data.site.siteMetadata.title}
+            meta={[
+              {
+                name: "description",
+                content: data.site.siteMetadata.description
+              }
+            ]}
+            link={[
+              {
+                rel: "author",
+                href: "/humans.txt"
+              },
+              {
+                rel: "stylesheet",
+                href:
+                  "https://fonts.googleapis.com/css?family=Nunito:200,400,700"
+              }
+            ]}
+          />
           <SiteHeader siteTitle={data.site.siteMetadata.title} />
           <div className="content">{children}</div>
           <SiteFooter />

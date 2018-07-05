@@ -26,9 +26,7 @@ class ContactPage extends React.Component {
   render(location) {
     return (
       <Layout location={location}>
-        <Helmet>
-          <title>Say Hi | Chase Adams</title>
-        </Helmet>
+        <Helmet title="Say Hi | Chase Adams" />
         <article>
           <header className="page-title">
             <h1 className="container">Say Hi!</h1>
