@@ -42,7 +42,7 @@ A few notes on how the ingress traffic flow is configured:
 
 - DNS is configured within [Netlify](https://www.netlify.com/about/), using their [Managed DNS](https://www.netlify.com/docs/dns/) service.
 - All traffic is configured to force HTTP to HTTPS and the SSL/TLS certificate is automatically [generated with Let's Encrypt through Netlify](https://www.netlify.com/docs/ssl/). 
-- The apex domain ([https://chaseadams.io](https://chaseadams.io)) is configured automatically redirect all traffic to the www (([https://www.chaseadams.io](https://www.chaseadams.io)) subdomain.
+- The [apex domain](https://www.netlify.com/blog/2017/02/28/to-www-or-not-www/) ([https://chaseadams.io](https://chaseadams.io)) is configured to automatically redirect all traffic to the www (([https://www.chaseadams.io](https://www.chaseadams.io)) subdomain.
 
 # Content Structure
 
