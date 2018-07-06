@@ -3,7 +3,7 @@ title: "Deploy Code with Git Push and a Post Receive Hook"
 date: "2014-01-22"
 slug: "/2014/01/deploy-code-with-git-push-and-a-post-receive-hook"
 aliases: [
-    "posts/deploy-code-with-git-push-and-a-post-receive-hook"
+    "/posts/deploy-code-with-git-push-and-a-post-receive-hook"
 ]
 description: "Learn how to deploy code to a server by using git with post-receive hooks."
 ---

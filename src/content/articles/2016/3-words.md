@@ -4,7 +4,7 @@ description: "My 3 Words for 2016: Discovery, Rigour, Systematic"
 date: "2015-12-23"
 slug: "/2016/3-words"
 aliases: [
-	"my-3-words-2016"
+	"/my-3-words-2016"
 ]
 category: "archive"
 ---

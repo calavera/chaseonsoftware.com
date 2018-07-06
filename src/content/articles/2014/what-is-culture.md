@@ -3,8 +3,8 @@ date: "2014-05-31"
 title: "What is Culture? [Part 1]"
 slug: "/2014/05/what-is-culture-part-1"
 aliases: [
-    "posts/what-is-culture-part-1",
-    "2014/05/31/what-is-culture-part-1/"
+    "/posts/what-is-culture-part-1",
+    "/2014/05/31/what-is-culture-part-1/"
 ]
 category: "archive"
 ---

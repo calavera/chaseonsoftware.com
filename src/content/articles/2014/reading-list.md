@@ -3,7 +3,7 @@ date: "2014-01-05"
 title: "My 15 Essential Reads For Professional Growth in 2014"
 slug: "/2014/01/reading-list"
 aliases: [
-  "posts/my-15-essential-reads-for-professional-growth-in-2014"
+  "/posts/my-15-essential-reads-for-professional-growth-in-2014"
 ]
 category: "archive"
 ---

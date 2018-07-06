@@ -3,7 +3,7 @@ date: "2014-01-23"
 title: "Book Review: The Power of Habit — Why We Do What We Do In Life and Business"
 slug: "/2014/01/book-review-the-power-of-habit-why-we-do-what-we-do-in-life-and-business"
 aliases: [
-    "posts/book-review-the-power-of-habit-why-we-do-what-we-do-in-life-and-business"
+    "/posts/book-review-the-power-of-habit-why-we-do-what-we-do-in-life-and-business"
 ]
 category: "archive"
 ---

@@ -4,8 +4,8 @@ date: "2014-11-19"
 tags: ["Javascript"]
 slug: "/2014/11/debugging-a-collection-of-objects-with-consoletable"
 aliases: [
-  "debugging-a-collection-of-objects-with-consoletable",
-  "posts/debugging-a-collection-of-objects-with-consoletable"
+  "/debugging-a-collection-of-objects-with-consoletable",
+  "/posts/debugging-a-collection-of-objects-with-consoletable"
 ]
 description: "Learn to use console.table to debug collections of objects in Chrome."
 ---

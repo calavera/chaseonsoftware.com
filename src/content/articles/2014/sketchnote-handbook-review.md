@@ -4,8 +4,8 @@ date:   "2014-10-21"
 description: "The Sketchnote Handbook is one of the few books I believe everyone should own and revisit often. It's the definitive guide on how to take notes visually, think laterally and pick the right takeaways from a message, talk or meeting."
 slug: "/2014/10/book-review-sketchnote-handbook"
 aliases: [
-    "2014/10/book-review/",
-    "posts/book-review"
+    "/2014/10/book-review/",
+    "/posts/book-review"
 ]
 category: "archive"
 ---

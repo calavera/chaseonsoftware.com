@@ -3,8 +3,8 @@ title: "Planning & Researching For My Blog"
 date: "2013-11-01"
 slug: "/2013/11/planning-researching-for-realchaseadams-dot-com"
 aliases: [
-    "2013/11/planning-researching-for-my-blog/",
-    "posts/planning-researching-for-my-blog"
+    "/2013/11/planning-researching-for-my-blog/",
+    "/posts/planning-researching-for-my-blog"
 ]
 category: "archive"
 ---

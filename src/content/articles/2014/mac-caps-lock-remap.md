@@ -4,8 +4,8 @@ date: "2014-11-20"
 slug: "/2014/11/map-caps-lock-to-a-useful-key-binding"
 tags: [Mac]
 aliases: [
-    "2014/11/remap-caps-lock-to-a-useful-modifier-key/",
-    "posts/remap-caps-lock-to-a-useful-modifier-key"
+    "/2014/11/remap-caps-lock-to-a-useful-modifier-key/",
+    "/posts/remap-caps-lock-to-a-useful-modifier-key"
 ]
 description: "Learn why and how to remap the Caps Lock key to a more useful modifier key."
 ---

@@ -3,7 +3,7 @@ title: "Getting Started With Emacs"
 date: "2017-01-05"
 slug: "/getting-started-with-emacs"
 aliases: [
-    "getting-started-with-emacs/"
+    "/getting-started-with-emacs/"
 ]
 description: "Curious about Emacs? Read about my journey with it."
 ---

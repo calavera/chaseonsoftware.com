@@ -3,7 +3,7 @@ date: "2014-02-25"
 title: "Huffington Post Article: You May Never Become A Developer"
 slug: "/2014/02/huffington-post-article-you-may-never-become-a-developer"
 aliases: [
-    "posts/huffington-post-article-you-may-never-become-a-developer/"
+    "/posts/huffington-post-article-you-may-never-become-a-developer/"
 ]
 description: "I pursued learning programming and software development with every fiber of my being, trying to learn anything I could about programming, solving problems and shipping products."
 category: "archive"
