@@ -1,7 +1,13 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { encode, push } from "gatsby";
+import { push } from "gatsby";
 import Helmet from "react-helmet";
+
+function encode(data) {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+    .join("&");
+}
 
 class ContactPage extends React.Component {
   handleChange = e => {
