@@ -59,7 +59,6 @@ if (process.env.NODE_ENV == "development") {
       path: `${__dirname}/src/content/drafts`
     }
   });
-  console.log(cfg.plugins);
 }
 
 module.exports = cfg;
