@@ -3,6 +3,7 @@
   "description": "chaseadams.io",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf public",
     "develop": "gatsby develop --host localhost --port 8000",
     "build": "gatsby build",
     "serve": "gatsby serve"
