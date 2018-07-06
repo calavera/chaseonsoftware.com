@@ -3,8 +3,8 @@ date: "2013-11-11"
 title: "How I Use Grunt And Bower for Frontend Packages"
 slug: "/2013/11/grunt-build-and-bower-package-management"
 aliases: [
-    "2013/11/11/grunt-build-and-bower-package-management/",
-    "posts/how-i-use-grunt-and-bower-for-frontend-packages"
+    "/2013/11/11/grunt-build-and-bower-package-management/",
+    "/posts/how-i-use-grunt-and-bower-for-frontend-packages"
 ]
 description: "Learn how to use grunt and bower for a frontend workflow"
 ---

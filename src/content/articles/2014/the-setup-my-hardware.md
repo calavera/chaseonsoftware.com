@@ -3,7 +3,7 @@ date: "2014-01-26"
 title: "The Setup: My Hardware & Software for Work & Play"
 slug: "/2014/01/the-setup-my-hardware-software-for-work-play"
 aliases: [
-    "posts/the-setup-my-hardware-software-for-work-play"
+    "/posts/the-setup-my-hardware-software-for-work-play"
 ]
 ---
 
