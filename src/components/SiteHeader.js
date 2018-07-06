@@ -11,10 +11,10 @@ const ListLink = props => (
 
 export default props => (
   <header className="nav group">
-    <nav>
-      <Link to="/">
-        <h1>{props.siteTitle}</h1>
-      </Link>
+    <nav className="hr hr--bottom">
+      <h1>
+        <Link to="/">{props.siteTitle}</Link>
+      </h1>
       <ul className="header-nav">
         <ListLink to="/">Home</ListLink>
         <ListLink to="/me/">About</ListLink>
