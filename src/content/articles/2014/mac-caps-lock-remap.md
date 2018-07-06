@@ -1,7 +1,7 @@
 ---
 title: "Remap Caps Lock to A Useful Modifier Key"
 date: "2014-11-20"
-slug: "2014/11/map-caps-lock-to-a-useful-key-binding"
+slug: "/2014/11/map-caps-lock-to-a-useful-key-binding"
 tags: [Mac]
 aliases: [
     "2014/11/remap-caps-lock-to-a-useful-modifier-key/",

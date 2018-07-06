@@ -2,7 +2,7 @@
 title: "Things Every Node Developer Should Add to Their .gitignore"
 description: "A .gitignore file is an important part of any project that is being version controlled. Adding things like node_modules to your git ignored files is essential."
 date: "2015-07-22"
-slug: "2015/07/my-gitignore-conventions"
+slug: "/2015/07/my-gitignore-conventions"
 ---
 
 A .gitignore file is an important part of any project that is being version controlled.

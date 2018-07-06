@@ -1,7 +1,7 @@
 ---
 date: "2014-02-13"
 title: "What's Your Lollipop Moment?"
-slug: "2014/02/whats-your-lollipop-moment"
+slug: "/2014/02/whats-your-lollipop-moment"
 aliases: [
     "posts/whats-your-lollipop-moment"
 ]

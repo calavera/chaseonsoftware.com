@@ -1,7 +1,7 @@
 ---
 date: "2014-02-27"
 title: "I Don't Write So Good: A Call To Write Better"
-slug: "2014/02/i-dont-write-so-good-a-call-to-write-better"
+slug: "/2014/02/i-dont-write-so-good-a-call-to-write-better"
 aliases: [
     "posts/i-dont-write-so-good-a-call-to-write-better",
     "2014/02/28/i-dont-write-so-good-a-call-to-write-better/"

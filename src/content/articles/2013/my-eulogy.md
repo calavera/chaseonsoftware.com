@@ -1,9 +1,9 @@
 ---
 title: "My Eulogy"
 date: "2013-10-15"
-slug: "2013/10/my-eulogy"
+slug: "/2013/10/my-eulogy"
 aliases: [
-    "posts/my-eulogy"
+    "/posts/my-eulogy"
 ]
 category: "archive"
 ---

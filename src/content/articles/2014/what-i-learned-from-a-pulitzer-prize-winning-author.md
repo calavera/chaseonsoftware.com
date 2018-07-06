@@ -1,7 +1,7 @@
 ---
 date: "2014-01-08"
 title: "What I Learned From Coffee With A Pulitzer Prize Winning Reporter"
-slug: "2014/01/09/what-i-learned-from-coffee-with-a-pulitzer-prize-winning-reporter"
+slug: "/2014/01/09/what-i-learned-from-coffee-with-a-pulitzer-prize-winning-reporter"
 aliases: [
     "posts/what-i-learned-from-coffee-with-a-pulitzer-prize-winning-reporter"
 ]

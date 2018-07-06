@@ -1,13 +1,13 @@
 ---
 date: "2013-11-18"
 title: "5 Grunt Plugins for a Better Workflow"
-slug: "2013/11/5-useful-grunt-plugins"
+slug: "/2013/11/5-useful-grunt-plugins"
 tags: [
     "web development", "build tools", "automation"
 ]
 aliases: [
-    "posts/5-useful-grunt-plugins",
-    "posts/5-grunt-plugins-for-a-better-workflow"
+    "/posts/5-useful-grunt-plugins",
+    "/posts/5-grunt-plugins-for-a-better-workflow"
 ]
 description: "Learn about 5 Grunt build tool plugins to optimize your workflow."
 ---

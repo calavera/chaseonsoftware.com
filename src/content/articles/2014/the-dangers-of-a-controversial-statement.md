@@ -1,7 +1,7 @@
 ---
 date: "2014-01-14"
 title: "The Dangers of a Controversial Statement Without Context"
-slug: "2014/01/the-dangers-and-power-of-a-statement-without-context"
+slug: "/2014/01/the-dangers-and-power-of-a-statement-without-context"
 aliases: [
     "posts/the-dangers-of-a-controversial-statement-without-context"
 ]

@@ -1,7 +1,7 @@
 ---
 date: "2013-11-08"
 title: "Using Grunt For A Better Workflow"
-slug: "2013/11/using-grunt-for-a-better-workflow"
+slug: "/2013/11/using-grunt-for-a-better-workflow"
 aliases: [
     "2013/11/08/using-grunt-for-a-better-workflow/",
     "posts/using-grunt-for-a-better-workflow",

@@ -1,7 +1,7 @@
 ---
 title: "Building A Rustic Industrial Standing Desk"
 date: "2014-10-08"
-slug: "2014/10/building-a-rustic-industrial-standing-desk"
+slug: "/2014/10/building-a-rustic-industrial-standing-desk"
 category: "archive"
 ---
 

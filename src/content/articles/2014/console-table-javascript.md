@@ -2,7 +2,7 @@
 title: "Debugging a collection of objects with console.table"
 date: "2014-11-19"
 tags: ["Javascript"]
-slug: "2014/11/debugging-a-collection-of-objects-with-consoletable"
+slug: "/2014/11/debugging-a-collection-of-objects-with-consoletable"
 aliases: [
   "debugging-a-collection-of-objects-with-consoletable",
   "posts/debugging-a-collection-of-objects-with-consoletable"

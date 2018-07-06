@@ -1,7 +1,7 @@
 ---
 date: "2014-01-02"
 title: "OSX Protip: Show your Mac’s Hard Drive in Finder Sidebar"
-slug: "2014/01/show-your-macs-hard-drive-in-finder-sidebar"
+slug: "/2014/01/show-your-macs-hard-drive-in-finder-sidebar"
 aliases: [
     "posts/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop",
     "2014/01/show-your-macs-hard-drive-in-finder-sidebar-and-on-your-desktop"

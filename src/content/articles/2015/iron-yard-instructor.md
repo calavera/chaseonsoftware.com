@@ -1,7 +1,7 @@
 ---
 title: "Joining The Iron Yard as Part-Time Frontend Instructor"
 date: "2015-06-29"
-slug: "2015/06/iron-yard-instructor"
+slug: "/2015/06/iron-yard-instructor"
 aliases: [
    "2015/06/frontend-engineering-instructor-at-the-iron-yard"
 ]

@@ -1,7 +1,7 @@
 ---
 date: "2014-01-28"
 title: "Sometimes I have to just say No"
-slug: "2014/01/why-i-say-no"
+slug: "/2014/01/why-i-say-no"
 aliases: [
     "posts/sometimes-i-have-to-just-say-no/",
     "2014/01/sometimes-i-have-to-just-say-no/",

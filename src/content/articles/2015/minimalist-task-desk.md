@@ -1,7 +1,7 @@
 ---
 title: "Rustic Industrial Minimalist Task Desk"
 date: "2015-07-12"
-slug: "2015/07/minimalist-task-desk"
+slug: "/2015/07/minimalist-task-desk"
 description: "A minimalist task desk for under $300 and built in under 30 minutes."
 category: "archive"
 ---

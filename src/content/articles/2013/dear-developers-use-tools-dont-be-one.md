@@ -1,7 +1,7 @@
 ---
 title: "Dear Developer: Use tools, don't be one"
 date: "2013-11-07"
-slug: "2013/11/dear-developer-use-tools-dont-be-one-or-proper-etiquite-for-answering-stackoverflow-questions"
+slug: "/2013/11/dear-developer-use-tools-dont-be-one-or-proper-etiquite-for-answering-stackoverflow-questions"
 aliases: [
     "posts/dear-developer-use-tools-dont-be-one"
 ]

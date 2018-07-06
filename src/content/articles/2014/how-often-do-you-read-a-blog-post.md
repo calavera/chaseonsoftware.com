@@ -1,7 +1,7 @@
 ---
 date: "2014-02-17"
 title: "How Often Do You Read A Blog Post? [Wedgie/Survey]"
-slug: "2014/02/how-often-do-you-read-a-blog-post-wedgies-survey"
+slug: "/2014/02/how-often-do-you-read-a-blog-post-wedgies-survey"
 category: "archive"
 ---
 

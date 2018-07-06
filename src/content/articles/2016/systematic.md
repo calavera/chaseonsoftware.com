@@ -5,7 +5,7 @@ date: "2016-11-11"
 aliases: [ 
     "/systematic/intro"
 ]
-slug: "systematic-approach-to-managing-oneself"
+slug: "/systematic-approach-to-managing-oneself"
 ---
 
 **I want to be the best person I ever manage.**
