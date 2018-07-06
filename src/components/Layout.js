@@ -38,7 +38,7 @@ export default ({ children }) => {
               {
                 rel: "stylesheet",
                 href:
-                  "https://fonts.googleapis.com/css?family=Nunito:200,400,700"
+                  "https://fonts.googleapis.com/css?family=Roboto:200,400,700"
               }
             ]}
           />
