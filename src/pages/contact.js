@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "../components/Layout";
-import { push } from "gatsby";
 import Helmet from "react-helmet";
 
 function encode(data) {
@@ -10,6 +9,13 @@ function encode(data) {
 }
 
 class ContactPage extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      success: false,
+      error: ""
+    };
+  }
   handleChange = e => {
     this.setState({ [e.target.name]: e.target.value });
   };
@@ -25,8 +31,17 @@ class ContactPage extends React.Component {
         ...this.state
       })
     })
-      .then(() => push(form.getAttribute("action")))
-      .catch(error => alert(error));
+      .then(() =>
+        this.setState({
+          success: true
+        })
+      )
+      .catch(error =>
+        this.setState({
+          success: false,
+          error: error
+        })
+      );
   };
 
   render(location) {
@@ -38,11 +53,12 @@ class ContactPage extends React.Component {
             <h1 className="container">Say Hi!</h1>
           </header>
           <div className="group container pad-h-container">
+            {this.state.error && <p>{this.state.error}</p>}
+            {this.state.success && <p>Thanks for reaching out!</p>}
             <div className="c-1-2">
               <form
                 name="contact"
                 method="post"
-                action="/thanks/"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
