@@ -97,10 +97,31 @@ class ContactPage extends React.Component {
           <header className="page-title">
             <h1 className="container">Say Hi!</h1>
           </header>
-          <div className="group container pad-h-container">
-            {this.state.errors.server && <p>{this.state.errors.server}</p>}
-            {this.state.status === "success" && <p>Thanks for reaching out!</p>}
+          <div
+            style={{ padding: "5rem 0" }}
+            className="group container larger pad-h-container"
+          >
             <div className="c-1-2">
+              <h2>You can find me...</h2>{" "}
+              <ul>
+                <li>
+                  talking on{" "}
+                  <a href="https://twitter.com/chaseadamsio">Twitter</a>
+                </li>{" "}
+                <li>
+                  building on{" "}
+                  <a href="https://gitlab.com/chaseadamsio">GitLab</a> and{" "}
+                  <a href="https://github.com/chaseadamsio">GitHub</a>
+                </li>
+                <li> or reach out through the form!</li>
+              </ul>
+            </div>
+
+            <div className="c-1-2">
+              {this.state.errors.server && <p>{this.state.errors.server}</p>}
+              {this.state.status === "success" && (
+                <p>Thanks for reaching out!</p>
+              )}
               <form
                 name="contact"
                 method="post"
@@ -114,6 +135,32 @@ class ContactPage extends React.Component {
                     Don’t fill this out: <input name="bot-field" />
                   </label>
                 </p>
+
+                <div className="input">
+                  <select
+                    style={{
+                      width: "100%",
+                      height: "40px",
+                      background: "#fff",
+                      border: "1px solid #ccc"
+                    }}
+                  >
+                    <option value="" disabled="" defaultValue="">
+                      What's up?
+                    </option>
+                    {[
+                      "I want to learn something.",
+                      "I want to recruit you.",
+                      "Just saying hi."
+                    ].map((option, idx) => {
+                      return (
+                        <option key={idx} name="reasonOption" value="{option}">
+                          {option}
+                        </option>
+                      );
+                    })}
+                  </select>
+                </div>
 
                 <div className="group pad-bottom-container">
                   <div className="input">
@@ -141,16 +188,14 @@ class ContactPage extends React.Component {
                   </div>
                 </div>
 
-                <div>
-                  <div className="input">
-                    <label>message</label>
-                    <textarea
-                      name="message"
-                      value={input.message}
-                      onChange={this.handleChange}
-                    />
-                    {!!errors.message && <span>{errors.message}</span>}
-                  </div>
+                <div className="input">
+                  <label>message</label>
+                  <textarea
+                    name="message"
+                    value={input.message}
+                    onChange={this.handleChange}
+                  />
+                  {!!errors.message && <span>{errors.message}</span>}
                 </div>
                 <div>
                   <button type="submit">Send</button>
