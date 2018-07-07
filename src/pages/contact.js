@@ -12,16 +12,57 @@ class ContactPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      success: false,
-      error: ""
+      input: {
+        name: "",
+        email: "",
+        message: ""
+      },
+      status: "",
+      errors: {}
     };
   }
+
   handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    this.setState(prevState => ({
+      input: {
+        ...prevState.input,
+        [name]: value
+      }
+    }));
   };
+
+  validate() {
+    const errors = {};
+    const { input } = this.state;
+
+    if (!input.name) {
+      errors.name = `Name is required`;
+    }
+
+    if (!input.email) {
+      errors.email = `Email is required`;
+    }
+
+    if (!input.message) {
+      errors.message = `A message is required`;
+    }
+
+    this.setState({
+      errors: errors
+    });
+
+    const isValid = Object.keys(errors).length === 0;
+    return isValid;
+  }
 
   handleSubmit = e => {
     e.preventDefault();
+
+    const isValid = this.validate();
+    if (!isValid) {
+      return;
+    }
     const form = e.target;
     fetch("/", {
       method: "POST",
@@ -33,28 +74,32 @@ class ContactPage extends React.Component {
     })
       .then(() =>
         this.setState({
-          success: true
+          status: "success"
         })
       )
       .catch(error =>
         this.setState({
-          success: false,
-          error: error
+          status: "failure",
+          errors: {
+            server: error
+          }
         })
       );
   };
 
   render(location) {
+    const { input, errors } = this.state;
+
     return (
       <Layout location={location}>
         <Helmet title="Say Hi | Chase Adams" />
-        <article>
+        <article style={{ minHeight: "100vh" }}>
           <header className="page-title">
             <h1 className="container">Say Hi!</h1>
           </header>
           <div className="group container pad-h-container">
-            {this.state.error && <p>{this.state.error}</p>}
-            {this.state.success && <p>Thanks for reaching out!</p>}
+            {this.state.errors.server && <p>{this.state.errors.server}</p>}
+            {this.state.status === "success" && <p>Thanks for reaching out!</p>}
             <div className="c-1-2">
               <form
                 name="contact"
@@ -66,36 +111,45 @@ class ContactPage extends React.Component {
                 <input type="hidden" name="form-name" value="contact" />
                 <p hidden>
                   <label>
-                    Don’t fill this out:{" "}
-                    <input name="bot-field" onChange={this.handleChange} />
+                    Don’t fill this out: <input name="bot-field" />
                   </label>
                 </p>
 
                 <div className="group pad-bottom-container">
-                  <div className="input c-1-2">
-                    <label>name</label>
+                  <div className="input">
+                    <label htmlFor="name">name</label>
                     <input
                       type="text"
                       name="name"
-                      autoComplete="off"
+                      autoComplete="name"
+                      value={input.name}
                       onChange={this.handleChange}
                     />
+                    {!!errors.name && <span>{errors.name}</span>}
                   </div>
 
-                  <div className="input c-1-2">
-                    <label>email</label>
+                  <div className="input">
+                    <label htmlFor="email">email</label>
                     <input
                       type="text"
-                      name="name"
+                      name="email"
+                      autoComplete="email"
+                      value={input.email}
                       onChange={this.handleChange}
                     />
+                    {!!errors.email && <span>{errors.email}</span>}
                   </div>
                 </div>
 
                 <div>
                   <div className="input">
                     <label>message</label>
-                    <textarea name="message" onChange={this.handleChange} />
+                    <textarea
+                      name="message"
+                      value={input.message}
+                      onChange={this.handleChange}
+                    />
+                    {!!errors.message && <span>{errors.message}</span>}
                   </div>
                 </div>
                 <div>
