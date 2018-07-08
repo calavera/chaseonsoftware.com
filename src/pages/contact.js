@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import Helmet from "react-helmet";
 
 function encode(data) {
+  console.log(data);
   return Object.keys(data)
     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
@@ -59,10 +60,6 @@ class ContactPage extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    const isValid = this.validate();
-    if (!isValid) {
-      return;
-    }
     const form = e.target;
     fetch("/", {
       method: "POST",
@@ -101,7 +98,6 @@ class ContactPage extends React.Component {
       const shouldShow = this.state.touched[field];
       return hasError ? shouldShow : false;
     };
-    console.log(errors, input);
 
     return (
       <Layout location={location}>
@@ -259,7 +255,7 @@ class ContactPage extends React.Component {
                 </div>
                 <div>
                   <button
-                    className={!isEnabled && "error"}
+                    className={!isEnabled ? "error" : ""}
                     disabled={!isEnabled}
                     type="submit"
                   >
