@@ -15,14 +15,16 @@ class ContactPage extends React.Component {
       input: {
         name: "",
         email: "",
-        message: ""
+        message: "",
+        reason: ""
       },
       status: "",
       errors: {},
       touched: {
         email: false,
         name: false,
-        message: false
+        message: false,
+        reason: false
       }
     };
   }
@@ -43,11 +45,12 @@ class ContactPage extends React.Component {
     });
   };
 
-  validate(name, email, message) {
+  validate(name, email, message, reason) {
     const errors = {
       name: !name,
       email: !email,
-      message: !message
+      message: !message,
+      reason: !reason
     };
 
     return errors;
@@ -86,13 +89,19 @@ class ContactPage extends React.Component {
 
   render(location) {
     const { input } = this.state;
-    const errors = this.validate(input.name, input.email, input.message);
+    const errors = this.validate(
+      input.name,
+      input.email,
+      input.message,
+      input.reason
+    );
     const isEnabled = !Object.keys(errors).some(x => errors[x]);
     const shouldMarkError = field => {
       const hasError = errors[field];
       const shouldShow = this.state.touched[field];
       return hasError ? shouldShow : false;
     };
+    console.log(errors, input);
 
     return (
       <Layout location={location}>
@@ -140,8 +149,16 @@ class ContactPage extends React.Component {
                   </label>
                 </p>
 
-                <div className="input">
-                  <select>
+                <div
+                  className={
+                    shouldMarkError("reason") ? "error input" : "input"
+                  }
+                >
+                  <select
+                    value={input.reason}
+                    onBlur={this.handleBlur("reason")}
+                    onChange={this.handleChange}
+                  >
                     <option value="" disabled="" defaultValue="">
                       What's up?
                     </option>
@@ -151,7 +168,7 @@ class ContactPage extends React.Component {
                       "Just saying hi."
                     ].map((option, idx) => {
                       return (
-                        <option key={idx} name="reasonOption" value="{option}">
+                        <option key={idx} name="reason" value={option}>
                           {option}
                         </option>
                       );
