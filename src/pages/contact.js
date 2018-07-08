@@ -18,7 +18,12 @@ class ContactPage extends React.Component {
         message: ""
       },
       status: "",
-      errors: {}
+      errors: {},
+      touched: {
+        email: false,
+        name: false,
+        message: false
+      }
     };
   }
 
@@ -32,28 +37,20 @@ class ContactPage extends React.Component {
     }));
   };
 
-  validate() {
-    const errors = {};
-    const { input } = this.state;
-
-    if (!input.name) {
-      errors.name = `Name is required`;
-    }
-
-    if (!input.email) {
-      errors.email = `Email is required`;
-    }
-
-    if (!input.message) {
-      errors.message = `A message is required`;
-    }
-
+  handleBlur = field => evt => {
     this.setState({
-      errors: errors
+      touched: { ...this.state.touched, [field]: true }
     });
+  };
 
-    const isValid = Object.keys(errors).length === 0;
-    return isValid;
+  validate(name, email, message) {
+    const errors = {
+      name: !name,
+      email: !email,
+      message: !message
+    };
+
+    return errors;
   }
 
   handleSubmit = e => {
@@ -88,7 +85,14 @@ class ContactPage extends React.Component {
   };
 
   render(location) {
-    const { input, errors } = this.state;
+    const { input } = this.state;
+    const errors = this.validate(input.name, input.email, input.message);
+    const isEnabled = !Object.keys(errors).some(x => errors[x]);
+    const shouldMarkError = field => {
+      const hasError = errors[field];
+      const shouldShow = this.state.touched[field];
+      return hasError ? shouldShow : false;
+    };
 
     return (
       <Layout location={location}>
@@ -156,48 +160,72 @@ class ContactPage extends React.Component {
                 </div>
 
                 <div className="group pad-bottom-container">
-                  <div className="input">
+                  <div
+                    className={
+                      shouldMarkError("name") ? "error input" : "input"
+                    }
+                  >
                     <label htmlFor="name">name</label>
                     <input
                       type="text"
                       name="name"
                       autoComplete="name"
+                      placeholder="Chase Adams"
                       value={input.name}
+                      onBlur={this.handleBlur("name")}
                       onChange={this.handleChange}
                     />
-                    {!!errors.name && (
-                      <span className="error">{errors.name}</span>
+                    {shouldMarkError("name") && (
+                      <span className="error">Name is required</span>
                     )}
                   </div>
 
-                  <div className="input">
+                  <div
+                    className={
+                      shouldMarkError("email") ? "error input" : "input"
+                    }
+                  >
                     <label htmlFor="email">email</label>
                     <input
                       type="text"
                       name="email"
                       autoComplete="email"
+                      placeholder="hey@chaseadams.io"
                       value={input.email}
+                      onBlur={this.handleBlur("email")}
                       onChange={this.handleChange}
                     />
-                    {!!errors.email && (
-                      <span className="error">{errors.email}</span>
+                    {shouldMarkError("email") && (
+                      <span className="error">Email is required</span>
                     )}
                   </div>
                 </div>
 
-                <div className="input">
+                <div
+                  className={
+                    shouldMarkError("message") ? "error input" : "input"
+                  }
+                >
                   <label>message</label>
                   <textarea
                     name="message"
+                    placeholder="Hey, I've got something to say!"
                     value={input.message}
+                    onBlur={this.handleBlur("message")}
                     onChange={this.handleChange}
                   />
-                  {!!errors.message && (
-                    <span className="error">{errors.message}</span>
+                  {shouldMarkError("message") && (
+                    <span className="error">Message is required</span>
                   )}
                 </div>
                 <div>
-                  <button type="submit">Send</button>
+                  <button
+                    className={!isEnabled && "error"}
+                    disabled={!isEnabled}
+                    type="submit"
+                  >
+                    {!isEnabled ? "Can't Send Yet..." : "Send"}
+                  </button>
                 </div>
               </form>
             </div>
