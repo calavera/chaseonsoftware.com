@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import Helmet from "react-helmet";
 
 function encode(data) {
-  console.log(data);
   return Object.keys(data)
     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
@@ -66,7 +65,7 @@ class ContactPage extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
         "form-name": form.getAttribute("name"),
-        ...this.state
+        ...this.state.input
       })
     })
       .then(() =>
