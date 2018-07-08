@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  background: #fff;
+  background: $white;
   color: $black;
   margin: 0;
   padding: 0;
@@ -44,11 +44,11 @@ p {
 
 a,
 a:visited {
-  color: $blue;
+  color: $green-0;
   text-decoration: none;
   font-weight: bold;
   &:hover {
-    text-decoration: underline;
+    color: $green_dec_1;
   }
 }
 
@@ -90,7 +90,7 @@ img {
   .post {
     margin: 0 0 1.75rem 0;
     padding: 0 0 1.75rem 0;
-    border-bottom: 1px solid #f4f4f4;
+    border-bottom: 1px solid $white_low_contrast;
     font-size: 1rem;
     h2 {
       margin-bottom: 0.5rem;
@@ -123,15 +123,18 @@ ul.list-as-sentence {
 
 header.single-header {
   background: $black;
-  color: #f4f4f4;
-  border-bottom: 1px solid #f4f4f4;
+  color: $white;
+  border-bottom: 1px solid $white;
   margin-bottom: 1rem;
   padding: 3.5rem;
   text-align: center;
+  h1 {
+    color: $white_low_contrast;
+  }
   .meta {
     font-size: 0.8rem;
     time {
-      color: darken(#fff, 20%);
+      color: $green_inc_2;
     }
   }
 }
@@ -139,12 +142,16 @@ header.single-header {
 .page-title {
   padding: 1rem;
   background: $black;
-  color: #f4f4f4;
+  color: $white;
 }
 
 .c-1-2 {
   width: 50%;
   float: left;
+}
+
+.error {
+  color: $error;
 }
 
 form {
@@ -157,32 +164,46 @@ form {
     text-transform: uppercase;
     font-weight: bold;
   }
-  input {
+  input,
+  select {
     width: 100%;
+    background: $white_low_contrast;
     padding: 0.5rem;
-    border: none;
-    border-bottom: 1px solid #ccc;
+    border: 2px solid $white_low_contrast;
     &:focus {
       outline: none;
-      border-bottom: 1px solid $blue;
+      border: 2px solid $green-0;
     }
   }
+  select {
+    height: 40px;
+  }
   textarea {
+    display: block;
     width: 100%;
     height: 10rem;
     padding: 0.5rem;
-    border: 1px solid #ccc;
+    background: $white_low_contrast;
+    border: 2px solid $white_low_contrast;
     &:focus {
       outline: none;
-      border: 1px solid $blue;
+      border: 2px solid $green_0;
     }
   }
   button {
     width: 100%;
     padding: 0.5rem;
     text-align: center;
-    background: $blue;
-    color: #fff;
+    background: $green_0;
+    border-bottom: 5px solid $green_dec_1;
+    color: $white;
+    &:hover {
+      background: $green_dec_1;
+      border-bottom: 5px solid $green_dec_2;
+    }
+    &:focus {
+      outline: none;
+    }
   }
   input:-webkit-autofill,
   input:-webkit-autofill:hover,
@@ -191,9 +212,8 @@ form {
   select:-webkit-autofill,
   select:-webkit-autofill:hover,
   select:-webkit-autofill:focus {
-    // box-shadow: 0 0 0px 1000px $blue inset;
-    -webkit-text-fill-color: #fff;
-    -webkit-box-shadow: 0 0 0px 1000px $blue inset;
+    -webkit-text-fill-color: $white;
+    -webkit-box-shadow: 0 0 0px 1000px $green_0 inset;
     transition: background-color 5000s ease-in-out 0s;
   }
 }
@@ -247,7 +267,6 @@ header.nav {
   box-sizing: border-box;
   position: relative;
   position: fixed;
-  background: #fff;
   width: 100%;
   height: 70px;
   padding: 0 2rem;
@@ -261,13 +280,14 @@ header.nav {
     line-height: 1.5rem;
   }
   a {
-    color: #283c46;
+    color: $green_0;
     &:hover {
-      color: $blue;
+      color: $green_inc_2;
       text-decoration: none;
     }
     &.active {
-      border-bottom: 2px solid $blue;
+      color: $green_inc_2;
+      border-bottom: 2px solid $green_inc_2;
     }
   }
   ul {
@@ -310,10 +330,13 @@ footer {
   background: $black !important;
   padding: 2rem;
   p {
-    color: #f4f4f4;
+    color: $white_low_contrast;
     text-align: center;
     padding: 0;
     margin: 0;
+  }
+  a:hover {
+    color: $green_inc_2;
   }
 }
 

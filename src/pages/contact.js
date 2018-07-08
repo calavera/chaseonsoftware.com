@@ -137,14 +137,7 @@ class ContactPage extends React.Component {
                 </p>
 
                 <div className="input">
-                  <select
-                    style={{
-                      width: "100%",
-                      height: "40px",
-                      background: "#fff",
-                      border: "1px solid #ccc"
-                    }}
-                  >
+                  <select>
                     <option value="" disabled="" defaultValue="">
                       What's up?
                     </option>
@@ -172,7 +165,9 @@ class ContactPage extends React.Component {
                       value={input.name}
                       onChange={this.handleChange}
                     />
-                    {!!errors.name && <span>{errors.name}</span>}
+                    {!!errors.name && (
+                      <span className="error">{errors.name}</span>
+                    )}
                   </div>
 
                   <div className="input">
@@ -184,7 +179,9 @@ class ContactPage extends React.Component {
                       value={input.email}
                       onChange={this.handleChange}
                     />
-                    {!!errors.email && <span>{errors.email}</span>}
+                    {!!errors.email && (
+                      <span className="error">{errors.email}</span>
+                    )}
                   </div>
                 </div>
 
@@ -195,7 +192,9 @@ class ContactPage extends React.Component {
                     value={input.message}
                     onChange={this.handleChange}
                   />
-                  {!!errors.message && <span>{errors.message}</span>}
+                  {!!errors.message && (
+                    <span className="error">{errors.message}</span>
+                  )}
                 </div>
                 <div>
                   <button type="submit">Send</button>
