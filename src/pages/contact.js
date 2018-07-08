@@ -112,9 +112,9 @@ class ContactPage extends React.Component {
           </header>
           <div
             style={{ padding: "5rem 0" }}
-            className="group container larger pad-h-container"
+            className="group container-l pad-h-container"
           >
-            <div className="c-1-2">
+            <div className="c-2-3">
               <h2>You can find me...</h2>{" "}
               <ul>
                 <li>
@@ -130,7 +130,7 @@ class ContactPage extends React.Component {
               </ul>
             </div>
 
-            <div className="c-1-2">
+            <div className="c-1-3">
               {this.state.errors.server && <p>{this.state.errors.server}</p>}
               {this.state.status === "success" && (
                 <p>Thanks for reaching out!</p>
@@ -158,6 +158,7 @@ class ContactPage extends React.Component {
                     value={input.reason}
                     onBlur={this.handleBlur("reason")}
                     onChange={this.handleChange}
+                    name="reason"
                   >
                     <option value="" disabled="" defaultValue="">
                       What's up?
