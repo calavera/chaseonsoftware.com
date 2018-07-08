@@ -118,16 +118,26 @@ class ContactPage extends React.Component {
               <h2>You can find me...</h2>{" "}
               <ul>
                 <li>
-                  talking on{" "}
-                  <a href="https://twitter.com/chaseadamsio">Twitter</a>
+                  talking about software, distributed teams & work on{" "}
+                  <a href="https://twitter.com/chaseadamsio">Twitter</a>.
                 </li>{" "}
                 <li>
-                  building on{" "}
+                  building software on{" "}
                   <a href="https://gitlab.com/chaseadamsio">GitLab</a> and{" "}
-                  <a href="https://github.com/chaseadamsio">GitHub</a>
+                  <a href="https://github.com/chaseadamsio">GitHub</a>.
                 </li>
-                <li> or reach out through the form!</li>
+                <li>
+                  also writing on{" "}
+                  <a href="https://medium.com/chaseadamsio">Medium</a>.
+                </li>
+                <li>
+                  professionally on{" "}
+                  <a href="https://www.linkedin.com/in/chaseadams/">LinkedIn</a>.
+                </li>
               </ul>
+              <p style={{ fontStyle: "italic" }}>
+                Can't find a place that makes sense? Reach out through the form!
+              </p>
             </div>
 
             <div className="c-1-3">
@@ -175,6 +185,11 @@ class ContactPage extends React.Component {
                       );
                     })}
                   </select>
+                  {shouldMarkError("reason") && (
+                    <span className="error">
+                      Choosing a reason helps me respond better!
+                    </span>
+                  )}
                 </div>
 
                 <div className="group pad-bottom-container">
@@ -194,7 +209,9 @@ class ContactPage extends React.Component {
                       onChange={this.handleChange}
                     />
                     {shouldMarkError("name") && (
-                      <span className="error">Name is required</span>
+                      <span className="error">
+                        Sharing your name helps me personalize my response!
+                      </span>
                     )}
                   </div>
 
@@ -214,7 +231,9 @@ class ContactPage extends React.Component {
                       onChange={this.handleChange}
                     />
                     {shouldMarkError("email") && (
-                      <span className="error">Email is required</span>
+                      <span className="error">
+                        Sharing your email helps me respond to the right place!
+                      </span>
                     )}
                   </div>
                 </div>
@@ -233,7 +252,9 @@ class ContactPage extends React.Component {
                     onChange={this.handleChange}
                   />
                   {shouldMarkError("message") && (
-                    <span className="error">Message is required</span>
+                    <span className="error">
+                      Sending a message helps me respond more accurately!
+                    </span>
                   )}
                 </div>
                 <div>
