@@ -204,9 +204,7 @@ class ContactPage extends React.Component {
                       onChange={this.handleChange}
                     />
                     {shouldMarkError("name") && (
-                      <span className="error">
-                        Sharing your name helps me personalize my response!
-                      </span>
+                      <span>Your name helps me know who you are!</span>
                     )}
                   </div>
 
@@ -226,9 +224,7 @@ class ContactPage extends React.Component {
                       onChange={this.handleChange}
                     />
                     {shouldMarkError("email") && (
-                      <span className="error">
-                        Sharing your email helps me respond to the right place!
-                      </span>
+                      <span>Knowing your email enables me respond!</span>
                     )}
                   </div>
                 </div>
@@ -247,9 +243,7 @@ class ContactPage extends React.Component {
                     onChange={this.handleChange}
                   />
                   {shouldMarkError("message") && (
-                    <span className="error">
-                      Sending a message helps me respond more accurately!
-                    </span>
+                    <span>A message gives me context!</span>
                   )}
                 </div>
                 <div>
@@ -258,7 +252,7 @@ class ContactPage extends React.Component {
                     disabled={!isEnabled}
                     type="submit"
                   >
-                    {!isEnabled ? "Can't Send Yet..." : "Send"}
+                    {!isEnabled ? "The form is incomplete..." : "Send"}
                   </button>
                 </div>
               </form>

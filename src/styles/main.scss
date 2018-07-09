@@ -181,6 +181,12 @@ header.single-header {
 
 .error {
   color: $error;
+  span {
+    display: block;
+    margin-top: 0.5rem;
+    line-height: 1rem;
+    font-size: 0.9rem;
+  }
 }
 
 form {
@@ -242,8 +248,8 @@ form {
       outline: none;
     }
     &.error {
-      background: $white_low_contrast;
-      border-bottom: 5px solid darken($white_low_contrast, 5%);
+      background: lighten($green_inc_2, 15%);
+      border-bottom: 5px solid $green_inc_2;
       color: $black_low_contrast;
     }
   }
