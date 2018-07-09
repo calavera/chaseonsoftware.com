@@ -1,23 +1,33 @@
 // https://www.youtube.com/watch?v=9S8LGdpNh4Q
 // # Layout Colors
+$black: #0b131b;
+$black_low_contrast: #232c34;
+$error: #f87060;
+$error_contrast: #9e483e;
+$success: #3ee6b4;
+$disabled: #bbbbbc;
+// Green
+$green_white: #f9ffff;
+$green_white_low_contrast: #eff4f4;
 $green_dec_2: #067858;
 $green_dec_1: #089a71;
 $green_0: #09bc8a;
 $green_inc_1: #35c89f;
 $green_inc_2: #62d4b4;
+// Blue
+$blue_white: #f9fbff;
+$blue_white_low_contrast: #edeff2;
 $blue_dec_2: #01619d;
 $blue_dec_1: #017cca;
 $blue_0: #0197f6;
 $blue_inc_1: #2fa9f7;
 $blue_inc_2: #5dbcf9;
-$black: #0b131b;
-$black_low_contrast: #232c34;
-$white: #f9ffff;
-$white_low_contrast: #eff4f4;
-$error: #f87060;
-$error_contrast:#9E483E;
-$success: #3ee6b4;
-$disabled: #bbbbbc;
-/*** TODO LIGHT SCHEME ***/
+/*** Colors ***/
 
-/*** TODO DARK SCHEME ***/
+$white: $green_white;
+$white_low_contrast: $green_white_low_contrast;
+$primary: $green_0;
+$primary_inc_1: $green_inc_1;
+$primary_inc_2: $green_inc_2;
+$primary_dec_1: $green_dec_1;
+$primary_dec_2: $green_dec_2;
