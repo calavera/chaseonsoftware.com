@@ -60,7 +60,7 @@ class ContactForm extends React.Component {
         email: "",
         message: "",
         reason: "",
-        botField: ""
+        botfield: ""
       },
       status: "",
       errors: {},
@@ -157,9 +157,9 @@ class ContactForm extends React.Component {
             <label>
               Don’t fill this out:{" "}
               <input
-                value={input.botField}
-                name="botfield"
+                value={input.botfield}
                 onChange={this.handleChange}
+                name="botfield"
               />
             </label>
           </p>
