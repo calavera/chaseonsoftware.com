@@ -59,7 +59,8 @@ class ContactForm extends React.Component {
         name: "",
         email: "",
         message: "",
-        reason: ""
+        reason: "",
+        botField: ""
       },
       status: "",
       errors: {},
@@ -148,13 +149,18 @@ class ContactForm extends React.Component {
           name="contact"
           method="post"
           data-netlify="true"
-          data-netlify-honeypot="bot-field"
+          data-netlify-honeypot="botfield"
           onSubmit={this.handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
           <p hidden>
             <label>
-              Don’t fill this out: <input name="bot-field" />
+              Don’t fill this out:{" "}
+              <input
+                value={input.botField}
+                name="botfield"
+                onChange={this.handleChange}
+              />
             </label>
           </p>
 
