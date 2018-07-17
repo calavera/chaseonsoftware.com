@@ -8,22 +8,6 @@ function encode(data) {
     .join("&");
 }
 
-const Input = props => (
-  <div className={props.shouldMarkError ? "error input" : "input"}>
-    <label htmlFor="name">name</label>
-    <input
-      type="text"
-      name={props.name}
-      autoComplete={props.name}
-      placeholder={props.placeholder}
-      value={props.name}
-      onBlur={props.onBlur}
-      onChange={props.onChange}
-    />
-    {props.shouldMarkError && <span>props.errorMsg</span>}
-  </div>
-);
-
 const ContactInfo = () => (
   <div className="c-2-3">
     <h2>You can find me...</h2>{" "}
@@ -194,58 +178,75 @@ class ContactForm extends React.Component {
           </div>
 
           <div className="group pad-bottom-container">
-            <div className={shouldMarkError("name") ? "error input" : "input"}>
-              <label htmlFor="name">name</label>
-              <input
-                type="text"
-                name="name"
-                autoComplete="name"
-                placeholder="Chase Adams"
-                value={input.name}
-                onBlur={this.handleBlur("name")}
-                onChange={this.handleChange}
-              />
-              {shouldMarkError("name") && (
-                <span>Your name helps me know who you are!</span>
-              )}
-            </div>
-
-            <div className={shouldMarkError("email") ? "error input" : "input"}>
-              <label htmlFor="email">email</label>
-              <input
-                type="text"
-                name="email"
-                autoComplete="email"
-                placeholder="hey@chaseadams.io"
-                value={input.email}
-                onBlur={this.handleBlur("email")}
-                onChange={this.handleChange}
-              />
-              {shouldMarkError("email") && (
-                <span>Knowing your email enables me respond!</span>
-              )}
-            </div>
-          </div>
-
-          <div className={shouldMarkError("message") ? "error input" : "input"}>
-            <label>message</label>
-            <textarea
-              name="message"
-              placeholder="Hey, I've got something to say!"
-              value={input.message}
-              onBlur={this.handleBlur("message")}
+            <TextInput
+              shouldMarkError={shouldMarkError("name")}
+              for="name"
+              value={input.name}
+              placeholder="Chase Adams"
+              onBlur={this.handleBlur("name")}
               onChange={this.handleChange}
+              errorMsg="Your name helps me know who you are!"
             />
-            {shouldMarkError("message") && (
-              <span>A message gives me context!</span>
-            )}
+
+            <TextInput
+              shouldMarkError={shouldMarkError("email")}
+              for="email"
+              value={input.email}
+              placeholder="hey@chaseadams.io"
+              onBlur={this.handleBlur("email")}
+              onChange={this.handleChange}
+              errorMsg="Knowing your email enables me respond!"
+            />
           </div>
+
+          <TextArea
+            shouldMarkError={shouldMarkError("message")}
+            for="message"
+            value={input.message}
+            placeholder="Hey, I've got something to say!"
+            onBlur={this.handleBlur("message")}
+            onChange={this.handleChange}
+            errorMsg="A message gives me context!"
+          />
+
           <SubmitButton isEnabled={isEnabled} />
         </form>
       </div>
     );
   }
 }
+
+const TextInput = props => (
+  <div className={props.shouldMarkError ? "error input" : "input"}>
+    <label htmlFor="{props.for}">{props.for}</label>
+    <input
+      type="text"
+      name={props.for}
+      autoComplete={props.for}
+      placeholder={props.placeholder}
+      value={props.value}
+      onBlur={props.onBlur}
+      onChange={props.onChange}
+    />
+    {props.shouldMarkError && <span>{props.errorMsg}</span>}
+  </div>
+);
+
+const TextArea = props => (
+  <div className={props.shouldMarkError ? "error input" : "input"}>
+    <label htmlFor="{props.for}">{props.for}</label>
+    <textarea
+      type="text"
+      name={props.for}
+      autoComplete={props.for}
+      placeholder={props.placeholder}
+      value={props.value}
+      onBlur={props.onBlur}
+      onChange={props.onChange}
+    />
+    {props.shouldMarkError && <span>{props.errorMsg}</span>}
+  </div>
+);
 
 const SubmitButton = props => (
   <div>
