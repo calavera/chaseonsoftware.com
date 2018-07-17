@@ -26,7 +26,7 @@ h1 {
 .h2--subtitle {
   font-size: 1.8rem;
   line-height: 2.16rem;
-  color: lighten($black, 20%);
+  color: $black_low_contrast;
   @media (max-width: 980px) {
     font-size: 1.5rem;
     line-height: 1.8rem;
@@ -45,10 +45,10 @@ p {
 a,
 a:visited {
   color: $primary;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
   &:hover {
-    color: $primary_dec_1;
+    color: $primary_inc_1;
   }
 }
 
@@ -104,6 +104,13 @@ img {
       font-size: 0.9rem;
       font-style: italic;
     }
+    a,
+    a:visited {
+      color: $primary_dec_1;
+    }
+    a:hover {
+      color: $primary_dec_2;
+    }
   }
 }
 
@@ -134,7 +141,7 @@ header.single-header {
   .meta {
     font-size: 0.8rem;
     time {
-      color: $primary_inc_2;
+      color: $primary;
     }
   }
 }
@@ -274,6 +281,10 @@ section {
   h2 {
     font-size: 1.15rem;
   }
+  a,
+  a:visited {
+    color: $primary_dec_1;
+  }
 }
 
 .small-container {
@@ -323,7 +334,7 @@ header.nav {
   position: fixed;
   width: 100%;
   height: 70px;
-  padding: 0 2rem;
+  padding: 0 1.5rem;
   h1 {
     float: left;
     display: flex;
@@ -331,18 +342,12 @@ header.nav {
     padding: 0;
     align-items: center;
     font-size: 1.5rem;
+    font-weight: normal;
     line-height: 1.5rem;
   }
   a {
+    padding: 0.5rem;
     color: $white_low_contrast;
-    &:hover {
-      color: $primary;
-      text-decoration: none;
-    }
-    &.active {
-      color: $primary_inc_2;
-      border-bottom: 2px solid $primary_inc_2;
-    }
   }
   ul {
     justify-content: flex-end;
@@ -368,6 +373,13 @@ header.nav {
       display: inline;
       padding-left: 1rem;
       margin: 0;
+      a.active,
+      a:hover {
+        background: darken($black, 5%);
+        border-radius: 5px;
+        color: $primary;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -388,9 +400,6 @@ footer {
     text-align: center;
     padding: 0;
     margin: 0;
-  }
-  a:hover {
-    color: $primary_inc_2;
   }
 }
 
