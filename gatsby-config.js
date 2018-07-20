@@ -14,7 +14,7 @@ const cfg = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        plugins: [`gatsby-remark-prismjs`]
+        plugins: [`gatsby-remark-prismjs`, `gatsby-remark-autolink-headers`]
       }
     },
     {
