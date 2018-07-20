@@ -6,12 +6,6 @@ const cfg = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-62564031-1"
-      }
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -59,7 +53,14 @@ const cfg = {
   ]
 };
 
-if (process.env.NODE_ENV == "development") {
+if (process.env.CONTEXT === "production") {
+  cfg.plugins.push({
+    resolve: `gatsby-plugin-google-analytics`,
+    options: {
+      trackingId: "UA-62564031-1"
+    }
+  });
+} else if (process.env.CONTEXT !== "production") {
   cfg.plugins.push({
     resolve: `gatsby-source-filesystem`,
     options: {
