@@ -3,6 +3,9 @@ title: "Site Guide"
 description: "Learn about the site topology for chaseadams.io and how the content is structured."
 slug: "/site-guide"
 date: "2018-07-01"
+aliases: [
+    "/site-architecture"
+]
 ---
 
 Thir page exists as a best effort to be more transparent about the (very simple) topology of my website. It should act as both a reference for me when I'm unsure what I've done to setup the flows that it documents as well as to provide others with an opportunity to "see how the sausage is made".
