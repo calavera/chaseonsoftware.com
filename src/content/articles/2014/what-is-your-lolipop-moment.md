@@ -23,6 +23,6 @@ category: "archive"
 
 <p>Take 6 minutes to watch this and let the truth of it soak in.</p>
 
-<iframe src="http://embed.ted.com/talks/drew_dudley_everyday_leadership.html" width="853" height="480" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://embed.ted.com/talks/drew_dudley_everyday_leadership.html" width="853" height="480" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 

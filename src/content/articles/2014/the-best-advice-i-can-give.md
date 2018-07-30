@@ -11,7 +11,7 @@ category: "archive"
 
 __Don't copy/paste code examples.__
 
-I'm currently learning [GoLang](http://golang.org/), a statically typed language derived from C, as a way to stretch myself as a developer.
+I'm currently learning [GoLang](https://golang.org/), a statically typed language derived from C, as a way to stretch myself as a developer.
 
 One of the mistakes I see burn developers, both new and veteran, is that they copy/paste code examples, strings, basically anything copy/pastable.
 

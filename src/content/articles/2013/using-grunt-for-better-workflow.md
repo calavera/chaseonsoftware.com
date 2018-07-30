@@ -42,7 +42,7 @@ Project gist: [Grunt: Up &amp; Running](https://gist.github.com/chaseadamsio/735
 
 Grunt has a few dependencies that you'll need to have installed:
 
-- [NodeJS >=0.8.8](http://nodejs.org/)
+- [NodeJS >=0.8.8](https://nodejs.org/)
 - npm (comes with the Node package)
 
 From anywhere within your terminal run:

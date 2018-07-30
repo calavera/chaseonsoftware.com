@@ -18,7 +18,7 @@ I started writing down everything I heard him say in our weekly team gatherings,
 
 I started to learn things much quicker and my abilities and skills were sharpened faster because I had found a model of what I wanted that part of my life to look like and emulated it.
 
-This is just one example of one "realm of responsibility" of my life. In my spiritual life, I chose to model my life after men like my college professor, Dr. R, or my Young Life area director, Allen Miller. In my family life my small group leader, Bryson Davis and most obviously my dad. In my problem solving realm, teammates like [Brian Egan](http://www.twitter.com/brianegan), [Nate Weinert](http://www.twitter.com/natebirdman) or Mark Walker. In my creativity, [my mom](http://thecharmhouse.blogspot.com/) has been an incredible inspiration. In all of these realms, these folks have been models I've followed because they __were (and still are) where I want to be.__
+This is just one example of one "realm of responsibility" of my life. In my spiritual life, I chose to model my life after men like my college professor, Dr. R, or my Young Life area director, Allen Miller. In my family life my small group leader, Bryson Davis and most obviously my dad. In my problem solving realm, teammates like [Brian Egan](https://www.twitter.com/brianegan), [Nate Weinert](https://www.twitter.com/natebirdman) or Mark Walker. In my creativity, [my mom](https://thecharmhouse.blogspot.com/) has been an incredible inspiration. In all of these realms, these folks have been models I've followed because they __were (and still are) where I want to be.__
 
 We all have something we want to strive towards _being_. Some ideal _person_ that we see in a foggy mirror that through time we hope to see clearly.
 

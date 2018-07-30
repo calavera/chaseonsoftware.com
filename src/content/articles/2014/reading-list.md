@@ -25,7 +25,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
 
 ## The Books That Made The Cut
 
-### [The Power of Habit: Why We Do What We Do In Life and Business](http://www.amazon.com/The-Power-Habit-What-Business/dp/1400069289)
+### [The Power of Habit: Why We Do What We Do In Life and Business](https://www.amazon.com/The-Power-Habit-What-Business/dp/1400069289)
 
 <div class="nestle">
   <h4>
@@ -33,7 +33,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="The Power of Habit: Why We Do What We Do In Life and Business Book Cover" src="http://ecx.images-amazon.com/images/I/51oqw8x58FL._SY344_PJ.jpg" width="150" />](http://www.amazon.com/The-Power-Habit-What-Business/dp/1400069289)
+[<img class="align-left override" title="The Power of Habit: Why We Do What We Do In Life and Business Book Cover" src="https://ecx.images-amazon.com/images/I/51oqw8x58FL._SY344_PJ.jpg" width="150" />](https://www.amazon.com/The-Power-Habit-What-Business/dp/1400069289)
 
 <strong>Big Idea:</strong> At its core, The Power of Habit contains an exhilarating argument: The key to exercising regularly, losing weight, raising exceptional children, becoming more productive, building revolutionary companies and social movements, and achieving success is understanding how habits work. Habits aren’t destiny.
 
@@ -43,11 +43,11 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 
   <p class="marker">
-    <strong>Update:</strong> I finished it and wrote a [review on the Power of Habit](http://www.realchaseadams.com/2014/01/24/book-review-the-power-of-habit-why-we-do-what-we-do-in-life-and-business/) in January. It was a really insightful read! (01/24/2014)
+    <strong>Update:</strong> I finished it and wrote a [review on the Power of Habit](https://www.realchaseadams.com/2014/01/24/book-review-the-power-of-habit-why-we-do-what-we-do-in-life-and-business/) in January. It was a really insightful read! (01/24/2014)
   </p>
 </div>
 
-### [The Back of the Napkin: Solving Problems and Selling Ideas with Pictures](http://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152254&amp;sr=1-1&amp;keywords=back+of+the+napkin)
+### [The Back of the Napkin: Solving Problems and Selling Ideas with Pictures](https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152254&amp;sr=1-1&amp;keywords=back+of+the+napkin)
 
 <div class="nestle">
   <h4>
@@ -55,7 +55,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="The Back of the Napkin Book Cover" src="http://ecx.images-amazon.com/images/I/61JGX1DThtL._SX258_PJ.jpg" width="150" />](http://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152254&amp;sr=1-1&amp;keywords=back+of+the+napkin)
+[<img class="align-left override" title="The Back of the Napkin Book Cover" src="https://ecx.images-amazon.com/images/I/61JGX1DThtL._SX258_PJ.jpg" width="150" />](https://www.amazon.com/Back-Napkin-Expanded-Problems-Pictures/dp/1591842697/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152254&amp;sr=1-1&amp;keywords=back+of+the+napkin)
 
 <div class="smaller">
   <p>
@@ -69,7 +69,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Decisive: How to Make Better Choices in Life and Work](http://www.amazon.com/Decisive-Chip-Heath-Dan/dp/1847940854/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=1-1&amp;qid=1388152417)
+### [Decisive: How to Make Better Choices in Life and Work](https://www.amazon.com/Decisive-Chip-Heath-Dan/dp/1847940854/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=1-1&amp;qid=1388152417)
 
 <div class="nestle">
   <h4>
@@ -77,7 +77,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="Decisive: How to Make Better Choices in Life and Work Book Cover" src="http://ecx.images-amazon.com/images/I/41Dma69iHnL._SY344.jpg" width="150" />](http://www.amazon.com/Decisive-Chip-Heath-Dan/dp/1847940854/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=1-1&amp;qid=1388152417)
+[<img class="align-left override" title="Decisive: How to Make Better Choices in Life and Work Book Cover" src="https://ecx.images-amazon.com/images/I/41Dma69iHnL._SY344.jpg" width="150" />](https://www.amazon.com/Decisive-Chip-Heath-Dan/dp/1847940854/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=1-1&amp;qid=1388152417)
 
 <div class="smaller">
   <p>
@@ -91,7 +91,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Where Good Ideas Come From](http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380)
+### [Where Good Ideas Come From](https://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380)
 
 <div class="nestle">
   <h4>
@@ -99,9 +99,9 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="Where Good Ideas Come From Book Cover" src="http://ecx.images-amazon.com/images/I/41OyN%2BFRajL._SY344.jpg" width="150" />](http://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380)
+[<img class="align-left override" title="Where Good Ideas Come From Book Cover" src="https://ecx.images-amazon.com/images/I/41OyN%2BFRajL._SY344.jpg" width="150" />](https://www.amazon.com/Where-Good-Ideas-Come-From/dp/1594485380)
 
-<strong>Big Idea:</strong> Remember that awesome scribble video for [“Where Good Ideas Come From”? This is the book behind that 4 minute video](http://www.youtube.com/watch?v=NugRZGDbPFU). This is another book from the Zappos library (recommended by Tony).
+<strong>Big Idea:</strong> Remember that awesome scribble video for [“Where Good Ideas Come From”? This is the book behind that 4 minute video](https://www.youtube.com/watch?v=NugRZGDbPFU). This is another book from the Zappos library (recommended by Tony).
 
 <div class="group">
   <p>
@@ -109,7 +109,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Seven Habits of Highly Effective People](http://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+### [Seven Habits of Highly Effective People](https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="nestle">
   <h4>
@@ -117,7 +117,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="The Seven Habits of Highly Effective People Book Cover" src="http://ecx.images-amazon.com/images/I/51HlYr0Y67L._SY344.jpg" width="150" />](http://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+[<img class="align-left override" title="The Seven Habits of Highly Effective People Book Cover" src="https://ecx.images-amazon.com/images/I/51HlYr0Y67L._SY344.jpg" width="150" />](https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1451639619/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="smaller">
   <p>
@@ -131,7 +131,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [The Paradox of Choice: Why More Is Less](http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+### [The Paradox of Choice: Why More Is Less](https://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="nestle">
   <h4>
@@ -139,7 +139,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="The Paradox of Choice: Why More Is Less Book Cover" src="http://ecx.images-amazon.com/images/I/418h%2B4wiosL._SY344.jpg" width="150" />](http://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+[<img class="align-left override" title="The Paradox of Choice: Why More Is Less Book Cover" src="https://ecx.images-amazon.com/images/I/418h%2B4wiosL._SY344.jpg" width="150" />](https://www.amazon.com/Paradox-Choice-Why-More-Less/dp/0060005696/ref=tmm_pap_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="smaller">
   <p>
@@ -153,7 +153,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Linchpin: Are You Indispensible?](http://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591844096/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152788&amp;sr=1-1&amp;keywords=linchpin)
+### [Linchpin: Are You Indispensible?](https://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591844096/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152788&amp;sr=1-1&amp;keywords=linchpin)
 
 <div class="nestle">
   <h4>
@@ -161,7 +161,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="Linchpin: Are You Indispensible? Book Cover" src="http://ecx.images-amazon.com/images/I/51KEubrpFkL._SY344.jpg" width="150" />](http://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591844096/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152788&amp;sr=1-1&amp;keywords=linchpin)
+[<img class="align-left override" title="Linchpin: Are You Indispensible? Book Cover" src="https://ecx.images-amazon.com/images/I/51KEubrpFkL._SY344.jpg" width="150" />](https://www.amazon.com/Linchpin-Are-Indispensable-Seth-Godin/dp/1591844096/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152788&amp;sr=1-1&amp;keywords=linchpin)
 
 <div class="smaller">
   <p>
@@ -175,7 +175,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Eat Move Sleep: How Small Choices Lead to Big Changes](http://www.amazon.com/Eat-Move-Sleep-Choices-Changes-ebook/dp/B00CRGI0OI/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+### [Eat Move Sleep: How Small Choices Lead to Big Changes](https://www.amazon.com/Eat-Move-Sleep-Choices-Changes-ebook/dp/B00CRGI0OI/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="nestle">
   <h4>
@@ -183,7 +183,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="Eat Move Sleep: How Small Choices Lead to Big Changes Book Cover" src="http://ecx.images-amazon.com/images/I/41wcPaSUQ1L.jpg" width="150" />](http://www.amazon.com/Eat-Move-Sleep-Choices-Changes-ebook/dp/B00CRGI0OI/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+[<img class="align-left override" title="Eat Move Sleep: How Small Choices Lead to Big Changes Book Cover" src="https://ecx.images-amazon.com/images/I/41wcPaSUQ1L.jpg" width="150" />](https://www.amazon.com/Eat-Move-Sleep-Choices-Changes-ebook/dp/B00CRGI0OI/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="smaller">
   <p>
@@ -197,7 +197,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Inspired: How To Create Products Customers Love](http://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408)
+### [Inspired: How To Create Products Customers Love](https://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408)
 
 <div class="nestle">
   <h4>
@@ -205,7 +205,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="Inspired: How To Create Products Customers Love Book Cover" src="http://ecx.images-amazon.com/images/I/41kreHtR39L._SY344.jpg" width="150" />](http://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408)
+[<img class="align-left override" title="Inspired: How To Create Products Customers Love Book Cover" src="https://ecx.images-amazon.com/images/I/41kreHtR39L._SY344.jpg" width="150" />](https://www.amazon.com/Inspired-Create-Products-Customers-Love/dp/0981690408)
 
 <div class="smaller">
   <p>
@@ -219,7 +219,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Pragmatic Thinking &amp; Learning: Refactor Your Wetware](http://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152903&amp;sr=1-1&amp;keywords=pragmatic+thinking+and+learning+refactor+your+wetware)
+### [Pragmatic Thinking &amp; Learning: Refactor Your Wetware](https://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152903&amp;sr=1-1&amp;keywords=pragmatic+thinking+and+learning+refactor+your+wetware)
 
 <div class="nestle">
   <h4>
@@ -227,7 +227,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="Pragmatic Thinking & Learning: Refactor Your Wetware Book Cover" src="http://ecx.images-amazon.com/images/I/418Su6DJO5L._SY344.jpg" width="150" />](http://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152903&amp;sr=1-1&amp;keywords=pragmatic+thinking+and+learning+refactor+your+wetware)
+[<img class="align-left override" title="Pragmatic Thinking & Learning: Refactor Your Wetware Book Cover" src="https://ecx.images-amazon.com/images/I/418Su6DJO5L._SY344.jpg" width="150" />](https://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388152903&amp;sr=1-1&amp;keywords=pragmatic+thinking+and+learning+refactor+your+wetware)
 
 <div class="smaller">
   <p>
@@ -241,11 +241,11 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Made To Stick: Why Some Ideas Survive and Others Die](http://www.amazon.com/Made-Stick-Ideas-Survive-Others-ebook/dp/B000N2HCKQ/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+### [Made To Stick: Why Some Ideas Survive and Others Die](https://www.amazon.com/Made-Stick-Ideas-Survive-Others-ebook/dp/B000N2HCKQ/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 #### by Dan and Chip Heath
 
-[<img class="align-left override" title="" src="http://ecx.images-amazon.com/images/I/41Cq4iQl8zL._SY344_PJ.jpg" width="150" />](http://www.amazon.com/Made-Stick-Ideas-Survive-Others-ebook/dp/B000N2HCKQ/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+[<img class="align-left override" title="" src="https://ecx.images-amazon.com/images/I/41Cq4iQl8zL._SY344_PJ.jpg" width="150" />](https://www.amazon.com/Made-Stick-Ideas-Survive-Others-ebook/dp/B000N2HCKQ/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="smaller">
   <p>
@@ -259,7 +259,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Out of Our Minds: Learning To Be Creative](http://www.amazon.com/Out-Our-Minds-Learning-Creative-ebook/dp/B005CKKETU/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+### [Out of Our Minds: Learning To Be Creative](https://www.amazon.com/Out-Our-Minds-Learning-Creative-ebook/dp/B005CKKETU/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="nestle">
   <h4>
@@ -267,7 +267,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="Out of Our Minds: Learning to Be Creative Book Cover" src="http://ecx.images-amazon.com/images/I/51unxK2XGJL._SY344.jpg" width="150" />](http://www.amazon.com/Out-Our-Minds-Learning-Creative-ebook/dp/B005CKKETU/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+[<img class="align-left override" title="Out of Our Minds: Learning to Be Creative Book Cover" src="https://ecx.images-amazon.com/images/I/51unxK2XGJL._SY344.jpg" width="150" />](https://www.amazon.com/Out-Our-Minds-Learning-Creative-ebook/dp/B005CKKETU/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="smaller">
   <p>
@@ -281,7 +281,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Platform: Get Noticed in a Noisy World](http://www.amazon.com/Platform-Get-Noticed-Noisy-World/dp/B00CF6WHNA/ref=tmm_hrd_title_0)
+### [Platform: Get Noticed in a Noisy World](https://www.amazon.com/Platform-Get-Noticed-Noisy-World/dp/B00CF6WHNA/ref=tmm_hrd_title_0)
 
 <div class="nestle">
   <h4>
@@ -289,11 +289,11 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="Platform: Get Noticed in a Noisy World Book Cover" src="http://ecx.images-amazon.com/images/I/51DniMSR2KL._SY344.jpg" width="150" />](http://www.amazon.com/Platform-Get-Noticed-Noisy-World/dp/B00CF6WHNA/ref=tmm_hrd_title_0)
+[<img class="align-left override" title="Platform: Get Noticed in a Noisy World Book Cover" src="https://ecx.images-amazon.com/images/I/51DniMSR2KL._SY344.jpg" width="150" />](https://www.amazon.com/Platform-Get-Noticed-Noisy-World/dp/B00CF6WHNA/ref=tmm_hrd_title_0)
 
 <div class="smaller">
   <p>
-    <strong>Big Idea:</strong> [Michaelhyatt.com](http://www.michaelhyatt.com) is one of the few blogs that I consistently somehow mysteriously end up on, so naturally I'd want to read one of his books. This is a step-by-step guide on creating a compelling product and a meaningful platform.
+    <strong>Big Idea:</strong> [Michaelhyatt.com](https://www.michaelhyatt.com) is one of the few blogs that I consistently somehow mysteriously end up on, so naturally I'd want to read one of his books. This is a step-by-step guide on creating a compelling product and a meaningful platform.
   </p>
 </div>
 
@@ -303,7 +303,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Future Perfect: The Case For Progress In A Networked Age](http://www.amazon.com/Future-Perfect-Case-Progress-Networked-ebook/dp/B0085DP4OG/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+### [Future Perfect: The Case For Progress In A Networked Age](https://www.amazon.com/Future-Perfect-Case-Progress-Networked-ebook/dp/B0085DP4OG/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="nestle">
   <h4>
@@ -311,7 +311,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="" src="http://ecx.images-amazon.com/images/I/51OtmOF5paL.jpg" width="150" />](http://www.amazon.com/Future-Perfect-Case-Progress-Networked-ebook/dp/B0085DP4OG/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
+[<img class="align-left override" title="" src="https://ecx.images-amazon.com/images/I/51OtmOF5paL.jpg" width="150" />](https://www.amazon.com/Future-Perfect-Case-Progress-Networked-ebook/dp/B0085DP4OG/ref=tmm_kin_swatch_0?_encoding=UTF8&amp;sr=&amp;qid=)
 
 <div class="smaller">
   <p>
@@ -325,7 +325,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </p>
 </div>
 
-### [Outliers: The Story of Success](http://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388153161&amp;sr=1-1&amp;keywords=outliers)
+### [Outliers: The Story of Success](https://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388153161&amp;sr=1-1&amp;keywords=outliers)
 
 <div class="nestle">
   <h4>
@@ -333,7 +333,7 @@ With these cannonballs as my framework, I took the list of approximately 300 boo
   </h4>
 </div>
 
-[<img class="align-left override" title="Outliers: The Story of Success Book Cover" src="http://ecx.images-amazon.com/images/I/41h5QL0vVEL._SY344.jpg" width="150" />](http://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388153161&amp;sr=1-1&amp;keywords=outliers)
+[<img class="align-left override" title="Outliers: The Story of Success Book Cover" src="https://ecx.images-amazon.com/images/I/41h5QL0vVEL._SY344.jpg" width="150" />](https://www.amazon.com/Outliers-Story-Success-Malcolm-Gladwell/dp/0316017930/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1388153161&amp;sr=1-1&amp;keywords=outliers)
 
 <div class="smaller">
   <p>

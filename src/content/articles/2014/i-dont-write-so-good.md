@@ -42,7 +42,7 @@ It might seem counter-intuitive to read 4 times as much as I write, but reading 
 - __It helps me to define my writing style.__ I read content about different topics, written by different people and cherry pick the styles that I like.
 - __It stokes my creative fire.__ When I read, 9 times out of 10, my mind goes on a creative rabbit trail. Reading about other people's ideas and thoughts either help me further solidify my own or give me brand new thoughts to pursue on my own.
 
-Use tools like Guy Kawasaki's [Alltop.com](http://alltop.com) to find content written about the things you're interested in. Write down highlights that resonate with you, as well as the thoughts that they inspire, writing these summaries and memorable quotes are great springboards for when you get stuck on what to write in the future as topics to write about.
+Use tools like Guy Kawasaki's [Alltop.com](https://alltop.com) to find content written about the things you're interested in. Write down highlights that resonate with you, as well as the thoughts that they inspire, writing these summaries and memorable quotes are great springboards for when you get stuck on what to write in the future as topics to write about.
 
 ## Join Me
 

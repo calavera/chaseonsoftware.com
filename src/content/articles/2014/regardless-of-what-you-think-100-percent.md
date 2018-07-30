@@ -31,7 +31,7 @@ category: "archive"
 
 <p>This fatal flaw, <em>that we can give more than 100 percent</em>, rears it's head anytime I hear someone talking about <em>multi-tasking</em>.</p>
 
-<p>I read a productivity hack on LinkedIn from <a href="http://www.linkedin.com/today/post/article/20140121123309-44558-productivity-hacks-the-powerpoint-workout?trk=vsrp_influencer_content_res_name&amp;trkInfo=VSRPsearchId%3A455612621390480238276%2CVSRPtargetId%3A5826659433060909056%2CVSRPcmpt%3Aprimary">an entrepreneur who works on her power points while she works out</a>. I love maximizing time as much as anyone else, <strong>but multi-tasking is a myth</strong>. We can't do two things at 100 percent efficiency. I can hardly do one thing at 100 percent efficiency.</p>
+<p>I read a productivity hack on LinkedIn from <a href="https://www.linkedin.com/today/post/article/20140121123309-44558-productivity-hacks-the-powerpoint-workout?trk=vsrp_influencer_content_res_name&amp;trkInfo=VSRPsearchId%3A455612621390480238276%2CVSRPtargetId%3A5826659433060909056%2CVSRPcmpt%3Aprimary">an entrepreneur who works on her power points while she works out</a>. I love maximizing time as much as anyone else, <strong>but multi-tasking is a myth</strong>. We can't do two things at 100 percent efficiency. I can hardly do one thing at 100 percent efficiency.</p>
 
 <p>If I'm doing two tasks at once, they're each going to be at a reduced capacity. What's worse is I'm really performing three tasks: The first two tasks and a third task of balancing out the first two.</p>
 
@@ -41,9 +41,9 @@ category: "archive"
 
 <h3>Say No. A lot.</h3>
 
-<p>I created a list of <a href="http://www.realchaseadams.com/2014/01/21/cannonballs-the-key-to-casting-vision/">11 cannonballs, or themes, for my life</a>, and this list has been the guide to how I decide whether to say yes or no. If it's not a cannonball, I say no.</p>
+<p>I created a list of <a href="https://www.realchaseadams.com/2014/01/21/cannonballs-the-key-to-casting-vision/">11 cannonballs, or themes, for my life</a>, and this list has been the guide to how I decide whether to say yes or no. If it's not a cannonball, I say no.</p>
 
-<p>I've found <a href="http://www.realchaseadams.com/2014/01/29/why-i-say-no/">saying no to certain requests</a> means I have "less" to do, which means I have more time to focus on the things I've decided are important for me right now. Because I have more time, multi-tasking is less of an issue.</p>
+<p>I've found <a href="https://www.realchaseadams.com/2014/01/29/why-i-say-no/">saying no to certain requests</a> means I have "less" to do, which means I have more time to focus on the things I've decided are important for me right now. Because I have more time, multi-tasking is less of an issue.</p>
 
 <h3>Pop in Headphones</h3>
 
@@ -54,15 +54,15 @@ category: "archive"
 <p>To help get you started, some of the "sounds" I use are:</p>
 
 <ul>
-<li><a href="http://coffitivity.com/">Coffitivity: Coffee Shop white noise to boost productivity</a> </li>
-<li><a href="http://open.spotify.com/album/1yvS0zkkIUj08RdjX3wdNd">Vitamin String Quartet Performs Modern Rock Songs</a> on Spotify</li>
-<li><a href="http://open.spotify.com/user/realchaseadams/playlist/5QHiYfUvibrxB1o9LfykPT">Writing Playlist</a> on Spotify</li>
+<li><a href="https://coffitivity.com/">Coffitivity: Coffee Shop white noise to boost productivity</a> </li>
+<li><a href="https://open.spotify.com/album/1yvS0zkkIUj08RdjX3wdNd">Vitamin String Quartet Performs Modern Rock Songs</a> on Spotify</li>
+<li><a href="https://open.spotify.com/user/realchaseadams/playlist/5QHiYfUvibrxB1o9LfykPT">Writing Playlist</a> on Spotify</li>
 <li><a href="https://itunes.apple.com/us/album/into-the-trees/id378355722">Zoe Keating's Into the Woods</a> on iTunes</li>
 </ul>
 
 <h3>Create A Manageable Todo List</h3>
 
-<p>If you're todo list for today has more than 4 attainable tasks, you need to prune. If you're not using a todo list, try out Wunderlist, any.do or if you use github, <a href="http://lifehacker.com/why-a-github-gist-is-my-favorite-to-do-list-1493063613">a github todo list</a>.</p>
+<p>If you're todo list for today has more than 4 attainable tasks, you need to prune. If you're not using a todo list, try out Wunderlist, any.do or if you use github, <a href="https://lifehacker.com/why-a-github-gist-is-my-favorite-to-do-list-1493063613">a github todo list</a>.</p>
 
 <p>If you have an item that hangs out on your todo list for longer than a day, break it down into multiple attainable tasks and only put one to four of those on your todos for today.</p>
 
@@ -70,7 +70,7 @@ category: "archive"
 
 <h3>Use a timer and work in short bursts</h3>
 
-<p>I have an app called Healthier that I use for splitting up my working minutes and resting minutes. It forces me to stop and take a break, but it also enables me to set a period of time to focus on one thing. It's loosely based on the <a href="http://pomodorotechnique.com/">Pomodoro Technique</a>, which I recommend checking out.</p>
+<p>I have an app called Healthier that I use for splitting up my working minutes and resting minutes. It forces me to stop and take a break, but it also enables me to set a period of time to focus on one thing. It's loosely based on the <a href="https://pomodorotechnique.com/">Pomodoro Technique</a>, which I recommend checking out.</p>
 
 <h3>Multi-tasking is not a baby and the bathwater issue</h3>
 

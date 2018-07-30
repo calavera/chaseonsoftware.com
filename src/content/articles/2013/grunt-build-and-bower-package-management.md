@@ -9,11 +9,11 @@ aliases: [
 description: "Learn how to use grunt and bower for a frontend workflow"
 ---
 
-Frontend package management has quickly become a lot more, well...manageable since the release of [Bower](http://www.bower.io) & [Grunt](http://www.gruntjs.com). Here's how I manage frontend dependencies in my projects.
+Frontend package management has quickly become a lot more, well...manageable since the release of [Bower](https://www.bower.io) & [Grunt](https://www.gruntjs.com). Here's how I manage frontend dependencies in my projects.
 
 Bower has made it incredibly easy to install frontend packages (such as jQuery, Underscore, Backbone, Angular, the list goes on) and manage updates without the hassle of manually copying and pasting files into your projects or adding git submodules.
 
-To get started using bower and grunt, you'll need to have [Node](http://nodejs.org) and [npm](http://npmjs.org) already installed. Once you have them installed, from your command line, run __`npm install -g bower`__, and let npm take care of pulling it in and setting it up for you. The -g flag is making bower available globally, so you don't have to install it every time.
+To get started using bower and grunt, you'll need to have [Node](https://nodejs.org) and [npm](https://npmjs.org) already installed. Once you have them installed, from your command line, run __`npm install -g bower`__, and let npm take care of pulling it in and setting it up for you. The -g flag is making bower available globally, so you don't have to install it every time.
 
 __For convenience, I've added a working gist that can be cloned to your local box and run: [Gist: Using Grunt and Bower for Frontend Package Management](https://gist.github.com/7369801.git).__
 

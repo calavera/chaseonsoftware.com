@@ -12,7 +12,7 @@ If you have spent any length of time with me, you know that two of the most core
 
 Knowing that about me, it probably comes as no surprise that I've decided to start teaching my craft.
 
-As of tomorrow (June 30, 2015), I start one of two new journeys: I officially join The Iron Yard as a [part-time frontend engineering instructor](http://theironyard.com/courses/part-time/front-end/)!
+As of tomorrow (June 30, 2015), I start one of two new journeys: I officially join The Iron Yard as a [part-time frontend engineering instructor](https://theironyard.com/courses/part-time/front-end/)!
 
 <a href="https://www.flickr.com/photos/realchaseadams/19077584548" title="FullSizeRender by Chase Adams, on Flickr"><img src="https://c1.staticflickr.com/1/264/19077584548_f4ea27fd2a_z.jpg" width="640" height="541" alt="FullSizeRender"></a>
 
@@ -44,7 +44,7 @@ It felt like the missions statement resonated with everyone I met there  as well
 
 I'll be teaching a class twice a week in the evening, three hours per session, for ten weeks, giving new frontend engineers the tools and skillsets they'll need to dive into a full-time course.
 
-Tucked away further into their [About The Iron Yard](http://theironyard.com/about/) page was this little gem:
+Tucked away further into their [About The Iron Yard](https://theironyard.com/about/) page was this little gem:
 
 >  Our mission is to find people who want to pursue the craft and life-long adventure of technology, teach them the tools of the trade, and then release them into the world with the drive and capability to make a difference. We believe that passionate, talented people who love what they do will create great families, jobs, companies and solutions to the world’s problems.
 

@@ -13,11 +13,11 @@ category: "archive"
   I'm teaming up with Team Treehouse to give away five 3 month memberships to their website — a better way to learn technology.
 </p>
 
-<p>A month ago I wrote a post about why <a href="http://www.realchaseadams.com/2013/12/09/my-story-why-i-believe-in-the-hour-of-code-initiative/">I believe everyone should learn to code</a>. The feedback was tremendous and the most popular question people asked was: <strong>"Where do I start?"</strong></p>
+<p>A month ago I wrote a post about why <a href="https://www.realchaseadams.com/2013/12/09/my-story-why-i-believe-in-the-hour-of-code-initiative/">I believe everyone should learn to code</a>. The feedback was tremendous and the most popular question people asked was: <strong>"Where do I start?"</strong></p>
 
-<p>I'm going to share 3 resources over the course of the next three months where you can go to get started with your journey into becoming a programmer. The first is <a href="http://www.teamtreehouse.com">Treehouse</a>.</p>
+<p>I'm going to share 3 resources over the course of the next three months where you can go to get started with your journey into becoming a programmer. The first is <a href="https://www.teamtreehouse.com">Treehouse</a>.</p>
 
-<p><a href="http://www.teamtreehouse.com"><img src="http://www.realchaseadams.com/imgs/2014/01/Tree-House.png" alt="Tree-House" width="150" height="141" class="alignleft size-full wp-image-264" /></a> <strong>Teamtreehouse.com is a great place to start your journey of learning to code.</strong> Co-founded by Ryan Carson, Treehouse believes in "bringing affordable Technology education to people everywhere, in order to help them achieve their dreams and change the world."</p>
+<p><a href="https://www.teamtreehouse.com"><img src="https://www.realchaseadams.com/imgs/2014/01/Tree-House.png" alt="Tree-House" width="150" height="141" class="alignleft size-full wp-image-264" /></a> <strong>Teamtreehouse.com is a great place to start your journey of learning to code.</strong> Co-founded by Ryan Carson, Treehouse believes in "bringing affordable Technology education to people everywhere, in order to help them achieve their dreams and change the world."</p>
 
 <p class="group">
   I had the opportunity to use Treehouse last year to sharpen my skills in Ruby and terminal and I found it both highly addicting as well as incredibly informative.

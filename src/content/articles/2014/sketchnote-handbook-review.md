@@ -10,9 +10,9 @@ aliases: [
 category: "archive"
 ---
 
-<img alt="The Sketchnote Handbook" src="http://www.realchaseadams.com/imgs/2014/10/sketchnotehandbook-thumb.jpg" class="align-left" width="200"> [_The Sketchnote Handbook_](http://www.amazon.com/gp/product/0321857895) by [Mike Rohde](http://rohdesign.com/) was one of the most important (and impactful) books I read this year. It's a book about learning to consume spoken word (visual language and caching ideas) and how to convert the information into memorable, impressive, visual "sketchnotes".
+<img alt="The Sketchnote Handbook" src="https://www.realchaseadams.com/imgs/2014/10/sketchnotehandbook-thumb.jpg" class="align-left" width="200"> [_The Sketchnote Handbook_](https://www.amazon.com/gp/product/0321857895) by [Mike Rohde](https://rohdesign.com/) was one of the most important (and impactful) books I read this year. It's a book about learning to consume spoken word (visual language and caching ideas) and how to convert the information into memorable, impressive, visual "sketchnotes".
 
-Created by the guy who illustrated one of my all-time favorite books, [_ReWork_](http://www.amazon.com/Rework-Jason-Fried/dp/0307463745), [_The Sketchnote Handbook_](http://www.amazon.com/gp/product/0321857895) is an illustrated guide about how to take notes visually.
+Created by the guy who illustrated one of my all-time favorite books, [_ReWork_](https://www.amazon.com/Rework-Jason-Fried/dp/0307463745), [_The Sketchnote Handbook_](https://www.amazon.com/gp/product/0321857895) is an illustrated guide about how to take notes visually.
 
 It's the ultimate guide for information Hackers who want to retain and revisit information that's important and relevant to you.
 
@@ -24,7 +24,7 @@ Here's a short Youtube video [Mike made explaining Sketchnotes](https://www.yout
 
 ## The Unboxing Was Awesome
 
-<img alt="The Sketchnote Handbook" src="http://www.realchaseadams.com/imgs/2014/10/sketchnotehandbook-inside.jpg" class="align-right" width="200">
+<img alt="The Sketchnote Handbook" src="https://www.realchaseadams.com/imgs/2014/10/sketchnotehandbook-inside.jpg" class="align-right" width="200">
 
 It's very rare that I get a book in the mail and spend the first 10 minutes admiring the cover, thumbing through pages, while enjoying both the feel of the paper _and_ the beautifully crafted pages.
 
@@ -38,7 +38,7 @@ There wasn't a single page that was printed text (the SKU on the back cover is t
 
 When I put the book down after my first read, I walked away **retaining concepts such as types of sketchnotes, active listening, hierarchy and personalization**.
 
-The amount of topics Mike covers in [_The Sketchnote Handbook_](http://www.amazon.com/gp/product/0321857895) is uncanny. Just to list a few:
+The amount of topics Mike covers in [_The Sketchnote Handbook_](https://www.amazon.com/gp/product/0321857895) is uncanny. Just to list a few:
 
 - The 5 Basic Elements of Drawing
 - How to Listen
@@ -47,15 +47,15 @@ The amount of topics Mike covers in [_The Sketchnote Handbook_](http://www.amazo
 - Penmanship
 - Key Hacks for Awesome Sketchnotes (The Process)
 
-I have spent a few days over the course of the last few months after reading [_The Sketchnote Handbook_](http://www.amazon.com/gp/product/0321857895) revisiting the content, and I have to say, it's become my go to guide for any time I want to leverage the power of visual note taking.
+I have spent a few days over the course of the last few months after reading [_The Sketchnote Handbook_](https://www.amazon.com/gp/product/0321857895) revisiting the content, and I have to say, it's become my go to guide for any time I want to leverage the power of visual note taking.
 
-![Sketchnote Handbook Simple Drawings Example](http://www.realchaseadams.com/imgs/2014/10/sketchnotehandbook-simple-drawings.jpg)
+![Sketchnote Handbook Simple Drawings Example](https://www.realchaseadams.com/imgs/2014/10/sketchnotehandbook-simple-drawings.jpg)
 
 Throughout the book, Mike did an amazing job of always making sure the reader has examples to use as a springboard for trying their hand at the exercise or topic at hand.
 
 My only feedback is that I would've liked to have seen the entire alphabet for Drawing Type Exercises. He gives the first three letters of the alphabet (a, b, c) in lowercase and uppercase format, but the complexity of creating a triple-line letter for the letter "R" or "Q" would have been a lot easier with an illustration to follow.
 
-One of the really cool things that happened for me after reading [_The Sketchnote Handbook_](http://www.amazon.com/gp/product/0321857895) and applying the concepts to my notetaking was that people were interested in seeing my notes afterwards. I'd taken this new found skill and turned it into a way to help others where the way I would've taken notes (or not taken notes at all) before barely even helped me.
+One of the really cool things that happened for me after reading [_The Sketchnote Handbook_](https://www.amazon.com/gp/product/0321857895) and applying the concepts to my notetaking was that people were interested in seeing my notes afterwards. I'd taken this new found skill and turned it into a way to help others where the way I would've taken notes (or not taken notes at all) before barely even helped me.
 
 I also wanted to revisit my notes, thumbing through the pages of my notebook to look at the work I'd done and remember the experience from whatever I had taken notes from.
 
@@ -75,18 +75,18 @@ This includes students, anyone who goes to meetings, church goers, conference go
 
 ## How to Buy It
 
-<img class="align-right" width="250" alt="The Sketchnote Handbook" src="http://ecx.images-amazon.com/images/I/711G3WkR8DL.jpg"> You should buy the [paperback copy of _The Sketchnote Handbook_](http://www.amazon.com/gp/product/0321857895), rather than the [kindle version](http://www.amazon.com/Sketchnote-Handbook-Illustrated-Visual-Taking-ebook/dp/B00E981K1W/ref=tmm_kin_title_0?_encoding=UTF8&sr=&qid=), for a few reasons:
+<img class="align-right" width="250" alt="The Sketchnote Handbook" src="https://ecx.images-amazon.com/images/I/711G3WkR8DL.jpg"> You should buy the [paperback copy of _The Sketchnote Handbook_](https://www.amazon.com/gp/product/0321857895), rather than the [kindle version](https://www.amazon.com/Sketchnote-Handbook-Illustrated-Visual-Taking-ebook/dp/B00E981K1W/ref=tmm_kin_title_0?_encoding=UTF8&sr=&qid=), for a few reasons:
 
 - The artwork is stunning and deserves to be appreciated
 - There's space to practice your exercises
-- A lot of time and effort went into the layout and organization of the physical copy of [_The Sketchnote Handbook_](http://www.amazon.com/gp/product/0321857895)
+- A lot of time and effort went into the layout and organization of the physical copy of [_The Sketchnote Handbook_](https://www.amazon.com/gp/product/0321857895)
 - You can share the physical copy with peers much more easily
 
 If you decide to buy the kindle version, at least consider also buying the paperback version, even if only to become a strong edition to your coffee table collection.
 
-Mike has some really phenomenal sketchnote examples on his [flickr](https://www.flickr.com/photos/rohdesign/) and [instagram](http://instagram.com/rohdesign) accounts and he's one of the most [responsive/engaging authors I've encountered on twitter](https://twitter.com/rohdesign). You can find [blog posts and more sketchnotes at rohdesign.com](http://rohdesign.com/).
+Mike has some really phenomenal sketchnote examples on his [flickr](https://www.flickr.com/photos/rohdesign/) and [instagram](https://instagram.com/rohdesign) accounts and he's one of the most [responsive/engaging authors I've encountered on twitter](https://twitter.com/rohdesign). You can find [blog posts and more sketchnotes at rohdesign.com](https://rohdesign.com/).
 
 
 <div class="msg tiny sans info">
-All outbound product links are to <a href="http://www.amazon.com">Amazon.com</a>. There are no affiliate links on this page.
+All outbound product links are to <a href="https://www.amazon.com">Amazon.com</a>. There are no affiliate links on this page.
 </div>

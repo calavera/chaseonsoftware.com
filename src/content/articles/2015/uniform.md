@@ -11,7 +11,7 @@ _Work_ emails.
 
 That morning I knew it was time to declare a separation of work and life...but I had no idea where to even start.
 
-Fortunately, my buddy Thai, a guy who I've looked to for honing my personal operational rigor, had been dealing with the same problem. That same morning we sat and had coffee on the bistro patio at Zappos and had a conversation about how to create that separation. These solutions are directly or indirectly inspired by my conversation with Thai ([He has an awesome blog about learning ruby](http://thaiwood.io/) and is working on a book about [system adminstration with ruby](http://thaiwood.io/books/ruby-for-system-administrators/)).
+Fortunately, my buddy Thai, a guy who I've looked to for honing my personal operational rigor, had been dealing with the same problem. That same morning we sat and had coffee on the bistro patio at Zappos and had a conversation about how to create that separation. These solutions are directly or indirectly inspired by my conversation with Thai ([He has an awesome blog about learning ruby](https://thaiwood.io/) and is working on a book about [system adminstration with ruby](https://thaiwood.io/books/ruby-for-system-administrators/)).
 
 ## Create A Work Uniform
 
@@ -23,7 +23,7 @@ The funny thing is that Zappos practically hires people because they hate unifor
 
 For me, creating a uniform actually turned out to be pretty simple. I found a [silicone wristband](https://www.reminderband.com/) that I keep in the car and as soon as I get to my parking spot at work, I shoot Jackie a text to let her know I'm in the office and done my silicone wristband. I try to take it off as soon as I get back to my car and at the latest when I get to my driveway.
 
-![usb wristbands](http://ecx.images-amazon.com/images/I/31SJyHRxumL.jpg) If you're in an industry where you use a USB, there are also some cool [USB wristbands](http://www.amazon.com/Wristband-Flash-Memory-Drive-White/dp/B00HSW85V4/ref=pd_sim_147_6?ie=UTF8&refRID=1D1M8X1193AR8Z33V0JH) that could double as a uniform aid and storage solution. I might try this out, because I'm all about minimalist solutions.
+![usb wristbands](https://ecx.images-amazon.com/images/I/31SJyHRxumL.jpg) If you're in an industry where you use a USB, there are also some cool [USB wristbands](https://www.amazon.com/Wristband-Flash-Memory-Drive-White/dp/B00HSW85V4/ref=pd_sim_147_6?ie=UTF8&refRID=1D1M8X1193AR8Z33V0JH) that could double as a uniform aid and storage solution. I might try this out, because I'm all about minimalist solutions.
 
 An interesting anecdote after practicing "wearing a uniform" for a few weeks: I forgot to take it off one day and I was "tempted" to check my email...and only then did I realize I still had it on! I immediately took it off and forgot to check my email.
 
@@ -35,7 +35,7 @@ When I get into the office, I have a routine that involves taking the stairs to 
 
 I try really hard not to check my email before 10 AM, so that I can be proactive about the first hour of my day. I find that email is almost always a great way to derail you from the tasks _you've_ decided are important to satisfy someone else's tensions...which keeps you from getting the important stuff done.
 
-At the end of the day, I make some notes about how I spent my day in and how I could have spent it better in [DayOne Journal for Mac](http://dayoneapp.com/). I then shut down all the applications on my work laptop and shut my computer off. I don't turn it on until the next morning when I start my routine over again.
+At the end of the day, I make some notes about how I spent my day in and how I could have spent it better in [DayOne Journal for Mac](https://dayoneapp.com/). I then shut down all the applications on my work laptop and shut my computer off. I don't turn it on until the next morning when I start my routine over again.
 
 ## Timeblocks & Tasklists
 

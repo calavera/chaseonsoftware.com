@@ -53,13 +53,13 @@ Like watch, the jshint task can be pretty simple, just pass it a minimatch array
 
 Unit testing (or any formal testing for that matter), seems to me to be the most under-utilized tool most front-end developers have. As developers, we could save a lot of time simply by leveraging unit tests to make sure we don't break or regress code we've already written. Thankfully, there are a lot of great testing frameworks out there, and Mocha is the one that I like to use, because it allows you to run client-side unit tests in a headless browser.
 
-_If all of that sounded like white noise, I'd check out Smashing Magazine's [Introdution to Javascript Testing](http://coding.smashingmagazine.com/2012/06/27/introduction-to-javascript-unit-testing/)._
+_If all of that sounded like white noise, I'd check out Smashing Magazine's [Introdution to Javascript Testing](https://coding.smashingmagazine.com/2012/06/27/introduction-to-javascript-unit-testing/)._
 
 <script src="https://gist.github.com/chaseadamsio/7522958.js?file=grunt-mocha-task.js"></script>
 
 This task is simple (starting to see a pattern here?), you tell it where your test file[s] lives and tell it to use PhantomJS. Badabing, you are now unit testing your javascript!
 
-([Installation instructions for PhantomJS](http://phantomjs.org/download.html))
+([Installation instructions for PhantomJS](https://phantomjs.org/download.html))
 
 ## Notify:
 

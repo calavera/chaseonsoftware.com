@@ -25,7 +25,7 @@ category: "archive"
 <p>I wrote mine in the form of <a href="/2013/10/my-eulogy/">My Own Eulogy</a>, an exercise suggested by Steven Covey in the Seven Habits of Highly Effective people:</p>
 
 <blockquote>
-  <p>“The world has lost a great believer, a great husband, a great leader, a great learner, a great teacher, a passionate engineer.” <a href="http://www.realchaseadams.com/2013/10/15/my-eulogy/">(Excerpt from "My Eulogy")</a></p>
+  <p>“The world has lost a great believer, a great husband, a great leader, a great learner, a great teacher, a passionate engineer.” <a href="https://www.realchaseadams.com/2013/10/15/my-eulogy/">(Excerpt from "My Eulogy")</a></p>
 </blockquote>
 
 <p>Knowing what I want the end to look like prepares me for creating themes for the year. I took these six life roles and created <strong>11 cannonballs</strong>:</p>

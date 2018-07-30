@@ -31,9 +31,9 @@ This project started as all good weekend warrior projects start: **A trip throug
 
 Jackie has been into the rustic industrial look lately, and as I'm a huge fan of wood and metal, rustic industrial was the easy decision.
 
-The desk we found that we liked best as a starting reference was the [Postobello Industrial Metal And Rustic Wood Desk](http://www.custommade.com/postobello-industrial-metal-and-rustic-wood-desk/by/mortise-and-tenon-custom-furniture/): a _sitting_ desk ($945). What stood out was the minimalist look (no drawers or frills), the dark metal on the bottom and the rustic wood. The major modification we had to the idea itself was to use pipes.
+The desk we found that we liked best as a starting reference was the [Postobello Industrial Metal And Rustic Wood Desk](https://www.custommade.com/postobello-industrial-metal-and-rustic-wood-desk/by/mortise-and-tenon-custom-furniture/): a _sitting_ desk ($945). What stood out was the minimalist look (no drawers or frills), the dark metal on the bottom and the rustic wood. The major modification we had to the idea itself was to use pipes.
 
-I looked around the internet for a little bit longer and stumbled [onto a DIY tutorial on rustic pipe workbench](http://diyready.com/rustic-furniture-tutorial-workbench-plans-diy-pipe-leg-table/). This was exactly what I needed to get an idea of where to start.
+I looked around the internet for a little bit longer and stumbled [onto a DIY tutorial on rustic pipe workbench](https://diyready.com/rustic-furniture-tutorial-workbench-plans-diy-pipe-leg-table/). This was exactly what I needed to get an idea of where to start.
 
 ## The Sketch
 
@@ -47,7 +47,7 @@ I ended up having to redo my math while I was in Home Depot anyways, so it would
 
 ## The Pre-Build
 
-I made a material list in Excel based on the sketch and a cursory look at [homedepot.com](http://www.homedepot.com). This helped me come up with a good estimate for about how much it would cost. The Raw Materials list below is the _final_ material list, and this list came in about $50 under my original estimate, mostly because I ended up getting black iron pipe where I'd originally estimated galvanized steel pipe.
+I made a material list in Excel based on the sketch and a cursory look at [homedepot.com](https://www.homedepot.com). This helped me come up with a good estimate for about how much it would cost. The Raw Materials list below is the _final_ material list, and this list came in about $50 under my original estimate, mostly because I ended up getting black iron pipe where I'd originally estimated galvanized steel pipe.
 
 ### Raw Materials
 
@@ -68,7 +68,7 @@ I made a material list in Excel based on the sketch and a cursory look at [homed
 | 4   | 3 / 4" Black Steel Nipple                                       |  12"  |
 | 4   | 3 / 4" Black Steel Nipple                                       |  24"  |
 
-I suggest going to your [local building material supplier (yes, I'm promoting my family's building supply company)](http://www.coferadams.com) if they carry all of this stuff, but I ended up at Home Depot because it was the closest supplier I could find.
+I suggest going to your [local building material supplier (yes, I'm promoting my family's building supply company)](https://www.coferadams.com) if they carry all of this stuff, but I ended up at Home Depot because it was the closest supplier I could find.
 
 ## The Build
 
@@ -108,7 +108,7 @@ While I let the stain soak and dry, I started on the pipe assembly. On my first 
 
 Once I'd gotten my black pipes, it was time to clean them. Getting stickers off of metal is kind of tricky. We had a hard time getting the tape that was wrapped around the pipe off, so I put my pipes in the back of the car (in Vegas it was kind of hot, so in the car it was really hot) for about an hour. When I pulled them out and peeled the tape, it came right off. Lesson learned: **Just heat tape and stickers for easier removal.**
 
-I used [Goo Gone](http://www.homedepot.com/p/Goo-Gone-24-oz-Pro-Power-Spray-Gel-5011484/202329108) to remove any of the residual sticker, which made short work of cleaning the 12 pipes that had something on them.
+I used [Goo Gone](https://www.homedepot.com/p/Goo-Gone-24-oz-Pro-Power-Spray-Gel-5011484/202329108) to remove any of the residual sticker, which made short work of cleaning the 12 pipes that had something on them.
 
 #### Assembly
 

@@ -54,7 +54,7 @@ There are a few desired outcomes I have for doing this, in descending order of i
 
 ## Framework
 
-The framework is actually really simple, and as I said before, is heavily borrowed from _Managing Oneself_. As the book itself is really more of a long-form essay (you can find a free [pdf copy here](http://www.usb.ac.za/Common/Pdfs/usb-career-center/articles/HBR%20Managing%20Oneself.pdf)), this is an abstraction of what Drucker suggests any thought-worker should know about themselves and what process I went through to actually figure these things out.
+The framework is actually really simple, and as I said before, is heavily borrowed from _Managing Oneself_. As the book itself is really more of a long-form essay (you can find a free [pdf copy here](https://www.usb.ac.za/Common/Pdfs/usb-career-center/articles/HBR%20Managing%20Oneself.pdf)), this is an abstraction of what Drucker suggests any thought-worker should know about themselves and what process I went through to actually figure these things out.
 
 ### Strengths, Method of Performing & Values
 
@@ -68,7 +68,7 @@ The first task Drucker recommends is to answer the following questions:
 
 This one can be _really_ hard to figure out on your own, fortunately, there's a framework that exists to help you do that already!
 
-I used [StrengthsFinder 2.0](http://strengths.gallup.com/110440/About-StrengthsFinder-20.aspx). If you buy the book, there's a code to take the StrengthsFinder assessment in the back and IMO, the introduction is worth the price of the book and the rest of the book makes a great reference after you've taken the assessment.
+I used [StrengthsFinder 2.0](https://strengths.gallup.com/110440/About-StrengthsFinder-20.aspx). If you buy the book, there's a code to take the StrengthsFinder assessment in the back and IMO, the introduction is worth the price of the book and the rest of the book makes a great reference after you've taken the assessment.
 
 You can see the answer to ["What are My Strengths?" here.](/strengths)
 
@@ -81,7 +81,7 @@ There are two questions here:
 
 The first one is an easier question to answer: think about the times you've solved a problem or created a mental model of something. Did you do it by reading from texts and documentation or did you do it by having a conversation with yourself and others?
 
-How Do I Learn was a little trickier, so I deferred to the experts and found a questionnaire on [vark-learn.com](http://vark-learn.com/the-vark-questionnaire/). It's a free test and the feedback is given to you on a scale for four categories (VARK):
+How Do I Learn was a little trickier, so I deferred to the experts and found a questionnaire on [vark-learn.com](https://vark-learn.com/the-vark-questionnaire/). It's a free test and the feedback is given to you on a scale for four categories (VARK):
 
 - Visual
 - Aural

@@ -11,7 +11,7 @@ aliases: [
 ]
 ---
 
-If you're tired of sharing code snippets for other people to look at or collaborate on via [github.com](http://www.github.com), [gist.com](http://www.gist.github.com) or worse, dropbox or email, check out these three great code collaboration tools.
+If you're tired of sharing code snippets for other people to look at or collaborate on via [github.com](https://www.github.com), [gist.com](https://www.gist.github.com) or worse, dropbox or email, check out these three great code collaboration tools.
 
 
 Collaborating on code is one of the most vital tools a developer can leverage.
@@ -30,13 +30,13 @@ Now frontend development is getting major contributions from both the community 
 
 ## codepen.io
 
-[codepen.io (link)](http://www.codepen.io)
+[codepen.io (link)](https://www.codepen.io)
 
-![Codepen.io](http://www.realchaseadams.com/imgs/2014/01/codepenio-1024x633.png) [Codepen Example](http://codepen.io/realchaseadams/pen/wLcse)
+![Codepen.io](https://www.realchaseadams.com/imgs/2014/01/codepenio-1024x633.png) [Codepen Example](https://codepen.io/realchaseadams/pen/wLcse)
 
 <h4>What I use it for: Mocking Presentational Ideas with HTML &amp; CSS</h4>
 
-Codepen.io is yet another great idea from [Chris Coyier](http://chriscoyier.net/). Three of the main benefits of using it that really stand out to me are:
+Codepen.io is yet another great idea from [Chris Coyier](https://chriscoyier.net/). Three of the main benefits of using it that really stand out to me are:
 
 - It's easy to browse other people's pens for inspiration
 - Forking other people's pens
@@ -48,9 +48,9 @@ The language options are awesome. For HTML, you get the option of using HTML, ma
 
 ## jsfiddle.net
 
-[jsfiddle.net (link)](http://www.jsfiddle.net)
+[jsfiddle.net (link)](https://www.jsfiddle.net)
 
-![jsfiddle.net](http://www.realchaseadams.com/imgs/2014/01/jsfiddle-1024x633.png) [JSFiddle Example](http://jsfiddle.net/rfwEP/)
+![jsfiddle.net](https://www.realchaseadams.com/imgs/2014/01/jsfiddle-1024x633.png) [JSFiddle Example](https://jsfiddle.net/rfwEP/)
 
 <h4>What I use it for: Javascript Interaction with the Presentation Layer</h4>
 
@@ -62,11 +62,11 @@ It also has a collaboration feature (which is in beta), so if you want to have m
 
 ## jsbin.com
 
-[jsbin.com (link)](http://www.jsbin.com)
+[jsbin.com (link)](https://www.jsbin.com)
 
-![jsbin.com](http://www.realchaseadams.com/imgs/2014/01/jsbin-1024x633.png) [JSBin Example](http://jsbin.com/UWuwiyi/1/edit)
+![jsbin.com](https://www.realchaseadams.com/imgs/2014/01/jsbin-1024x633.png) [JSBin Example](https://jsbin.com/UWuwiyi/1/edit)
 
-![jsbin.com](http://www.realchaseadams.com/imgs/2014/01/jsbin2-1024x633.png) [JSBin Date Example](http://jsbin.com/UWuwiyi/2/edit)
+![jsbin.com](https://www.realchaseadams.com/imgs/2014/01/jsbin2-1024x633.png) [JSBin Date Example](https://jsbin.com/UWuwiyi/2/edit)
 
 <h4>What I use it for: Javascript that focuses on data</h4>
 

@@ -13,7 +13,7 @@ date: 2014-06-21T02:47:00Z
 
 ## Experience
 
-### Engineering Manager, Edge Consulting @ [Walmart Labs](http://www.walmartlabs.com/)
+### Engineering Manager, Edge Consulting @ [Walmart Labs](https://www.walmartlabs.com/)
 
 *November 2017 - Present*
 
@@ -24,7 +24,7 @@ date: 2014-06-21T02:47:00Z
 - Led team in capturing work and bucketing common work
 - Coached team members on debugging and troubleshooting HTTP traffic flows
 
-### Senior Software Engineer, Edge Platform @ [Walmart Labs](http://www.walmartlabs.com/)
+### Senior Software Engineer, Edge Platform @ [Walmart Labs](https://www.walmartlabs.com/)
 
 *January 2017 - November 2017*
 
@@ -38,7 +38,7 @@ date: 2014-06-21T02:47:00Z
 - Fixed a bug causing issues with EXIF orientation 
 - Increaased visibility into software operations 
 
-### Lead Software Engineer, CI/CD for Customer Experience Engineering @ [Walmart Labs](http://www.walmartlabs.com/)
+### Lead Software Engineer, CI/CD for Customer Experience Engineering @ [Walmart Labs](https://www.walmartlabs.com/)
 
 *January 2016 - January 2017*
 
@@ -48,7 +48,7 @@ date: 2014-06-21T02:47:00Z
 - Created and streamlined Pull Request Verification process for better and faster feedback
 - Created processes and documentation to alleviate CI/CD team from needing to answer common build issues
 
-### Senior Software Engineer, App Platform @ [Walmart Labs](http://www.walmartlabs.com/)
+### Senior Software Engineer, App Platform @ [Walmart Labs](https://www.walmartlabs.com/)
 
 *July 2015 - December 2015*
 
@@ -57,13 +57,13 @@ date: 2014-06-21T02:47:00Z
 - Collaborated on creating best practices and core components for track teams for walmart.com
 - Educated individuals and teams on debugging practices and internal best practices
 
-### Frontend Instructor @ [The Iron Yard](http://www.theironyard.com)
+### Frontend Instructor @ [The Iron Yard](https://www.theironyard.com)
 
 *July 2015 - October 2015*
 
 - Taught 5 new frontend developers to build the web using the following technologies: HTML, CSS, Javascript & Git
 
-### Mobile Web Lead @ [Zappos.com](http://www.zappos.com)
+### Mobile Web Lead @ [Zappos.com](https://www.zappos.com)
 
 *February 2012 - July 2015*
 
@@ -80,7 +80,7 @@ date: 2014-06-21T02:47:00Z
 - Taught courses for our internal TechUniversity.
 - Contributed to Frontend Team culture & technical growth.
 
-### Web Developer @ [Rock, Paper, Scissors](http://www.123shoot.com)
+### Web Developer @ [Rock, Paper, Scissors](https://www.123shoot.com)
 
 *February 2011 - February 2012*
 
@@ -89,7 +89,7 @@ date: 2014-06-21T02:47:00Z
 - Maintained Zend Framework as CMS sites.
 - Started journey into Ruby on Rails & Ruby Deploy Tools.
 
-### Web Developer @ [Cofer/Adams Building Center](http://www.coferadams.com)
+### Web Developer @ [Cofer/Adams Building Center](https://www.coferadams.com)
 
 *December 2008 - February 2011*
 
@@ -128,7 +128,7 @@ date: 2014-06-21T02:47:00Z
 ### Libraries & Build Tools
 
 - jQuery, Backbone.js & Underscore.js
-- [Yeoman](http://www.yeoman.io), [Grunt.js](http://www.gruntjs.com), [Bower.js](http://www.bower.io)
+- [Yeoman](https://www.yeoman.io), [Grunt.js](https://www.gruntjs.com), [Bower.js](https://www.bower.io)
 - [Assemble](https://github.com/assemble/assemble) & [Hugo](hugo.spf13.com)
 - Freemarker (Java) & Handlebars (Ruby & Javascript)
 

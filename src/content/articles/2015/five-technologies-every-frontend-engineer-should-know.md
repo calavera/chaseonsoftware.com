@@ -104,7 +104,7 @@ Which would render to the following `html`:
 
 <script src="https://gist.github.com/chaseadamsio/81ef671fb9ef45cddbb2.js?file=example.md.html"></script>
 
-The basics are outlined on the [Daring Fireball Markdown Basics](http://daringfireball.net/projects/markdown/basics) page.
+The basics are outlined on the [Daring Fireball Markdown Basics](https://daringfireball.net/projects/markdown/basics) page.
 
 ## Wrap Up
 

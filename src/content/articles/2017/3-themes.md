@@ -12,7 +12,7 @@ The idea is that rather than creating New Year's resolutions, I choose themes th
 
 Choosing themes for the year gives me freedom to choose what I think will bring value to my life. An abstract theme allows me to focus on what's important while also guiding me to choose tasks that have more clear action as I drill down to smaller chunks of time.
 
-Although I call it theming and pursue it with a more systematic approach, the idea is heavily based on [Chris Brogan's "Three Words" concept](http://chrisbrogan.com/3words2017/).
+Although I call it theming and pursue it with a more systematic approach, the idea is heavily based on [Chris Brogan's "Three Words" concept](https://chrisbrogan.com/3words2017/).
 
 ## Previous Themes
 
@@ -65,7 +65,7 @@ I should be able to answer yes to the following questions:
 
 _Small changes for the better._
 
-Kaizen is a practice of choosing small (sometimes ridiculously small) changes to make in your life for the better. I was first introduced to Kaizen a few years ago but it didn't take seed in my brain until my previous manager (and current co-mentor) Dave Cadwallader brought it up in conversation a few times in 2016 (He wrote about [Kaizen here](http://geekdave.com/2013/08/03/what-developers-can-learn-from-a-harlem-soup-kitchen/)).
+Kaizen is a practice of choosing small (sometimes ridiculously small) changes to make in your life for the better. I was first introduced to Kaizen a few years ago but it didn't take seed in my brain until my previous manager (and current co-mentor) Dave Cadwallader brought it up in conversation a few times in 2016 (He wrote about [Kaizen here](https://geekdave.com/2013/08/03/what-developers-can-learn-from-a-harlem-soup-kitchen/)).
 
 I read Robert Maurer's [One Small Step Can Change Your Life: The Kaizen Way](https://www.amazon.com/Small-Step-Change-Your-Life/dp/076118032X) last week and one of the most important takeaways for me was this quote that I've taken to be a daily affirmation: "The journey of a thousand miles starts with one small step". 
 

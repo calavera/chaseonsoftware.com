@@ -18,7 +18,7 @@ Like anyone else, I have a lot of things going on. Between work, home and my per
 
 I prioritize time with God, with Jackie and building my legacy are my priorities. If something doesn't fall into one of those categories, I have to really consider whether it's something I should do.
 
-I wrote a blog post outlining my [cannonballs — the themes that allow me to cast vision, determine what's important and get things done](http://bit.ly/19RXcgu) — explaining why I take on certain things and not others.
+I wrote a blog post outlining my [cannonballs — the themes that allow me to cast vision, determine what's important and get things done](https://bit.ly/19RXcgu) — explaining why I take on certain things and not others.
 
 I don't want to give anyone, especially family or friends, less than 100% of what I have to give. If I don't think I can give you that, I'll most likely say "no". I hope you understand it isn't anything personal or impersonal, it's just me trying to create margin in my life.
 
@@ -41,8 +41,8 @@ Twitter is amuck with information and starting points. Ask your question there, 
 A lot of people come to me with questions about "broken" WordPress, Javascript or HTML problems. 99.9% of the time nothing is broken, it's just a typo or a misunderstanding of how something works. These three sites have great resources for people who've dealt with the exact same things. I keep them as Alfred App web searches because they're often the first places I'll go when people have questions:
 
 
-- [WordPress Codex](http://codex.wordpress.org/)
-- [WordPress Support Forum](http://wordpress.org/support/)
+- [WordPress Codex](https://codex.wordpress.org/)
+- [WordPress Support Forum](https://wordpress.org/support/)
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/)
 
 

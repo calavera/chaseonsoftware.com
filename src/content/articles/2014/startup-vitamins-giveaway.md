@@ -10,24 +10,24 @@ category: "archive"
 ---
 
 <p class="intro">
-  <a href="http://www.startupvitamins.com">Startup Vitamins</a> has quickly become my go-to source for coffee mugs, T-shirts and posters with inspirational business and startup quotes. Read on for a 30% off coupon and a chance to win a mug of your choice!
+  <a href="https://www.startupvitamins.com">Startup Vitamins</a> has quickly become my go-to source for coffee mugs, T-shirts and posters with inspirational business and startup quotes. Read on for a 30% off coupon and a chance to win a mug of your choice!
 </p>
 
 <p>When I first saw Startup Vitamins in my Facebook feed, I knew that it was going to be the beginning of a long relationship of me giving them money and them giving me awesome products. So far this is totally founded.</p>
 
-<p><img src="http://www.startupvitamins.com/media/spots/Office_64.png" alt="svposterpackage" width="300" height="300" class="alignleft size-full wp-image-452" /> My initial attraction to Startup Vitamins was their ability to take inspirational business quotes and add relevant imagery to give a quote that extra punch. If you've seen a Startup Vitamins ad floating through your Facebook stream, you know what I'm talking about.</p>
+<p><img src="https://www.startupvitamins.com/media/spots/Office_64.png" alt="svposterpackage" width="300" height="300" class="alignleft size-full wp-image-452" /> My initial attraction to Startup Vitamins was their ability to take inspirational business quotes and add relevant imagery to give a quote that extra punch. If you've seen a Startup Vitamins ad floating through your Facebook stream, you know what I'm talking about.</p>
 
 <h2>My First Order &amp; A Wow Face</h2>
 
 <p>I placed my first order for a "Move Fast and Break Things" mug for standard shipping, thinking I'd get it two weeks later. Two days later my buddy AP from shipping dropped off <em>two</em> packages at my desk from Startup Vitamins. Needless to say, they gave me a Wow moment.</p>
 
-<p>Not only did they send me the mug I wanted, but they sent me another mug that I gave to my friend <a href="http://www.natewienert.com">Nate Wienert</a> (because like the mug says: he gets 'things' done (the mug doesn't say things, but I digress)) and a sticker. I was immediately hooked.</p>
+<p>Not only did they send me the mug I wanted, but they sent me another mug that I gave to my friend <a href="https://www.natewienert.com">Nate Wienert</a> (because like the mug says: he gets 'things' done (the mug doesn't say things, but I digress)) and a sticker. I was immediately hooked.</p>
 
 <div class="group">
   Not long after I placed a second order for three T-shirts and two posters:
 </div>
 
-<p><img src="http://www.realchaseadams.com/imgs/2014/01/svposters.png" alt="svposters" width="300" height="300" class="alignright size-full wp-image-453" /> I received the posters first and the T-shirts a week later. They were both delivered way ahead of the estimated delivery date, which was yet another "wow" moment.</p>
+<p><img src="https://www.realchaseadams.com/imgs/2014/01/svposters.png" alt="svposters" width="300" height="300" class="alignright size-full wp-image-453" /> I received the posters first and the T-shirts a week later. They were both delivered way ahead of the estimated delivery date, which was yet another "wow" moment.</p>
 
 <p>The posters are printed on matted printer paper. They looked awesome, but I was unsure about was if they'd scratch easily, so I bought some cheap poster frames from target that at least keep them from getting messed up until I can buy some better frames.</p>
 
@@ -41,7 +41,7 @@ category: "archive"
 
 <p>The t-shirts are printed on American Apparel (which you either geek out about because you know how amazingly comfortable and soft they are or you don't know about yet and will geek out about it after you've worn one).</p>
 
-<p><a href="http://www.startupvitamins.com/products/startup-tshirt-life-is-short"><img src="http://www.startupvitamins.com/media/products/34/tshirt.jpg" width="300" height="300" alt="Life is short, do stuff that matters." class="alignleft" /></a></p>
+<p><a href="https://www.startupvitamins.com/products/startup-tshirt-life-is-short"><img src="https://www.startupvitamins.com/media/products/34/tshirt.jpg" width="300" height="300" alt="Life is short, do stuff that matters." class="alignleft" /></a></p>
 
 <p>I've gotten a lot of compliments about all three shirts, with the "Life is Short, Do Stuff That Matters" shirt being the one I get the most feedback about. This mantra is my favorite, and I would wear this everyday if it was socially acceptable, just to serve as a personal reminder.</p>
 
@@ -72,17 +72,17 @@ category: "archive"
 
 <p><strong>Facebook:</strong></p>
 
-<p>*Check out this review about Startup Vitamins mugs, T-shirts and posters and get a chance to win an inspirational mug! http://bit.ly/1bV0F9s</p>
+<p>*Check out this review about Startup Vitamins mugs, T-shirts and posters and get a chance to win an inspirational mug! https://bit.ly/1bV0F9s</p>
 
 <p>Be sure to put "referred by: john doe" in your comment so we both get extra entries!*</p>
 
 <p><strong>Twitter:</strong></p>
 
-<p><em>Wanna win a @startupvitamins mug? Mention referred by @johndoe for an extra entry. http://bit.ly/1bV0F9s</em></p>
+<p><em>Wanna win a @startupvitamins mug? Mention referred by @johndoe for an extra entry. https://bit.ly/1bV0F9s</em></p>
 
 <p><strong>Get extra twitter visibility by sharing this photo:</strong></p>
 
-<p><img src="http://www.realchaseadams.com/imgs/2014/02/twitter-sv-mug-giveaway.jpg" alt="Startup Vitamins Giveaway" /></p>
+<p><img src="https://www.realchaseadams.com/imgs/2014/02/twitter-sv-mug-giveaway.jpg" alt="Startup Vitamins Giveaway" /></p>
 
 <div class="marker">
   Contest Ends Friday February 14th, 2014

@@ -19,7 +19,7 @@ _My 3 Words_, originated in 2006 by Chris Brogan, is an alternative paradigm to 
 - Plans and Milestones.
 - The daily calendar.
 
-~ [My 3 words for 2013 — chrisbrogan.com](http://chrisbrogan.com/my-3-words-for-2013/)
+~ [My 3 words for 2013 — chrisbrogan.com](https://chrisbrogan.com/my-3-words-for-2013/)
 
 Essentially, rather than creating reactive, rigid (and often myopic) resolutions, pick 3 words that help move your life story forward.
 
@@ -83,7 +83,7 @@ In all areas of life, I want to be an "excellent engineer".
 
 ## A Final Thought: Know Your Destination
 
-I'm excited to see how this thought experiment guides the next year, but I believe it will only have value because I've spent some time ["beginning with the end in mind"](http://chaseadams.io/2013/10/my-eulogy/), a habit outlined by Steven Covey. _If you're considering the **My 3 Words** exercise, I recommend first starting with knowing (and documenting) the end you have in mind._
+I'm excited to see how this thought experiment guides the next year, but I believe it will only have value because I've spent some time ["beginning with the end in mind"](https://chaseadams.io/2013/10/my-eulogy/), a habit outlined by Steven Covey. _If you're considering the **My 3 Words** exercise, I recommend first starting with knowing (and documenting) the end you have in mind._
 
 Your "end" may change a little along the way, but having a point of reference is an important component of being able to pick the right words to be most effective in your journey.
 

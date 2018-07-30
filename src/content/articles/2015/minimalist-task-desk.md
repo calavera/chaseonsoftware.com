@@ -18,10 +18,10 @@ Here's how we built this beautiful sitting desk and the best part about it? It o
 
 ## Parts
 
-- [28" Raw Steel .375 Diameter 3 Rod Hairpin Leg ($20/leg)](http://www.hairpinlegs.com/products/3-rod-hairpin-leg?variant=1125171392)
-- [74" x 1-1/2" KARLBY Countertop, Walnut ($189.00)](http://www.ikea.com/us/en/catalog/products/10301149/#/30301148)
-- [Everbilt #10 x 1" Flat Head Phillips Wood Screws](http://www.homedepot.com/p/Everbilt-10-x-1-in-Zinc-Plated-Flat-Head-Phillips-Drive-Wood-Screw-100-Piece-801882/204275500)
-- [3M Knob Adjust Keyboard Tray, Standard Platform, Gel Wrist Rest, Precise Mouse Pad, 17 in Track, Black](http://www.amazon.com/gp/product/B001B0DCOO/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001B0DCOO&linkCode=as2&tag=thechasceperb-20&linkId=XYJLDXHUAVDOJ24F)
+- [28" Raw Steel .375 Diameter 3 Rod Hairpin Leg ($20/leg)](https://www.hairpinlegs.com/products/3-rod-hairpin-leg?variant=1125171392)
+- [74" x 1-1/2" KARLBY Countertop, Walnut ($189.00)](https://www.ikea.com/us/en/catalog/products/10301149/#/30301148)
+- [Everbilt #10 x 1" Flat Head Phillips Wood Screws](https://www.homedepot.com/p/Everbilt-10-x-1-in-Zinc-Plated-Flat-Head-Phillips-Drive-Wood-Screw-100-Piece-801882/204275500)
+- [3M Knob Adjust Keyboard Tray, Standard Platform, Gel Wrist Rest, Precise Mouse Pad, 17 in Track, Black](https://www.amazon.com/gp/product/B001B0DCOO/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B001B0DCOO&linkCode=as2&tag=thechasceperb-20&linkId=XYJLDXHUAVDOJ24F)
 
 ## Building the Desk
 
@@ -39,7 +39,7 @@ Here's how we built this beautiful sitting desk and the best part about it? It o
 
 **Assemble the Tray.** Follow the instructions to assemble the tray to the mount.
 
-**Attach the Powerstrip.** My good friend Brandon Murry asked on my last project how I was planning on hiding all the power cords, so I tried to be more concious of it this time. I mounted the powerstrip to the bottom of the desk and used a combination of [mug hooks](http://www.amazon.com/ARROW-160376-Hooks-Rubbed-Bronze/dp/B00VEDF6I8/ref=sr_1_3?ie=UTF8&qid=1436750212&sr=8-3&keywords=mug+hooks) and [3m cord clip cable organizers](ttp://www.amazon.com/gp/product/B00M9FN2KY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00M9FN2KY&linkCode=as2&tag=thechasceperb-20&linkId=UIFHXUV6OHQCWYXW) which made the cables "virtually" invisible without you crawl under the desk. Even if you crawl under the desk, they look a lot better than they did with the standing desk.
+**Attach the Powerstrip.** My good friend Brandon Murry asked on my last project how I was planning on hiding all the power cords, so I tried to be more concious of it this time. I mounted the powerstrip to the bottom of the desk and used a combination of [mug hooks](https://www.amazon.com/ARROW-160376-Hooks-Rubbed-Bronze/dp/B00VEDF6I8/ref=sr_1_3?ie=UTF8&qid=1436750212&sr=8-3&keywords=mug+hooks) and [3m cord clip cable organizers](ttp://www.amazon.com/gp/product/B00M9FN2KY/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00M9FN2KY&linkCode=as2&tag=thechasceperb-20&linkId=UIFHXUV6OHQCWYXW) which made the cables "virtually" invisible without you crawl under the desk. Even if you crawl under the desk, they look a lot better than they did with the standing desk.
 
 The most "involved" part of building this desk is assembling the tray for the keyboard, but we were still able to put it all together in under 30 minutes.
 
