@@ -195,7 +195,7 @@ class ContactForm extends React.Component {
               placeholder="hey@chaseadams.io"
               onBlur={this.handleBlur("email")}
               onChange={this.handleChange}
-              errorMsg="Knowing your email enables me respond!"
+              errorMsg="Knowing your email enables me to respond!"
             />
           </div>
 
