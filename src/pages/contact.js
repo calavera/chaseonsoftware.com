@@ -128,89 +128,94 @@ class ContactForm extends React.Component {
     return (
       <div className="c-1-3">
         {this.state.errors.server && <p>{this.state.errors.server}</p>}
-        {this.state.status === "success" && <p>Thanks for reaching out!</p>}
-        <form
-          name="contact"
-          method="post"
-          data-netlify="true"
-          data-netlify-honeypot="botfield"
-          onSubmit={this.handleSubmit}
-        >
-          <input type="hidden" name="form-name" value="contact" />
-          <p hidden>
-            <label>
-              Don’t fill this out:{" "}
-              <input
-                value={input.botfield}
-                onChange={this.handleChange}
-                name="botfield"
-              />
-            </label>
-          </p>
+        {this.state.status === "success" ? (
+          <p>Thanks for reaching out!</p>
+        ) : (
+          <form
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="botfield"
+            onSubmit={this.handleSubmit}
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p hidden>
+              <label>
+                Don’t fill this out:{" "}
+                <input
+                  value={input.botfield}
+                  onChange={this.handleChange}
+                  name="botfield"
+                />
+              </label>
+            </p>
 
-          <div className={shouldMarkError("reason") ? "error input" : "input"}>
-            <select
-              value={input.reason}
-              onBlur={this.handleBlur("reason")}
-              onChange={this.handleChange}
-              name="reason"
+            <div
+              className={shouldMarkError("reason") ? "error input" : "input"}
             >
-              <option value="" disabled="" defaultValue="">
-                What's up?
-              </option>
-              {[
-                "I want to learn something.",
-                "I want to recruit you.",
-                "Just saying hi."
-              ].map((option, idx) => {
-                return (
-                  <option key={idx} name="reason" value={option}>
-                    {option}
-                  </option>
-                );
-              })}
-            </select>
-            {shouldMarkError("reason") && (
-              <span className="error">
-                Choosing a reason helps me respond better!
-              </span>
-            )}
-          </div>
+              <select
+                value={input.reason}
+                onBlur={this.handleBlur("reason")}
+                onChange={this.handleChange}
+                name="reason"
+              >
+                <option value="" disabled="" defaultValue="">
+                  What's up?
+                </option>
+                {[
+                  "I want to learn something.",
+                  "I want to recruit you.",
+                  "Just saying hi."
+                ].map((option, idx) => {
+                  return (
+                    <option key={idx} name="reason" value={option}>
+                      {option}
+                    </option>
+                  );
+                })}
+              </select>
+              {shouldMarkError("reason") && (
+                <span className="error">
+                  Choosing a reason helps me respond better!
+                </span>
+              )}
+            </div>
 
-          <div className="group pad-bottom-container">
-            <TextInput
-              shouldMarkError={shouldMarkError("name")}
-              for="name"
-              value={input.name}
-              placeholder="Chase Adams"
-              onBlur={this.handleBlur("name")}
+            <div className="group pad-bottom-container">
+              <TextInput
+                shouldMarkError={shouldMarkError("name")}
+                for="name"
+                value={input.name}
+                placeholder="Chase Adams"
+                onBlur={this.handleBlur("name")}
+                onChange={this.handleChange}
+                errorMsg="Your name helps me know who you are!"
+              />
+
+              <TextInput
+                shouldMarkError={shouldMarkError("email")}
+                for="email"
+                value={input.email}
+                placeholder="hey@chaseadams.io"
+                onBlur={this.handleBlur("email")}
+                onChange={this.handleChange}
+                errorMsg="Knowing your email enables me to respond!"
+              />
+            </div>
+
+            <TextArea
+              shouldMarkError={shouldMarkError("message")}
+              for="message"
+              value={input.message}
+              placeholder="Hey, I've got something to say!"
+              onBlur={this.handleBlur("message")}
               onChange={this.handleChange}
-              errorMsg="Your name helps me know who you are!"
+              errorMsg="A message gives me context!"
             />
 
-            <TextInput
-              shouldMarkError={shouldMarkError("email")}
-              for="email"
-              value={input.email}
-              placeholder="hey@chaseadams.io"
-              onBlur={this.handleBlur("email")}
-              onChange={this.handleChange}
-              errorMsg="Knowing your email enables me to respond!"
-            />
-          </div>
-
-          <TextArea
-            shouldMarkError={shouldMarkError("message")}
-            for="message"
-            value={input.message}
-            placeholder="Hey, I've got something to say!"
-            onBlur={this.handleBlur("message")}
-            onChange={this.handleChange}
-            errorMsg="A message gives me context!"
-          />
-
-          <SubmitButton isEnabled={isEnabled} />
-        </form>
+            <SubmitButton isEnabled={isEnabled} />
+          </form>
+        )}
       </div>
     );
   }
