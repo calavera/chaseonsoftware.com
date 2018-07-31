@@ -70,7 +70,7 @@ Open your favorite terminal emulator application (I used VS Code's Integrated Te
 
 When we run the command, the console will display a table like this:
 
-<img src="/img/nodejs-console-table.png" class="center" title="Output of running console.table on an array of objects in NodeJS" />
+![Output of running console.table on an array of objects in NodeJS](/img/nodejs-console-table.png)
 
 # Inspect array of objects in the Browser (Chrome Example)
 
@@ -120,9 +120,11 @@ let weirdFishes2 = {
         "wikipedia_link": "https://en.wikipedia.org/wiki/Grimpoteuthis_abyssicola"
     }
 };
-console.table(weirdFishes);
+console.table(weirdFishes2);
 ```
 
-<img src="/img/console_table_inspect_object_of_objects.png" class="center" title="Output of running console.table on an object of objects in Chrome" />
+You can see that the table now has the key for each object as the index:
+
+<img src="/img/console-table-object-of-objects.png" class="center" title="Output of running console.table on an object of objects in Chrome" />
 
 Now you've got a great alternative to `console.log` for displaying objects in JavaScript in tabular form instead of nested data—an alternative that will save you time in inspection and debugging!
