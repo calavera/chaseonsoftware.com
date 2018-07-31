@@ -25,7 +25,7 @@ $blue_inc_2: #9dd1ff;
 $blue_deep: #222831;
 /*** Colors ***/
 
-$white: $blue_white;
+$white: lighten($blue_white, 10%);
 $white_low_contrast: $blue_white_low_contrast;
 $primary: $blue_0;
 $primary_inc_1: $blue_inc_1;
