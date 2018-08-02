@@ -1,7 +1,7 @@
 ---
 date: "2014-02-12"
 title: "Who Cares What You Have To Say?"
-slug: "/2014/02/who-cares-what-you-have-to-say"
+slug: "/2014/02/who-cares-what-you-have-to-say/"
 aliases: [
     "/posts/who-cares-what-you-have-to-say/"
 ]

@@ -1,7 +1,7 @@
 ---
 date: "2014-02-05"
 title: "Regardless of what you think, I only have 100% to give"
-slug: "/2014/02/regardless-of-what-you-think-i-only-have-100-to-give"
+slug: "/2014/02/regardless-of-what-you-think-i-only-have-100-to-give/"
 aliases: [
     "/posts/regardless-of-what-you-think-i-only-have-100-to-give"
 ]

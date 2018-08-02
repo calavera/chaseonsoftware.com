@@ -1,6 +1,6 @@
 ---
 title: Resume
-slug: "/resume"
+slug: "/resume/"
 date: 2014-06-21T02:47:00Z
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: "2014-02-02"
 title: "Startup Vitamins Review & Giveaway"
-slug: "/2014/02/startupvitamins-giveaway"
+slug: "/2014/02/startupvitamins-giveaway/"
 aliases: [
     "/posts/startup-vitamins-review-giveaway",
     "/2014/02/03/startupvitamins-giveaway/"

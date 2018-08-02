@@ -2,7 +2,7 @@
 date: "2014-08-01"
 title: "The Best Advice I Can Give To People Learning To Code"
 description: "Don't copy/paste code examples. One of the mistakes I see burn developers, both new and veteran, is that they copy/paste code examples, strings, basically anything copy/pastable."
-slug: "/2014/08/the-best-advice-i-can-give-to-people-learning-to-code/"
+slug: "/2014/08/the-best-advice-i-can-give-to-people-learning-to-code//"
 aliases: [
     "/posts/the-best-advice-i-can-give-to-people-learning-to-code"
 ]

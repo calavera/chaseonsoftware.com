@@ -1,6 +1,6 @@
 ---
 title: "What I'm Doing Now"
-slug: "/now"
+slug: "/now/"
 date: "2016-02-02T21:00:00"
 updated: "2017-01-06T21:00:00"
 ---

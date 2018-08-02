@@ -1,7 +1,7 @@
 ---
 date: "2016-12-04"
 title: "OSX Protip: Show your Mac’s Hard Drive On Your Desktop"
-slug: "/2016/12/show-your-macs-hard-drive-on-your-desktop"
+slug: "/2016/12/show-your-macs-hard-drive-on-your-desktop/"
 tags: [
 "osx protips"
 ]

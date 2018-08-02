@@ -1,7 +1,7 @@
 ---
 title: "Site Guide"
 description: "Learn about the site topology for chaseadams.io and how the content is structured."
-slug: "/site-guide"
+slug: "/site-guide/"
 date: "2018-07-01"
 aliases: [
     "/site-architecture"

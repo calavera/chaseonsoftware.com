@@ -1,7 +1,7 @@
 ---
 date: "2013-11-18"
 title: "5 Grunt Plugins for a Better Workflow"
-slug: "/2013/11/5-useful-grunt-plugins"
+slug: "/2013/11/5-useful-grunt-plugins/"
 tags: [
     "web development", "build tools", "automation"
 ]

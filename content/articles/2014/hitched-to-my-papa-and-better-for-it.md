@@ -1,7 +1,7 @@
 ---
 title: "Hitched To The Universe: A Eulogy For My Father's Father"
 date: "2014-09-08"
-slug: "/2014/09/hitched-to-my-papa-and-better-for-it"
+slug: "/2014/09/hitched-to-my-papa-and-better-for-it/"
 aliases: [
     "/posts/hitched-to-the-universe",
     "/2014/09/hitched-to-the-universe/"

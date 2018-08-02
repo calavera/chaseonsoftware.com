@@ -1,7 +1,7 @@
 ---
 date: "2013-10-01"
 title: "Emulate What You Want To Replicate"
-slug: "/2013/10/emulate-what-you-want-to-replicate"
+slug: "/2013/10/emulate-what-you-want-to-replicate/"
 aliases: [
     "/posts/emulate-what-you-want-to-replicate"
 ]

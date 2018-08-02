@@ -1,7 +1,7 @@
 ---
 title: "Frontend Engineering Tools of The Trade"
 date: "2015-07-06"
-slug: "/2015/07/tools-of-the-trade"
+slug: "/2015/07/tools-of-the-trade/"
 description: "Every craftsman or tradesman has a collection of tools that help to make them better at executing their work. This is a list of my toolset."
 ---
 

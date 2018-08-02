@@ -1,7 +1,7 @@
 ---
 date: "2016-12-05"
 title: "OSX Protip: Show your User's Home Folder in Finder Sidebar"
-slug: "/2016/12/show-your-home-folder-in-finder-sidebar"
+slug: "/2016/12/show-your-home-folder-in-finder-sidebar/"
 tags: [
 "osx protips"
 ]

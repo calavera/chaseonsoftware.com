@@ -1,7 +1,7 @@
 ---
 date: "2014-02-25"
 title: "Huffington Post Article: You May Never Become A Developer"
-slug: "/2014/02/huffington-post-article-you-may-never-become-a-developer"
+slug: "/2014/02/huffington-post-article-you-may-never-become-a-developer/"
 aliases: [
     "/posts/huffington-post-article-you-may-never-become-a-developer/"
 ]

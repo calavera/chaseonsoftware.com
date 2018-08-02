@@ -1,7 +1,7 @@
 ---
 date: "2014-02-24"
 title: "Developers: What OS Do You Use? [Wedgie/Survey]"
-slug: "/2014/02/developers-what-os-do-you-use-wedgiesurvey"
+slug: "/2014/02/developers-what-os-do-you-use-wedgiesurvey/"
 aliases: [
     "/posts/developers-what-os-do-you-use-wedgiesurvey",
     "/2014/02/24/developers-what-os-do-you-use-wedgiesurvey/"

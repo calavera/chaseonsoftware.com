@@ -1,7 +1,7 @@
 ---
 title: "Choosing Fonts For Web Projects"
 date: "2015-06-21"
-slug: "/2015/06/choosing-fonts-for-web-projects"
+slug: "/2015/06/choosing-fonts-for-web-projects/"
 description: "Whenever I start a new project, I try to make sure I decide on a good font stack for web safe fonts. This is my process."
 tags: ['getting started', 'web development']
 ---

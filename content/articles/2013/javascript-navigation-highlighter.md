@@ -1,7 +1,7 @@
 ---
 date: "2013-10-24"
 title: "Highlight Navigation Element Using Javascript"
-slug: "/2013/10/javascript-navigation-highlighter"
+slug: "/2013/10/javascript-navigation-highlighter/"
 aliases: [
     "/posts/highlight-navigation-element-using-javascript"
 ]

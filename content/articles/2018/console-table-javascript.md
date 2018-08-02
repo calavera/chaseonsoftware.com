@@ -3,7 +3,7 @@ title: "How to Inspect a Collection of Objects in Javascript with console.table"
 original_date: "2014-11-19"
 date: "2018-07-30"
 tags: ["JavaScript"]
-slug: "/inspect-array-of-objects-with-console-table"
+slug: "/inspect-array-of-objects-with-console-table/"
 aliases: [
   "/debugging-a-collection-of-objects-with-consoletable",
   "/2014/11/debugging-a-collection-of-objects-with-consoletable",
