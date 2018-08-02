@@ -1,6 +1,6 @@
 ---
 title: About Me
-slug: "/me//"
+slug: "/me/"
 date: 2013-06-21
 aliases: [ "/start-here/", "/now/", "/about-me", "/about-me/", "/about", "/about/"]
 ---

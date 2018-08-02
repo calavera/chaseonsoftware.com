@@ -2,7 +2,7 @@
 title: "Making Work Visible [Book Review]"
 description: "Making Work Visible is a canonical book for anyone who wants to be effective at getting the right things done in the right amount of time."
 date: "2018-01-28"
-slug: "/book-review-making-work-visible//"
+slug: "/book-review-making-work-visible/"
 tags: ["kanban"]
 ---
 
