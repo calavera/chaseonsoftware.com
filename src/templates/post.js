@@ -11,27 +11,25 @@ export default ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description}
       />
-      <article>
-        <header className="single-header">
-          <div className="container">
-            <h1>{post.frontmatter.title}</h1>
-            <div className="meta">
-              <time>{post.frontmatter.date}</time>
-              {post.frontmatter.tags && (
-                <div>
-                  <span>in </span>
-                  <ul className="list-as-sentence">
-                    {post.frontmatter.tags.map((tag, idx) => (
-                      <li key={idx}>{tag}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
+      <article className="pad-container-w">
+        <header className="container-m">
+          <div className="meta">
+            {post.frontmatter.tags && (
+              <div>
+                <span>in </span>
+                <ul className="list-as-sentence">
+                  {post.frontmatter.tags.map((tag, idx) => (
+                    <li key={idx}>{tag}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            <span> on</span> <time>{post.frontmatter.date}</time>
           </div>
+          <h1>{post.frontmatter.title}</h1>
         </header>
-        <section className="pad-container-w">
-          <div className="container">
+        <section>
+          <div className="container-m">
             {post.frontmatter.description && (
               <h2 className="h2--subtitle">{post.frontmatter.description}</h2>
             )}

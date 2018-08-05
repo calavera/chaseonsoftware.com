@@ -140,19 +140,30 @@ ul.list-as-sentence {
   }
 }
 
-header.single-header {
-  background: $blue_deep;
-  color: $white;
-  border-bottom: 1px solid $white;
-  padding: 1rem;
+article {
+  margin-top: 2rem;
+  padding: 3rem;
+}
+
+header.container-m {
+  padding: 0;
   h1 {
     margin-bottom: 0.5rem;
-    color: $white_low_contrast;
+    padding-top: 1.5rem;
+    font-size: 2.68rem;
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
   }
   .meta {
     font-size: 0.8rem;
-    time {
-      color: $primary;
+    color: lighten($black, 30%);
+    ul,
+    li {
+      margin: 0;
+    }
+    div {
+      display: inline;
     }
   }
 }
@@ -317,6 +328,11 @@ section {
 
 .container {
   max-width: 40rem;
+  margin: 0 auto;
+}
+
+.container-m {
+  max-width: 60rem;
   margin: 0 auto;
 }
 
