@@ -13,18 +13,19 @@ A major factor of being successful in naming is knowing the type of case you wan
 ## What You'll Learn
 
 - The most common case types:
-    - Camel case
-    - Snake case
-    - Kebab case
-    - Pascal case
-    - Upper case (with snake case)
+    - [Camel case](#camelcase)
+    - [Snake case](#snake_case)
+    - [Kebab case](#kebab-case)
+    - [Pascal case](#pascalcase)
+    - [Upper case (with snake case)](#upper_case_snake_case)
 
-- How to use them for the following situations:
-    - naming files for a computer (my recommended best practice)
-    - writing code with Go
-    - writing code with Ruby
-    - writing code with JavaScript
-    - writing code with Python
+- [How to use each case type for the following situations and languages](#which-case-type-should-i-use):
+    - [naming files for a computer (my recommended best practice)](#what-conventinon-should-i-use-when-naming-files)
+    - [writing code with Go](#go-conventions)
+    - [writing code with JavaScript](#javascript-conventions)
+    - [writing code with React](#react-conventions)
+    - [writing code with Ruby](#ruby-conventions)
+    - [writing code with Python](#python-conventions)
 
 # camelCase
 
@@ -34,7 +35,7 @@ An example of camel case of the variable `camel case var` is `camelCaseVar`.
 
 # snake_case
 
-`snake_case` is as simple as replacing all spaces with a "_" and lowercasing all the words. It's possible to snake_case and mix camelCase and PascalCase but imo, that ultimately defeats the purpose. 
+`snake_case` is as simple as replacing all spaces with a "\_" and lowercasing all the words. It's possible to snake\_case and mix camelCase and PascalCase but imo, that ultimately defeats the purpose. 
 
 An example of snake case of the variable `snake case var` is `snake_case_var`.
 
@@ -54,7 +55,7 @@ An example of pascal case of the variable `pascal case var` is `PascalCaseVar`.
 
 # UPPER\_CASE\_SNAKE\_CASE
 
-`UPPER_CASE_SNAKE_CASE` is replacing all the spaces with underscores and converting all the letters to capitals.
+`UPPER_CASE_SNAKE_CASE` is replacing all the spaces with a "\_" and converting all the letters to capitals.
 
 an example of upper case snake case of the variable `upper case snake case var` is `UPPER_CASE_SNAKE_CASE_VAR`.
 
