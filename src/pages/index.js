@@ -11,27 +11,17 @@ export default ({ data }) => {
           .filter(({ node }) => node.frontmatter.category !== "archive")
           .map(({ node }) => (
             <div className="post group" key={node.id}>
-              <h2>
+              <h1>
                 <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-              </h2>
-              {node.frontmatter.tags && (
-                <div>
-                  <span>in </span>
-                  <ul className="list-as-sentence">
-                    {node.frontmatter.tags.map((tag, idx) => (
-                      <li key={idx}>{tag}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+              </h1>
+              <div className="post-meta">
+                <div>{node.frontmatter.date}</div>
+              </div>
               {node.frontmatter.description && (
                 <div className="description">
                   {node.frontmatter.description}
                 </div>
               )}
-              <div className="post-meta">
-                <div style={{ float: "left" }}>{node.frontmatter.date}</div>
-              </div>
             </div>
           ))}
       </div>
