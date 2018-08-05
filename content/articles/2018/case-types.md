@@ -52,7 +52,7 @@ An example of pascal case of the variable `pascal case var` is `PascalCaseVar`.
 
 **Note: It's common to see this confused for camel case, but it's a separate case type altogether.**
 
-# UPPER_CASE_SNAKE_CASE
+# UPPER\_CASE\_SNAKE\_CASE
 
 `UPPER_CASE_SNAKE_CASE` is replacing all the spaces with underscores and converting all the letters to capitals.
 
