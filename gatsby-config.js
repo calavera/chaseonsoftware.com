@@ -2,7 +2,7 @@ const cfg = {
   siteMetadata: {
     title: `chaseadams.io`,
     description: `Thoughts on Software Engineering, DevOps and Self-Management.`,
-    siteUrl: `https://www.chaseadams.io/`,
+    siteUrl: `https://www.chaseadams.io`
   },
   plugins: [
     {
