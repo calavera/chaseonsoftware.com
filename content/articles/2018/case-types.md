@@ -20,7 +20,7 @@ A major factor of being successful in naming is knowing the type of case you wan
     - [Upper case (with snake case)](#upper_case_snake_case)
 
 - [How to use each case type for the following situations and languages](#which-case-type-should-i-use):
-    - [naming files for a computer (my recommended best practice)](#what-conventinon-should-i-use-when-naming-files)
+    - [naming files for a computer (my recommended best practice)](#what-convention-should-i-use-when-naming-files)
     - [writing code with Go](#go-conventions)
     - [writing code with JavaScript](#javascript-conventions)
     - [writing code with React](#react-conventions)
@@ -63,7 +63,7 @@ an example of upper case snake case of the variable `upper case snake case var` 
 
 Now that you know the various case types, let's tackle an example of my recommended best practice for filenames and when to use each case for Go, JavaScript, Python & Ruby.
 
-## What conventinon should I use when naming files?
+## What convention should I use when naming files?
 
 **Recommendation: always snake case**
 
