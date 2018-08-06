@@ -271,13 +271,10 @@ class ContactPage extends React.Component {
       <Layout location={location}>
         <Helmet title="Say Hi | Chase Adams" />
         <article style={{ minHeight: "100vh" }}>
-          <header className="page-title">
+          <header className="container-m">
             <h1 className="container">Say Hi!</h1>
           </header>
-          <div
-            style={{ padding: "5rem 0" }}
-            className="group container-l pad-h-container"
-          >
+          <div className="group container-l pad-h-container">
             <ContactInfo />
             <ContactForm />
           </div>
