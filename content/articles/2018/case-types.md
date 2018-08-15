@@ -98,7 +98,7 @@ In the above example, `ExportedStruct` is available to package callers for `case
 
 ### React Conventions
 
-I write enough React and it's unique enougn that it's worth calling out conventions here as a subsection:
+I write enough React and it's unique enough that it's worth calling out conventions here as a subsection:
 
 - **Pascal case** is used for component names and file names in React.
 
