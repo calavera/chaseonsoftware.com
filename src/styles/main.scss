@@ -143,6 +143,9 @@ ul.list-as-sentence {
 article {
   margin-top: 2rem;
   padding: 3rem;
+  @media (max-width: 425px) {
+    padding: 0.5rem;
+  }
 }
 
 header.container-m {
@@ -215,28 +218,32 @@ header.container-m {
     margin-top: 0.5rem;
     line-height: 1rem;
     font-size: 0.9rem;
+    font-style: italic;
   }
 }
 
 form {
+  background: #f4f4f4;
+  padding: 1rem;
+  border: 1px solid darken(#f4f4f4, 10%);
   .input {
     padding-bottom: 1rem;
   }
   label {
     display: block;
     font-size: 0.8rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-weight: bold;
   }
   input,
   select {
     width: 100%;
-    background: $white_low_contrast;
+    background: $white;
     padding: 0.5rem;
-    border: 2px solid $white_low_contrast;
+    border: 1px solid darken(#f4f4f4, 10%);
     &:focus {
       outline: none;
-      border: 2px solid $primary;
+      border: 1px solid $primary;
     }
   }
   select {
@@ -247,18 +254,18 @@ form {
     width: 100%;
     height: 10rem;
     padding: 0.5rem;
-    background: $white_low_contrast;
-    border: 2px solid $white_low_contrast;
+    background: $white;
+    border: 1px solid darken(#f4f4f4, 10%);
     &:focus {
       outline: none;
-      border: 2px solid $primary;
+      border: 1px solid $primary;
     }
   }
   .error {
     select,
     input,
     textarea {
-      border: 2px solid $error;
+      border: 1px solid $error;
     }
   }
   button {
