@@ -362,7 +362,7 @@ section {
 }
 
 header.nav {
-    background: $black;
+    background: hsla(240, 18%, 16%, 1);
     box-sizing: border-box;
     position: fixed;
     width: 100%;
@@ -380,13 +380,16 @@ header.nav {
         font-size: 1.5rem;
         font-weight: normal;
         line-height: 1.5rem;
+        a {
+            color: $white;
+        }
         @media (max-width: 425px) {
             margin: 0 auto;
         }
     }
     a {
         padding: 0.5rem;
-        color: $white_low_contrast;
+        color: hsla(215, 16%, 50%, 1);
     }
     ul {
         display: flex;
@@ -414,7 +417,7 @@ header.nav {
             a:hover {
                 background: darken($black, 5%);
                 border-radius: 5px;
-                color: $primary;
+                color: $white;
                 text-decoration: none;
             }
         }
@@ -439,13 +442,20 @@ header.nav {
 
 footer {
     width: 100%;
-    background: $black !important;
-    padding: 2rem;
+    background: hsla(240, 18%, 16%, 1) !important;
+    padding-top: 1rem;
+    color: hsla(215, 16%, 50%, 1);
+    .footer-inner {
+        padding: 2rem;
+        background: hsla(0, 0%, 0%, 0.25);
+    }
     p {
-        color: $white_low_contrast;
         text-align: center;
         padding: 0;
         margin: 0;
+    }
+    &:hover {
+        color: $white;
     }
 }
 
