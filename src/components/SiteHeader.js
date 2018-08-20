@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 
 const ListLink = props => (
   <li style={{ display: `inline` }}>
-    <Link activeClassName="active" exact={true} to={props.to}>
+    <Link activeClassName="active" exact={"true"} to={props.to}>
       {props.children}
     </Link>
   </li>
