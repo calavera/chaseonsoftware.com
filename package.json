@@ -5,7 +5,9 @@
   "scripts": {
     "clean": "rm -rf public",
     "develop": "gatsby develop --host localhost --port 8000",
-    "build": "gatsby build && npm run build-netlify-functions",
+    "get-content": "node scripts/get_dropbox_files.js",
+    "build": "npm run get-content && npm run gatsby-build && npm run build-netlify-functions",
+    "gatsby-build": "gatsby build",
     "serve": "gatsby serve",
     "develop-functions": "netlify-lambda serve ./src/_netlify-functions",
     "build-netlify-functions": "netlify-lambda build ./src/_netlify-functions"
@@ -13,6 +15,7 @@
   "dependencies": {
     "core-js": "^2.5.7",
     "dotenv": "^6.1.0",
+    "dropbox": "^4.0.12",
     "gatsby": "next",
     "gatsby-image": "next",
     "gatsby-plugin-canonical-urls": "next",
