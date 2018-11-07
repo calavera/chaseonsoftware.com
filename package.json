@@ -7,6 +7,8 @@
     "develop": "gatsby develop --host localhost --port 8000",
     "get-content": "node scripts/get_dropbox_files.js",
     "build": "npm run get-content && npm run gatsby-build && npm run build-netlify-functions",
+    "develop-init": "npm install && npm run develop-ln-content",
+    "develop-ln-content": "ln -s $HOME/Dropbox/Apps/chaseadams.io $PWD/content && ln -s $HOME/Dropbox/Apps/chaseadams.io-drafts $PWD/drafts",
     "gatsby-build": "gatsby build",
     "serve": "gatsby serve",
     "develop-functions": "netlify-lambda serve ./src/_netlify-functions",

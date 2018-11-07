@@ -65,7 +65,7 @@ if (process.env.CONTEXT === "production") {
     resolve: `gatsby-source-filesystem`,
     options: {
       name: `drafts`,
-      path: `${__dirname}/content/drafts`
+      path: `${__dirname}/drafts`
     }
   });
 }
