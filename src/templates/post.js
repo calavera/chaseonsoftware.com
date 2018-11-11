@@ -5,6 +5,7 @@ import Layout from "../components/Layout";
 import styled, {css} from "react-emotion";
 
 const PostMeta = styled("div")`
+  margin-top: 1rem;
   padding: 1rem;
   background: #eee;
   border: 1px solid #ccc;
