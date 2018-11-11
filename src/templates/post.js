@@ -2,10 +2,11 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
-import styled from "react-emotion";
+import styled, {css} from "react-emotion";
 
 const PostMeta = styled("div")`
   padding: 1rem;
+  background: #eee;
   border: 1px solid #ccc;
 `;
 
@@ -17,7 +18,16 @@ export default ({ data, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description}
       />
-      <article className="pad-container-w">
+      <div className={css`
+      background-color: #212130;
+      height: 350px;
+    `}></div>
+      <article className={css`
+      width: 65vw;
+      margin: -250px auto 50px auto;
+      background-color: #fff;
+      border: 1px solid #eee;
+    `}>
         <header className="container-m">
           <h1>{post.frontmatter.title}</h1>
         </header>
