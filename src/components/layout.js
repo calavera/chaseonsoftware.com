@@ -1,8 +1,8 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
-import SiteHeader from "./SiteHeader";
-import SiteFooter from "./SiteFooter";
+import SiteHeader from "./siteheader";
+import SiteFooter from "./sitefooter";
 
 import "../styles/main.scss";
 import "prismjs/themes/prism-okaidia.css";
@@ -38,7 +38,7 @@ export default ({ children }) => {
               {
                 rel: "stylesheet",
                 href:
-                  "https://fonts.googleapis.com/css?family=Roboto:200,400,700"
+                  "https://fonts.googleapis.com/css?family=Roboto:400,700"
               }
             ]}
           />
