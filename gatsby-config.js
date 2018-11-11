@@ -49,7 +49,8 @@ const cfg = {
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-feed`
+    `gatsby-plugin-feed`,
+    `gatsby-plugin-emotion`
   ]
 };
 

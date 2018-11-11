@@ -2,6 +2,12 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
+import styled from "react-emotion";
+
+const PostMeta = styled("div")`
+  padding: 1rem;
+  border: 1px solid #ccc;
+`;
 
 export default ({ data, location }) => {
   const post = data.markdownRemark;
@@ -13,19 +19,6 @@ export default ({ data, location }) => {
       />
       <article className="pad-container-w">
         <header className="container-m">
-          <div className="meta">
-            {post.frontmatter.tags && (
-              <div>
-                <span>in </span>
-                <ul className="list-as-sentence">
-                  {post.frontmatter.tags.map((tag, idx) => (
-                    <li key={idx}>{tag}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            <span> on</span> <time>{post.frontmatter.date}</time>
-          </div>
           <h1>{post.frontmatter.title}</h1>
         </header>
         <section>
@@ -34,6 +27,19 @@ export default ({ data, location }) => {
               <h2 className="h2--subtitle">{post.frontmatter.description}</h2>
             )}
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <PostMeta>
+            {post.frontmatter.tags && (
+              <div>
+                <span>Topics: </span>
+                <ul className="list-as-sentence">
+                  {post.frontmatter.tags.map((tag, idx) => (
+                    <li key={idx}>{tag}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            <span>Date:</span> <time>{post.frontmatter.date}</time>
+          </PostMeta>
           </div>
         </section>
       </article>
