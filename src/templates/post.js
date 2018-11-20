@@ -17,7 +17,12 @@ export default ({ data, location }) => {
     <Layout location={location}>
       <Helmet
         title={post.frontmatter.title}
-        description={post.frontmatter.description}
+        meta={[
+          {
+            name: "description",
+            content: post.frontmatter.description
+          }
+        ]}
       />
       <div className={css`
       background-color: #212130;
