@@ -27,12 +27,18 @@ export default ({ data, location }) => {
       <div className={css`
       background-color: #212130;
       height: 350px;
+      @media (max-width: 1025px) {
+        height: 270px
+      }
     `}></div>
       <article className={css`
       width: 65vw;
       margin: -250px auto 50px auto;
       background-color: #fff;
       border: 1px solid #eee;
+      @media (max-width: 1025px) {
+        width: 95vw;
+      }
     `}>
         <header className="container-m">
           <h1>{post.frontmatter.title}</h1>
