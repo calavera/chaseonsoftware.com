@@ -1,6 +1,6 @@
 const cfg = {
   siteMetadata: {
-    title: `chaseadams.io`,
+    title: `Chase Adams`,
     description: `Thoughts on Software Engineering, DevOps and Self-Management.`,
     siteUrl: `https://www.chaseadams.io`
   },

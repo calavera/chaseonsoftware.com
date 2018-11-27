@@ -23,7 +23,9 @@ export default ({ children }) => {
       render={data => (
         <div>
           <Helmet
-            title={data.site.siteMetadata.title}
+            title={`${data.site.siteMetadata.title} | ${
+              data.site.siteMetadata.description
+            }`}
             meta={[
               {
                 name: "description",
@@ -37,8 +39,7 @@ export default ({ children }) => {
               },
               {
                 rel: "stylesheet",
-                href:
-                  "https://fonts.googleapis.com/css?family=Roboto:400,700"
+                href: "https://fonts.googleapis.com/css?family=Roboto:400,700"
               }
             ]}
           />
