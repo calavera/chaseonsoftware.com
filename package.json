@@ -6,6 +6,7 @@
     "clean": "rm -rf public",
     "develop": "gatsby develop --host localhost --port 8000",
     "get-content": "node scripts/get_dropbox_files.js",
+    "flow": "flow",
     "build": "npm run get-content && npm run gatsby-build && npm run build-netlify-functions",
     "develop-init": "npm install && npm run develop-ln-content",
     "develop-ln-content": "ln -s $HOME/Dropbox/Apps/chaseadams.io $PWD/content && ln -s $HOME/Dropbox/Apps/chaseadams.io-drafts $PWD/drafts",
@@ -50,5 +51,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@gitlab.com:chaseadamsio/chaseadamsio.gitlab.io.git",
-  "author": "Chase Adams <hey@chaseadams.io>"
+  "author": "Chase Adams <hey@chaseadams.io>",
+  "devDependencies": {
+    "flow-bin": "^0.87.0",
+    "gatsby-plugin-flow": "^1.0.2"
+  }
 }

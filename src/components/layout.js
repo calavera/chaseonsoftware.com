@@ -1,13 +1,24 @@
-import React from "react";
+// @flow
+import React, { type Node } from "react";
 import { StaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
 import SiteHeader from "./siteheader";
 import SiteFooter from "./sitefooter";
 
+// $FlowFixMe going to dump scss soon anyways, easier than fixing with flowconfig
 import "../styles/main.scss";
 import "prismjs/themes/prism-okaidia.css";
 
-export default ({ children }) => {
+type LayoutData = {
+  site: {
+    siteMetadata: {
+      title: string,
+      description: string
+    }
+  }
+};
+
+export default ({ children }: { children: Node }) => {
   return (
     <StaticQuery
       query={graphql`
@@ -20,7 +31,7 @@ export default ({ children }) => {
           }
         }
       `}
-      render={data => (
+      render={(data: LayoutData) => (
         <div>
           <Helmet
             title={`${data.site.siteMetadata.title} | ${

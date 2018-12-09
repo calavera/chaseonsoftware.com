@@ -1,7 +1,13 @@
-import React from "react";
+// @flow
+import React, { type Node } from "react";
 import Link from "gatsby-link";
 
-const ListLink = props => (
+type ListLinkProps = {
+  to: string,
+  children: Node
+};
+
+const ListLink = (props: ListLinkProps) => (
   <li style={{ display: `inline` }}>
     <Link activeClassName="active" exact={"true"} to={props.to}>
       {props.children}
@@ -9,7 +15,11 @@ const ListLink = props => (
   </li>
 );
 
-export default props => (
+type SiteHeaderProps = {
+  siteTitle: string
+};
+
+export default (props: SiteHeaderProps) => (
   <header className="nav group">
     <nav>
       <h1>

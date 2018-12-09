@@ -1,8 +1,9 @@
+// @flow
 import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import styled, {css} from "react-emotion";
+import styled, { css } from "react-emotion";
 
 const PostMeta = styled("div")`
   margin-top: 1rem;
@@ -11,10 +12,22 @@ const PostMeta = styled("div")`
   border: 1px solid #ccc;
 `;
 
-export default ({ data, location }) => {
+type PostData = {
+  markdownRemark: {
+    frontmatter: {
+      title: string,
+      description: string,
+      tags: Array<string>,
+      date: Date
+    },
+    html: string
+  }
+};
+
+export default ({ data }: { data: PostData }) => {
   const post = data.markdownRemark;
   return (
-    <Layout location={location}>
+    <Layout>
       <Helmet
         title={post.frontmatter.title}
         meta={[
@@ -24,22 +37,26 @@ export default ({ data, location }) => {
           }
         ]}
       />
-      <div className={css`
-      background-color: #212130;
-      height: 350px;
-      @media (max-width: 1025px) {
-        height: 270px
-      }
-    `}></div>
-      <article className={css`
-      width: 65vw;
-      margin: -250px auto 50px auto;
-      background-color: #fff;
-      border: 1px solid #eee;
-      @media (max-width: 1025px) {
-        width: 95vw;
-      }
-    `}>
+      <div
+        className={css`
+          background-color: #212130;
+          height: 350px;
+          @media (max-width: 1025px) {
+            height: 270px;
+          }
+        `}
+      />
+      <article
+        className={css`
+          width: 65vw;
+          margin: -250px auto 50px auto;
+          background-color: #fff;
+          border: 1px solid #eee;
+          @media (max-width: 1025px) {
+            width: 95vw;
+          }
+        `}
+      >
         <header className="container-m">
           <h1>{post.frontmatter.title}</h1>
         </header>
@@ -50,18 +67,18 @@ export default ({ data, location }) => {
             )}
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <PostMeta>
-            {post.frontmatter.tags && (
-              <div>
-                <span>Topics: </span>
-                <ul className="list-as-sentence">
-                  {post.frontmatter.tags.map((tag, idx) => (
-                    <li key={idx}>{tag}</li>
-                  ))}
-                </ul>
-              </div>
-            )}
-            <span>Date:</span> <time>{post.frontmatter.date}</time>
-          </PostMeta>
+              {post.frontmatter.tags && (
+                <div>
+                  <span>Topics: </span>
+                  <ul className="list-as-sentence">
+                    {post.frontmatter.tags.map((tag, idx) => (
+                      <li key={idx}>{tag}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              <span>Date:</span> <time>{post.frontmatter.date}</time>
+            </PostMeta>
           </div>
         </section>
       </article>

@@ -1,8 +1,9 @@
+// @flow
 import React from "react";
 import Layout from "../components/layout";
 import Helmet from "react-helmet";
 
-function encode(data) {
+function encode(data: Object) {
   return Object.keys(data)
     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
@@ -30,13 +31,32 @@ const ContactInfo = () => (
       </li>
     </ul>
     <p style={{ fontStyle: "italic" }}>
-      Can't find a place that makes sense? Reach out through the form!
+      Can&apos;t find a place that makes sense? Reach out through the form!
     </p>
   </div>
 );
 
-class ContactForm extends React.Component {
-  constructor(props) {
+type ContactFormProps = {};
+type ContactFormState = {
+  input: {
+    name: string,
+    email: string,
+    message: string,
+    reason: string,
+    botfield: string
+  },
+  status: string,
+  errors: { server?: Error },
+  touched: {
+    email: boolean,
+    name: boolean,
+    message: boolean,
+    reason: boolean
+  }
+};
+
+class ContactForm extends React.Component<ContactFormProps, ContactFormState> {
+  constructor(props: ContactFormProps) {
     super(props);
     this.state = {
       input: {
@@ -56,7 +76,7 @@ class ContactForm extends React.Component {
       }
     };
   }
-  handleChange = e => {
+  handleChange = (e: { target: { name: string, value: string } }) => {
     const { name, value } = e.target;
     this.setState(prevState => ({
       input: {
@@ -66,7 +86,7 @@ class ContactForm extends React.Component {
     }));
   };
 
-  handleBlur = field => evt => {
+  handleBlur = field => (evt: {}) => {
     this.setState({
       touched: { ...this.state.touched, [field]: true }
     });
@@ -83,7 +103,10 @@ class ContactForm extends React.Component {
     return errors;
   }
 
-  handleSubmit = e => {
+  handleSubmit = (e: {
+    target: { getAttribute: Function },
+    preventDefault: Function
+  }) => {
     e.preventDefault();
 
     const form = e.target;
@@ -100,7 +123,7 @@ class ContactForm extends React.Component {
           status: "success"
         })
       )
-      .catch(error =>
+      .catch((error: Error) =>
         this.setState({
           status: "failure",
           errors: {
@@ -127,7 +150,9 @@ class ContactForm extends React.Component {
 
     return (
       <div className="c-1-3">
-        {this.state.errors.server && <p>{this.state.errors.server}</p>}
+        {this.state.errors.server && (
+          <p>{this.state.errors.server.toString()}</p>
+        )}
         {this.state.status === "success" ? (
           <p>Thanks for reaching out!</p>
         ) : (
@@ -160,7 +185,7 @@ class ContactForm extends React.Component {
                 name="reason"
               >
                 <option value="" disabled="" defaultValue="">
-                  What's up?
+                  What&apos;s up?
                 </option>
                 {[
                   "I want to learn something.",
@@ -221,7 +246,17 @@ class ContactForm extends React.Component {
   }
 }
 
-const TextInput = props => (
+type InputProps = {
+  shouldMarkError: boolean,
+  for: string,
+  placeholder: string,
+  value: string,
+  onBlur: Function,
+  onChange: Function,
+  errorMsg: string
+};
+
+const TextInput = (props: InputProps) => (
   <div className={props.shouldMarkError ? "error input" : "input"}>
     <label htmlFor="{props.for}">{props.for}</label>
     <input
@@ -237,7 +272,7 @@ const TextInput = props => (
   </div>
 );
 
-const TextArea = props => (
+const TextArea = (props: InputProps) => (
   <div className={props.shouldMarkError ? "error input" : "input"}>
     <label htmlFor="{props.for}">{props.for}</label>
     <textarea
@@ -253,7 +288,11 @@ const TextArea = props => (
   </div>
 );
 
-const SubmitButton = props => (
+type SubmitProps = {
+  isEnabled: boolean
+};
+
+const SubmitButton = (props: SubmitProps) => (
   <div>
     <button
       className={!props.isEnabled ? "error" : ""}
@@ -265,10 +304,10 @@ const SubmitButton = props => (
   </div>
 );
 
-class ContactPage extends React.Component {
-  render(location) {
+class ContactPage extends React.Component<{}, {}> {
+  render() {
     return (
-      <Layout location={location}>
+      <Layout>
         <Helmet title="Say Hi | Chase Adams" />
         <article style={{ minHeight: "100vh" }}>
           <header className="container-m">
