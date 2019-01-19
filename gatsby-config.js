@@ -54,7 +54,7 @@ const cfg = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-flow`,
-    `gatsby-source-instance-name-for-mdx`
+    `gatsby-source-instance-name-mdx`
   ]
 };
 
