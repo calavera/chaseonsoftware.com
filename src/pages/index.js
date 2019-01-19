@@ -67,6 +67,7 @@ export const query = graphql`
             description
             date(formatString: "YYYY/MM/DD")
             tags
+            category
           }
           excerpt
         }
