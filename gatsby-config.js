@@ -53,7 +53,8 @@ const cfg = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-emotion`,
-    `gatsby-plugin-flow`
+    `gatsby-plugin-flow`,
+    `gatsby-source-instance-name-for-mdx`
   ]
 };
 

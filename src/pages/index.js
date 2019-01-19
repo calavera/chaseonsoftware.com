@@ -55,7 +55,10 @@ export default ({ data }: { data: IndexData }) => {
 
 export const query = graphql`
   query IndexQuery {
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(
+      filter: { fields: { sourceInstanceName: { eq: "articles" } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           id
