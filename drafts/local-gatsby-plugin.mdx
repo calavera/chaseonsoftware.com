@@ -1,0 +1,81 @@
+---
+title: Create Local Plugins for GatsbyJS Projects
+description: "Learn how (and why) to create a local plugin for GatsbyJS projects"
+---
+
+## Why Create A Local Plugin?
+
+## How To Create A Local Plugin?
+
+- create a `plugins` directory
+- initialize a subdirectory as an npm package
+- add name of package to `gatsby-config.js`
+
+This week I changed the Gatsby transformer for my blog from the Remark (Markdown) transformer to the Mdx (mdx) transformer plugin.
+
+I noticed that when I did that pages started to show up in my index and realized it was because the filter I had in my index was to remove any of the content that was a pageType of type "pages".
+
+I have 3 types of source providers: articles (things that I write), pages (evergreen-ish high-level pages) and drafts (stuff no one sees until I put in articles). I was setting the pageType through the source provider, but Mdx doesn't have support for those fields and I'm not quite ready to create a plugin for it (although I might!), so I wanted to do something quick and dirty.
+
+# Creating a Local Plugin
+
+This is where local plugins come into play. A local plugin is just what it sounds like: rather than installing a package from npm for a plugin, you can create a plugin in your repository that can live with the rest of your Gatsby blog's post.
+
+Gatsby knows to look in the `plugins` directory for a plugin directory. For my example, I wanted to create a plugin that would add source instances to the MDX nodes, so I ran the following from my project root:
+
+```sh
+mkdir -p plugins/gatsby-source-instance-name-mdx && cd !$ && npm init
+```
+
+It did 3 things:
+
+- created the directories for `plugins/gatsby-source-instance-name-mdx`
+- changed into that directory
+- ran the task for creating a new npm project
+
+It's imperative that this directory be initialized as an npm package (maybe explain why?)
+
+Once that was done, I created file called `gatsby-node.js`:
+
+<!--Insert Code -->
+
+Then, in my `gatsby-config.js` file, I added `gatsby-source-instance-name-mdx` to the plugins array:
+
+```JSON
+{
+    plugins: [
+        `gatsby-source-instance-name-mdx`
+    ]
+}
+```
+
+Now, whenever I start up my development server, I can add a filter for `sourceInstanceName` for `articles` and only get back any Mdx nodes that are articles:
+
+```graphql
+{
+  allMdx(filter: { fields: { sourceInstanceName: { eq: "articles" } } }) {
+    edges {
+      node {
+        id
+        code {
+          scope
+        }
+        fields {
+          slug
+          sourceInstanceName
+        }
+        frontmatter {
+          slug
+          title
+          tags
+        }
+        parent {
+          ... on File {
+            name
+          }
+        }
+      }
+    }
+  }
+}
+```
