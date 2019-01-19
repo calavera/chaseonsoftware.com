@@ -7,7 +7,7 @@
     "develop": "gatsby develop --host localhost --port 8000",
     "get-content": "node scripts/get_dropbox_files.js",
     "flow": "flow",
-    "build": "npm run get-content && npm run gatsby-build && npm run build-netlify-functions",
+    "build": "npm run gatsby-build && npm run build-netlify-functions",
     "develop-init": "npm install && npm run develop-ln-content",
     "develop-ln-content": "ln -s $HOME/Dropbox/Apps/chaseadams.io $PWD/content && ln -s $HOME/Dropbox/Apps/chaseadams.io-drafts $PWD/drafts",
     "gatsby-build": "gatsby build",
@@ -16,6 +16,8 @@
     "build-netlify-functions": "netlify-lambda build ./src/_netlify-functions"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^0.16.6",
+    "@mdx-js/tag": "^0.16.6",
     "core-js": "^2.5.7",
     "dotenv": "^6.1.0",
     "dropbox": "^4.0.12",
@@ -23,6 +25,7 @@
     "emotion-server": "^9.2.12",
     "gatsby": "next",
     "gatsby-image": "next",
+    "gatsby-mdx": "^0.3.4",
     "gatsby-plugin-canonical-urls": "next",
     "gatsby-plugin-catch-links": "next",
     "gatsby-plugin-emotion": "^2.0.6",
@@ -46,6 +49,7 @@
     "react-emotion": "^9.2.12",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
+    "slugify": "^1.3.4",
     "typography": "^0.16.17"
   },
   "version": "1.0.0",

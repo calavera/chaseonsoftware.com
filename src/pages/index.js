@@ -6,19 +6,17 @@ import Link from "gatsby-link";
 
 type EdgeNode = {
   id: string,
-  fields: {
-    pageType: string,
-    slug: string
-  },
   frontmatter: {
     title: string,
     description: string,
-    category: string,
     date: Date
+  },
+  fields: {
+    slug: string
   }
 };
 type IndexData = {
-  allMarkdownRemark: {
+  allMdx: {
     edges: $ReadOnlyArray<{ node: EdgeNode }>
   }
 };
@@ -27,7 +25,7 @@ export default ({ data }: { data: IndexData }) => {
   return (
     <Layout>
       <div className="container pad-container all-posts">
-        {data.allMarkdownRemark.edges
+        {data.allMdx.edges
           .filter(
             ({ node }: { node: EdgeNode }) => node.fields.pageType !== "pages"
           )
@@ -57,20 +55,18 @@ export default ({ data }: { data: IndexData }) => {
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           id
+          fields {
+            slug
+          }
           frontmatter {
             title
             description
             date(formatString: "YYYY/MM/DD")
             tags
-            category
-          }
-          fields {
-            slug
-            pageType
           }
           excerpt
         }

@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import styled, { css } from "react-emotion";
+import MDXRenderer from "gatsby-mdx/mdx-renderer";
 
 const PostMeta = styled("div")`
   margin-top: 1rem;
@@ -13,7 +14,7 @@ const PostMeta = styled("div")`
 `;
 
 type PostData = {
-  markdownRemark: {
+  mdx: {
     frontmatter: {
       title: string,
       description: string,
@@ -24,16 +25,16 @@ type PostData = {
   }
 };
 
-export default ({ data }: { data: PostData }) => {
-  const post = data.markdownRemark;
+export default ({ data: { mdx } }: PostData) => {
+  const { frontmatter, code } = mdx;
   return (
     <Layout>
       <Helmet
-        title={post.frontmatter.title}
+        title={frontmatter.title}
         meta={[
           {
             name: "description",
-            content: post.frontmatter.description
+            content: frontmatter.description
           }
         ]}
       />
@@ -58,26 +59,26 @@ export default ({ data }: { data: PostData }) => {
         `}
       >
         <header className="container-m">
-          <h1>{post.frontmatter.title}</h1>
+          <h1>{frontmatter.title}</h1>
         </header>
         <section>
           <div className="container-m">
-            {post.frontmatter.description && (
-              <h2 className="h2--subtitle">{post.frontmatter.description}</h2>
+            {frontmatter.description && (
+              <h2 className="h2--subtitle">{frontmatter.description}</h2>
             )}
-            <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <MDXRenderer>{code.body}</MDXRenderer>
             <PostMeta>
-              {post.frontmatter.tags && (
+              {frontmatter.tags && (
                 <div>
                   <span>Topics: </span>
                   <ul className="list-as-sentence">
-                    {post.frontmatter.tags.map((tag, idx) => (
+                    {frontmatter.tags.map((tag, idx) => (
                       <li key={idx}>{tag}</li>
                     ))}
                   </ul>
                 </div>
               )}
-              <span>Date:</span> <time>{post.frontmatter.date}</time>
+              <span>Date:</span> <time>{frontmatter.date}</time>
             </PostMeta>
           </div>
         </section>
@@ -87,15 +88,18 @@ export default ({ data }: { data: PostData }) => {
 };
 
 export const query = graphql`
-  query BlogPostQuery($slug: String!) {
+  query BlogPostQuery($id: String!) {
     site {
       siteMetadata {
         title
         description
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
+    mdx(id: { eq: $id }) {
+      id
+      code {
+        body
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")

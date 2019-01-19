@@ -1,3 +1,6 @@
+const path = require(`path`);
+const mdxFeed = require(`gatsby-mdx/feed`);
+
 const cfg = {
   siteMetadata: {
     title: `Chase Adams`,
@@ -5,20 +8,6 @@ const cfg = {
     siteUrl: `https://www.chaseadams.io`
   },
   plugins: [
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          `gatsby-remark-prismjs`,
-          {
-            resolve: `gatsby-remark-autolink-headers`,
-            options: {
-              offsetY: `80`
-            }
-          }
-        ]
-      }
-    },
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
@@ -45,11 +34,24 @@ const cfg = {
         path: `${__dirname}/content/articles`
       }
     },
+    {
+      resolve: `gatsby-mdx`,
+      options: {
+        // extensions: [".mdx", ".md"],
+        defaultLayouts: {
+          articles: { default: path.resolve(`./src/components/layout.js`) },
+          pages: { default: path.resolve(`./src/components/layout.js`) }
+        }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: mdxFeed
+    },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-feed`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-flow`
   ]
