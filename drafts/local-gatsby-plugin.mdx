@@ -1,7 +1,22 @@
 ---
 title: Create Local Plugins for GatsbyJS Projects
 description: "Learn how (and why) to create a local plugin for GatsbyJS projects"
+date: 2019-01-21
 ---
+
+# Why did I want to write about this?
+
+- I wanted to use MDX as the format I wrote content in, but the MDX plugin didn't do exactly what I wanted it to. I found that with Gatsby it's really easy to extend functionality with local plugins and decided to give that a spin to get the functionality I wanted.
+
+# What functionality did you want?
+
+I wanted to be able to filter content based on its source type. I use the `gatsby-source-filesystem` plugin that pulls files so that a transformer can take that raw content and convert it. You can give each instance of pulling source a specific name and that name can be used to filter content. As an example, I have 3 different source types:
+
+- `articles` - this comes from the `content/articles` directory. It's the content of my blog that is **ready to be shared**
+- `drafts` - this comes from the `drafts` directory. It's the content of my blog that I'm working on and I don't want published to my live site but may want deployed on a non-master a branch deploy.
+- `pages` - this comes from the `content/pages` directory. It's the "evergreen" content for my website (it includes things like "About" as well as sections such as my "Useful Git Commands" page).
+
+In my `index.js` I only want `articles` to be displayed, so I needed to be able to use a GraphQL query that could filter the results to _only_ articles if it's production and `articles` and `drafts` for non-production requests.
 
 ## Why Create A Local Plugin?
 

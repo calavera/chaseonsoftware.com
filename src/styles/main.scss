@@ -110,17 +110,11 @@ img {
             color: $black;
         }
         h1 {
-            margin-bottom: 0.5rem;
             font-size: 1.25rem;
             line-height: 1.8rem;
         }
         .description {
             padding: 0 0 1rem 0;
-        }
-        .post-meta {
-            font-size: 0.8rem;
-            font-style: italic;
-            color: lighten($black, 30%);
         }
         a,
         a:visited {
