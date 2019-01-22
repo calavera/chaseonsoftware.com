@@ -1,0 +1,213 @@
+/*
+Name: Duotone Dark
+Author: Simurai, adapted from DuoTone themes for Atom (http://simurai.com/projects/2016/01/01/duotone-themes)
+
+Conversion: Bram de Haan (http://atelierbram.github.io/Base2Tone-prism/output/prism/prism-base2tone-evening-dark.css)
+Generated with Base16 Builder (https://github.com/base16-builder/base16-builder)
+*/
+
+$background: #272B34;
+$foreground: #C7C8FF;
+$foregroundMuted: #757694;
+$foregroundHalf: #C7C8FFCC;
+$black: #1B2229;
+$red: #F86F65;
+$red33: #F86F6533;
+$red88: #F86F6588;
+$green: #A1EF9D;
+$green33: #A1EF9D33;
+$green88: #A1EF9D88;
+$green99: #A1EF9D99;
+$yellow: #FDC64D;
+$yellow88: #FDC64D88;
+$blue: #6CA9FF;
+$blue33: #6CA9FF33;
+$blue55: #6CA9FF55;
+$blue88: #6CA9FF88;
+$magenta: #D983F5;
+$magenta33: #D983F533;
+$cyan: #67DCF9;
+$cyan33: #67DCF933;
+$cyanAlt: #37CCFF;
+$white: #C8C8FF;
+$gray00: #20242D;
+$gray01: #2B2E3B;
+$gray02: #343848;
+$gray03: #404859;
+$gray04: #52606B;
+$gray05: #969DAC;
+$gray06: #BCC5D8;
+$gray07: #D7DAE2;
+code {
+    padding: 3px 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    color: $black;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+    font-size: 14px;
+    line-height: 1.375;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    background: #2a2734;
+    color: $foreground;
+}
+
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+    text-shadow: none;
+    background: $background;
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+    text-shadow: none;
+    background: $background;
+}
+
+/* Code blocks */
+
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+}
+
+/* Inline code */
+
+:not(pre)>code[class*="language-"] {
+    padding: .1em;
+    border-radius: .3em;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #6c6783;
+}
+
+.token.punctuation {
+    color: #6c6783;
+}
+
+.token.namespace {
+    opacity: .7;
+}
+
+.token.tag,
+.token.operator,
+.token.number {
+    color: #e09142;
+}
+
+.token.property,
+.token.function {
+    color: #9a86fd;
+}
+
+.token.tag-id,
+.token.selector,
+.token.atrule-id {
+    color: #eeebff;
+}
+
+code.language-javascript,
+.token.attr-name {
+    color: #c4b9fe;
+}
+
+code.language-css,
+code.language-scss,
+.token.boolean,
+.token.string,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.language-scss .token.string,
+.style .token.string,
+.token.attr-value,
+.token.keyword,
+.token.control,
+.token.directive,
+.token.unit,
+.token.statement,
+.token.regex,
+.token.atrule {
+    color: $foreground;
+}
+
+.token.placeholder,
+.token.variable {
+    color: $foreground;
+}
+
+.token.deleted {
+    text-decoration: line-through;
+}
+
+.token.inserted {
+    border-bottom: 1px dotted #eeebff;
+    text-decoration: none;
+}
+
+.token.italic {
+    font-style: italic;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.important {
+    color: #c4b9fe;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+pre>code.highlight {
+    outline: .4em solid #8a75f5;
+    outline-offset: .4em;
+}
+
+/* overrides color-values for the Line Numbers plugin
+ * http://prismjs.com/plugins/line-numbers/
+ */
+
+.line-numbers .line-numbers-rows {
+    border-right-color: #2c2937;
+}
+
+.line-numbers-rows>span:before {
+    color: #3c3949;
+}
+
+/* overrides color-values for the Line Highlight plugin
+* http://prismjs.com/plugins/line-highlight/
+*/
+
+.line-highlight {
+    background: rgba(224, 145, 66, 0.2);
+    background: -webkit-linear-gradient(left, rgba(224, 145, 66, 0.2) 70%, rgba(224, 145, 66, 0));
+    background: linear-gradient(to right, rgba(224, 145, 66, 0.2) 70%, rgba(224, 145, 66, 0));
+}

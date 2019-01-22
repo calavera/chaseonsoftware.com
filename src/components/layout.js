@@ -7,7 +7,7 @@ import SiteFooter from "./sitefooter";
 
 // $FlowFixMe going to dump scss soon anyways, easier than fixing with flowconfig
 import "../styles/main.scss";
-import "prismjs/themes/prism-okaidia.css";
+import "../styles/prism.scss";
 
 type LayoutData = {
   site: {

@@ -4,7 +4,24 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import styled, { css } from "react-emotion";
+
+import { Code } from "../components/code";
+import { MDXProvider } from "@mdx-js/tag";
 import MDXRenderer from "gatsby-mdx/mdx-renderer";
+import { preToCodeBlock } from "mdx-utils";
+
+const components = {
+  pre: preProps => {
+    const props = preToCodeBlock(preProps);
+    // if there's a codeString and some props, we passed the test
+    if (props) {
+      return <Code {...props} />;
+    } else {
+      // it's possible to have a pre without a code in it
+      return <pre {...preProps} />;
+    }
+  }
+};
 
 const PostMeta = styled("div")`
   margin-top: 1rem;
@@ -66,7 +83,9 @@ export default ({ data: { mdx } }: PostData) => {
             {frontmatter.description && (
               <h2 className="h2--subtitle">{frontmatter.description}</h2>
             )}
-            <MDXRenderer>{code.body}</MDXRenderer>
+            <MDXProvider components={{ ...components }}>
+              <MDXRenderer>{code.body}</MDXRenderer>
+            </MDXProvider>
             <PostMeta>
               {frontmatter.tags && (
                 <div>
