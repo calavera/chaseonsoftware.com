@@ -10,7 +10,11 @@ import { MDXProvider } from "@mdx-js/tag";
 import MDXRenderer from "gatsby-mdx/mdx-renderer";
 import { preToCodeBlock } from "mdx-utils";
 
+import Header from "../components/autolinkheader";
+
 const components = {
+  h1: props => <Header is="h1" {...props} />,
+  h2: props => <Header is="h2" {...props} />,
   pre: preProps => {
     const props = preToCodeBlock(preProps);
     // if there's a codeString and some props, we passed the test
