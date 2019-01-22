@@ -1,5 +1,5 @@
-const onCreateNode = ({ node, boundActionCreators, getNode }) => {
-  const { createNodeField } = boundActionCreators;
+const onCreateNode = ({ node, actions, getNode }) => {
+  const { createNodeField } = actions;
 
   if (node.internal.type === "Mdx") {
     const parent = getNode(node.parent);
