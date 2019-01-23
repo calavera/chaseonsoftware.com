@@ -44,7 +44,7 @@ exports.createPages = ({ graphql, actions }) => {
           createPage({
             path: fields.slug,
             component: require.resolve("./src/templates/post.js"),
-            context: { id: node.id }
+            context: { slug: fields.slug }
           });
         });
       })

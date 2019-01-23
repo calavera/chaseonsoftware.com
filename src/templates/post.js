@@ -111,14 +111,14 @@ export default ({ data: { mdx } }: PostData) => {
 };
 
 export const query = graphql`
-  query BlogPostQuery($id: String!) {
+  query BlogPostQuery($slug: String!) {
     site {
       siteMetadata {
         title
         description
       }
     }
-    mdx(id: { eq: $id }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       id
       code {
         body
