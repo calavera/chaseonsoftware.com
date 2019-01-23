@@ -65,3 +65,7 @@ yarn-error.log
 
 # netlify build dir for functions
 functions
+
+# content comes from dropbox
+src/content
+src/drafts
