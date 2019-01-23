@@ -5,9 +5,9 @@
   "scripts": {
     "clean": "rm -rf public",
     "develop": "gatsby develop --host localhost --port 8000",
-    "get-content": "node scripts/get_dropbox_files.js",
+    "get-content": "node scripts/get_dropbox_contents.js",
     "flow": "flow",
-    "build": "npm run gatsby-build && npm run build-netlify-functions",
+    "build": "npm run get-content && npm run gatsby-build && npm run build-netlify-functions",
     "develop-init": "npm install && npm run develop-ln-content",
     "develop-ln-content": "ln -s $HOME/Dropbox/Apps/chaseadams.io $PWD/content && ln -s $HOME/Dropbox/Apps/chaseadams.io-drafts $PWD/drafts",
     "gatsby-build": "gatsby build",
