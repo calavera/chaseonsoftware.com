@@ -17,19 +17,9 @@ const dbx = new Dropbox({
   fetch: fetch
 });
 
-if (process.env.CONTEXT !== "production") {
-  // Clean anything up that exists already, since we'll be re-building this folder
-  // everytime we run a build
-  const DRAFTS_DIR = path.resolve(__dirname, "../drafts");
-  fs.removeSync(DRAFTS_DIR);
-  fs.ensureDirSync(DRAFTS_DIR);
-
-  downloadContent("");
-}
-
 // Clean anything up that exists already, since we'll be re-building this folder
 // everytime we run a build
-const POSTS_DIR = path.resolve(__dirname, "../content");
+const POSTS_DIR = path.resolve(__dirname, "../src/content");
 fs.removeSync(POSTS_DIR);
 fs.ensureDirSync(POSTS_DIR);
 

@@ -24,14 +24,14 @@ const cfg = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/content/pages`
+        path: `${__dirname}/src/content/pages`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `articles`,
-        path: `${__dirname}/content/articles`
+        path: `${__dirname}/src/content/articles`
       }
     },
     {
@@ -70,7 +70,7 @@ if (process.env.CONTEXT === "production") {
     resolve: `gatsby-source-filesystem`,
     options: {
       name: `drafts`,
-      path: `${__dirname}/drafts`
+      path: `${__dirname}/src/drafts`
     }
   });
 }
