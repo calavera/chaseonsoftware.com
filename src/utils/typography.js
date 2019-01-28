@@ -3,8 +3,8 @@ import Typography from "typography";
 const typography = new Typography({
   baseFontSize: "16px",
   baseLineHeight: 1.45,
-  headerFontFamily: ["Roboto", "Nunito", "sans-serif"],
-  bodyFontFamily: ["Roboto", "Nunito", "sans-serif"]
+  headerFontFamily: ["Barlow", "Nunito", "sans-serif"],
+  bodyFontFamily: ["Barlow", "Nunito", "sans-serif"]
 });
 
 const { rhythm, scale } = typography;

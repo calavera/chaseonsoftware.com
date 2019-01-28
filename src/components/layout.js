@@ -55,7 +55,7 @@ export default ({ children, ...props }: { children: Node }) => {
                 },
                 {
                   rel: "stylesheet",
-                  href: "https://fonts.googleapis.com/css?family=Roboto:400,700"
+                  href: "https://fonts.googleapis.com/css?family=Barlow:400,700"
                 }
               ]}
             />
