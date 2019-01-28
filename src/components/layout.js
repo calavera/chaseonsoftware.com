@@ -54,7 +54,11 @@ export default ({ children }: { children: Node }) => {
               }
             ]}
           />
-          <SiteHeader siteTitle={data.site.siteMetadata.title} />
+
+            <SiteHeader
+              isHomePage={props.isHomePage}
+              siteTitle={data.site.siteMetadata.title}
+            />
           <div className="content">{children}</div>
           <SiteFooter />
         </div>

@@ -2,6 +2,8 @@
 import React from "react";
 import Layout from "../components/layout";
 import Helmet from "react-helmet";
+import PageContainer from "../components/pagecontainer";
+import { LinkExternal } from "../components/link";
 
 function encode(data: Object) {
   return Object.keys(data)
@@ -15,19 +17,35 @@ const ContactInfo = () => (
     <ul>
       <li>
         talking about software, distributed teams & work on{" "}
-        <a href="https://twitter.com/chaseadamsio">Twitter</a>.
+        <LinkExternal href="https://twitter.com/chaseadamsio">
+          Twitter
+        </LinkExternal>
+        .
       </li>{" "}
       <li>
         building software on{" "}
-        <a href="https://gitlab.com/chaseadamsio">GitLab</a> and{" "}
-        <a href="https://github.com/chaseadamsio">GitHub</a>.
+        <LinkExternal href="https://gitlab.com/chaseadamsio">
+          GitLab
+        </LinkExternal>{" "}
+        and{" "}
+        <LinkExternal href="https://github.com/chaseadamsio">
+          GitHub
+        </LinkExternal>
+        .
       </li>
       <li>
-        also writing on <a href="https://medium.com/chaseadamsio">Medium</a>.
+        also writing on{" "}
+        <LinkExternal href="https://medium.com/chaseadamsio">
+          Medium
+        </LinkExternal>
+        .
       </li>
       <li>
         professionally on{" "}
-        <a href="https://www.linkedin.com/in/chaseadams/">LinkedIn</a>.
+        <LinkExternal href="https://www.linkedin.com/in/chaseadams/">
+          LinkedIn
+        </LinkExternal>
+        .
       </li>
     </ul>
     <p style={{ fontStyle: "italic" }}>
@@ -309,15 +327,16 @@ class ContactPage extends React.Component<{}, {}> {
     return (
       <Layout>
         <Helmet title="Say Hi | Chase Adams" />
-        <article style={{ minHeight: "100vh" }}>
-          <header className="container-m">
-            <h1 className="container">Say Hi!</h1>
-          </header>
-          <div className="group container-l pad-h-container">
-            <ContactInfo />
-            <ContactForm />
-          </div>
-        </article>
+        <PageContainer>
+          <article style={{ minHeight: "100vh" }}>
+            <header className="container-m">
+              <h1 className="container">Say Hi!</h1>
+            </header>
+            <div className="group container-l pad-h-container">
+              <ContactInfo />
+            </div>
+          </article>
+        </PageContainer>
       </Layout>
     );
   }

@@ -2,7 +2,10 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import Link from "gatsby-link";
+import { colors } from "../utils/styled";
+import PageContainer from "../components/pagecontainer";
+
+import Link from "../components/link";
 
 type EdgeNode = {
   id: string,
@@ -25,38 +28,32 @@ type IndexData = {
 
 export default ({ data }: { data: IndexData }) => {
   return (
-    <Layout>
-      <div className="container pad-container all-posts">
+    <Layout isHomePage>
+      <PageContainer>
+        <p css={{ marginTop: "5rem", fontSize: "1.5rem", fontWeight: "bold" }}>
+          Articles
+        </p>
         {data.allMdx.edges
           .filter(
             ({ node }: { node: EdgeNode }) =>
               node.frontmatter.category !== "archive"
           )
           .map(({ node }: { node: EdgeNode }) => (
-            <div className="post group" key={node.id}>
+            <div css={{ marginBottom: "2rem" }} key={node.id}>
               <div>
-                <h1>
-                  <Link
-                    css={{
-                      color: "#666 !important"
-                    }}
-                    to={node.fields.slug}
-                  >
-                    {node.frontmatter.title}
-                  </Link>
+                <h1 css={{ fontSize: "1.5rem", marginBottom: 0 }}>
+                  <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
                 </h1>
                 <div className="post-meta">
                   <time>{node.frontmatter.date}</time>
                 </div>
                 {node.frontmatter.description && (
-                  <div className="description">
-                    {node.frontmatter.description}
-                  </div>
+                  <div>{node.frontmatter.description}</div>
                 )}
               </div>
             </div>
           ))}
-      </div>
+      </PageContainer>
     </Layout>
   );
 };
