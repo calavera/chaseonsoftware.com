@@ -2,12 +2,16 @@
 import React, { type Node } from "react";
 import { StaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
+import { ThemeProvider } from "emotion-theming";
+import { colors } from "../utils/styled";
+
 import SiteHeader from "./siteheader";
 import SiteFooter from "./sitefooter";
-
-// $FlowFixMe going to dump scss soon anyways, easier than fixing with flowconfig
-import "../styles/main.scss";
 import "../styles/prism.scss";
+
+const theme = {
+  colors
+};
 
 type LayoutData = {
   site: {
@@ -18,7 +22,7 @@ type LayoutData = {
   }
 };
 
-export default ({ children }: { children: Node }) => {
+export default ({ children, ...props }: { children: Node }) => {
   return (
     <StaticQuery
       query={graphql`
@@ -32,36 +36,38 @@ export default ({ children }: { children: Node }) => {
         }
       `}
       render={(data: LayoutData) => (
-        <div>
-          <Helmet
-            title={`${data.site.siteMetadata.title} | ${
-              data.site.siteMetadata.description
-            }`}
-            meta={[
-              {
-                name: "description",
-                content: data.site.siteMetadata.description
-              }
-            ]}
-            link={[
-              {
-                rel: "author",
-                href: "/humans.txt"
-              },
-              {
-                rel: "stylesheet",
-                href: "https://fonts.googleapis.com/css?family=Roboto:400,700"
-              }
-            ]}
-          />
+        <ThemeProvider theme={theme}>
+          <div>
+            <Helmet
+              title={`${data.site.siteMetadata.title} | ${
+                data.site.siteMetadata.description
+              }`}
+              meta={[
+                {
+                  name: "description",
+                  content: data.site.siteMetadata.description
+                }
+              ]}
+              link={[
+                {
+                  rel: "author",
+                  href: "/humans.txt"
+                },
+                {
+                  rel: "stylesheet",
+                  href: "https://fonts.googleapis.com/css?family=Roboto:400,700"
+                }
+              ]}
+            />
 
             <SiteHeader
               isHomePage={props.isHomePage}
               siteTitle={data.site.siteMetadata.title}
             />
-          <div className="content">{children}</div>
-          <SiteFooter />
-        </div>
+            <div className="content">{children}</div>
+            <SiteFooter />
+          </div>
+        </ThemeProvider>
       )}
     />
   );
