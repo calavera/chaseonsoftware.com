@@ -65,7 +65,10 @@ if (process.env.CONTEXT === "production") {
       trackingId: "UA-62564031-1"
     }
   });
-} else if (process.env.CONTEXT !== "production") {
+} else if (
+  process.env.CONTEXT !== "production" &&
+  process.env.CONTEXT !== "stable"
+) {
   cfg.plugins.push({
     resolve: `gatsby-source-filesystem`,
     options: {
