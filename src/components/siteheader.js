@@ -89,7 +89,7 @@ const SiteHeader = (props: SiteHeaderProps) => {
           padding: `${marginTop} 0`
         }}
       >
-        <h1 css={{ marginBottom: ".5rem" }}>
+        <h1 css={{ marginBottom: ".5rem", fontWeight: "normal" }}>
           <span css={{ fontSize: fontSizeH1 }}>
             Hi, I'm <Link to="/">Chase Adams</Link>. I build software at
             Webflow.{" "}
