@@ -2,7 +2,6 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import { colors } from "../utils/styled";
 import PageContainer from "../components/pagecontainer";
 
 import Link from "../components/link";
@@ -13,7 +12,8 @@ type EdgeNode = {
     title: string,
     description: string,
     date: Date,
-    category: string
+    category: string,
+    tags: Array<string>
   },
   fields: {
     slug: string,
@@ -33,26 +33,35 @@ export default ({ data }: { data: IndexData }) => {
         <p css={{ marginTop: "5rem", fontSize: "1.5rem", fontWeight: "bold" }}>
           Articles
         </p>
-        {data.allMdx.edges
-          .filter(
-            ({ node }: { node: EdgeNode }) =>
-              node.frontmatter.category !== "archive"
-          )
-          .map(({ node }: { node: EdgeNode }) => (
-            <div css={{ marginBottom: "2rem" }} key={node.id}>
-              <div>
-                <h1 css={{ fontSize: "1.5rem", marginBottom: 0 }}>
-                  <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
-                </h1>
-                <div className="post-meta">
-                  <time>{node.frontmatter.date}</time>
-                </div>
-                {node.frontmatter.description && (
-                  <div>{node.frontmatter.description}</div>
-                )}
-              </div>
+        {data.allMdx.edges.map(({ node }) => (
+          <div
+            css={{
+              paddingBottom: "1rem",
+              marginBottom: "1rem",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between"
+            }}
+            key={node.id}
+          >
+            <h1
+              css={{
+                fontSize: "1.15rem",
+                fontWeight: "normal",
+                marginBottom: 0
+              }}
+            >
+              <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
+            </h1>
+            <div
+              css={{
+                minWidth: "100px"
+              }}
+            >
+              <time>{node.frontmatter.date}</time>
             </div>
-          ))}
+          </div>
+        ))}
       </PageContainer>
     </Layout>
   );
@@ -61,7 +70,10 @@ export default ({ data }: { data: IndexData }) => {
 export const query = graphql`
   query IndexQuery {
     allMdx(
-      filter: { fields: { sourceInstanceName: { ne: "pages" } } }
+      filter: {
+        fields: { sourceInstanceName: { ne: "pages" } }
+        frontmatter: { category: { ne: "archive" } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {
@@ -74,7 +86,7 @@ export const query = graphql`
           frontmatter {
             title
             description
-            date(formatString: "YYYY.MM.DD")
+            date(formatString: "YYYY-MM-DD")
             tags
             category
           }

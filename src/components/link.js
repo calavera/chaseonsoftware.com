@@ -1,21 +1,20 @@
 import React from "react";
 import { default as GatsbyLink } from "gatsby-link";
 import { withTheme } from "emotion-theming";
-import { colors } from "../utils/styled";
 
 const styleLink = props => ({
   textDecoration: "none !important",
-  color: `${colors.greenDark} !important`,
+  color: `${props.theme.link} !important`,
   "&:hover": {
-    borderBottom: `3px solid ${colors.greenDark}`
+    borderBottom: `3px solid ${props.theme.link}`
   }
 });
 
-export const LinkExternal = props => (
-  <a css={styleLink} {...props}>
+export const LinkExternal = withTheme(props => (
+  <a css={styleLink(props)} {...props}>
     {props.children}
   </a>
-);
+));
 
-const Link = props => <GatsbyLink css={styleLink} {...props} />;
+const Link = props => <GatsbyLink css={styleLink(props)} {...props} />;
 export default withTheme(Link);

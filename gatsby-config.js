@@ -51,7 +51,6 @@ const cfg = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
     `gatsby-plugin-emotion`,
     `gatsby-plugin-flow`,
     `gatsby-source-instance-name-mdx`
@@ -65,7 +64,7 @@ if (process.env.CONTEXT === "production") {
       trackingId: "UA-62564031-1"
     }
   });
-} else if (process.env.CONTEXT !== "production") {
+} else if (process.env.CONTEXT === undefined) {
   cfg.plugins.push({
     resolve: `gatsby-source-filesystem`,
     options: {

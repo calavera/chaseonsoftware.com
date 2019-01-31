@@ -1,5 +1,6 @@
 import React from "react";
 import PageContainer from "./pagecontainer";
+import Link, { LinkExternal } from "../components/link";
 
 export default () => (
   <PageContainer>
@@ -7,35 +8,31 @@ export default () => (
       css={{
         borderTop: "1px solid #ccc",
         marginTop: "2rem",
-        paddingTop: "2rem"
+        padding: "1rem 0"
       }}
     >
       <div className="footer-inner">
-        <p>
-          <a href="/">chaseadams.io</a> is powered by GatsbyJS, Github &
+        <div>
+          <Link to="/">chaseadams.io</Link> is powered by GatsbyJS, Github &
           Netlify.
           <br />
-        </p>
-        <p>
-          Read more about the topology in the{" "}
-          <a href="/site-guide">Site Guide</a>.
-        </p>
-        <p>
+        </div>
+        <div>
           Find the source for
-          <a href="https://github.com/chaseadamsio/chaseadams.io">
+          <LinkExternal href="https://github.com/chaseadamsio/chaseadams.io">
             {" "}
             chaseadams.io
-          </a>{" "}
-          on <a href="https://github.com">GitHub.</a>
-        </p>
-        <p>
-          <a href="/contact/">
+          </LinkExternal>{" "}
+          on GitHub.
+        </div>
+        <div>
+          <Link to="/contact/">
             <span role="img" aria-label="waving">
               👋
             </span>{" "}
             Say Hi!
-          </a>
-        </p>
+          </Link>
+        </div>
       </div>
     </footer>
   </PageContainer>

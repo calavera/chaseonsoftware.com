@@ -3,21 +3,34 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import styled, { css } from "react-emotion";
 
 import { Code } from "../components/code";
-import Link from "../components/link";
+import { LinkExternal } from "../components/link";
 import { MDXProvider } from "@mdx-js/tag";
 import MDXRenderer from "gatsby-mdx/mdx-renderer";
 import { preToCodeBlock } from "mdx-utils";
 
 import Header from "../components/autolinkheader";
 import PageContainer from "../components/pagecontainer";
+import { withTheme } from "emotion-theming";
+
+const InlineCode = withTheme(props => (
+  <code
+    css={{
+      background: props.theme.code,
+      color: props.theme.foregroundSubtle,
+      border: `1px solid ${props.theme.codeBorder}`
+    }}
+  >
+    {props.children}
+  </code>
+));
 
 const components = {
   h1: props => <Header is="h1" {...props} />,
   h2: props => <Header is="h2" {...props} />,
-  a: props => <Link {...props} />,
+  a: props => <LinkExternal {...props} />,
+  inlineCode: props => <InlineCode {...props} />,
   pre: preProps => {
     const props = preToCodeBlock(preProps);
     // if there's a codeString and some props, we passed the test
@@ -29,13 +42,6 @@ const components = {
     }
   }
 };
-
-const PostMeta = styled("div")`
-  margin-top: 1rem;
-  padding: 1rem;
-  background: #eee;
-  border: 1px solid #ccc;
-`;
 
 type PostData = {
   mdx: {
@@ -65,18 +71,24 @@ export default ({ data: { mdx } }: PostData) => {
 
       <PageContainer>
         <article>
-          <header className="container-m">
-            <h1>{frontmatter.title}</h1>
+          <header css={{ marginBottom: "2rem" }}>
+            <h1 css={{ marginBottom: ".5rem" }}>{frontmatter.title}</h1>
+            {frontmatter.updated && (
+              <span>
+                <strong>Updated:</strong> <time>{frontmatter.updated}</time>{" "}
+              </span>
+            )}
+            <span>
+              <strong>Published:</strong> <time>{frontmatter.date}</time>
+            </span>
           </header>
           <section>
-            <div className="container-m">
-              {frontmatter.description && (
-                <h2 className="h2--subtitle">{frontmatter.description}</h2>
-              )}
+            <div>
+              {frontmatter.description && <h2>{frontmatter.description}</h2>}
               <MDXProvider components={{ ...components }}>
                 <MDXRenderer>{code.body}</MDXRenderer>
               </MDXProvider>
-              <PostMeta>
+              <div>
                 {frontmatter.tags && (
                   <div>
                     <span>Topics: </span>
@@ -87,8 +99,7 @@ export default ({ data: { mdx } }: PostData) => {
                     </ul>
                   </div>
                 )}
-                <span>Date:</span> <time>{frontmatter.date}</time>
-              </PostMeta>
+              </div>
             </div>
           </section>
         </article>
@@ -112,7 +123,8 @@ export const query = graphql`
       }
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY-MM-DD")
+        updated(formatString: "YYYY-MM-DD")
         description
         tags
       }
