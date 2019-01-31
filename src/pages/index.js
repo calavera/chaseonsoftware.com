@@ -55,7 +55,11 @@ export default ({ data }: { data: IndexData }) => {
             </h1>
             <div
               css={{
-                minWidth: "100px"
+                minWidth: "100px",
+                marginLeft: ".5rem",
+                "@media (max-width: 425px)": {
+                  display: "none"
+                }
               }}
             >
               <time>{node.frontmatter.date}</time>
