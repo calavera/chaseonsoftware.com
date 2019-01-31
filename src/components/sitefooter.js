@@ -13,7 +13,7 @@ export default () => (
     >
       <div className="footer-inner">
         <div>
-          <Link to="/">chaseadams.io</Link> is powered by GatsbyJS, Github &
+          <Link to="/">chaseadams.io</Link> is powered by GatsbyJS, GitHub &
           Netlify.
           <br />
         </div>
