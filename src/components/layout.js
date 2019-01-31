@@ -3,7 +3,6 @@ import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import Helmet from "react-helmet";
 import { ThemeProvider } from "emotion-theming";
-import { injectGlobal } from "react-emotion";
 
 import { library, dom } from "@fortawesome/fontawesome-svg-core";
 import { faMoon, faCoffee } from "@fortawesome/free-solid-svg-icons";
@@ -11,7 +10,7 @@ import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import SiteHeader from "./siteheader";
 import SiteFooter from "./sitefooter";
-import { colors, lightTheme, darkTheme } from "../utils/colors";
+import { lightTheme, darkTheme } from "../utils/colors";
 
 library.add(faMoon, faCoffee, faTwitter, faGithub);
 
@@ -75,11 +74,6 @@ class Layout extends React.Component {
       mode: mode,
       theme: mode === darkMode ? darkTheme : lightTheme
     });
-
-    injectGlobal`
-      color: ${colors.black};
-      background-color: ${colors.black};
-    `;
   }
 
   render() {
