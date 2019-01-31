@@ -13,15 +13,15 @@ export default () => (
     >
       <div className="footer-inner">
         <div>
-          <Link to="/">chaseadams.io</Link> is powered by GatsbyJS, GitHub &
+          <Link to="/">chaseonsoftware.com</Link> is powered by GatsbyJS, GitHub &
           Netlify.
           <br />
         </div>
         <div>
           Find the source for
-          <LinkExternal href="https://github.com/chaseadamsio/chaseadams.io">
+          <LinkExternal href="https://github.com/chaseadamsio/chaseonsoftware.com">
             {" "}
-            chaseadams.io
+            chaseonsoftware.com
           </LinkExternal>{" "}
           on GitHub.
         </div>

@@ -17,6 +17,9 @@ import { withTheme } from "emotion-theming";
 const InlineCode = withTheme(props => (
   <code
     css={{
+      padding: "3px",
+      borderRadius: "5px",
+      whiteSpace: "nowrap",
       background: props.theme.code,
       color: props.theme.foregroundSubtle,
       border: `1px solid ${props.theme.codeBorder}`
@@ -27,8 +30,12 @@ const InlineCode = withTheme(props => (
 ));
 
 const components = {
-  h1: props => <Header is="h1" {...props} />,
-  h2: props => <Header is="h2" {...props} />,
+  h1: props => <Header level={1} {...props} />,
+  h2: props => <Header level={2} {...props} />,
+  h3: props => <Header level={3} {...props} />,
+  h4: props => <Header level={4} {...props} />,
+  h5: props => <Header level={5} {...props} />,
+  h6: props => <Header level={6} {...props} />,
   a: props => <LinkExternal {...props} />,
   inlineCode: props => <InlineCode {...props} />,
   pre: preProps => {
@@ -72,19 +79,25 @@ export default ({ data: { mdx } }: PostData) => {
       <PageContainer>
         <article>
           <header css={{ marginBottom: "2rem" }}>
-            <h1 css={{ marginBottom: ".5rem" }}>{frontmatter.title}</h1>
+            <h1 css={{ marginBottom: ".5rem", fontWeight: "normal" }}>
+              {frontmatter.title}
+            </h1>
             {frontmatter.updated && (
               <span>
-                <strong>Updated:</strong> <time>{frontmatter.updated}</time>{" "}
+                Updated: <time>{frontmatter.updated}</time>{" "}
               </span>
             )}
             <span>
-              <strong>Published:</strong> <time>{frontmatter.date}</time>
+              Published: <time>{frontmatter.date}</time>
             </span>
           </header>
           <section>
             <div>
-              {frontmatter.description && <h2>{frontmatter.description}</h2>}
+              {frontmatter.description && (
+                <h2 css={{ fontWeight: "normal" }}>
+                  {frontmatter.description}
+                </h2>
+              )}
               <MDXProvider components={{ ...components }}>
                 <MDXRenderer>{code.body}</MDXRenderer>
               </MDXProvider>

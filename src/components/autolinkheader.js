@@ -1,10 +1,12 @@
 import React from "react";
 import { css } from "emotion";
 import GHSlugger from "github-slugger";
+
 const slugger = new GHSlugger();
 
 // The following styles were borrowed from GitHub's anchor hover
 const linkWrapperStyle = css({
+  fontWeight: "normal",
   "&:hover svg": {
     visibility: "visible"
   }
@@ -21,11 +23,12 @@ const svgStyle = css({
   visibility: "hidden"
 });
 
-const AutoLinkHeader = ({ is: Component, ...props }) => {
+const AutoLinkHeader = ({ level, ...props }) => {
+  const Heading = `h${level}`;
   const slug = slugger.slug(props.children);
   return (
     <div>
-      <Component id={slug} css={linkWrapperStyle}>
+      <Heading id={slug} css={linkWrapperStyle}>
         <a href={`#${slug}`} css={linkStyle}>
           <svg
             aria-hidden="true"
@@ -42,7 +45,7 @@ const AutoLinkHeader = ({ is: Component, ...props }) => {
           </svg>
         </a>{" "}
         <span>{props.children}</span>
-      </Component>
+      </Heading>
     </div>
   );
 };

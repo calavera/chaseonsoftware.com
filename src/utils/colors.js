@@ -10,7 +10,8 @@ export const colors = {
   greyDarker: "#c6c6c6",
   greyHover: "#ccc",
   green: "#36f1cd",
-  greenDark: "#0dbf9b"
+  greenDark: "#0dbf9b",
+  greenOnDarkSubtle: "#087761"
 };
 
 export const lightTheme = {
@@ -23,7 +24,7 @@ export const lightTheme = {
   foregroundSubtle: colors.blackSubtle,
   link: colors.greenDark,
   code: colors.whiteSubtler,
-  codeBorder: colors.greySubtle
+  codeBorder: colors.greenDark
 };
 
 export const darkTheme = {
@@ -36,5 +37,5 @@ export const darkTheme = {
   foregroundSubtle: colors.greySubtle,
   link: colors.green,
   code: colors.blackHover,
-  codeBorder: colors.blackSubtler
+  codeBorder: colors.greenOnDarkSubtle
 };
